@@ -117,7 +117,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).gleneagles,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/hc/Gleneagles.png',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/hc/Gleneagles.png',
                     location: S.of(context).gleneaglesLocation,
                     hours: S.of(context).gleneaglesHours,
                     maps: 'https://maps.app.goo.gl/soSkhAnzWpbsxZRR6',
@@ -126,7 +126,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).kpjTawakkal,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/hc/KPJ%20Tawakkal.png',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/hc/KPJ%20Tawakkal.png',
                     location: S.of(context).kpjTawakkalLocation,
                     hours: S.of(context).kpjTawakkalHours,
                     maps: 'https://maps.app.goo.gl/ZRfNu4rfUe2bPmNh9',
@@ -139,7 +139,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).klinikPergigianBangsar,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/dtl/bangsardental2.png',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/dtl/bangsardental2.png',
                     location: S.of(context).klinikPergigianBangsarLocation,
                     hours: S.of(context).klinikPergigianBangsarHours,
                     maps: 'https://maps.app.goo.gl/cNtYG1N2VLUnYZdA8',
@@ -148,7 +148,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).dentalPro,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/dtl/dentalpro.png',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/dtl/dentalpro.png',
                     location: S.of(context).dentalProLocation,
                     hours: S.of(context).dentalProHours,
                     maps: 'https://maps.app.goo.gl/bz4df7x6QXS43g9e9',
@@ -161,7 +161,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).drJaneClinic,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/der/DrJaneClinic.jpg',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/der/DrJaneClinic.jpg',
                     location: S.of(context).drJaneClinicLocation,
                     hours: S.of(context).drJaneClinicHours,
                     maps: 'https://maps.app.goo.gl/7UzWTKXMhCq1ZNtaA',
@@ -170,7 +170,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).dermlaze,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/der/Dermlaze.jpeg',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/der/Dermlaze.jpeg',
                     location: S.of(context).dermlazeLocation,
                     hours: S.of(context).dermlazeHours,
                     maps: 'https://maps.app.goo.gl/12UwhMvjy6ywzxfr7',
@@ -183,7 +183,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).isec,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/oph/isec.JPG',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/oph/isec.JPG',
                     location: S.of(context).isecLocation,
                     hours: S.of(context).isecHours,
                     maps: 'https://maps.app.goo.gl/f4pXArGmPdcnK6Uy9',
@@ -192,7 +192,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).vistaEyeSpecialist,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/oph/vista.jpg',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/oph/vista.jpg',
                     location: S.of(context).vistaEyeSpecialistLocation,
                     hours: S.of(context).vistaEyeSpecialistHours,
                     maps: 'https://maps.app.goo.gl/wRsZkXypZHUBzJ1AA',
@@ -205,7 +205,7 @@ class _MedicalTState extends State<MedicalT> {
                   ItemData(
                     title: S.of(context).somaPlasticSurgery,
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/medical_tourism/ps/soma_plastic_surgery.jpeg',
+                        'https://www.kltheguide.com.my/assets/img/medical_tourism/ps/soma_plastic_surgery.jpeg',
                     location: S.of(context).somaPlasticSurgeryLocation,
                     hours: S.of(context).somaPlasticSurgeryHours,
                     maps: 'https://maps.app.goo.gl/kNBG3FZLBCQXXEhi6',
@@ -361,7 +361,7 @@ class MyList2 extends StatelessWidget {
                             label: Text(S.of(context).maps),
                             style: ElevatedButton.styleFrom(
                               backgroundColor:
-                              const Color.fromARGB(255, 0, 71, 133),
+                                  const Color.fromARGB(255, 0, 71, 133),
                               foregroundColor: Colors.white,
                               padding: const EdgeInsets.symmetric(vertical: 12),
                               shape: RoundedRectangleBorder(

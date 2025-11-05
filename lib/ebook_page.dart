@@ -88,7 +88,8 @@ class CardListWidget extends StatelessWidget {
                 final snackBar = SnackBar(
                   content: Row(
                     children: [
-                      const Icon(Icons.picture_as_pdf_outlined, color: Colors.white),
+                      const Icon(Icons.picture_as_pdf_outlined,
+                          color: Colors.white),
                       const SizedBox(width: 12),
                       const Text('PDF not available'),
                     ],
@@ -640,7 +641,8 @@ class _PdfViewerPageState extends State<PdfViewerPage> {
         iconTheme: const IconThemeData(
           color: Colors.white,
         ),
-        title: Text(widget.pdfTitle, style: const TextStyle(color: Colors.white)),
+        title:
+            Text(widget.pdfTitle, style: const TextStyle(color: Colors.white)),
         backgroundColor: const Color.fromARGB(255, 0, 71, 133),
         elevation: 0,
         actions: const <Widget>[
@@ -783,9 +785,10 @@ class _MyAdBannerState extends State<MyAdBanner> {
             ),
             onPressed: () {
               Navigator.of(context).pop();
-              Navigator.pushNamed(context, '/ebook-${widget.index}', arguments: {
-                'index': {widget.index}
-              });
+              Navigator.pushNamed(context, '/ebook-${widget.index}',
+                  arguments: {
+                    'index': {widget.index}
+                  });
             },
             child: const Text(
               'Continue',

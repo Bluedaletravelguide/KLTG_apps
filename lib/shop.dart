@@ -49,7 +49,7 @@ class _ShopState extends State<Shop> {
             ItemData(
               title: S.of(context).avenueKShop,
               imageUrl:
-              'https://www.kltheguide.com.my/assets/img/place_to_shop/avenuek.jpg',
+                  'https://www.kltheguide.com.my/assets/img/place_to_shop/avenuek.jpg',
               location: S.of(context).avenueKShopLocation,
               hours: S.of(context).avenueKShopHours,
               website: S.of(context).avenueKShopWebsite,
@@ -57,7 +57,7 @@ class _ShopState extends State<Shop> {
             ItemData(
               title: S.of(context).sanctuaryMall,
               imageUrl:
-              'https://www.kltheguide.com.my/assets/img/place_to_shop/sanctuary.jpg',
+                  'https://www.kltheguide.com.my/assets/img/place_to_shop/sanctuary.jpg',
               location: S.of(context).sanctuaryMallLocation,
               hours: S.of(context).sanctuaryMallHours,
               website: S.of(context).sanctuaryMallWebsite,
@@ -65,7 +65,7 @@ class _ShopState extends State<Shop> {
             ItemData(
               title: S.of(context).lincKL,
               imageUrl:
-              'https://www.kltheguide.com.my/assets/img/place_to_shop/linc.jpeg',
+                  'https://www.kltheguide.com.my/assets/img/place_to_shop/linc.jpeg',
               location: S.of(context).lincKLLocation,
               hours: S.of(context).lincKLHours,
               website: S.of(context).lincKLWebsite,
@@ -253,8 +253,9 @@ class MyList2 extends StatelessWidget {
                                   borderRadius: BorderRadius.circular(12),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: const Color.fromARGB(255, 0, 71, 133)
-                                          .withOpacity(0.3),
+                                      color:
+                                          const Color.fromARGB(255, 0, 71, 133)
+                                              .withOpacity(0.3),
                                       blurRadius: 8,
                                       offset: const Offset(0, 4),
                                     ),

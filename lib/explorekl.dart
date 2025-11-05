@@ -51,16 +51,16 @@ class CardListWidget extends StatelessWidget {
                     context,
                     MaterialPageRoute(
                         builder: (context) => DetailPage(
-                          title: item.title,
-                          image: item.image,
-                          content: item.content,
-                          content2: item.content2,
-                          location: item.location,
-                          locationurl: item.locationurl,
-                          hours: item.hours.replaceAll('/', '\n'),
-                          phone: item.phone.replaceAll('/', '\n'),
-                          website: item.website,
-                        )));
+                              title: item.title,
+                              image: item.image,
+                              content: item.content,
+                              content2: item.content2,
+                              location: item.location,
+                              locationurl: item.locationurl,
+                              hours: item.hours.replaceAll('/', '\n'),
+                              phone: item.phone.replaceAll('/', '\n'),
+                              website: item.website,
+                            )));
               },
               child: Container(
                 margin: const EdgeInsets.only(bottom: 16),
@@ -109,7 +109,8 @@ class CardListWidget extends StatelessWidget {
                                 color: Colors.black87,
                               ),
                             ),
-                            if (item.content != '') const SizedBox(height: 12.0),
+                            if (item.content != '')
+                              const SizedBox(height: 12.0),
                             if (item.content != '')
                               Text(
                                 item.content.replaceAll('\\n', '\n'),
@@ -522,7 +523,8 @@ class MyList2 extends StatelessWidget {
                       if (items[index].contact.isNotEmpty) ...[
                         const SizedBox(height: 10.0),
                         InkWell(
-                          onTap: () => _launchURL('tel:${items[index].contact}'),
+                          onTap: () =>
+                              _launchURL('tel:${items[index].contact}'),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -842,7 +844,8 @@ class MyList5 extends StatelessWidget {
                       if (items[index].contact.isNotEmpty) ...[
                         const SizedBox(height: 10.0),
                         InkWell(
-                          onTap: () => _launchURL('tel:${items[index].contact}'),
+                          onTap: () =>
+                              _launchURL('tel:${items[index].contact}'),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -1163,7 +1166,8 @@ class MyList3 extends StatelessWidget {
                       if (items[index].contact.isNotEmpty) ...[
                         const SizedBox(height: 10.0),
                         InkWell(
-                          onTap: () => _launchURL('tel:${items[index].contact}'),
+                          onTap: () =>
+                              _launchURL('tel:${items[index].contact}'),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -1471,7 +1475,8 @@ class MyList4 extends StatelessWidget {
                       if (items[index].contact.isNotEmpty) ...[
                         const SizedBox(height: 10.0),
                         InkWell(
-                          onTap: () => _launchURL('tel:${items[index].contact}'),
+                          onTap: () =>
+                              _launchURL('tel:${items[index].contact}'),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -1674,7 +1679,8 @@ class MyList6 extends StatelessWidget {
                         ),
                         const SizedBox(height: 10.0),
                         InkWell(
-                          onTap: () => _launchURL('tel:${items[index].contact}'),
+                          onTap: () =>
+                              _launchURL('tel:${items[index].contact}'),
                           child: Row(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -1739,7 +1745,7 @@ class ExploreKL extends StatelessWidget {
       {
         "name": S.of(context).kl4Kids,
         "image":
-        "https://www.kltheguide.com.my/assets/img/explorekl/kl4kids.webp"
+            "https://www.kltheguide.com.my/assets/img/explorekl/kl4kids.webp"
       },
       {
         "name": S.of(context).sightseeing,
@@ -1974,7 +1980,10 @@ class DetailPage extends StatelessWidget {
                         height: 1.5,
                       ),
                     ),
-                  if (location != '' || phone != '' || hours != '' || website != '')
+                  if (location != '' ||
+                      phone != '' ||
+                      hours != '' ||
+                      website != '')
                     const SizedBox(height: 20.0),
                   if (location != '')
                     _buildInfoCard(
@@ -2112,7 +2121,7 @@ class ExploreKL_WTD extends StatelessWidget {
         content: S.of(context).nationalMuseumDescription,
         content2: "Additional content here.",
         image:
-        "https://www.kltheguide.com.my/assets/img/explorekl/wtd/national_museum.jpg",
+            "https://www.kltheguide.com.my/assets/img/explorekl/wtd/national_museum.jpg",
         location: "Kuala Lumpur",
         locationurl: "https://maps.google.com",
         hours: "9:00 AM - 5:00 PM",
@@ -2124,7 +2133,7 @@ class ExploreKL_WTD extends StatelessWidget {
         content: S.of(context).forestEcoParkDescription,
         content2: "Additional content here.",
         image:
-        "https://www.kltheguide.com.my/assets/img/explorekl/wtd/ecopark.jpg",
+            "https://www.kltheguide.com.my/assets/img/explorekl/wtd/ecopark.jpg",
         location: "Kuala Lumpur",
         locationurl: "https://maps.google.com",
         hours: "9:00 AM - 5:00 PM",
@@ -2562,7 +2571,8 @@ class MyList7 extends StatelessWidget {
                         if (items[index].contact.isNotEmpty) ...[
                           const SizedBox(height: 10.0),
                           InkWell(
-                            onTap: () => _launchURL('tel:${items[index].contact}'),
+                            onTap: () =>
+                                _launchURL('tel:${items[index].contact}'),
                             child: Row(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [

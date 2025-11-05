@@ -30,9 +30,7 @@ void main() async {
   MobileAds.instance.initialize();
   CachedNetworkImage.logLevel = CacheManagerLogLevel.debug;
 
-  await FlutterDownloader.initialize(
-      debug: true,
-      ignoreSsl: true);
+  await FlutterDownloader.initialize(debug: true, ignoreSsl: true);
 
   runApp(MyApp());
 }
@@ -69,7 +67,8 @@ class _MyAppState extends State<MyApp> {
         navigationBarTheme: NavigationBarThemeData(
           elevation: 8,
           backgroundColor: Colors.white,
-          indicatorColor: const Color.fromARGB(255, 0, 71, 133).withOpacity(0.15),
+          indicatorColor:
+              const Color.fromARGB(255, 0, 71, 133).withOpacity(0.15),
           labelTextStyle: MaterialStateProperty.resolveWith((states) {
             if (states.contains(MaterialState.selected)) {
               return const TextStyle(
@@ -118,33 +117,33 @@ class _MyAppState extends State<MyApp> {
         '/beyondkl-3': (context) => BeyondKL_H(),
         '/beyondkl-4': (context) => BeyondKL_ES(),
         '/ebook-0': (context) =>
-        const Ebook_view(category: 'kltg', name: 'KL The Guide'),
+            const Ebook_view(category: 'kltg', name: 'KL The Guide'),
         '/ebook-1': (context) =>
-        const Ebook_view(category: 'kv4l', name: 'Klang Valley 4 Locals'),
+            const Ebook_view(category: 'kv4l', name: 'Klang Valley 4 Locals'),
         '/ebook-2': (context) =>
-        const Ebook_view(category: 'mktg', name: 'Melaka The Guide'),
+            const Ebook_view(category: 'mktg', name: 'Melaka The Guide'),
         '/ebook-3': (context) =>
-        const Ebook_view(category: 'tptg', name: 'Taiping The Guide'),
+            const Ebook_view(category: 'tptg', name: 'Taiping The Guide'),
         '/ebook-4': (context) =>
-        const Ebook_view(category: 'uztg', name: 'Uzbekistan The Guide'),
+            const Ebook_view(category: 'uztg', name: 'Uzbekistan The Guide'),
         '/ebook-5': (context) =>
-        const Ebook_view(category: 'kntg', name: 'Keningau The Guide'),
+            const Ebook_view(category: 'kntg', name: 'Keningau The Guide'),
         '/ebook-6': (context) =>
-        const Ebook_view(category: 'twtg', name: 'Tawau The Guide'),
+            const Ebook_view(category: 'twtg', name: 'Tawau The Guide'),
         '/ebook-7': (context) =>
-        const Ebook_view(category: 'tbtg', name: 'Tambunan The Guide'),
+            const Ebook_view(category: 'tbtg', name: 'Tambunan The Guide'),
         '/ebook-8': (context) =>
-        const Ebook_view(category: 'hstg', name: 'Hulu Selangor The Guide'),
+            const Ebook_view(category: 'hstg', name: 'Hulu Selangor The Guide'),
         '/ebook-9': (context) =>
-        const Ebook_view(category: 'prtg', name: 'Perak The Guide'),
+            const Ebook_view(category: 'prtg', name: 'Perak The Guide'),
         '/ebook-10': (context) =>
-        const Ebook_view(category: 'sbtg', name: 'Seremban The Guide'),
+            const Ebook_view(category: 'sbtg', name: 'Seremban The Guide'),
         '/ebook-11': (context) => const Ebook_view(
             category: 'kstg', name: 'Kuala Selangor The Guide'),
         '/ebook-12': (context) =>
-        const Ebook_view(category: 'klgt', name: 'Kuala Langat The Guide'),
+            const Ebook_view(category: 'klgt', name: 'Kuala Langat The Guide'),
         '/ebook-13': (context) =>
-        const Ebook_view(category: 'kztg', name: 'Kazakhstan The Guide'),
+            const Ebook_view(category: 'kztg', name: 'Kazakhstan The Guide'),
       },
     );
   }
@@ -251,7 +250,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           title: Row(
             children: [
               Container(
@@ -299,7 +299,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
               ),
               child: const Text('View'),
             ),
@@ -368,9 +369,9 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   bool _isUpdateRequired(String currentVersion, String desiredVersion,
       String currentBuildNumber, String desiredBuildNumber) {
     List<int> currentVersionParts =
-    currentVersion.split('.').map(int.parse).toList();
+        currentVersion.split('.').map(int.parse).toList();
     List<int> desiredVersionParts =
-    desiredVersion.split('.').map(int.parse).toList();
+        desiredVersion.split('.').map(int.parse).toList();
 
     for (int i = 0; i < currentVersionParts.length; i++) {
       if (currentVersionParts[i] < desiredVersionParts[i]) {
@@ -402,7 +403,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           title: Row(
             children: [
               Container(
@@ -451,7 +453,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(10),
                 ),
-                padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
               ),
               child: const Text('Update Now'),
             ),
@@ -466,7 +469,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
           title: const Text('Welcome'),
           content: const Text('This is an example AlertDialog on app launch.'),
           actions: <Widget>[
@@ -498,7 +502,8 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
           ),
           duration: Duration(seconds: 2),
           behavior: SnackBarBehavior.floating,
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
         ),
       );
       return false;
@@ -561,7 +566,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
             final List<ImageData> imageDatas = await fetchImageUrls();
             if (imageDatas.isNotEmpty) {
               final randomImageData =
-              imageDatas[random.nextInt(imageDatas.length)];
+                  imageDatas[random.nextInt(imageDatas.length)];
               if (isDialogShown) {
                 _showRandomPopup(delayInSeconds, randomImageData);
               } else {
@@ -574,7 +579,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
           final List<ImageData> imageDatas = await fetchImageUrls();
           if (imageDatas.isNotEmpty) {
             final randomImageData =
-            imageDatas[random.nextInt(imageDatas.length)];
+                imageDatas[random.nextInt(imageDatas.length)];
             if (isDialogShown) {
               _showRandomPopup(delayInSeconds, randomImageData);
             } else {
@@ -836,14 +841,14 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
             selectedIndex: currentPageIndex,
             destinations: <Widget>[
               NavigationDestination(
-                selectedIcon: Icon(Icons.home,
-                    color: Color.fromARGB(255, 0, 71, 133)),
+                selectedIcon:
+                    Icon(Icons.home, color: Color.fromARGB(255, 0, 71, 133)),
                 icon: Icon(Icons.home_outlined),
                 label: S.of(context).home,
               ),
               NavigationDestination(
-                selectedIcon: Icon(Icons.article,
-                    color: Color.fromARGB(255, 0, 71, 133)),
+                selectedIcon:
+                    Icon(Icons.article, color: Color.fromARGB(255, 0, 71, 133)),
                 icon: Icon(Icons.article_outlined),
                 label: S.of(context).blog,
               ),
@@ -970,10 +975,10 @@ class MyFlutterApp {
   static const String? _kFontPkg = null;
 
   static const IconData instagram_1 =
-  IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xe800, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 
   static const IconData whatsapp =
-  IconData(0xf232, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+      IconData(0xf232, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }
 
 void _launchURL(url) async {

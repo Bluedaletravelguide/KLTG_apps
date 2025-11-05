@@ -68,7 +68,8 @@ class _HomeScreenState extends State<HomeScreen> {
             children: <Widget>[
               // Social Media Icons Section
               Container(
-                margin: const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                margin:
+                    const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -87,24 +88,32 @@ class _HomeScreenState extends State<HomeScreen> {
                     _buildSocialButton(
                       icon: Icons.facebook_sharp,
                       color: const Color(0xFF1877F2),
-                      onTap: () => _launchURL('https://www.facebook.com/kltheguide/'),
+                      onTap: () =>
+                          _launchURL('https://www.facebook.com/kltheguide/'),
                     ),
                     _buildSocialButton(
                       icon: MyFlutterApp.instagram_1,
                       gradient: const LinearGradient(
-                        colors: [Color(0xFFF58529), Color(0xFFDD2A7B), Color(0xFF8134AF)],
+                        colors: [
+                          Color(0xFFF58529),
+                          Color(0xFFDD2A7B),
+                          Color(0xFF8134AF)
+                        ],
                       ),
-                      onTap: () => _launchURL('https://www.instagram.com/kltheguide/'),
+                      onTap: () =>
+                          _launchURL('https://www.instagram.com/kltheguide/'),
                     ),
                     _buildSocialButton(
                       icon: MyFlutterApp.whatsapp,
                       color: const Color(0xFF25D366),
-                      onTap: () => _launchURL('https://api.whatsapp.com/send?phone=60122200622'),
+                      onTap: () => _launchURL(
+                          'https://api.whatsapp.com/send?phone=60122200622'),
                     ),
                     _buildSocialButton(
                       icon: Icons.tiktok,
                       color: Colors.black,
-                      onTap: () => _launchURL('https://www.tiktok.com/@kltheguide'),
+                      onTap: () =>
+                          _launchURL('https://www.tiktok.com/@kltheguide'),
                     ),
                     _buildSocialButton(
                       icon: Icons.public,
@@ -198,9 +207,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           child: gradient != null
               ? ShaderMask(
-            shaderCallback: (bounds) => gradient.createShader(bounds),
-            child: Icon(icon, size: 32, color: Colors.white),
-          )
+                  shaderCallback: (bounds) => gradient.createShader(bounds),
+                  child: Icon(icon, size: 32, color: Colors.white),
+                )
               : Icon(icon, size: 32, color: color),
         ),
       ),

@@ -227,7 +227,8 @@ class AboutUsPage extends StatelessWidget {
                         return Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Icon(Icons.error_outline, color: Colors.red.shade400),
+                            Icon(Icons.error_outline,
+                                color: Colors.red.shade400),
                             const SizedBox(width: 8),
                             Text(
                               S.of(context).errorLoadingVersion,

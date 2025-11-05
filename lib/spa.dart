@@ -55,7 +55,7 @@ class _SpaState extends State<Spa> {
             ItemData(
               title: S.of(context).urbanRetreatSpaKL,
               imageUrl:
-              'https://www.kltheguide.com.my/assets/img/spa/Picture5-1.jpg',
+                  'https://www.kltheguide.com.my/assets/img/spa/Picture5-1.jpg',
               location: S.of(context).urbanRetreatSpaKLLocation,
               hours: S.of(context).urbanRetreatSpaKLHours,
             ),
@@ -275,9 +275,14 @@ class MyList2 extends StatelessWidget {
                             spacing: 8,
                             runSpacing: 8,
                             children: [
-                              _buildFeatureTag('Relaxing', Colors.blue.shade100, Colors.blue.shade700),
-                              _buildFeatureTag('Professional', Colors.green.shade100, Colors.green.shade700),
-                              _buildFeatureTag('Premium', Colors.orange.shade100, Colors.orange.shade700),
+                              _buildFeatureTag('Relaxing', Colors.blue.shade100,
+                                  Colors.blue.shade700),
+                              _buildFeatureTag('Professional',
+                                  Colors.green.shade100, Colors.green.shade700),
+                              _buildFeatureTag(
+                                  'Premium',
+                                  Colors.orange.shade100,
+                                  Colors.orange.shade700),
                             ],
                           ),
                         ],

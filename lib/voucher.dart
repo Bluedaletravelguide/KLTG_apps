@@ -132,11 +132,13 @@ class VoucherCardList extends StatelessWidget {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(16),
                               child: CachedNetworkImage(
-                                imageUrl: item.image.isNotEmpty ? item.image : '',
+                                imageUrl:
+                                    item.image.isNotEmpty ? item.image : '',
                                 fit: BoxFit.cover,
                                 height: 180,
                                 width: double.infinity,
-                                errorWidget: (context, url, error) => Image.asset(
+                                errorWidget: (context, url, error) =>
+                                    Image.asset(
                                   fallbackImage,
                                   fit: BoxFit.cover,
                                   height: 180,
@@ -293,8 +295,10 @@ class VoucherCardList extends StatelessWidget {
                                 },
                                 style: ElevatedButton.styleFrom(
                                   backgroundColor: Colors.white,
-                                  foregroundColor: const Color.fromARGB(255, 0, 71, 133),
-                                  padding: const EdgeInsets.symmetric(vertical: 14),
+                                  foregroundColor:
+                                      const Color.fromARGB(255, 0, 71, 133),
+                                  padding:
+                                      const EdgeInsets.symmetric(vertical: 14),
                                   shape: RoundedRectangleBorder(
                                     borderRadius: BorderRadius.circular(12),
                                   ),
