@@ -24,6 +24,7 @@ import 'package:package_info_plus/package_info_plus.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/l10n.dart';
 import 'package:in_app_update/in_app_update.dart';
+import 'package:kltheguide/maps_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -853,6 +854,12 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                 label: S.of(context).blog,
               ),
               NavigationDestination(
+                selectedIcon: Icon(Icons.map, color: Color.fromARGB(255, 0, 71, 133)),
+                icon: Icon(Icons.map_outlined),
+                // If you want i18n later, add a `maps` key to your ARB files; for now, literal is fine:
+                label: 'Maps',
+              ),
+              NavigationDestination(
                 selectedIcon: Icon(Icons.menu_book,
                     color: Color.fromARGB(255, 0, 71, 133)),
                 icon: Icon(Icons.menu_book_outlined),
@@ -870,6 +877,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
         body: [
           HomeScreen(),
           const BlogListScreen(),
+          const MapsPage(),
           Ebook(),
           VoucherScreen(),
         ][currentPageIndex],
