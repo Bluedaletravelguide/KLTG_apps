@@ -228,7 +228,8 @@ class CardListWidget extends StatelessWidget {
                                         vertical: 14,
                                       ),
                                       child: const Row(
-                                        mainAxisAlignment: MainAxisAlignment.center,
+                                        mainAxisAlignment:
+                                            MainAxisAlignment.center,
                                         children: [
                                           Icon(
                                             Icons.map_outlined,
@@ -277,17 +278,20 @@ class BeyondKL extends StatelessWidget {
   final List<Map<String, dynamic>> dataList = [
     {
       "name": S.current.islands,
-      "image": "https://www.kltheguide.com.my/assets/img/beyondkl/ISLAND-01.jpg",
+      "image":
+          "https://www.kltheguide.com.my/assets/img/beyondkl/ISLAND-01.jpg",
       "icon": Icons.beach_access,
     },
     {
       "name": S.current.hillStation,
-      "image": "https://www.kltheguide.com.my/assets/img/beyondkl/HILL-STATION-01.jpg",
+      "image":
+          "https://www.kltheguide.com.my/assets/img/beyondkl/HILL-STATION-01.jpg",
       "icon": Icons.landscape,
     },
     {
       "name": S.current.waterfall,
-      "image": "https://www.kltheguide.com.my/assets/img/beyondkl/WATERFALL-01.jpg",
+      "image":
+          "https://www.kltheguide.com.my/assets/img/beyondkl/WATERFALL-01.jpg",
       "icon": Icons.water,
     },
     {
@@ -297,7 +301,8 @@ class BeyondKL extends StatelessWidget {
     },
     {
       "name": S.current.extremeSports,
-      "image": "https://www.kltheguide.com.my/assets/img/beyondkl/EXTREME-SPORT-2.webp",
+      "image":
+          "https://www.kltheguide.com.my/assets/img/beyondkl/EXTREME-SPORT-2.webp",
       "icon": Icons.sports_motorsports,
     },
   ];
@@ -540,7 +545,8 @@ class BeyondKL_I extends StatelessWidget {
       ApiData(
         title: S.of(context).pangkorIsland,
         content: S.of(context).pangkorIslandContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/i/pangkor.webp",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/i/pangkor.webp",
         location: "https://maps.app.goo.gl/rHbUNhRs3Tj1ywg69",
       ),
       ApiData(
@@ -558,13 +564,15 @@ class BeyondKL_I extends StatelessWidget {
       ApiData(
         title: S.of(context).sipadanIsland,
         content: S.of(context).sipadanIslandContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/i/sipadan.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/i/sipadan.jpg",
         location: "https://maps.app.goo.gl/VbSXWmMNwAq7pk6D8",
       ),
       ApiData(
         title: S.of(context).mantananiIsland,
         content: S.of(context).mantananiIslandContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/i/mantanani1.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/i/mantanani1.jpg",
         location: "https://maps.app.goo.gl/HU8eQ5xBpqXfxvUv7",
       ),
     ];
@@ -596,31 +604,36 @@ class BeyondKL_HS extends StatelessWidget {
       ApiData(
         title: S.of(context).gentingHighlands,
         content: S.of(context).gentingHighlandsContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/hs/genting.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/hs/genting.jpg",
         location: "https://maps.app.goo.gl/UVBCR4wnuBBYP5Ka8",
       ),
       ApiData(
         title: S.of(context).bukitTinggi,
         content: S.of(context).bukitTinggiContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/hs/bukittinggi1.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/hs/bukittinggi1.jpg",
         location: "https://maps.app.goo.gl/ooY7RjT7gxSo5eGo6",
       ),
       ApiData(
         title: S.of(context).fraserHill,
         content: S.of(context).fraserHillContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/hs/fraserhill.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/hs/fraserhill.jpg",
         location: "https://maps.app.goo.gl/oUbq1qzrkK7wuV4H9",
       ),
       ApiData(
         title: S.of(context).cameronHighland,
         content: S.of(context).cameronHighlandContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/hs/cameron.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/hs/cameron.jpg",
         location: "https://maps.app.goo.gl/CZQuL7oUem4ET6pV6",
       ),
       ApiData(
         title: S.of(context).maxwellHill,
         content: S.of(context).maxwellHillContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/hs/cameron.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/hs/cameron.jpg",
         location: "https://maps.app.goo.gl/NHNwxBvPn4Qc23Zb6",
       ),
     ];
@@ -657,31 +670,36 @@ class BeyondKL_W extends StatelessWidget {
       ApiData(
         title: S.of(context).sungaiPisangWaterfall,
         content: S.of(context).sungaiPisangContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/w/sungaipisang.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/w/sungaipisang.jpg",
         location: "https://maps.app.goo.gl/Mx2BdsVN1WPNzBgA6",
       ),
       ApiData(
         title: S.of(context).jeramToi,
         content: S.of(context).jeramToiContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/w/jeramtoi.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/w/jeramtoi.jpg",
         location: "https://maps.app.goo.gl/u4QKamLSrrF6RQqa6",
       ),
       ApiData(
         title: S.of(context).uluChepor,
         content: S.of(context).uluCheporContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/w/uluchepor.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/w/uluchepor.jpg",
         location: "https://maps.app.goo.gl/xyMVK89D9XoMgp188",
       ),
       ApiData(
         title: S.of(context).sungaiLembing,
         content: S.of(context).sungaiLembingContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/w/sungailembing.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/w/sungailembing.jpg",
         location: "https://maps.app.goo.gl/nuhAbMUbbA7ByYCCA",
       ),
       ApiData(
         title: S.of(context).sevenWellsWaterfall,
         content: S.of(context).sevenWellsContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/w/sevenwells1.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/w/sevenwells1.jpg",
         location: "https://maps.app.goo.gl/eGkiZ5hRxmYQ8ips6",
       ),
     ];
@@ -718,31 +736,36 @@ class BeyondKL_H extends StatelessWidget {
       ApiData(
         title: S.of(context).brogaHill,
         content: S.of(context).brogaHillContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/h/brogahill.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/h/brogahill.jpg",
         location: "https://maps.app.goo.gl/tDdapXxffn8DEbtm6",
       ),
       ApiData(
         title: S.of(context).mountPulai,
         content: S.of(context).mountPulaiContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/h/mountpulai.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/h/mountpulai.jpg",
         location: "https://maps.app.goo.gl/evbpwftijzWyfmYKA",
       ),
       ApiData(
         title: S.of(context).panoramaHill,
         content: S.of(context).panoramaHillContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/h/panoramahill.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/h/panoramahill.jpg",
         location: "https://maps.app.goo.gl/fDAgtnbzyfwDiKar9",
       ),
       ApiData(
         title: S.of(context).mossyForest,
         content: S.of(context).mossyForestContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/h/mossyforest.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/h/mossyforest.jpg",
         location: "https://maps.app.goo.gl/YyURpsoqwtc9yv5Z8",
       ),
       ApiData(
         title: S.of(context).penangNationalPark,
         content: S.of(context).penangNationalParkContent,
-        image: "https://www.kltheguide.com.my/assets/img/beyondkl/h/penangnational.jpg",
+        image:
+            "https://www.kltheguide.com.my/assets/img/beyondkl/h/penangnational.jpg",
         location: "https://maps.app.goo.gl/UhZS5nanNDCRAgJHA",
       ),
     ];

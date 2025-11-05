@@ -140,8 +140,7 @@ class ContactUsPage extends StatelessWidget {
                       icon: Icons.location_on_rounded,
                       iconColor: Colors.orange,
                       title: S.of(context).address,
-                      subtitle:
-                      'Bluedale Sdn Bhd\nPetaling Jaya, Selangor',
+                      subtitle: 'Bluedale Sdn Bhd\nPetaling Jaya, Selangor',
                       onTap: () =>
                           _launchURL('https://goo.gl/maps/p2Ew3gSvjttiQdGY9'),
                       showArrow: true,
@@ -201,11 +200,13 @@ class ContactUsPage extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 16),
-                      _buildWorkingHoursRow('Monday - Friday', '9:00 AM - 6:00 PM'),
+                      _buildWorkingHoursRow(
+                          'Monday - Friday', '9:00 AM - 6:00 PM'),
                       const SizedBox(height: 8),
                       _buildWorkingHoursRow('Saturday', '9:00 AM - 1:00 PM'),
                       const SizedBox(height: 8),
-                      _buildWorkingHoursRow('Sunday & Public Holidays', 'Closed'),
+                      _buildWorkingHoursRow(
+                          'Sunday & Public Holidays', 'Closed'),
                     ],
                   ),
                 ),

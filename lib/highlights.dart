@@ -47,7 +47,7 @@ class GlancePage extends StatelessWidget {
                 children: [
                   CachedNetworkImage(
                     imageUrl:
-                    'https://www.kltheguide.com.my/assets/img/highlights/KLATGLANCE-01-2.jpg',
+                        'https://www.kltheguide.com.my/assets/img/highlights/KLATGLANCE-01-2.jpg',
                     fit: BoxFit.cover,
                     height: 250,
                     width: double.infinity,
@@ -630,7 +630,8 @@ class ItemData2 {
   final IconData icon;
   final Color color;
 
-  ItemData2(this.text, this.imageUrl, this.content, this.goto, this.icon, this.color);
+  ItemData2(
+      this.text, this.imageUrl, this.content, this.goto, this.icon, this.color);
 }
 
 // ============ SHARED WIDGETS ============

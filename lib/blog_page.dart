@@ -179,244 +179,250 @@ class _BlogListScreenState extends State<BlogListScreen> {
       backgroundColor: Colors.grey[50],
       body: blogPosts.isEmpty && isLoading
           ? Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(
-                const Color.fromARGB(255, 0, 71, 133),
-              ),
-            ),
-            const SizedBox(height: 16),
-            Text(
-              'Loading articles...',
-              style: TextStyle(
-                color: Colors.grey[600],
-                fontSize: 16,
-              ),
-            ),
-          ],
-        ),
-      )
-          : ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: blogPosts.length + 1,
-        itemBuilder: (context, index) {
-          if (index == blogPosts.length) {
-            if (isLoading) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 32),
-                child: Center(
-                  child: CircularProgressIndicator(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircularProgressIndicator(
                     valueColor: AlwaysStoppedAnimation<Color>(
                       const Color.fromARGB(255, 0, 71, 133),
                     ),
                   ),
-                ),
-              );
-            } else if (nextPageToken != null) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                child: Center(
-                  child: Material(
-                    elevation: 2,
-                    borderRadius: BorderRadius.circular(30),
-                    child: InkWell(
-                      onTap: _fetchMoreBlogPosts,
-                      borderRadius: BorderRadius.circular(30),
-                      child: Container(
-                        padding: const EdgeInsets.symmetric(
-                          horizontal: 24,
-                          vertical: 12,
-                        ),
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(30),
-                        ),
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            const Text(
-                              'Load More',
-                              style: TextStyle(
-                                fontSize: 16,
-                                fontWeight: FontWeight.w600,
-                                color: Color.fromARGB(255, 0, 71, 133),
-                              ),
-                            ),
-                            const SizedBox(width: 8),
-                            Icon(
-                              Icons.expand_circle_down_outlined,
-                              color: const Color.fromARGB(255, 0, 71, 133),
-                            ),
-                          ],
-                        ),
-                      ),
+                  const SizedBox(height: 16),
+                  Text(
+                    'Loading articles...',
+                    style: TextStyle(
+                      color: Colors.grey[600],
+                      fontSize: 16,
                     ),
                   ),
-                ),
-              );
-            } else {
-              return const SizedBox.shrink();
-            }
-          }
-
-          final post = blogPosts[index];
-          final imageUrl = post['images'][0]['url'];
-          final formattedPublishedDate = formatDate(post['published']);
-          final bookmarked = isBookmarked(post);
-
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 20),
-            child: GestureDetector(
-              onTap: () => _navigateToArticlePage(post),
-              onLongPress: () => toggleBookmark(post),
-              child: Container(
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.08),
-                      blurRadius: 20,
-                      offset: const Offset(0, 4),
-                    ),
-                  ],
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Stack(
-                      children: [
-                        ClipRRect(
-                          borderRadius: const BorderRadius.only(
-                            topLeft: Radius.circular(20),
-                            topRight: Radius.circular(20),
+                ],
+              ),
+            )
+          : ListView.builder(
+              padding: const EdgeInsets.all(16),
+              itemCount: blogPosts.length + 1,
+              itemBuilder: (context, index) {
+                if (index == blogPosts.length) {
+                  if (isLoading) {
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 32),
+                      child: Center(
+                        child: CircularProgressIndicator(
+                          valueColor: AlwaysStoppedAnimation<Color>(
+                            const Color.fromARGB(255, 0, 71, 133),
                           ),
-                          child: CachedNetworkImage(
-                            imageUrl: imageUrl,
-                            fit: BoxFit.cover,
-                            height: 220,
-                            width: double.infinity,
-                            placeholder: (context, url) => Container(
-                              height: 220,
+                        ),
+                      ),
+                    );
+                  } else if (nextPageToken != null) {
+                    return Padding(
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                      child: Center(
+                        child: Material(
+                          elevation: 2,
+                          borderRadius: BorderRadius.circular(30),
+                          child: InkWell(
+                            onTap: _fetchMoreBlogPosts,
+                            borderRadius: BorderRadius.circular(30),
+                            child: Container(
+                              padding: const EdgeInsets.symmetric(
+                                horizontal: 24,
+                                vertical: 12,
+                              ),
                               decoration: BoxDecoration(
-                                gradient: LinearGradient(
-                                  begin: Alignment.topLeft,
-                                  end: Alignment.bottomRight,
-                                  colors: [
-                                    Colors.grey[200]!,
-                                    Colors.grey[100]!,
-                                  ],
-                                ),
+                                color: Colors.white,
+                                borderRadius: BorderRadius.circular(30),
                               ),
-                              child: Center(
-                                child: CircularProgressIndicator(
-                                  valueColor: AlwaysStoppedAnimation<Color>(
-                                    const Color.fromARGB(255, 0, 71, 133),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  const Text(
+                                    'Load More',
+                                    style: TextStyle(
+                                      fontSize: 16,
+                                      fontWeight: FontWeight.w600,
+                                      color: Color.fromARGB(255, 0, 71, 133),
+                                    ),
                                   ),
-                                ),
-                              ),
-                            ),
-                            errorWidget: (context, url, error) =>
-                                Container(
-                                  height: 220,
-                                  color: Colors.grey[200],
-                                  child: const Icon(
-                                    Icons.broken_image_outlined,
-                                    size: 48,
-                                    color: Colors.grey,
+                                  const SizedBox(width: 8),
+                                  Icon(
+                                    Icons.expand_circle_down_outlined,
+                                    color:
+                                        const Color.fromARGB(255, 0, 71, 133),
                                   ),
-                                ),
-                          ),
-                        ),
-                        Positioned(
-                          top: 12,
-                          right: 12,
-                          child: Material(
-                            color: Colors.white.withOpacity(0.95),
-                            borderRadius: BorderRadius.circular(25),
-                            elevation: 4,
-                            child: InkWell(
-                              onTap: () => toggleBookmark(post),
-                              borderRadius: BorderRadius.circular(25),
-                              child: Container(
-                                padding: const EdgeInsets.all(10),
-                                child: Icon(
-                                  bookmarked
-                                      ? Icons.bookmark
-                                      : Icons.bookmark_border,
-                                  color: bookmarked
-                                      ? const Color.fromARGB(255, 0, 71, 133)
-                                      : Colors.grey[600],
-                                  size: 22,
-                                ),
+                                ],
                               ),
                             ),
                           ),
                         ),
-                      ],
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.all(20),
+                      ),
+                    );
+                  } else {
+                    return const SizedBox.shrink();
+                  }
+                }
+
+                final post = blogPosts[index];
+                final imageUrl = post['images'][0]['url'];
+                final formattedPublishedDate = formatDate(post['published']);
+                final bookmarked = isBookmarked(post);
+
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 20),
+                  child: GestureDetector(
+                    onTap: () => _navigateToArticlePage(post),
+                    onLongPress: () => toggleBookmark(post),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(20),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.08),
+                            blurRadius: 20,
+                            offset: const Offset(0, 4),
+                          ),
+                        ],
+                      ),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
-                          Text(
-                            post['title'],
-                            style: const TextStyle(
-                              fontSize: 20,
-                              fontWeight: FontWeight.bold,
-                              color: Color.fromARGB(255, 0, 71, 133),
-                              height: 1.3,
-                            ),
-                            maxLines: 2,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          const SizedBox(height: 12),
-                          Row(
+                          Stack(
                             children: [
-                              Container(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 12,
-                                  vertical: 6,
+                              ClipRRect(
+                                borderRadius: const BorderRadius.only(
+                                  topLeft: Radius.circular(20),
+                                  topRight: Radius.circular(20),
                                 ),
-                                decoration: BoxDecoration(
-                                  color: const Color.fromARGB(255, 0, 71, 133)
-                                      .withOpacity(0.1),
-                                  borderRadius: BorderRadius.circular(20),
-                                ),
-                                child: Row(
-                                  children: [
-                                    Icon(
-                                      Icons.calendar_today_outlined,
-                                      size: 14,
-                                      color: const Color.fromARGB(255, 0, 71, 133),
-                                    ),
-                                    const SizedBox(width: 6),
-                                    Text(
-                                      formattedPublishedDate,
-                                      style: TextStyle(
-                                        fontSize: 13,
-                                        color: const Color.fromARGB(255, 0, 71, 133),
-                                        fontWeight: FontWeight.w500,
+                                child: CachedNetworkImage(
+                                  imageUrl: imageUrl,
+                                  fit: BoxFit.cover,
+                                  height: 220,
+                                  width: double.infinity,
+                                  placeholder: (context, url) => Container(
+                                    height: 220,
+                                    decoration: BoxDecoration(
+                                      gradient: LinearGradient(
+                                        begin: Alignment.topLeft,
+                                        end: Alignment.bottomRight,
+                                        colors: [
+                                          Colors.grey[200]!,
+                                          Colors.grey[100]!,
+                                        ],
                                       ),
                                     ),
-                                  ],
+                                    child: Center(
+                                      child: CircularProgressIndicator(
+                                        valueColor:
+                                            AlwaysStoppedAnimation<Color>(
+                                          const Color.fromARGB(255, 0, 71, 133),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                  errorWidget: (context, url, error) =>
+                                      Container(
+                                    height: 220,
+                                    color: Colors.grey[200],
+                                    child: const Icon(
+                                      Icons.broken_image_outlined,
+                                      size: 48,
+                                      color: Colors.grey,
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              Positioned(
+                                top: 12,
+                                right: 12,
+                                child: Material(
+                                  color: Colors.white.withOpacity(0.95),
+                                  borderRadius: BorderRadius.circular(25),
+                                  elevation: 4,
+                                  child: InkWell(
+                                    onTap: () => toggleBookmark(post),
+                                    borderRadius: BorderRadius.circular(25),
+                                    child: Container(
+                                      padding: const EdgeInsets.all(10),
+                                      child: Icon(
+                                        bookmarked
+                                            ? Icons.bookmark
+                                            : Icons.bookmark_border,
+                                        color: bookmarked
+                                            ? const Color.fromARGB(
+                                                255, 0, 71, 133)
+                                            : Colors.grey[600],
+                                        size: 22,
+                                      ),
+                                    ),
+                                  ),
                                 ),
                               ),
                             ],
                           ),
+                          Padding(
+                            padding: const EdgeInsets.all(20),
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text(
+                                  post['title'],
+                                  style: const TextStyle(
+                                    fontSize: 20,
+                                    fontWeight: FontWeight.bold,
+                                    color: Color.fromARGB(255, 0, 71, 133),
+                                    height: 1.3,
+                                  ),
+                                  maxLines: 2,
+                                  overflow: TextOverflow.ellipsis,
+                                ),
+                                const SizedBox(height: 12),
+                                Row(
+                                  children: [
+                                    Container(
+                                      padding: const EdgeInsets.symmetric(
+                                        horizontal: 12,
+                                        vertical: 6,
+                                      ),
+                                      decoration: BoxDecoration(
+                                        color: const Color.fromARGB(
+                                                255, 0, 71, 133)
+                                            .withOpacity(0.1),
+                                        borderRadius: BorderRadius.circular(20),
+                                      ),
+                                      child: Row(
+                                        children: [
+                                          Icon(
+                                            Icons.calendar_today_outlined,
+                                            size: 14,
+                                            color: const Color.fromARGB(
+                                                255, 0, 71, 133),
+                                          ),
+                                          const SizedBox(width: 6),
+                                          Text(
+                                            formattedPublishedDate,
+                                            style: TextStyle(
+                                              fontSize: 13,
+                                              color: const Color.fromARGB(
+                                                  255, 0, 71, 133),
+                                              fontWeight: FontWeight.w500,
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ],
+                            ),
+                          ),
                         ],
                       ),
                     ),
-                  ],
-                ),
-              ),
+                  ),
+                );
+              },
             ),
-          );
-        },
-      ),
     );
   }
 }
