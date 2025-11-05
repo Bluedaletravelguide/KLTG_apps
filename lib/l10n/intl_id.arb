@@ -1,0 +1,2088 @@
+{
+    "@@locale": "id",
+    "appTitle": "KL The Guide",
+    "@appTitle": {
+      "description": "Judul aplikasi"
+    },
+    "pickALanguage": "Pilih Bahasa",
+    "@pickALanguage": {
+      "description": "Judul untuk panel pemilihan bahasa"
+    },
+    "home": "Beranda",
+    "@home": {
+      "description": "Label layar beranda"
+    },
+    "bookmarks": "Penanda Buku",
+    "@bookmarks": {
+      "description": "Label untuk bagian penanda buku"
+    },
+    "blog": "Blog",
+    "@blog": {
+      "description": "Label untuk bagian blog"
+    },
+    "ebook": "E-Book",
+    "@ebook": {
+      "description": "Label untuk bagian e-book"
+    },
+    "aboutUs": "Tentang Kami",
+    "@aboutUs": {
+      "description": "Label untuk bagian tentang kami"
+    },
+    "contactUs": "Hubungi Kami",
+    "@contactUs": {
+      "description": "Label untuk bagian hubungi kami"
+    },
+    "updateRequired": "Pembaruan Diperlukan",
+    "@updateRequired": {
+      "description": "Pesan yang ditampilkan saat pembaruan aplikasi diperlukan"
+    },
+    "updateAvailable": "Versi baru aplikasi tersedia. Harap perbarui untuk menikmati fitur baru.",
+    "@updateAvailable": {
+      "description": "Pesan yang memberi tahu pengguna bahwa pembaruan tersedia"
+    },
+    "updateLater": "Perbarui Nanti",
+    "@updateLater": {
+      "description": "Label untuk tombol menunda pembaruan aplikasi"
+    },
+    "updateNow": "Perbarui Sekarang",
+    "@updateNow": {
+      "description": "Label untuk tombol memperbarui aplikasi segera"
+    },
+    "pressBackAgainToExit": "Tekan kembali lagi untuk keluar",
+    "@pressBackAgainToExit": {
+      "description": "Pesan yang ditampilkan saat pengguna menekan tombol kembali untuk keluar"
+    },
+    "klHighlights": "Sorotan KL",
+    "@klHighlights": {
+      "description": "Label untuk bagian yang menampilkan sorotan KL"
+    },
+    "recommendations": "Rekomendasi",
+    "@recommendations": {
+      "description": "Label untuk bagian rekomendasi"
+    },
+    "exploreKL": "Jelajahi KL",
+    "@exploreKL": {
+      "description": "Judul untuk gambar Jelajahi KL"
+    },
+    "shopLikeLocals": "Belanja Seperti Warga Lokal",
+    "@shopLikeLocals": {
+      "description": "Judul untuk gambar Belanja Seperti Warga Lokal"
+    },
+    "placesToStay": "Tempat Menginap",
+    "@placesToStay": {
+      "description": "Judul untuk gambar Tempat Menginap"
+    },
+    "spaTime": "Waktu Spa",
+    "@spaTime": {
+      "description": "Judul untuk gambar Waktu Spa"
+    },
+    "medicalTourism": "Pariwisata Medis",
+    "@medicalTourism": {
+      "description": "Judul untuk gambar Pariwisata Medis"
+    },
+    "beyondKL": "Di Luar KL",
+    "@beyondKL": {
+      "description": "Judul untuk gambar Di Luar KL"
+    },
+    "klAtAGlance": "KL Sekilas",
+    "@klAtAGlance": {
+      "description": "Judul untuk gambar KL Sekilas di sorotan"
+    },
+    "gettingAroundKL": "Bergerak di Sekitar KL",
+    "@gettingAroundKL": {
+      "description": "Judul untuk gambar Bergerak di Sekitar KL di sorotan"
+    },
+    "travelTips": "Tips Perjalanan",
+    "@travelTips": {
+      "description": "Judul untuk gambar Tips Perjalanan di sorotan"
+    },
+    "ourCompany": "Perusahaan Kami",
+    "@ourCompany": {
+      "description": "Judul untuk bagian 'Perusahaan Kami'"
+    },
+    "ourCompanyDescription": "KL The Guide adalah buku panduan triwulanan, pertama kali diterbitkan pada Agustus 2007. Kami adalah buku panduan perjalanan gratis yang membantu pelancong merencanakan perjalanan mereka di sekitar ibu kota Malaysia, Kuala Lumpur. KL The Guide mencakup tips perjalanan, tempat untuk dijelajahi, lokasi ramah anak, hotel, dan banyak lagi. Dengan KL The Guide, menjelajahi kota menjadi lebih mudah.",
+    "@ourCompanyDescription": {
+      "description": "Deskripsi tentang perusahaan dan panduan"
+    },
+    "findUs": "Temukan Kami",
+    "@findUs": {
+      "description": "Judul untuk bagian 'Temukan Kami'"
+    },
+    "appVersion": "Versi Aplikasi: {version}+{buildNumber}",
+    "@appVersion": {
+      "description": "Teks yang menampilkan versi aplikasi dan nomor build",
+      "placeholders": {
+        "version": {
+          "type": "String",
+          "example": "1.0.0"
+        },
+        "buildNumber": {
+          "type": "String",
+          "example": "1"
+        }
+      }
+    },
+    "errorLoadingVersion": "Kesalahan memuat versi",
+    "@errorLoadingVersion": {
+      "description": "Pesan yang ditampilkan jika terjadi kesalahan saat memuat versi aplikasi"
+    },
+    "islands": "Pulau",
+    "@islands": {
+      "description": "Judul untuk bagian Pulau"
+    },
+    "hillStation": "Tempat Perbukitan",
+    "@hillStation": {
+      "description": "Judul untuk bagian Tempat Perbukitan"
+    },
+    "waterfall": "Air Terjun",
+    "@waterfall": {
+      "description": "Judul untuk bagian Air Terjun"
+    },
+    "hiking": "Mendaki",
+    "@hiking": {
+      "description": "Judul untuk bagian Mendaki"
+    },
+    "extremeSports": "Olahraga Ekstrim",
+    "@extremeSports": {
+      "description": "Judul untuk bagian Olahraga Ekstrim"
+    },
+    "errorLoadingData": "Kesalahan memuat data",
+    "@errorLoadingData": {
+      "description": "Pesan yang ditampilkan saat terjadi kesalahan memuat data"
+    },
+    "loadingData": "Memuat data...",
+    "@loadingData": {
+      "description": "Pesan yang ditampilkan saat data sedang dimuat"
+    },
+    "email": "Email: enquiry@bluedale.com.my",
+    "@email": {
+      "description": "Teks untuk kontak email perusahaan"
+    },
+    "whatsapp": "Whatsapp: +6012-220 0622",
+    "@whatsapp": {
+      "description": "Teks untuk kontak WhatsApp perusahaan"
+    },
+    "phone": "Telepon: +603-78869219",
+    "@phone": {
+      "description": "Teks untuk kontak telepon perusahaan"
+    },
+    "address": "alamat",
+    "@address": {
+      "description": "Teks untuk alamat perusahaan dalam Bahasa Indonesia"
+    },
+    "workingHours": "Senin-Jumat: 9:00AM - 6:00PM",
+    "@workingHours": {
+      "description": "Teks untuk jam kerja perusahaan"
+    },
+    "whatToDo": "Apa yang Harus Dilakukan",
+    "@whatToDo": {
+      "description": "Judul untuk halaman Apa yang Harus Dilakukan di Jelajahi KL"
+    },
+    "loading": "Memuat...",
+    "@loading": {
+      "description": "Pesan yang ditampilkan saat data sedang dimuat"
+    },
+    "details": "Rincian",
+    "@details": {
+      "description": "Label untuk halaman rincian"
+    },
+    "historicalSites": "Situs Bersejarah",
+    "@historicalSites": {
+      "description": "Judul untuk halaman yang menampilkan situs bersejarah di Kuala Lumpur."
+    },
+    "dataranMerdekaDescription": "Dataran Merdeka, juga dikenal sebagai Merdeka Square, adalah landmark paling terkenal di KL...",
+    "@dataranMerdekaDescription": {
+      "description": "Deskripsi Dataran Merdeka, menyoroti pentingnya secara historis di Kuala Lumpur."
+    },
+    
+    "klRailwayStationDescription": "Stasiun Kereta Api Kuala Lumpur, dengan desain bergaya Moorish, adalah pusat kereta api utama hingga tahun 2001...",
+    "@klRailwayStationDescription": {
+      "description": "Deskripsi Stasiun Kereta Api Kuala Lumpur, mencatat gaya arsitekturnya dan peran sejarahnya."
+    },
+    
+    "royalMuseumDescription": "Museum Kerajaan menawarkan sekilas tentang gaya hidup kerajaan, berlokasi di bekas Istana Nasional...",
+    "@royalMuseumDescription": {
+      "description": "Deskripsi Museum Kerajaan, memberikan wawasan tentang pentingnya sebagai bekas istana kerajaan."
+    },
+    
+    "sultanAbdulSamadDescription": "Gedung Sultan Abdul Samad, dibangun pada tahun 1897, menampilkan arsitektur Gotik, Barat, dan Moor...",
+    "@sultanAbdulSamadDescription": {
+      "description": "Deskripsi Gedung Sultan Abdul Samad, menyebutkan pengaruh arsitektur dan nilai sejarahnya."
+    },
+    
+    "tuguNegaraDescription": "Tugu Nasional memperingati prajurit Malaysia yang gugur selama perjuangan kemerdekaan...",
+    "@tuguNegaraDescription": {
+      "description": "Deskripsi Tugu Negara, berfokus pada tujuannya untuk menghormati prajurit yang gugur."
+    },
+    
+    "victoriaFountainDescription": "Air Mancur Ratu Victoria, selesai pada tahun 1904, memiliki dua tingkat dan gargoyle di fondasinya...",
+    "@victoriaFountainDescription": {
+      "description": "Deskripsi untuk Air Mancur Ratu Victoria, menguraikan detail arsitektur dan signifikansi sejarahnya."
+    },
+    
+    "ilhamBaruTowerDescription": "Ilham Baru Tower adalah gedung pencakar langit setinggi 58 lantai dan gedung tertinggi ketiga di area KLCC...",
+    "@ilhamBaruTowerDescription": {
+      "description": "Deskripsi untuk Ilham Baru Tower, menyebutkan ketinggian dan relevansi arsitekturnya di Kuala Lumpur."
+    },
+    
+    "bangunanSulaimanDescription": "Bangunan Sulaiman adalah monumen kolonial Inggris yang dibangun pada tahun 1933, dikenal sebagai tempat pengadilan Syariah...",
+    "@bangunanSulaimanDescription": {
+      "description": "Deskripsi untuk Bangunan Sulaiman, menjelaskan arsitektur kolonial dan pentingnya secara historis."
+    },
+    
+    "centralMarketDescription": "Central Market, dibangun pada tahun 1892, adalah objek wisata populer yang terkenal dengan kerajinan lokal...",
+    "@centralMarketDescription": {
+      "description": "Deskripsi untuk Central Market (Pasar Seni), menyoroti pentingnya secara historis dan fungsi saat ini sebagai pasar kerajinan lokal."
+    },
+    
+    "locationJalanRaja": "Lokasi: Jalan Raja, Pusat Kota, 50050 Kuala Lumpur",
+    "@locationJalanRaja": {
+      "description": "Lokasi untuk Dataran Merdeka, memberikan alamat spesifik."
+    },
+    
+    "locationKampungAttap": "Lokasi: Kampung Attap, 50000 Kuala Lumpur",
+    "@locationKampungAttap": {
+      "description": "Lokasi untuk Stasiun Kereta Api Kuala Lumpur."
+    },
+    
+    "locationIstanaNegara": "Lokasi: Jalan Istana, 50460 Kuala Lumpur",
+    "@locationIstanaNegara": {
+      "description": "Lokasi untuk Museum Kerajaan, sebelumnya Istana Nasional."
+    },
+    
+    "locationParliamentRoad": "Lokasi: Taman Botani Perdana, Jalan Parlimen, 50480 Kuala Lumpur",
+    "@locationParliamentRoad": {
+      "description": "Lokasi untuk Tugu Negara."
+    },
+    
+    "locationCityCentre": "Lokasi: Pusat Kota, 50050 Kuala Lumpur",
+    "@locationCityCentre": {
+      "description": "Lokasi untuk Air Mancur Victoria."
+    },
+    
+    "locationIlhamTower": "Lokasi: Ilham Tower, 8, Jalan Binjai, 50450 Kuala Lumpur",
+    "@locationIlhamTower": {
+      "description": "Lokasi untuk Ilham Baru Tower."
+    },
+    
+    "locationSultanHishamuddin": "Lokasi: Jalan Sultan Hishamuddin, Kampung Attap, 50000 Kuala Lumpur",
+    "@locationSultanHishamuddin": {
+      "description": "Lokasi untuk Bangunan Sulaiman."
+    },
+    
+    "locationJalanHangKasturi": "Lokasi: No. 10, Lantai 1-3, Jalan Hang Kasturi",
+    "@locationJalanHangKasturi": {
+      "description": "Lokasi untuk Central Market (Pasar Seni)."
+    },
+    
+    "open24Hours": "Buka 24 jam (Setiap Hari)",
+    "@open24Hours": {
+      "description": "Menunjukkan bahwa lokasi buka 24 jam setiap hari."
+    },
+    
+    "hours900to500Daily": "Jam: 9:00 pagi - 5:00 sore (Setiap Hari)",
+    "@hours900to500Daily": {
+      "description": "Jam operasional dari pukul 9:00 pagi hingga 5:00 sore, setiap hari."
+    },
+    
+    "hours700to600Daily": "Jam: 7:00 pagi - 6:00 sore (Setiap Hari)",
+    "@hours700to600Daily": {
+      "description": "Jam operasional dari pukul 7:00 pagi hingga 6:00 sore, setiap hari."
+    },
+    
+    "hours830to530Weekdays": "Jam: 8:30 pagi - 5:30 sore (Senin - Jumat)",
+    "@hours830to530Weekdays": {
+      "description": "Jam operasional dari pukul 8:30 pagi hingga 5:30 sore, pada hari kerja (Senin - Jumat)."
+    },
+    
+    "hours1000to600Daily": "Jam: 10:00 pagi - 6:00 sore (Setiap Hari)",
+    "@hours1000to600Daily": {
+      "description": "Jam operasional dari pukul 10:00 pagi hingga 6:00 sore, setiap hari."
+    },
+    "parks": "Taman",
+    "@parks": {
+      "description": "Judul untuk halaman yang menampilkan taman di Kuala Lumpur."
+    },
+    
+    "tamanEkoRimba": "Taman Eko Rimba, Kuala Lumpur",
+    "@tamanEkoRimba": {
+      "description": "Nama taman Taman Eko Rimba di Kuala Lumpur."
+    },
+    
+    "tamanEkoRimbaLocation": "Kuala Lumpur, 50250 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@tamanEkoRimbaLocation": {
+      "description": "Lokasi untuk Taman Eko Rimba di Kuala Lumpur."
+    },
+    
+    "aseanSculptureGarden": "Taman Patung ASEAN",
+    "@aseanSculptureGarden": {
+      "description": "Nama dari Taman Patung ASEAN."
+    },
+    
+    "aseanSculptureGardenLocation": "Taman Patung ASEAN, Persiaran Sultan Salahuddin, Taman Tasik Perdana, 50480 Kuala Lumpur",
+    "@aseanSculptureGardenLocation": {
+      "description": "Lokasi untuk Taman Patung ASEAN di Kuala Lumpur."
+    },
+    
+    "klccPark": "Taman KLCC",
+    "@klccPark": {
+      "description": "Nama Taman KLCC."
+    },
+    
+    "klccParkLocation": "Jalan Ampang, Pusat Kota Kuala Lumpur, 50088 Kuala Lumpur",
+    "@klccParkLocation": {
+      "description": "Lokasi untuk Taman KLCC di Kuala Lumpur."
+    },
+    
+    "hours700to600": "Jam: 7:00 pagi - 6:00 sore",
+    "@hours700to600": {
+      "description": "Jam operasional dari pukul 7:00 pagi hingga 6:00 sore."
+    },
+    
+    "hours700to1000": "Jam: 7:00 pagi - 10:00 malam",
+    "@hours700to1000": {
+      "description": "Jam operasional dari pukul 7:00 pagi hingga 10:00 malam."
+    },
+    "kl4kids": "KL untuk Anak-Anak",
+    "@kl4kids": {
+      "description": "Judul untuk halaman yang menampilkan tempat-tempat ramah anak di Kuala Lumpur."
+    },
+    
+    "aeonFantasy": "Aeon Fantasy",
+    "@aeonFantasy": {
+      "description": "Nama dari tempat ramah anak Aeon Fantasy di Kuala Lumpur."
+    },
+    
+    "aeonFantasyLocation": "F41, Lantai 1, AEON Alpha Angle Shopping Centre, Jln R1, Seksyen 1, Bandar Baru Wangsa Maju, 53300 Kuala Lumpur.",
+    "@aeonFantasyLocation": {
+      "description": "Lokasi untuk Aeon Fantasy."
+    },
+    
+    "aeonFantasyHours": "10.00 AM - 10.00 PM (Minggu - Kamis), 10.00 AM - 11.00 PM (Jumat - Sabtu)",
+    "@aeonFantasyHours": {
+      "description": "Jam operasional untuk Aeon Fantasy."
+    },
+    
+    "klUpsideDownHouse": "Rumah Terbalik KL",
+    "@klUpsideDownHouse": {
+      "description": "Nama dari Rumah Terbalik KL, tempat ramah anak di Kuala Lumpur."
+    },
+    
+    "klUpsideDownHouseLocation": "Off, Jalan P Ramlee, &, Jalan Puncak, 50250 Kuala Lumpur",
+    "@klUpsideDownHouseLocation": {
+      "description": "Lokasi untuk Rumah Terbalik KL."
+    },
+    
+    "klUpsideDownHouseHours": "10 pagi - 10 malam (Setiap Hari)",
+    "@klUpsideDownHouseHours": {
+      "description": "Jam operasional untuk Rumah Terbalik KL."
+    },
+    
+    "klTowerMiniZoo": "Kebun Binatang Mini Menara KL",
+    "@klTowerMiniZoo": {
+      "description": "Nama dari Kebun Binatang Mini Menara KL."
+    },
+    
+    "klTowerMiniZooLocation": "Lantai Dasar, Menara Kuala Lumpur, WP, Jalan Puncak, 50250 Kuala Lumpur",
+    "@klTowerMiniZooLocation": {
+      "description": "Lokasi untuk Kebun Binatang Mini Menara KL."
+    },
+    
+    "klTowerMiniZooHours": "10 pagi - 9 malam (Setiap Hari)",
+    "@klTowerMiniZooHours": {
+      "description": "Jam operasional untuk Kebun Binatang Mini Menara KL."
+    },
+    
+    "petrosainsKlcc": "Petrosains KLCC",
+    "@petrosainsKlcc": {
+      "description": "Nama dari Petrosains KLCC, tempat ramah anak di Kuala Lumpur."
+    },
+    
+    "petrosainsKlccLocation": "Lantai 4, Suria KLCC, Menara Kembar PETRONAS, Pusat Kota Kuala Lumpur, 50088, Kuala Lumpur",
+    "@petrosainsKlccLocation": {
+      "description": "Lokasi untuk Petrosains KLCC."
+    },
+    
+    "petrosainsKlccHours": "9.30am - 5.30pm (Selasa - Minggu)",
+    "@petrosainsKlccHours": {
+      "description": "Jam operasional untuk Petrosains KLCC."
+    },
+    
+    "contact": "Kontak",
+    "@contact": {
+      "description": "Label untuk informasi kontak tempat ramah anak."
+    },
+    "placesOfWorship": "Tempat Ibadah",
+    "@placesOfWorship": {
+      "description": "Judul untuk halaman yang menampilkan tempat ibadah di Kuala Lumpur."
+    },
+    
+    "muslim": "Muslim",
+    "@muslim": {
+      "description": "Judul tab untuk tempat ibadah Muslim."
+    },
+    
+    "buddhistTao": "Buddha/Tao",
+    "@buddhistTao": {
+      "description": "Judul tab untuk tempat ibadah Buddha dan Tao."
+    },
+    
+    "hindu": "Hindu",
+    "@hindu": {
+      "description": "Judul tab untuk tempat ibadah Hindu."
+    },
+    
+    "others": "Lainnya",
+    "@others": {
+      "description": "Judul tab untuk tempat ibadah lainnya."
+    },
+    
+    "masjidNegara": "Masjid Negara",
+    "@masjidNegara": {
+      "description": "Nama Masjid Negara (Masjid Nasional) di Kuala Lumpur."
+    },
+    
+    "masjidNegaraLocation": "Jalan Perdana, Tasik Perdana, 50480 Kuala Lumpur",
+    "@masjidNegaraLocation": {
+      "description": "Lokasi untuk Masjid Negara di Kuala Lumpur."
+    },
+    
+    "masjidNegaraHours": "9.00 pagi - 11.00 malam (Sabtu-Kamis) / 2.45 sore - 6.00 sore (Jumat)",
+    "@masjidNegaraHours": {
+      "description": "Jam operasional untuk Masjid Negara."
+    },
+    
+    "masjidJamek": "Masjid Jamek",
+    "@masjidJamek": {
+      "description": "Nama Masjid Jamek, sebuah masjid di Kuala Lumpur."
+    },
+    
+    "masjidJamekLocation": "Jalan Tun Perak, Pusat Kota, 50050 Kuala Lumpur",
+    "@masjidJamekLocation": {
+      "description": "Lokasi untuk Masjid Jamek di Kuala Lumpur."
+    },
+    
+    "masjidJamekHours": "10.00 pagi - 12.30 siang; 2.30 sore - 4.00 sore (Sabtu-Kamis) / Tutup pada hari Jumat",
+    "@masjidJamekHours": {
+      "description": "Jam operasional untuk Masjid Jamek."
+    },
+    
+    "federalTerritoryMosque": "Masjid Wilayah Persekutuan Kuala Lumpur",
+    "@federalTerritoryMosque": {
+      "description": "Nama Masjid Wilayah Persekutuan di Kuala Lumpur."
+    },
+    
+    "federalTerritoryMosqueLocation": "Jalan Sultan Mizan Zainal Abidin, Kompleks Kerajaan, Kuala Lumpur",
+    "@federalTerritoryMosqueLocation": {
+      "description": "Lokasi untuk Masjid Wilayah Persekutuan di Kuala Lumpur."
+    },
+    
+    "masjidAlBukhari": "Masjid Al Bukhari",
+    "@masjidAlBukhari": {
+      "description": "Nama Masjid Al Bukhari di Kuala Lumpur."
+    },
+    
+    "masjidAlBukhariLocation": "1, Jalan Hang Tuah, Bukit Bintang, 55200 Kuala Lumpur",
+    "@masjidAlBukhariLocation": {
+      "description": "Lokasi untuk Masjid Al Bukhari di Kuala Lumpur."
+    },
+    "masjidAbdullahHukum": "Masjid Jamek Abdullah Hukum - KL Eco City",
+    "@masjidAbdullahHukum": {
+      "description": "Nama dari Masjid Jamek Abdullah Hukum di Kuala Lumpur."
+    },
+    
+    "masjidAbdullahHukumLocation": "59200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@masjidAbdullahHukumLocation": {
+      "description": "Lokasi untuk Masjid Jamek Abdullah Hukum."
+    },
+    
+    "masjidAsySyakirin": "Masjid Asy-Syakirin KLCC",
+    "@masjidAsySyakirin": {
+      "description": "Nama dari Masjid Asy-Syakirin di Kuala Lumpur."
+    },
+    
+    "masjidAsySyakirinLocation": "Lot 41, Seksyen, 58, Jalan Pinang, 50450 Kuala Lumpur",
+    "@masjidAsySyakirinLocation": {
+      "description": "Lokasi untuk Masjid Asy-Syakirin."
+    },
+    
+    "masjidAlFirdaus": "Masjid Al-Firdaus",
+    "@masjidAlFirdaus": {
+      "description": "Nama dari Masjid Al-Firdaus di Kuala Lumpur."
+    },
+    
+    "masjidAlFirdausLocation": "Jalan Masjid Firdaus, Jalan 1/42, Segambut Luar, 51200 Kuala Lumpur",
+    "@masjidAlFirdausLocation": {
+      "description": "Lokasi untuk Masjid Al-Firdaus."
+    },
+    
+    "masjidJamiulEhsan": "Masjid Jamiul Ehsan",
+    "@masjidJamiulEhsan": {
+      "description": "Nama dari Masjid Jamiul Ehsan di Kuala Lumpur."
+    },
+    
+    "masjidJamiulEhsanLocation": "Jalan Pahang, Taman Setapak Indah Jaya, 53000 Kuala Lumpur",
+    "@masjidJamiulEhsanLocation": {
+      "description": "Lokasi untuk Masjid Jamiul Ehsan."
+    },
+    
+    "theanHouTemple": "Kuil Thean Hou",
+    "@theanHouTemple": {
+      "description": "Nama dari Kuil Thean Hou di Kuala Lumpur."
+    },
+    
+    "theanHouTempleLocation": "65, Persiaran Endah, Taman Persiaran Desa, 50460 Kuala Lumpur",
+    "@theanHouTempleLocation": {
+      "description": "Lokasi untuk Kuil Thean Hou di Kuala Lumpur."
+    },
+    
+    "theanHouTempleHours": "8.00 pagi - 2.00 siang / 4.00 sore - 10.00 malam (Setiap Hari)",
+    "@theanHouTempleHours": {
+      "description": "Jam operasional untuk Kuil Thean Hou."
+    },
+    
+    "guanDiTemple": "Kuil Guan Di",
+    "@guanDiTemple": {
+      "description": "Nama dari Kuil Guan Di di Kuala Lumpur."
+    },
+    
+    "guanDiTempleLocation": "168, Jalan Tun H S Lee, Pusat Kota, 50000 Kuala Lumpur",
+    "@guanDiTempleLocation": {
+      "description": "Lokasi untuk Kuil Guan Di."
+    },
+    
+    "guanDiTempleHours": "8.30 pagi - 5.30 sore (Hari Kerja) / Tutup pada Akhir Pekan",
+    "@guanDiTempleHours": {
+      "description": "Jam operasional untuk Kuil Guan Di."
+    },
+    
+    "buddhistMahaViharaTemple": "Kuil Buddha Maha Vihara",
+    "@buddhistMahaViharaTemple": {
+      "description": "Nama dari Kuil Buddha Maha Vihara di Kuala Lumpur."
+    },
+    
+    "buddhistMahaViharaTempleLocation": "123 Jalan Berhala, Brickfields, Kuala Lumpur",
+    "@buddhistMahaViharaTempleLocation": {
+      "description": "Lokasi untuk Kuil Buddha Maha Vihara."
+    },
+    
+    "buddhistMahaViharaTempleHours": "8.00 pagi - 2.00 siang / 5.00 sore - 9.00 malam (Setiap Hari)",
+    "@buddhistMahaViharaTempleHours": {
+      "description": "Jam operasional untuk Kuil Buddha Maha Vihara."
+    },
+    
+    "sinSzeSiYaTemple": "Kuil Sin Sze Si Ya",
+    "@sinSzeSiYaTemple": {
+      "description": "Nama dari Kuil Sin Sze Si Ya di Kuala Lumpur."
+    },
+    
+    "sinSzeSiYaTempleLocation": "113A, Jalan Tun H S Lee, Pusat Kota, 50050 Kuala Lumpur",
+    "@sinSzeSiYaTempleLocation": {
+      "description": "Lokasi untuk Kuil Sin Sze Si Ya di Kuala Lumpur."
+    },
+    
+    "sinSzeSiYaTempleHours": "7.00 pagi - 5.00 sore (Setiap Hari)",
+    "@sinSzeSiYaTempleHours": {
+      "description": "Jam operasional untuk Kuil Sin Sze Si Ya."
+    },
+    
+    "sriMahamariammanTemple": "Kuil Sri Mahamariamman",
+    "@sriMahamariammanTemple": {
+      "description": "Nama dari Kuil Sri Mahamariamman di Kuala Lumpur."
+    },
+    
+    "sriMahamariammanTempleLocation": "Jalan Tun H S Lee, Pusat Kota, 50000 Kuala Lumpur",
+    "@sriMahamariammanTempleLocation": {
+      "description": "Lokasi untuk Kuil Sri Mahamariamman di Kuala Lumpur."
+    },
+    
+    "sriMahamariammanTempleHours": "6.00 pagi - 8.30 malam (Minggu-Kamis) / 6.00 pagi - 9.30 malam (Jumat) / 6.00 pagi - 9.00 malam (Minggu)",
+    "@sriMahamariammanTempleHours": {
+      "description": "Jam operasional untuk Kuil Sri Mahamariamman."
+    },
+    
+    "batuCavesTemple": "Kuil Batu Caves",
+    "@batuCavesTemple": {
+      "description": "Nama dari Kuil Batu Caves."
+    },
+    
+    "batuCavesTempleLocation": "Gombak, 68100 Batu Caves, Selangor",
+    "@batuCavesTempleLocation": {
+      "description": "Lokasi untuk Kuil Batu Caves di Selangor."
+    },
+    
+    "sriKandaswamyTemple": "Kuil Sri Kandaswamy",
+    "@sriKandaswamyTemple": {
+      "description": "Nama dari Kuil Sri Kandaswamy di Kuala Lumpur."
+    },
+    
+    "sriKandaswamyTempleLocation": "Brickfields, 50470 Kuala Lumpur",
+    "@sriKandaswamyTempleLocation": {
+      "description": "Lokasi untuk Kuil Sri Kandaswamy di Brickfields, Kuala Lumpur."
+    },
+    
+    "stMarysAnglicanCathedral": "Katedral Anglikan St Mary",
+    "@stMarysAnglicanCathedral": {
+      "description": "Nama dari Katedral Anglikan St Mary di Kuala Lumpur."
+    },
+    
+    "stMarysAnglicanCathedralLocation": "Jalan Raja, Pusat Kota, 50050 Kuala Lumpur",
+    "@stMarysAnglicanCathedralLocation": {
+      "description": "Lokasi untuk Katedral Anglikan St Mary di Kuala Lumpur."
+    },
+    
+    "wesleyMethodistChurch": "Gereja Metodis Wesley Kuala Lumpur",
+    "@wesleyMethodistChurch": {
+      "description": "Nama dari Gereja Metodis Wesley di Kuala Lumpur."
+    },
+    
+    "wesleyMethodistChurchLocation": "2, Jalan Wesley, Pusat Kota, 50150 Kuala Lumpur",
+    "@wesleyMethodistChurchLocation": {
+      "description": "Lokasi untuk Gereja Metodis Wesley di Kuala Lumpur."
+    },
+    
+    "wesleyMethodistChurchHours": "8.30 pagi - 4.30 sore (Senin-Jumat) / 8.30 pagi - 12.30 siang (Sabtu) / 8.00 pagi - 10.30 pagi (Minggu)",
+    "@wesleyMethodistChurchHours": {
+      "description": "Jam operasional untuk Gereja Metodis Wesley."
+    },
+    
+    "whatToEat": "Apa yang Harus Dimakan",
+    "@whatToEat": {
+      "description": "Judul untuk halaman yang menampilkan apa yang dimakan di Kuala Lumpur."
+    },
+    
+    "streetFood": "Makanan Jalanan",
+    "@streetFood": {
+      "description": "Judul tab untuk makanan jalanan."
+    },
+    
+    "cafes": "Kafe",
+    "@cafes": {
+      "description": "Judul tab untuk kafe."
+    },
+    
+    "restaurants": "Restoran",
+    "@restaurants": {
+      "description": "Judul tab untuk restoran."
+    },
+    
+    "jalanAlor": "Jalan Alor",
+    "@jalanAlor": {
+      "description": "Nama dari lokasi makanan jalanan Jalan Alor."
+    },
+    
+    "jalanAlorLocation": "Bukit Bintang, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@jalanAlorLocation": {
+      "description": "Lokasi untuk Jalan Alor."
+    },
+    
+    "tamanConnaught": "Pasar Malam Taman Connaught",
+    "@tamanConnaught": {
+      "description": "Nama dari Pasar Malam Taman Connaught."
+    },
+    
+    "tamanConnaughtLocation": "130, 108, Jalan Cerdas, Taman Connaught, 56000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@tamanConnaughtLocation": {
+      "description": "Lokasi untuk Pasar Malam Taman Connaught."
+    },
+    
+    "tamanConnaughtHours": "6.00 sore - 1.00 pagi (Rabu)",
+    "@tamanConnaughtHours": {
+      "description": "Jam operasional untuk Pasar Malam Taman Connaught."
+    },
+    
+    "petalingStreet": "Jalan Petaling",
+    "@petalingStreet": {
+      "description": "Nama dari Jalan Petaling."
+    },
+    
+    "petalingStreetLocation": "Jalan Petaling, Pusat Kota, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@petalingStreetLocation": {
+      "description": "Lokasi untuk Jalan Petaling."
+    },
+    
+    "petalingStreetHours": "Buka 24 Jam (Setiap Hari)",
+    "@petalingStreetHours": {
+      "description": "Jam operasional untuk Jalan Petaling."
+    },
+    
+    "wildflowersKL": "Wildflowers KL",
+    "@wildflowersKL": {
+      "description": "Nama dari Kafe Wildflowers KL."
+    },
+    
+    "wildflowersKLLocation": "Jalan Petaling, 50000 Kuala Lumpur",
+    "@wildflowersKLLocation": {
+      "description": "Lokasi untuk Wildflowers KL."
+    },
+    
+    "wildflowersKLHours": "12.00 siang - 12.00 malam (Jumat-Sabtu) 12.00 siang - 10.00 malam (Minggu) 5.00 sore - 10.00 malam (Selasa, Rabu, Kamis) Senin (Tutup)",
+    "@wildflowersKLHours": {
+      "description": "Jam operasional untuk Wildflowers KL."
+    },
+    
+    "lisettesCafe": "Lisette s Café & Bakery",
+    "@lisettesCafe": {
+      "description": "Nama dari Lisette's Café & Bakery."
+    },
+    
+    "lisettesCafeLocation": "No. 8, Jalan Kemuja, Bangsar, 59000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@lisettesCafeLocation": {
+      "description": "Lokasi untuk Lisette's Café & Bakery."
+    },
+    
+    "lisettesCafeHours": "8.00 pagi - 10.00 malam (Setiap Hari)",
+    "@lisettesCafeHours": {
+      "description": "Jam operasional untuk Lisette's Café & Bakery."
+    },
+    
+    "merchantsLane": "Merchant s Lane",
+    "@merchantsLane": {
+      "description": "Nama dari Kafe Merchant's Lane."
+    },
+    
+    "merchantsLaneLocation": "150, Jalan Petaling, Pusat Kota, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@merchantsLaneLocation": {
+      "description": "Lokasi untuk Kafe Merchant's Lane."
+    },
+    
+    "merchantsLaneHours": "8.00 pagi - 10.00 malam (Setiap Hari)",
+    "@merchantsLaneHours": {
+      "description": "Jam operasional untuk Kafe Merchant's Lane."
+    },
+    
+    "bijanBar": "Bijan Bar & Restaurant",
+    "@bijanBar": {
+      "description": "Nama dari Bijan Bar & Restaurant."
+    },
+    
+    "bijanBarLocation": "No 3, Jalan Ceylon, Bukit Ceylon, 50200 Kuala Lumpur",
+    "@bijanBarLocation": {
+      "description": "Lokasi untuk Bijan Bar & Restaurant."
+    },
+    
+    "bijanBarHours": "12.00 PM - 11.00 PM (Setiap Hari)",
+    "@bijanBarHours": {
+      "description": "Jam operasional untuk Bijan Bar & Restaurant."
+    },
+    
+    "songketRestaurant": "Restoran Songket",
+    "@songketRestaurant": {
+      "description": "Nama dari Restoran Songket."
+    },
+    
+    "songketRestaurantLocation": "31G, Plaza Crystavilla, 1, Jalan 22a/70a, Desa Sri Hartamas, 50480 Kuala Lumpur",
+    "@songketRestaurantLocation": {
+      "description": "Lokasi untuk Restoran Songket."
+    },
+    
+    "songketRestaurantHours": "12.00 PM - 10.00 PM (Setiap Hari)",
+    "@songketRestaurantHours": {
+      "description": "Jam operasional untuk Restoran Songket."
+    },
+    
+    "manjaOldMalaya": "Manja Old Malaya",
+    "@manjaOldMalaya": {
+      "description": "Nama dari Manja Old Malaya."
+    },
+    
+    "manjaOldMalayaLocation": "6, Lorong Raja Chulan, Kuala Lumpur, 50250 Kuala Lumpur",
+    "@manjaOldMalayaLocation": {
+      "description": "Lokasi untuk Manja Old Malaya."
+    },
+    
+    "manjaOldMalayaHours": "12.00 PM - 12.00 AM (Setiap Hari)",
+    "@manjaOldMalayaHours": {
+      "description": "Jam operasional untuk Manja Old Malaya."
+    },
+    
+    "location": "Lokasi",
+    "@location": {
+      "description": "Label untuk lokasi sebuah tempat."
+    },
+    
+    "operatingHours": "Jam Operasional",
+    "@operatingHours": {
+      "description": "Label untuk jam operasional sebuah tempat."
+    },
+    
+    "website": "Situs Web",
+    "@website": {
+      "description": "Label untuk situs web sebuah tempat."
+    },
+    "nightLife": "Kehidupan Malam",
+    "@nightLife": {
+      "description": "Judul untuk halaman yang menampilkan pilihan kehidupan malam di Kuala Lumpur."
+    },
+    
+    "bars": "Bar",
+    "@bars": {
+      "description": "Judul tab untuk bar."
+    },
+    
+    "nightMarket": "Pasar Malam",
+    "@nightMarket": {
+      "description": "Judul tab untuk pasar malam."
+    },
+    
+    "changkatBukitBintang": "Changkat, Bukit Bintang",
+    "@changkatBukitBintang": {
+      "description": "Nama dari Changkat Bukit Bintang, kawasan kehidupan malam yang populer di Kuala Lumpur."
+    },
+    
+    "changkatBukitBintangDescription": "Menawarkan malam bertema, DJ, dan pertunjukan band live, Changkat Bukit Bintang menawarkan kehidupan malam yang mengasyikkan.",
+    "@changkatBukitBintangDescription": {
+      "description": "Deskripsi tentang kehidupan malam di Changkat Bukit Bintang."
+    },
+    
+    "bangsar": "Bangsar",
+    "@bangsar": {
+      "description": "Nama dari Bangsar, destinasi kehidupan malam yang populer."
+    },
+    
+    "bangsarDescription": "Bangsar dan Mid Valley memiliki bar trendy, pub, dan lounge koktail. Kebanyakan tempat kehidupan malam berkumpul di sekitar Jalan Telawi di Bangsar Baru.",
+    "@bangsarDescription": {
+      "description": "Deskripsi kehidupan malam di Bangsar."
+    },
+    
+    "ampang": "Ampang",
+    "@ampang": {
+      "description": "Nama dari Ampang, area kehidupan malam."
+    },
+    
+    "ampangDescription": "Ampang menawarkan kehidupan malam yang beragam, dengan bar di atap gedung, klub malam hingga larut, dan pemandangan menakjubkan dari cakrawala Kuala Lumpur.",
+    "@ampangDescription": {
+      "description": "Deskripsi kehidupan malam di Ampang."
+    },
+    
+    "petalingStreetDescription": "Jalan Petaling berubah menjadi pasar malam yang semarak setelah gelap, menawarkan berbagai tempat hiburan malam dan hiburan.",
+    "@petalingStreetDescription": {
+      "description": "Deskripsi tentang kehidupan malam dan pasar di Jalan Petaling."
+    },
+    
+    "marinisOn57": "Marinis On 57",
+    "@marinisOn57": {
+      "description": "Nama dari Marini's On 57, sebuah bar di Kuala Lumpur."
+    },
+    
+    "marinisOn57Location": "57 Menara 3 Petronas Persiaran, Kuala Lumpur City Centre, 50088 Kuala Lumpur",
+    "@marinisOn57Location": {
+      "description": "Lokasi dari Marini's On 57."
+    },
+    
+    "heliLoungeBar": "Heli Lounge Bar",
+    "@heliLoungeBar": {
+      "description": "Nama dari Heli Lounge Bar, sebuah bar di Kuala Lumpur."
+    },
+    
+    "heliLoungeBarLocation": "4 Menara KH, Jalan Sultan Ismail, Bukit Bintang, 50450 Kuala Lumpur",
+    "@heliLoungeBarLocation": {
+      "description": "Lokasi dari Heli Lounge Bar."
+    },
+    
+    "zetaBar": "Zeta Bar",
+    "@zetaBar": {
+      "description": "Nama dari Zeta Bar, sebuah bar di Kuala Lumpur."
+    },
+    
+    "zetaBarLocation": "Lantai 5, 3, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 Kuala Lumpur",
+    "@zetaBarLocation": {
+      "description": "Lokasi dari Zeta Bar."
+    },
+    
+    "connaughtNightMarket": "Pasar Malam Connaught",
+    "@connaughtNightMarket": {
+      "description": "Nama dari Pasar Malam Connaught."
+    },
+    
+    "connaughtNightMarketDescription": "Dikenal karena pilihan makanan pedagang kaki lima Cina, Pasar Malam Connaught juga menawarkan makanan penutup lokal, camilan, dan banyak lagi.",
+    "@connaughtNightMarketDescription": {
+      "description": "Deskripsi tentang Pasar Malam Connaught."
+    },
+    
+    "connaughtNightMarketLocation": "130, 108, Jalan Cerdas, Taman Connaught, 56000 Kuala Lumpur",
+    "@connaughtNightMarketLocation": {
+      "description": "Lokasi dari Pasar Malam Connaught."
+    },
+    
+    "kasturiWalk": "Kasturi Walk",
+    "@kasturiWalk": {
+      "description": "Nama dari Kasturi Walk, sebuah pasar malam di Kuala Lumpur."
+    },
+    
+    "kasturiWalkLocation": "Jalan Hang Kasturi, Pusat Kota, 50050 Kuala Lumpur",
+    "@kasturiWalkLocation": {
+      "description": "Lokasi dari Kasturi Walk."
+    },
+    
+    "kasturiWalkHours": "Buka 24 Jam",
+    "@kasturiWalkHours": {
+      "description": "Jam operasional untuk Kasturi Walk."
+    },
+    
+    "sightseeing": "Wisata",
+    "@sightseeing": {
+      "description": "Judul untuk halaman yang menampilkan pilihan wisata di Kuala Lumpur."
+    },
+    "mustVisit": "Harus Dikunjungi",
+    "@mustVisit": {
+      "description": "Judul tab untuk tempat-tempat yang harus dikunjungi."
+    },
+  
+    "museums": "Museum",
+    "@museums": {
+      "description": "Judul tab untuk museum."
+    },
+  
+    "klArtScene": "Seni KL",
+    "@klArtScene": {
+      "description": "Judul tab untuk Seni KL."
+    },
+  
+    "klcc": "KLCC",
+    "@klcc": {
+      "description": "Nama KLCC, sebuah destinasi populer di Kuala Lumpur."
+    },
+  
+    "klccLocation": "Jalan Ampang, Segitiga Emas, Pusat Kota Kuala Lumpur, 50088",
+    "@klccLocation": {
+      "description": "Lokasi KLCC."
+    },
+  
+    "klccHours": "10:00 pagi hingga 10:00 malam",
+    "@klccHours": {
+      "description": "Jam operasional KLCC."
+    },
+  
+    "istanaNegara": "Istana Negara",
+    "@istanaNegara": {
+      "description": "Nama dari Istana Negara."
+    },
+  
+    "istanaNegaraLocation": "Jalan Tuanku Abdul Halim, Bukit Damansara, 50480 Kuala Lumpur",
+    "@istanaNegaraLocation": {
+      "description": "Lokasi dari Istana Negara."
+    },
+  
+    "istanaNegaraHours": "24 jam",
+    "@istanaNegaraHours": {
+      "description": "Jam operasional dari Istana Negara."
+    },
+  
+    "tunkuAbdulRahmanMemorial": "Memorial Tunku Abdul Rahman Putra",
+    "@tunkuAbdulRahmanMemorial": {
+      "description": "Nama dari Memorial Tunku Abdul Rahman Putra."
+    },
+  
+    "tunkuAbdulRahmanMemorialLocation": "Jalan Dato Onn, 50480 Kuala Lumpur",
+    "@tunkuAbdulRahmanMemorialLocation": {
+      "description": "Lokasi dari Memorial Tunku Abdul Rahman Putra."
+    },
+  
+    "tunkuAbdulRahmanMemorialHours": "10.00 pagi - 5.30 sore (Selasa hingga Minggu), Tutup pada hari Jumat (12.00 siang - 3.00 sore)",
+    "@tunkuAbdulRahmanMemorialHours": {
+      "description": "Jam operasional dari Memorial Tunku Abdul Rahman Putra."
+    },
+  
+    "klTower": "Menara Kuala Lumpur / KL Tower",
+    "@klTower": {
+      "description": "Nama dari Menara Kuala Lumpur."
+    },
+  
+    "klTowerLocation": "No. 2 Jalan Punchak Off Jalan P.Ramlee 50250 Kuala Lumpur",
+    "@klTowerLocation": {
+      "description": "Lokasi dari Menara Kuala Lumpur."
+    },
+  
+    "klTowerHours": "11.00 pagi - 7.00 malam (Senin - Jumat), 10.00 pagi - 10.00 malam (Sabtu - Minggu)",
+    "@klTowerHours": {
+      "description": "Jam operasional dari Menara Kuala Lumpur."
+    },
+  
+    "ethnologyMuseum": "Museum Etnologi Dunia Melayu",
+    "@ethnologyMuseum": {
+      "description": "Nama dari Museum Etnologi Dunia Melayu."
+    },
+  
+    "ethnologyMuseumLocation": "Jalan Damansara, Tasik Perdana, 50480 Kuala Lumpur",
+    "@ethnologyMuseumLocation": {
+      "description": "Lokasi dari Museum Etnologi Dunia Melayu."
+    },
+  
+    "ethnologyMuseumHours": "9.00 pagi - 5.00 sore (Selasa - Minggu), Tutup pada hari Senin",
+    "@ethnologyMuseumHours": {
+      "description": "Jam operasional dari Museum Etnologi Dunia Melayu."
+    },
+  
+    "textilesMuseum": "Museum Tekstil Nasional",
+    "@textilesMuseum": {
+      "description": "Nama dari Museum Tekstil Nasional."
+    },
+  
+    "textilesMuseumLocation": "26, Jalan Sultan Hishamuddin, Pusat Kota, 50000 Kuala Lumpur",
+    "@textilesMuseumLocation": {
+      "description": "Lokasi dari Museum Tekstil Nasional."
+    },
+  
+    "textilesMuseumHours": "9.00 pagi - 6.00 sore (Setiap hari)",
+    "@textilesMuseumHours": {
+      "description": "Jam operasional dari Museum Tekstil Nasional."
+    },
+  
+    "museumOfAsianArts": "Museum Seni Asia",
+    "@museumOfAsianArts": {
+      "description": "Nama dari Museum Seni Asia."
+    },
+  
+    "museumOfAsianArtsLocation": "Jalan Ilmu, 50603 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@museumOfAsianArtsLocation": {
+      "description": "Lokasi dari Museum Seni Asia."
+    },
+  
+    "museumOfAsianArtsHours": "8.30 pagi - 5.00 sore (Senin - Kamis), 8.30 pagi - 5.00 sore (Jumat)",
+    "@museumOfAsianArtsHours": {
+      "description": "Jam operasional dari Museum Seni Asia."
+    },
+  
+    "urbanMuseum": "Museum Urban",
+    "@urbanMuseum": {
+      "description": "Nama dari Museum Urban."
+    },
+  
+    "urbanMuseumLocation": "3, Jalan Bedara, Bukit Bintang, 50200 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@urbanMuseumLocation": {
+      "description": "Lokasi dari Museum Urban."
+    },
+  
+    "urbanMuseumHours": "10.00 pagi - 8.30 malam (Selasa - Minggu), Tutup pada hari Senin",
+    "@urbanMuseumHours": {
+      "description": "Jam operasional dari Museum Urban."
+    },
+  
+    "nationalArtGallery": "Galeri Seni Nasional",
+    "@nationalArtGallery": {
+      "description": "Nama dari Galeri Seni Nasional."
+    },
+  
+    "nationalArtGalleryLocation": "No. 2, Jalan Temerloh, Titiwangsa, 53200 Kuala Lumpur",
+    "@nationalArtGalleryLocation": {
+      "description": "Lokasi dari Galeri Seni Nasional."
+    },
+  
+    "nationalArtGalleryHours": "10.00 pagi - 4.00 sore (Selasa - Minggu), Tutup pada hari Senin",
+    "@nationalArtGalleryHours": {
+      "description": "Jam operasional dari Galeri Seni Nasional."
+    },
+  
+    "ourArtProjects": "OUR ArtProjects (Gedung Zhongshan)",
+    "@ourArtProjects": {
+      "description": "Nama dari OUR ArtProjects di Gedung Zhongshan."
+    },
+  
+    "ourArtProjectsLocation": "80A, Jalan Rotan, Kampung Attap, 50460 Kuala Lumpur",
+    "@ourArtProjectsLocation": {
+      "description": "Lokasi dari OUR ArtProjects."
+    },
+  
+    "ourArtProjectsHours": "11.00 pagi - 7.00 malam (Selasa - Sabtu), Tutup pada Minggu & Senin",
+    "@ourArtProjectsHours": {
+      "description": "Jam operasional dari OUR ArtProjects."
+    },
+  
+    "klDescription1": "Pusat kota Kuala Lumpur (KL) dikenal karena gedung pencakar langit yang tinggi dan struktur modernnya. Namun, untuk benar-benar merasakan KL, Anda harus berjalan-jalan di jalan-jalan dan gang-gangnya untuk menghargai keindahan kota ini. Dari situ, Anda bisa mencium aroma makanan dari gerobak kaki lima dan melihat mural di beberapa gedung tua. Semakin banyak Anda berjalan, semakin Anda menyadari bahwa KL bukan hanya sekadar gedung pencakar langit, melainkan karya seni arsitektur. Berjalan-jalanlah di sekitar untuk menikmati pemandangan kota dengan lebih baik.",
+    "@klDescription1": {
+      "description": "Deskripsi pertama untuk halaman KL @ Sekilas."
+    },
+  
+    "klDescription2": "Pembentukan KL hampir merupakan kebetulan. Pada tahun 1857, 87 penambang Cina, mencari timah, tiba di pertemuan Sungai Klang dan Gombak dan mendirikan perkemahan, menamai tempat tersebut Kuala Lumpur, yang berarti 'pertemuan berlumpur'.",
+    "@klDescription2": {
+      "description": "Deskripsi kedua untuk halaman KL @ Sekilas, menggambarkan sejarah pendirian KL."
+    },
+    "lrtTitle": "Layanan Kereta Ringan (LRT)",
+    "@lrtTitle": {
+      "description": "Judul untuk deskripsi Layanan Kereta Ringan."
+    },
+    
+    "lrtDescription": "Layanan Kereta Ringan (LRT) adalah salah satu transportasi umum berbasis rel yang paling sering digunakan. LRT dibagi menjadi dua jalur: Ampang/Sri Petaling dan Kelana Jaya. Ini adalah sarana transportasi terbaik jika Anda ingin mengunjungi tempat-tempat yang tidak dapat dijangkau dengan berjalan kaki dari pusat kota Kuala Lumpur. Hotline: 03-7885 2585",
+    "@lrtDescription": {
+      "description": "Deskripsi untuk Layanan Kereta Ringan."
+    },
+  
+    "mrtTitle": "Mass Rapid Transit (MRT)",
+    "@mrtTitle": {
+      "description": "Judul untuk deskripsi Mass Rapid Transit."
+    },
+  
+    "mrtDescription": "Mass Rapid Transit (MRT) dibagi menjadi dua jalur; jalur pertama adalah jalur Sungai Buloh-Kajang sepanjang 51 km dengan 31 stasiun di sepanjang rutenya. Semua stasiun mulai beroperasi pada pukul 6.00 pagi setiap hari. Jam penutupan bervariasi tergantung stasiun masing-masing. Perjalanan tunggal dikenakan biaya mulai dari RM1.20. Hotline: 1800-82-6868",
+    "@mrtDescription": {
+      "description": "Deskripsi untuk Mass Rapid Transit."
+    },
+  
+    "ktmKomuterTitle": "KTM Komuter",
+    "@ktmKomuterTitle": {
+      "description": "Judul untuk deskripsi KTM Komuter."
+    },
+  
+    "ktmKomuterDescription": "Sistem kereta tertua di Malaysia, KTM lebih banyak digunakan oleh penduduk lokal daripada turis. KTM menawarkan alternatif perjalanan yang lebih murah untuk perjalanan jarak jauh. Jalur-jalur ini dibagi menjadi dua: Rawang - Pelabuhan Klang dan Batu Caves - Seremban. Hotline: 03-2267 1200",
+    "@ktmKomuterDescription": {
+      "description": "Deskripsi untuk KTM Komuter."
+    },
+  
+    "klMonorailTitle": "Monorel KL",
+    "@klMonorailTitle": {
+      "description": "Judul untuk deskripsi Monorel KL."
+    },
+  
+    "klMonorailDescription": "Monorel KL adalah sistem kereta sederhana namun terhubung dengan baik yang berjalan antara hub transportasi KL Sentral dan Titiwangsa di jantung KL. Monorel ini berfungsi sebagai penghubung antara pusat kota Kuala Lumpur dan area dalam Kuala Lumpur. Monorel KL beroperasi mulai pukul 6.00 pagi dan berhenti pukul 12.00 malam. Hotline: 03-2267 9888",
+    "@klMonorailDescription": {
+      "description": "Deskripsi untuk Monorel KL."
+    },
+  
+    "rapidKLBusTitle": "Bus RapidKL",
+    "@rapidKLBusTitle": {
+      "description": "Judul untuk deskripsi Bus RapidKL."
+    },
+  
+    "rapidKLBusDescription": "Bus RapidKL sering terlihat di sebagian besar stasiun kereta dan biasanya berfungsi sebagai moda transportasi transit langsung bagi penumpang untuk mencapai tujuan mereka. Setiap perjalanan di bus dapat menelan biaya hingga RM5.00 per perjalanan yang dapat dibayar menggunakan uang tunai atau dengan mengetuk kartu Touch n Go saat masuk dan keluar. Hotline: 03-7885 2585",
+    "@rapidKLBusDescription": {
+      "description": "Deskripsi untuk Bus RapidKL."
+    },
+  
+    "weatherTitle": "Cuaca",
+    "@weatherTitle": {
+      "description": "Judul untuk bagian Cuaca di Tips Perjalanan."
+    },
+  
+    "weatherDescription": "Iklim di KL cukup lembab sepanjang tahun. Setiap orang yang bepergian ke KL harus selalu siap menghadapi hujan kapan saja. Namun demikian, waktu terbaik untuk mengunjungi KL adalah dari bulan Mei-Juli atau Desember-Februari. Cuaca bisa sangat panas antara bulan Maret - April. Karena kebakaran hutan dari Sumatera yang biasanya terjadi antara bulan Juni - Agustus, partikel debu dapat menutupi KL sehingga menjadikannya waktu yang kurang ideal untuk mengunjungi kota ini.",
+    "@weatherDescription": {
+      "description": "Deskripsi untuk bagian Cuaca di Tips Perjalanan."
+    },
+  
+    "timeZoneTitle": "Zona Waktu",
+    "@timeZoneTitle": {
+      "description": "Judul untuk bagian Zona Waktu di Tips Perjalanan."
+    },
+  
+    "timeZoneDescription": "Waktu Standar Malaysia adalah 8 jam lebih awal dari GMT (GMT +8).",
+    "@timeZoneDescription": {
+      "description": "Deskripsi untuk bagian Zona Waktu di Tips Perjalanan."
+    },
+  
+    "currencyTitle": "Mata Uang",
+    "@currencyTitle": {
+      "description": "Judul untuk bagian Mata Uang di Tips Perjalanan."
+    },
+  
+    "currencyDescription": "Satuan mata uang di Malaysia terbagi menjadi dua. Istilah Ringgit Malaysia (RM) digunakan untuk merujuk pada uang kertas. Pecahannya adalah RM1, RM5, RM10, RM20, RM50, dan RM100. Sementara koin disebut sen (sen). Pecahannya adalah 5 sen, 10 sen, 20 sen, dan 50 sen.",
+    "@currencyDescription": {
+      "description": "Deskripsi untuk bagian Mata Uang di Tips Perjalanan."
+    },
+  
+    "visaAndPassportTitle": "Visa dan Paspor",
+    "@visaAndPassportTitle": {
+      "description": "Judul untuk bagian Visa dan Paspor di Tips Perjalanan."
+    },
+  
+    "visaAndPassportDescription": "Paspor harus berlaku setidaknya 6 bulan saat memasuki Malaysia. Persyaratan visa bervariasi dari waktu ke waktu, jadi yang terbaik adalah memeriksa dengan kedutaan atau konsulat Malaysia atau situs web Departemen Imigrasi.",
+    "@visaAndPassportDescription": {
+      "description": "Deskripsi untuk bagian Visa dan Paspor di Tips Perjalanan."
+    },
+    "healthcare": "Kesehatan",
+    "@healthcare": {
+      "description": "Label untuk bagian Kesehatan."
+    },
+  
+    "dental": "Gigi",
+    "@dental": {
+      "description": "Label untuk bagian Gigi."
+    },
+  
+    "dermatologist": "Dokter Kulit",
+    "@dermatologist": {
+      "description": "Label untuk bagian Dokter Kulit."
+    },
+  
+    "ophthalmologist": "Dokter Mata",
+    "@ophthalmologist": {
+      "description": "Label untuk bagian Dokter Mata."
+    },
+  
+    "plasticSurgery": "Operasi Plastik",
+    "@plasticSurgery": {
+      "description": "Label untuk bagian Operasi Plastik."
+    },
+  
+    "gleneagles": "Gleneagles, Kuala Lumpur",
+    "@gleneagles": {
+      "description": "Nama rumah sakit Gleneagles di Kuala Lumpur."
+    },
+  
+    "gleneaglesLocation": "Blok A & Blok B, 286 & 288, Jalan Ampang, Kampung Berembang, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@gleneaglesLocation": {
+      "description": "Alamat lokasi Gleneagles Kuala Lumpur."
+    },
+  
+    "gleneaglesHours": "9:00 AM - 5:00 PM (Senin - Jumat), Tutup di akhir pekan",
+    "@gleneaglesHours": {
+      "description": "Jam operasional Gleneagles Kuala Lumpur."
+    },
+  
+    "gleneaglesPhone": "603-2282 6800",
+    "@gleneaglesPhone": {
+      "description": "Nomor telepon Gleneagles Kuala Lumpur."
+    },
+  
+    "kpjTawakkal": "Rumah Sakit Spesialis KPJ Tawakkal",
+    "@kpjTawakkal": {
+      "description": "Nama Rumah Sakit Spesialis KPJ Tawakkal di Kuala Lumpur."
+    },
+  
+    "kpjTawakkalLocation": "1, Jalan Pahang Barat, Pekeliling, 53000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@kpjTawakkalLocation": {
+      "description": "Alamat lokasi Rumah Sakit Spesialis KPJ Tawakkal."
+    },
+  
+    "kpjTawakkalHours": "8:00 AM - 6:00 PM (Senin - Jumat), 9:00 AM - 3:00 PM (Sabtu)",
+    "@kpjTawakkalHours": {
+      "description": "Jam operasional Rumah Sakit Spesialis KPJ Tawakkal."
+    },
+  
+    "kpjTawakkalPhone": "603-2283 4567",
+    "@kpjTawakkalPhone": {
+      "description": "Nomor telepon Rumah Sakit Spesialis KPJ Tawakkal."
+    },
+  
+    "klinikPergigianBangsar": "Klinik Pergigian Bangsar",
+    "@klinikPergigianBangsar": {
+      "description": "Nama Klinik Pergigian Bangsar."
+    },
+  
+    "klinikPergigianBangsarLocation": "43-1, Jln Telawi 3, Bangsar, 59100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+    "@klinikPergigianBangsarLocation": {
+      "description": "Alamat lokasi Klinik Pergigian Bangsar."
+    },
+  
+    "klinikPergigianBangsarHours": "9:00 AM - 6:00 PM (Senin - Jumat), 9:00 AM - 5:00 PM (Sabtu), 9:00 AM - 2:00 PM (Minggu)",
+    "@klinikPergigianBangsarHours": {
+      "description": "Jam operasional Klinik Pergigian Bangsar."
+    },
+  
+    "klinikPergigianBangsarPhone": "603-2282 6800",
+    "@klinikPergigianBangsarPhone": {
+      "description": "Nomor telepon Klinik Pergigian Bangsar."
+    },
+  
+    "dentalPro": "DentalPro (Kuala Lumpur, Malaysia)",
+    "@dentalPro": {
+      "description": "Nama klinik gigi DentalPro."
+    },
+  
+    "dentalProLocation": "12, Jalan Sri Semantan 1, Bukit Damansara, 50490 Kuala Lumpur",
+    "@dentalProLocation": {
+      "description": "Alamat lokasi klinik gigi DentalPro."
+    },
+  
+    "dentalProHours": "9:00 AM - 6:00 PM (Senin - Sabtu)",
+    "@dentalProHours": {
+      "description": "Jam operasional klinik gigi DentalPro."
+    },
+  
+    "dentalProPhone": "+603-2147 1111",
+    "@dentalProPhone": {
+      "description": "Nomor telepon klinik gigi DentalPro."
+    },
+  
+    "drJaneClinic": "Klinik Dr. Jane",
+    "@drJaneClinic": {
+      "description": "Nama Klinik Dr. Jane."
+    },
+  
+    "drJaneClinicLocation": "Tropicana Avenue, P01-09 (Lantai 1), Persiaran Tropicana, PJU3, 47410 Petaling Jaya, Selangor",
+    "@drJaneClinicLocation": {
+      "description": "Alamat lokasi Klinik Dr. Jane."
+    },
+  
+    "drJaneClinicHours": "10:00 AM - 7:00 PM (Senin - Jumat), 10:00 AM - 6:00 PM (Sabtu - Minggu)",
+    "@drJaneClinicHours": {
+      "description": "Jam operasional Klinik Dr. Jane."
+    },
+  
+    "drJaneClinicPhone": "",
+    "@drJaneClinicPhone": {
+      "description": "Nomor telepon Klinik Dr. Jane (jika tersedia)."
+    },
+  
+    "dermlaze": "Dermlaze Skin Laser & Aesthetics Centre",
+    "@dermlaze": {
+      "description": "Nama Dermlaze Skin Laser & Aesthetics Centre."
+    },
+  
+    "dermlazeLocation": "75, Jalan SS 21/60, Damansara Utama, 47400 Petaling Jaya, Selangor",
+    "@dermlazeLocation": {
+      "description": "Alamat lokasi Dermlaze Skin Laser & Aesthetics Centre."
+    },
+  
+    "dermlazeHours": "10:00 AM - 6:00 PM (Senin - Sabtu)",
+    "@dermlazeHours": {
+      "description": "Jam operasional Dermlaze Skin Laser & Aesthetics Centre."
+    },
+  
+    "dermlazePhone": "",
+    "@dermlazePhone": {
+      "description": "Nomor telepon Dermlaze Skin Laser & Aesthetics Centre (jika tersedia)."
+    },
+  
+    "isec": "Pusat Spesialis Mata Internasional",
+    "@isec": {
+      "description": "Nama Pusat Spesialis Mata Internasional."
+    },
+  
+    "isecLocation": "Centrepoint South, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
+    "@isecLocation": {
+      "description": "Alamat lokasi Pusat Spesialis Mata Internasional."
+    },
+  
+    "isecHours": "8:30 AM - 5:30 PM (Senin - Jumat), 8:30 AM - 1:00 PM (Sabtu), Tutup di Minggu",
+    "@isecHours": {
+      "description": "Jam operasional Pusat Spesialis Mata Internasional."
+    },
+  
+    "isecPhone": "+603-22848989",
+    "@isecPhone": {
+      "description": "Nomor telepon Pusat Spesialis Mata Internasional."
+    },
+  
+    "vistaEyeSpecialist": "Vista Eye Specialist",
+    "@vistaEyeSpecialist": {
+      "description": "Nama Vista Eye Specialist."
+    },
+  
+    "vistaEyeSpecialistLocation": "Lot G217, Lantai Dasar, Mid Valley Megamall, 59200 Kuala Lumpur",
+    "@vistaEyeSpecialistLocation": {
+      "description": "Alamat lokasi Vista Eye Specialist."
+    },
+  
+    "vistaEyeSpecialistHours": "10:00 AM - 10:00 PM (Senin - Minggu)",
+    "@vistaEyeSpecialistHours": {
+      "description": "Jam operasional Vista Eye Specialist."
+    },
+  
+    "vistaEyeSpecialistPhone": "+603-22423937",
+    "@vistaEyeSpecialistPhone": {
+      "description": "Nomor telepon Vista Eye Specialist."
+    },
+  
+    "somaPlasticSurgery": "Soma Plastic Surgery",
+    "@somaPlasticSurgery": {
+      "description": "Nama klinik Soma Plastic Surgery."
+    },
+  
+    "somaPlasticSurgeryLocation": "45B, Lantai 2, Jalan SS15/5a, SS15, 47500 Subang Jaya, Selangor",
+    "@somaPlasticSurgeryLocation": {
+      "description": "Alamat lokasi Soma Plastic Surgery."
+    },
+  
+    "somaPlasticSurgeryHours": "9:00 AM - 5:00 PM (Senin - Jumat), 9:00 AM - 1:00 PM (Sabtu), Tutup di Minggu",
+    "@somaPlasticSurgeryHours": {
+      "description": "Jam operasional Soma Plastic Surgery."
+    },
+  
+    "somaPlasticSurgeryPhone": "+603-5887 44229",
+    "@somaPlasticSurgeryPhone": {
+      "description": "Nomor telepon Soma Plastic Surgery."
+    },
+    "placesToShop": "Tempat Berbelanja",
+  "@placesToShop": {
+    "description": "Judul untuk halaman Tempat Berbelanja."
+  },
+
+  "avenueKShop": "Avenue K Shop",
+  "@avenueKShop": {
+    "description": "Judul untuk Avenue K Shop."
+  },
+
+  "avenueKShopLocation": "156, Jalan Ampang, Kuala Lumpur City Centre, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@avenueKShopLocation": {
+    "description": "Lokasi untuk Avenue K Shop."
+  },
+
+  "avenueKShopHours": "10:00 AM - 10:00 PM (Setiap Hari)",
+  "@avenueKShopHours": {
+    "description": "Jam operasional untuk Avenue K Shop."
+  },
+
+  "avenueKShopWebsite": "http://www.avenuek.com.my/",
+  "@avenueKShopWebsite": {
+    "description": "Situs web untuk Avenue K Shop."
+  },
+
+  "sanctuaryMall": "Sanctuary Mall",
+  "@sanctuaryMall": {
+    "description": "Judul untuk Sanctuary Mall."
+  },
+
+  "sanctuaryMallLocation": "Persiaran Eco Sanctuary, 8/3, Eco Santuari, 42500, Selangor",
+  "@sanctuaryMallLocation": {
+    "description": "Lokasi untuk Sanctuary Mall."
+  },
+
+  "sanctuaryMallHours": "10:00 AM - 10:00 PM (Setiap Hari)",
+  "@sanctuaryMallHours": {
+    "description": "Jam operasional untuk Sanctuary Mall."
+  },
+
+  "sanctuaryMallWebsite": "https://www.facebook.com/SanctuaryMall",
+  "@sanctuaryMallWebsite": {
+    "description": "Situs web untuk Sanctuary Mall."
+  },
+
+  "lincKL": "The LINC KL",
+  "@lincKL": {
+    "description": "Judul untuk The LINC KL."
+  },
+
+  "lincKLLocation": "Lingkaran Syed Putra, 59200 Kuala Lumpur",
+  "@lincKLLocation": {
+    "description": "Lokasi untuk The LINC KL."
+  },
+
+  "lincKLHours": "10:00 AM - 10:00 PM (Setiap Hari)",
+  "@lincKLHours": {
+    "description": "Jam operasional untuk The LINC KL."
+  },
+
+  "lincKLWebsite": "https://thelinckl.com.my/",
+  "@lincKLWebsite": {
+    "description": "Situs web untuk The LINC KL."
+  },
+
+  "manjakaki": "Manjakaki",
+  "@manjakaki": {
+    "description": "Judul untuk spa Manjakaki."
+  },
+
+  "manjakakiLocation": "Mid Valley Megamall, Lot No.2, LG, 59, Lingkaran Syed Putra, Mid Valley City, 59200 Kuala Lumpur",
+  "@manjakakiLocation": {
+    "description": "Lokasi untuk spa Manjakaki."
+  },
+
+  "manjakakiHours": "10:00 AM - 10:00 PM (Setiap Hari)",
+  "@manjakakiHours": {
+    "description": "Jam operasional untuk spa Manjakaki."
+  },
+
+  "manjakakiWebsite": "",
+  "@manjakakiWebsite": {
+    "description": "Situs web untuk spa Manjakaki (jika tersedia)."
+  },
+
+  "urbanRetreatSpaKL": "Urban Retreat Spa KL",
+  "@urbanRetreatSpaKL": {
+    "description": "Judul untuk Urban Retreat Spa KL."
+  },
+
+  "urbanRetreatSpaKLLocation": "No 1, Lot 15, Lantai 2, 1 Mont Kiara, Jalan Mont Kiara, Wilayah Persekutuan, Kuala Lumpur",
+  "@urbanRetreatSpaKLLocation": {
+    "description": "Lokasi untuk Urban Retreat Spa KL."
+  },
+
+  "urbanRetreatSpaKLHours": "11:00 AM - 10:00 PM (Setiap Hari)",
+  "@urbanRetreatSpaKLHours": {
+    "description": "Jam operasional untuk Urban Retreat Spa KL."
+  },
+
+  "urbanRetreatSpaKLWebsite": "",
+  "@urbanRetreatSpaKLWebsite": {
+    "description": "Situs web untuk Urban Retreat Spa KL (jika tersedia)."
+  },
+
+  "ozmosisSpa": "Ozmosis Health & Day Spa",
+  "@ozmosisSpa": {
+    "description": "Judul untuk Ozmosis Health & Day Spa."
+  },
+
+  "ozmosisSpaLocation": "16-1, Jalan Telawi 2, Bangsar, 59100 Kuala Lumpur",
+  "@ozmosisSpaLocation": {
+    "description": "Lokasi untuk Ozmosis Health & Day Spa."
+  },
+
+  "ozmosisSpaHours": "10:00 AM - 9:00 PM (Senin - Minggu)",
+  "@ozmosisSpaHours": {
+    "description": "Jam operasional untuk Ozmosis Health & Day Spa."
+  },
+
+  "ozmosisSpaWebsite": "",
+  "@ozmosisSpaWebsite": {
+    "description": "Situs web untuk Ozmosis Health & Day Spa (jika tersedia)."
+  },
+
+  "description": "Deskripsi",
+  "@description": {
+    "description": "Label untuk kolom deskripsi suatu tempat menginap."
+  },
+
+  "bukitBintang": "Bukit Bintang",
+  "@bukitBintang": {
+    "description": "Judul untuk area Bukit Bintang."
+  },
+
+  "bukitBintangDescription": "Jika Anda ingin berada di pusat perbelanjaan, tempat makan, dan hiburan terbaik yang ditawarkan Kuala Lumpur, area Bukit Bintang adalah tempat yang tepat untuk menginap...",
+  "@bukitBintangDescription": {
+    "description": "Deskripsi untuk area Bukit Bintang."
+  },
+
+  "klccDescription": "Area paling populer untuk menginap di Kuala Lumpur adalah Pusat Kota Kuala Lumpur...",
+  "@klccDescription": {
+    "description": "Deskripsi untuk area KLCC."
+  },
+
+  "bangsarSouth": "Bangsar Selatan",
+  "@bangsarSouth": {
+    "description": "Judul untuk area Bangsar Selatan."
+  },
+
+  "bangsarSouthDescription": "Jika Anda lebih suka menginap di luar pusat kota yang sibuk dan padat...",
+  "@bangsarSouthDescription": {
+    "description": "Deskripsi untuk area Bangsar Selatan."
+  },
+
+  "mercureKL": "Mercure Kuala Lumpur Glenmarie",
+  "@mercureKL": {
+    "description": "Judul untuk hotel Mercure Kuala Lumpur Glenmarie."
+  },
+
+  "mercureKLLocation": "Jalan Kontraktor U1/14, Seksyen U1, 40150 Shah Alam, Selangor",
+  "@mercureKLLocation": {
+    "description": "Lokasi untuk hotel Mercure Kuala Lumpur Glenmarie."
+  },
+
+  "mercureKLContact": "+603-5030 2888",
+  "@mercureKLContact": {
+    "description": "Kontak untuk hotel Mercure Kuala Lumpur Glenmarie."
+  },
+
+  "grandCampbellHotel": "The Grand Campbell Hotel KL",
+  "@grandCampbellHotel": {
+    "description": "Judul untuk The Grand Campbell Hotel KL."
+  },
+
+  "grandCampbellHotelLocation": "Ground Campbell Complex, 98, Jalan Dang Wangi, 50100 Kuala Lumpur",
+  "@grandCampbellHotelLocation": {
+    "description": "Lokasi untuk The Grand Campbell Hotel KL."
+  },
+
+  "grandCampbellHotelContact": "+6011-1301 1300",
+  "@grandCampbellHotelContact": {
+    "description": "Kontak untuk The Grand Campbell Hotel KL."
+  },
+
+  "leoBackpackers": "Leo Backpackers @ Central Market",
+  "@leoBackpackers": {
+    "description": "Judul untuk Leo Backpackers @ Central Market."
+  },
+
+  "leoBackpackersLocation": "Jalan Hang Kasturi, Pusat Kota, 50000 Kuala Lumpur",
+  "@leoBackpackersLocation": {
+    "description": "Lokasi untuk Leo Backpackers @ Central Market."
+  },
+
+  "leoBackpackersContact": "+603-2031 1733",
+  "@leoBackpackersContact": {
+    "description": "Kontak untuk Leo Backpackers @ Central Market."
+  },
+
+  "topPlacesToStay": "Tempat Menginap Terbaik",
+  "@topPlacesToStay": {
+    "description": "Judul untuk tab yang menampilkan tempat menginap terbaik."
+  },
+
+  "hotels": "Hotel",
+  "@hotels": {
+    "description": "Judul untuk tab yang menampilkan hotel."
+  },
+
+  "budgetHotels": "Hotel Budget",
+  "@budgetHotels": {
+    "description": "Judul untuk tab yang menampilkan hotel budget."
+  },
+
+  "backpackersLodge": "Pondok Backpacker",
+  "@backpackersLodge": {
+    "description": "Judul untuk tab yang menampilkan pondok backpacker."
+  },
+  "upcomingEvents": "Acara Mendatang",
+  "@upcomingEvents": {
+    "description": "Label untuk bagian acara mendatang."
+  },
+
+  "previous": "Sebelumnya",
+  "@previous": {
+    "description": "Label untuk tombol 'Sebelumnya'."
+  },
+
+  "next": "Selanjutnya",
+  "@next": {
+    "description": "Label untuk tombol 'Selanjutnya'."
+  },
+
+  "error": "Terjadi kesalahan",
+  "@error": {
+    "description": "Pesan yang ditampilkan saat terjadi kesalahan."
+  },
+
+  "noEventsFound": "Tidak ada acara yang ditemukan",
+  "@noEventsFound": {
+    "description": "Pesan yang ditampilkan saat tidak ada acara yang ditemukan."
+  },
+
+  "cachedDataMessage": "Menampilkan data yang di-cache",
+  "@cachedDataMessage": {
+    "description": "Pesan yang ditampilkan saat menampilkan data yang di-cache."
+  },
+
+  "noEventsThisMonth": "Tidak ada acara bulan ini",
+  "@noEventsThisMonth": {
+    "description": "Pesan yang ditampilkan ketika tidak ada acara untuk bulan ini."
+  },
+
+  "viewDetails": "Lihat Detail",
+  "@viewDetails": {
+    "description": "Label untuk tombol melihat detail acara."
+  },
+
+  "EventScreen": "Acara",
+  "@EventScreen": {
+    "description": "Judul untuk layar Acara."
+  },
+
+  "Contest": "Kontes",
+  "@Contest": {
+    "description": "Label untuk layar Kontes."
+  },
+
+  "vouchers": "Voucher",
+  "@vouchers": {
+    "description": "Judul untuk layar voucher."
+  },
+
+  "clickHereToClaim": "Klik di sini untuk klaim",
+  "@clickHereToClaim": {
+    "description": "Teks tombol untuk mengklaim voucher."
+  },
+
+  "kl4Kids": "KL untuk Anak-Anak",
+  "@kl4Kids": {
+    "description": "Judul untuk bagian 'KL untuk Anak-Anak'."
+  },
+
+  "sampleLocalFlavour": "Cicipi Rasa Lokal dengan Nasi Lemak",
+  "@sampleLocalFlavour": {
+    "description": "Judul untuk bagian Nasi Lemak."
+  },
+
+  "nasiLemakDescription": "Nasi Lemak adalah nasi harum yang dimasak dengan santan dan daun pandan, disajikan dengan sambal pedas, timun, ikan bilis goreng, telur, dan kacang tanah goreng. Paling enak dipasangkan dengan segelas teh tarik panas. Sebagian besar warung atau gerai juga menyediakan pilihan tambahan seperti ayam atau daging rendang, ayam goreng, sambal udang, dan banyak lagi.",
+  "@nasiLemakDescription": {
+    "description": "Deskripsi tentang Nasi Lemak, hidangan lokal."
+  },
+
+  "walkThroughForest": "Berjalan-jalan di Tengah Hutan Kota",
+  "@walkThroughForest": {
+    "description": "Judul untuk bagian Taman Eko Rimba."
+  },
+
+  "forestEcoParkDescription": "Anda benar! Taman Eko Rimba Kuala Lumpur, juga dikenal sebagai KL Forest Eco Park, terletak di Hutan Simpan Bukit Nanas, salah satu hutan tertua di Malaysia. Baik Anda penduduk lokal maupun turis, ini adalah tempat yang wajib dikunjungi!",
+  "@forestEcoParkDescription": {
+    "description": "Deskripsi tentang KL Forest Eco Park."
+  },
+
+  "baskInHistory": "Nikmati Sejarah di Museum Nasional",
+  "@baskInHistory": {
+    "description": "Judul untuk bagian Museum Nasional."
+  },
+
+  "nationalMuseumDescription": "Untuk memahami lebih lanjut tentang sejarah dan budaya Malaysia serta melihat replika rumah Melayu, adegan pernikahan, dan pameran berburu. Alat musik lokal dan kostum nasional juga akan dipamerkan. Selain pameran permanen di museum, terdapat juga pameran sementara yang berganti selama tahun dan ditempatkan di Aula Pusat.",
+  "@nationalMuseumDescription": {
+    "description": "Deskripsi tentang Museum Nasional."
+  },
+
+  "shopUntilDrop": "Belanja Sampai Lelah di Petaling Street",
+  "@shopUntilDrop": {
+    "description": "Judul untuk bagian belanja di Petaling Street."
+  },
+
+  "spendNightOut": "Habiskan Malam Keluar",
+  "@spendNightOut": {
+    "description": "Judul untuk bagian kehidupan malam."
+  },
+
+  "nightOutDescription": "Kuala Lumpur adalah kota yang semarak dengan kehidupan malam yang luar biasa. Pergilah ke Bangsar atau Changkat Bukit Bintang untuk merasakan kehidupan malam KL. Tempat-tempat ini memiliki beragam bar untuk dipilih, dengan bar koktailnya sendiri dan DJ yang memainkan musik sepanjang malam. Dengan restoran unik, bar keren, klub malam trendi, dan tempat karaoke yang seru, ada sesuatu untuk semua orang.",
+  "@nightOutDescription": {
+    "description": "Deskripsi tentang kehidupan malam di Kuala Lumpur."
+  },
+
+  "october": "Oktober",
+  "@october": {
+    "description": "Nama bulan Oktober."
+  },
+
+  "november": "November",
+  "@november": {
+    "description": "Nama bulan November."
+  },
+
+  "december": "Desember",
+  "@december": {
+    "description": "Nama bulan Desember."
+  },
+
+  "click": "Klik",
+  "@click": {
+    "description": "Teks yang ditampilkan untuk tombol atau tautan yang dapat diklik."
+  },
+  "miles_hotel": "1000 Miles Hotel",
+  "@miles_hotel": {
+    "description": "Nama hotel."
+  },
+  "hotel_description": "",
+  "@hotel_description": {
+    "description": "Deskripsi singkat hotel."
+  },
+  "hotel_location": "17 & 19, Jalan Tun H S Lee, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@hotel_location": {
+    "description": "Lokasi hotel."
+  },
+  "hotel_contact": "+603-2022 3333",
+  "@hotel_contact": {
+    "description": "Nomor kontak hotel."
+  },
+  "hotel_website": "",
+  "@hotel_website": {
+    "description": "Website hotel."
+  },
+  "ritz_carlton": "The Ritz-Carlton",
+  "@ritz_carlton": {
+    "description": "Nama hotel."
+  },
+  "ritz_description": "",
+  "@ritz_description": {
+    "description": "Deskripsi singkat hotel."
+  },
+  "ritz_location": "168, Jln Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ritz_location": {
+    "description": "Lokasi hotel."
+  },
+  "ritz_contact": "+603-2142 8000",
+  "@ritz_contact": {
+    "description": "Nomor kontak hotel."
+  },
+  "ritz_website": "",
+  "@ritz_website": {
+    "description": "Website hotel."
+  },
+  "ansa_hotel": "ANSA Hotel, KL",
+  "@ansa_hotel": {
+    "description": "Nama hotel."
+  },
+  "ansa_description": "",
+  "@ansa_description": {
+    "description": "Deskripsi singkat hotel."
+  },
+  "ansa_location": "101, Jln Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ansa_location": {
+    "description": "Lokasi hotel."
+  },
+  "ansa_contact": "+603-2142 8000",
+  "@ansa_contact": {
+    "description": "Nomor kontak hotel."
+  },
+  "ansa_website": "",
+  "@ansa_website": {
+    "description": "Website hotel."
+  },
+  "royale_chulan": "Royale Chulan, KL",
+  "@royale_chulan": {
+    "description": "Nama hotel."
+  },
+  "chulan_description": "",
+  "@chulan_description": {
+    "description": "Deskripsi singkat hotel."
+  },
+  "chulan_location": "5, Jalan Conlay, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@chulan_location": {
+    "description": "Lokasi hotel."
+  },
+  "chulan_contact": "+603-2688 9688",
+  "@chulan_contact": {
+    "description": "Nomor kontak hotel."
+  },
+  "chulan_website": "",
+  "@chulan_website": {
+    "description": "Website hotel."
+  },
+  "ymca_hostel": "YMCA Kuala Lumpur Hostel",
+  "@ymca_hostel": {
+    "description": "Nama hostel."
+  },
+  "ymca_description": "",
+  "@ymca_description": {
+    "description": "Deskripsi singkat hostel."
+  },
+  "ymca_location": "95, Jalan Padang Belia, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ymca_location": {
+    "description": "Lokasi hostel."
+  },
+  "ymca_contact": "+603-2274 1439",
+  "@ymca_contact": {
+    "description": "Nomor kontak hostel."
+  },
+  "ymca_website": "",
+  "@ymca_website": {
+    "description": "Website hostel."
+  },
+  "pods_hostel": "PODs The Backpackers Home & Cafe, Kuala Lumpur",
+  "@pods_hostel": {
+    "description": "Nama hostel."
+  },
+  "pods_description": "",
+  "@pods_description": {
+    "description": "Deskripsi singkat hostel."
+  },
+  "pods_location": "G-6, 30, Jalan Thambipillay, Brickfields, 50470 Kuala Lumpur",
+  "@pods_location": {
+    "description": "Lokasi hostel."
+  },
+  "pods_contact": "+603-2276 0858",
+  "@pods_contact": {
+    "description": "Nomor kontak hostel."
+  },
+  "pods_website": "",
+  "@pods_website": {
+    "description": "Website hostel."
+  },
+  "bunk_bilik": "Bunk & Bilik@Sri Petaling",
+  "@bunk_bilik": {
+    "description": "Nama akomodasi."
+  },
+  "bunk_description": "",
+  "@bunk_description": {
+    "description": "Deskripsi singkat akomodasi."
+  },
+  "bunk_location": "No, 9, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@bunk_location": {
+    "description": "Lokasi akomodasi."
+  },
+  "bunk_contact": "+603-9054 0040",
+  "@bunk_contact": {
+    "description": "Nomor kontak akomodasi."
+  },
+  "bunk_website": "",
+  "@bunk_website": {
+    "description": "Website akomodasi."
+  },
+  "pangkorIsland": "Pulau Pangkor",
+  "@pangkorIsland": {
+    "description": "Judul untuk Pulau Pangkor"
+  },
+  "pangkorIslandContent": "Kunjungi Pulau Pangkor jika Anda mencari tempat tanpa turis. Terletak di dekat pantai Perak, pulau ini memiliki pantai kosong, air bersih, dan hutan lebat di tengahnya. Pengunjung menikmati kesempatan untuk berjemur di bawah pohon kelapa tanpa orang lain di sekitar. Juga, lihat benteng kolonial Belanda dan ambil foto di dermaga kayu tradisional.",
+  "@pangkorIslandContent": {
+    "description": "Deskripsi untuk Pulau Pangkor"
+  },
+  
+  "pulauRedang": "Pulau Redang",
+  "@pulauRedang": {
+    "description": "Judul untuk Pulau Redang"
+  },
+  "pulauRedangContent": "Salah satu pulau terbesar di pantai timur Malaysia, Pulau Redang terkenal dengan airnya yang jernih dan pantai berpasir putih. Pulau ini adalah salah satu dari sembilan pulau yang membentuk taman perlindungan laut yang menawarkan wisatawan kesempatan untuk snorkeling dan menyelam. Pantai ini penuh dengan pasir putih lembut. Anda bisa melihat karang dan ikan hanya beberapa meter dari pantai.",
+  "@pulauRedangContent": {
+    "description": "Deskripsi untuk Pulau Redang"
+  },
+  
+  "pulauLangkawi": "Pulau Langkawi",
+  "@pulauLangkawi": {
+    "description": "Judul untuk Pulau Langkawi"
+  },
+  "pulauLangkawiContent": "Pulau Langkawi adalah rumah bagi beberapa pantai terbaik di Semenanjung Malaysia. Pulau ini menggabungkan pegunungan dan hutan bakau dengan garis pantai yang berkilauan. Lakukan perjalanan sehari ke Pulau Dayang Bunting yang terdaftar di UNESCO, beri makan elang, dan lihat monyet berenang mencari makanan. Atau, bawa handuk Anda dan berjemur di Pantai Cenang sebelum menikmati minuman di bar tepi pantai. Keuntungan lain adalah pulau ini bebas pajak, jangan ragu untuk berbelanja!",
+  "@pulauLangkawiContent": {
+    "description": "Deskripsi untuk Pulau Langkawi"
+  },
+  
+  "sipadanIsland": "Pulau Sipadan",
+  "@sipadanIsland": {
+    "description": "Judul untuk Pulau Sipadan"
+  },
+  "sipadanIslandContent": "Pulau kecil di dekat Semporna di Sabah ini termasuk dalam wilayah menyelam terbaik di dunia. Anda tidak akan menemukan akomodasi atau banyak fasilitas di sekitar pulau. Direkomendasikan untuk mengambil tur selama perjalanan Anda. Penerbangan dari Kota Kinabalu ke Semporna dan perjalanan perahu satu jam menuju penyu dan kawanan barracuda sangat berharga. Setelah memperoleh status dilindungi pada tahun 2002, lebih sedikit wisatawan yang mendapatkan izin untuk mengunjungi puncak batu kapur.",
+  "@sipadanIslandContent": {
+    "description": "Deskripsi untuk Pulau Sipadan"
+  },
+  
+  "mantananiIsland": "Pulau Mantanani",
+  "@mantananiIsland": {
+    "description": "Judul untuk Pulau Mantanani"
+  },
+  "mantananiIslandContent": "Dekat dengan Kota Belud di Sabah, Pulau Mantanani menawarkan beberapa tempat menyelam terbaik di Borneo. Para snorkeler dan penyelam datang untuk berenang dengan kuda laut dan pari pada perjalanan sehari dari ibukota. Orang yang memiliki sertifikasi menyelam dapat menyelam di lebih dari 20 lokasi, termasuk tiga bangkai kapal. Setelah beberapa jam di Laut Cina Selatan, bersantai dan nikmati matahari terbenam Borneo yang terkenal di pantai berpasir putih yang murni.",
+  "@mantananiIslandContent": {
+    "description": "Deskripsi untuk Pulau Mantanani"
+  },
+
+
+  "gentingHighlands": "Genting Highlands, Pahang",
+  "@gentingHighlands": {
+    "description": "Judul untuk Genting Highlands"
+  },
+  "gentingHighlandsContent": "Hanya 45 menit dari KL, Genting Highlands adalah stasiun bukit yang sejuk yang dikelilingi oleh udara pegunungan yang segar dan hutan hujan yang menakjubkan berusia 100 juta tahun. Jika Anda ingin melarikan diri dari hiruk-pikuk kehidupan kota, Genting Highlands memiliki berbagai properti hotel berbintang tiga dan lima dengan restoran, fasilitas, layanan yang sempurna, dan kamar mewah dengan pemandangan gunung yang menakjubkan.",
+  "@gentingHighlandsContent": {
+    "description": "Deskripsi untuk Genting Highlands"
+  },
+
+  "bukitTinggi": "Bukit Tinggi, Pahang",
+  "@bukitTinggi": {
+    "description": "Judul untuk Bukit Tinggi"
+  },
+  "bukitTinggiContent": "Colmar Tropicale adalah sebuah desa dan hotel bertema Perancis di Bukit Tinggi, Pahang, Malaysia. Terletak di atas lahan hutan alami seluas 80 hektar pada ketinggian 2.600 kaki (790 m). Desainnya terinspirasi dari kota asli Colmar di Alsace, Prancis. Tidak ada yang lebih santai daripada menginap dengan damai di salah satu resor bukit, di mana Anda bisa duduk di beranda terbuka, menyesap teh segar, atau menikmati stroberi segar yang dicelupkan ke dalam krim.",
+  "@bukitTinggiContent": {
+    "description": "Deskripsi untuk Bukit Tinggi"
+  },
+
+  "fraserHill": "Fraser Hill, Pahang",
+  "@fraserHill": {
+    "description": "Judul untuk Fraser Hill"
+  },
+  "fraserHillContent": "Fraser's Hill terletak di negara bagian Pahang di wilayah tengah Semenanjung Malaysia. Resort liburan yang sejuk ini terkenal dengan aktivitas alamnya dan suasana yang sejuk, menjadi salah satu stasiun bukit terakhir di Malaysia yang merupakan jejak pengaruh kolonial Inggris. Bukit Fraser memiliki ketinggian rata-rata 1.200 meter, dengan titik tertinggi 1.500 meter di atas permukaan laut di Telekom's loop. Suhu biasanya berkisar antara 22°C hingga 28°C pada siang hari dan 16°C hingga 20°C pada malam hari.",
+  "@fraserHillContent": {
+    "description": "Deskripsi untuk Fraser Hill"
+  },
+
+  "cameronHighland": "Cameron Highlands, Pahang",
+  "@cameronHighland": {
+    "description": "Judul untuk Cameron Highlands"
+  },
+  "cameronHighlandContent": "Cameron Highlands adalah tempat peristirahatan di dataran tinggi paling terkenal di Malaysia dengan iklim yang sejuk, dengan suhu siang hari sekitar 25°C dan suhu malam rata-rata sekitar 18°C. Dataran tinggi ini terbagi menjadi tiga kota: Tanah Rata, Brinchang, dan Ringlet. Pada masa kolonial, Inggris menanam teh di lereng pegunungan yang subur, sebuah tradisi yang masih dipertahankan oleh penduduk setempat. Sejak saat itu, Cameron Highlands telah menjadi eksportir teh terbesar di Malaysia. Selain teh, Cameron juga ideal untuk menanam pohon, buah-buahan, dan sayuran kontinental.",
+  "@cameronHighlandContent": {
+    "description": "Deskripsi untuk Cameron Highlands"
+  },
+
+  "maxwellHill": "Maxwell Hill, Perak",
+  "@maxwellHill": {
+    "description": "Judul untuk Maxwell Hill"
+  },
+  "maxwellHillContent": "Cameron Highlands adalah tempat peristirahatan di dataran tinggi paling terkenal di Malaysia dengan iklim yang sejuk, dengan suhu siang hari sekitar 25°C dan suhu malam rata-rata sekitar 18°C. Dataran tinggi ini terbagi menjadi tiga kota: Tanah Rata, Brinchang, dan Ringlet. Pada masa kolonial, Inggris menanam teh di lereng pegunungan yang subur, sebuah tradisi yang masih dipertahankan oleh penduduk setempat. Sejak saat itu, Cameron Highlands telah menjadi eksportir teh terbesar di Malaysia. Selain teh, Cameron juga ideal untuk menanam pohon, buah-buahan, dan sayuran kontinental.",
+  "@maxwellHillContent": {
+    "description": "Deskripsi untuk Maxwell Hill"
+  },
+  "sungaiPisangWaterfall": "Air Terjun Sungai Pisang, Batu Caves",
+  "@sungaiPisangWaterfall": {
+    "description": "Judul untuk Air Terjun Sungai Pisang"
+  },
+  "sungaiPisangContent": "Air Terjun Pisang adalah jalur pulang-pergi sepanjang 3,1 kilometer dengan air terjun di dekat Gombak, Selangor, Malaysia. Jalur ini cocok untuk pendaki dengan segala tingkat kemampuan. Jalur ini terbuka sepanjang tahun dan sering digunakan untuk berkemah, bersepeda, dan mengamati burung. Di dekat puncak air terjun, terdapat beberapa lokasi ideal untuk piknik dan berkemah. Ini adalah jalur pendakian santai yang membutuhkan berjalan melewati air terjun, jadi bersiaplah untuk sepatu basah.",
+  "@sungaiPisangContent": {
+    "description": "Deskripsi untuk Air Terjun Sungai Pisang"
+  },
+
+  "jeramToi": "Jeram Toi, Negeri Sembilan",
+  "@jeramToi": {
+    "description": "Judul untuk Air Terjun Jeram Toi"
+  },
+  "jeramToiContent": "Air terjun Jeram Toi terletak di tengah perjalanan antara Seremban dan Kuala Kelawang. Lokasi ini menjadi populer untuk mandi santai dan piknik keluarga setelah didirikan pada tahun 1985. Perlu diingat bahwa Jeram Toi memiliki pintu keluar terpisah yang ditandai ketika melewati jalan raya. Di sini terdapat tenda, toilet, tempat barbeque, dan jalan setapak bersemen dengan tangga menuju ngarai. Tempat ini bisa ramai di akhir pekan namun tenang sepanjang minggu.",
+  "@jeramToiContent": {
+    "description": "Deskripsi untuk Air Terjun Jeram Toi"
+  },
+
+  "uluChepor": "Ulu Chepor, Perak",
+  "@uluChepor": {
+    "description": "Judul untuk Air Terjun Ulu Chepor"
+  },
+  "uluCheporContent": "Lata Ulu Chepor berjarak hanya 10 kilometer dari Kota Ipoh dan dikelilingi oleh perbukitan hutan hujan tropis yang rimbun. Taman ini dapat diakses melalui Rute A1 ke Chemor, dekat Plaza Tol Ipoh Utara. Tempat ini ideal untuk menikmati udara segar, bersantai, dan piknik pada akhir pekan. Bagi pengunjung yang ingin tinggal lebih lama atau berpartisipasi dalam kegiatan rekreasi dan pendidikan, tersedia fasilitas seperti area perkemahan, aula serbaguna, aula doa, dan kamar mandi. Taman ini terawat dengan baik dan ditandai di jalur utama.",
+  "@uluCheporContent": {
+    "description": "Deskripsi untuk Air Terjun Ulu Chepor"
+  },
+
+  "sungaiLembing": "Sungai Lembing, Pahang",
+  "@sungaiLembing": {
+    "description": "Judul untuk Air Terjun Sungai Lembing"
+  },
+  "sungaiLembingContent": "Malaysia dikaruniai banyak hutan hujan yang menawarkan pemandangan air terjun yang menakjubkan. Air Terjun Pelangi terletak sekitar 45 kilometer di barat laut Kuantan, Semenanjung Malaysia, di kota Sungai Lembing. Setiap pagi, antara pukul 9 dan 10 pagi, sinar matahari menyentuh air terjun di dasar air terjun, menciptakan pelangi yang indah. Orang-orang dari seluruh dunia datang untuk melakukan perjalanan satu setengah jam hanya untuk menyaksikan keindahan alam ini. Air Terjun Pelangi adalah air terjun besar yang tersembunyi di area hutan hujan Sungai Lembing, dapat dicapai dengan kendaraan 4WD dan mendaki.",
+  "@sungaiLembingContent": {
+    "description": "Deskripsi untuk Air Terjun Sungai Lembing"
+  },
+
+  "sevenWellsWaterfall": "Air Terjun Tujuh Sumur, Kedah",
+  "@sevenWellsWaterfall": {
+    "description": "Judul untuk Air Terjun Tujuh Sumur"
+  },
+  "sevenWellsContent": "Air Terjun Tujuh Sumur, juga dikenal sebagai Jalan Telaga Tujuh, terletak sekitar 20 menit berjalan kaki dari Jembatan Langit Langkawi yang terkenal dan merupakan salah satu atraksi alam paling menakjubkan di pulau ini. Air terjun ini jatuh dari Gunung Mat Cincang, puncak tertinggi kedua di Langkawi, dan populer di kalangan turis dan penduduk lokal. Tinggi total jatuhnya air adalah 91 meter, namun hanya sebagian kecil yang dapat dilihat dari bawah. Menurut legenda, air terjun ini adalah rumah bagi peri dan sungainya memiliki khasiat yang menenangkan. Air terjun ini terlihat magis karena dikelilingi oleh alam, dengan flora dan fauna yang kaya.",
+  "@sevenWellsContent": {
+    "description": "Deskripsi untuk Air Terjun Tujuh Sumur"
+  },
+  "brogaHill": "Bukit Broga, Semenyih",
+  "@brogaHill": {
+    "description": "Judul untuk Bukit Broga"
+  },
+  "brogaHillContent": "Bukit Broga, yang juga dikenal sebagai 'Bukit Lalang' oleh penduduk setempat, dinamai dari 'lalang,' spesies rumput asli yang tumbuh melimpah di sini. Bukit setinggi 400 meter ini terletak di hutan tropis yang subur di Semenyih, di tepi Pegunungan Titiwangsa, sekitar 40 menit dari Kuala Lumpur. Pemandangan panoramanya yang menakjubkan, terutama saat fajar, sangat terkenal di kalangan penduduk setempat dan wisatawan. Tempat ini juga populer karena mudah diakses dengan berjalan kaki. Bagi pendaki pemula, pendakian ke puncak pertama mungkin terasa menantang. Untungnya, ada tali yang dipasang pada pohon untuk membantu pendaki baru. Pemandangan di puncak pasti akan membuat usaha Anda terbayar.",
+  "@brogaHillContent": {
+    "description": "Deskripsi untuk Bukit Broga"
+  },
+
+  "mountPulai": "Gunung Pulai, Johor",
+  "@mountPulai": {
+    "description": "Judul untuk Gunung Pulai"
+  },
+  "mountPulaiContent": "Gunung Pulai adalah gunung setinggi 654 meter di Johor, Malaysia. Karena lokasinya yang dekat dan mudah diakses, tempat ini menjadi tujuan mendaki yang populer bagi warga Singapura dan penduduk setempat. Puncak Gunung Pulai tidak terbuka untuk umum karena dijaga oleh militer dan terdapat dua menara komunikasi. Gunung Pulai memiliki jalur melingkar sepanjang 14,3 kilometer di dekat Kulai, Johor, dengan sebuah air terjun dan tingkat kesulitan tertentu. Jalur ini juga digunakan untuk berkemah, bersepeda, berlari, dan berjalan di alam.",
+  "@mountPulaiContent": {
+    "description": "Deskripsi untuk Gunung Pulai"
+  },
+
+  "panoramaHill": "Bukit Panorama, Sungai Lembing",
+  "@panoramaHill": {
+    "description": "Judul untuk Bukit Panorama"
+  },
+  "panoramaHillContent": "Bukit Panorama adalah sebuah bukit di Sungai Lembing, 45 kilometer di barat laut Kuantan. Dengan ketinggian 271 meter, hanya ada satu jalur pendakian. Mulailah dari dasar tangga dan terus mendaki ke atas. Ciri utama dari jalur ini adalah tangga dengan pegangan; hanya beberapa bagian pendek yang tidak memiliki tangga. Ketika Anda mencapai puncak bukit, Anda akan melihat pemandangan panorama dari kota sekitarnya. Pengunjung biasanya membutuhkan waktu antara 30 hingga 45 menit untuk mencapai puncak Bukit Panorama.",
+  "@panoramaHillContent": {
+    "description": "Deskripsi untuk Bukit Panorama"
+  },
+
+  "mossyForest": "Hutan Lumut, Cameron Highlands",
+  "@mossyForest": {
+    "description": "Judul untuk Hutan Lumut"
+  },
+  "mossyForestContent": "Hutan Lumut adalah ekosistem alami yang hanya tumbuh di ketinggian yang lebih tinggi di Cameron Highlands dan pegunungan lain di Malaysia. Awan rendah yang ditiup angin menutupi pepohonan dengan kabut dan kelembaban, menciptakan habitat sempurna bagi lumut, pakis, lichen, dan anggrek. Hutan hujan tropis lembab ini juga menjadi tempat perlindungan bagi beragam spesies gunung, termasuk kupu-kupu, hewan pengerat, katak, burung, dan mamalia yang hanya ada di iklim dingin ini.",
+  "@mossyForestContent": {
+    "description": "Deskripsi untuk Hutan Lumut"
+  },
+
+  "penangNationalPark": "Taman Nasional Penang, Penang",
+  "@penangNationalPark": {
+    "description": "Judul untuk Taman Nasional Penang"
+  },
+  "penangNationalParkContent": "Ini adalah taman nasional terkecil di Malaysia, dengan luas 23 kilometer persegi, tetapi hutan berpantai ini adalah rumah bagi monyet daun perak, lemur terbang, kucing macan, dan berbagai spesies kadal, amfibi, dan reptil. Aktivitas seperti berjalan di hutan dan naik perahu ke pantai berpasir emas yang tenang akan membuat hari Anda penuh keseruan. Ada dua jalur utama di taman ini: satu yang membawa Anda menyusuri pantai ke Pantai Monyet, dan yang lainnya yang melintasi bukit melalui hutan hingga ke beberapa pantai yang lebih terpencil, tempat Suaka Penyu berada.",
+  "@penangNationalParkContent": {
+    "description": "Deskripsi untuk Taman Nasional Penang"
+  },
+  "kkbParaglidingPark": "Taman Paralayang KKB",
+  "@kkbParaglidingPark": {
+    "description": "Judul untuk Taman Paralayang KKB"
+  },
+  "kkbParaglidingParkContent": "Bagi mereka yang memiliki jiwa petualang, Kuala Kubu Bharu menawarkan yang terbaik dari olahraga ekstrem. Saat terbang di udara, Anda akan memiliki kesempatan untuk mengagumi keindahan alam yang mengelilingi Kuala Kubu Bharu dari sudut pandang udara.",
+  "@kkbParaglidingParkContent": {
+    "description": "Deskripsi untuk Taman Paralayang KKB"
+  },
+
+  "whitewaterRafting": "Arung Jeram di Kuala Kubu Bharu",
+  "@whitewaterRafting": {
+    "description": "Judul untuk Arung Jeram di Kuala Kubu Bharu"
+  },
+  "whitewaterRaftingContent": "Perjalanan arung jeram berlangsung di sepanjang Sungai Hulu Selangor. Arung jeram membawa kesenangan tersendiri melalui hanyutan yang mendebarkan di akhir perjalanan, dengan pemandangan alam yang indah di sepanjang tepi sungai.",
+  "@whitewaterRaftingContent": {
+    "description": "Deskripsi untuk Arung Jeram di Kuala Kubu Bharu"
+  },
+
+  "jugraHill": "Bukit Jugra",
+  "@jugraHill": {
+    "description": "Judul untuk Bukit Jugra"
+  },
+  "jugraHillContent": "Di Bukit Jugra, di sekitar mercusuar, rasakan sensasi paralayang. Tergantung pada kondisi angin, bulan Maret hingga September cenderung menjadi waktu terbaik untuk melakukannya.",
+  "@jugraHillContent": {
+    "description": "Deskripsi untuk Bukit Jugra"
+  }
+
+  }
+  

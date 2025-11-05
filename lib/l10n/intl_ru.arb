@@ -1,0 +1,1787 @@
+{
+    "@@locale": "ru",
+    "appTitle": "KL The Guide",
+    "@appTitle": {
+      "description": "Название приложения"
+    },
+    "pickALanguage": "Выберите язык",
+    "@pickALanguage": {
+      "description": "Заголовок для панели выбора языка"
+    },
+    "home": "Главная",
+    "@home": {
+      "description": "Метка для экрана главной страницы"
+    },
+    "bookmarks": "Закладки",
+    "@bookmarks": {
+      "description": "Метка для раздела закладок"
+    },
+    "blog": "Блог",
+    "@blog": {
+      "description": "Метка для раздела блога"
+    },
+    "ebook": "Электронная книга",
+    "@ebook": {
+      "description": "Метка для раздела электронной книги"
+    },
+    "aboutUs": "О нас",
+    "@aboutUs": {
+      "description": "Метка для раздела о нас"
+    },
+    "contactUs": "Свяжитесь с нами",
+    "@contactUs": {
+      "description": "Метка для раздела контактов"
+    },
+    "updateRequired": "Требуется обновление",
+    "@updateRequired": {
+      "description": "Сообщение, показываемое, когда требуется обновление приложения"
+    },
+    "updateAvailable": "Доступна новая версия приложения. Пожалуйста, обновите, чтобы воспользоваться новыми функциями.",
+    "@updateAvailable": {
+      "description": "Сообщение, информирующее пользователя о доступном обновлении"
+    },
+    "updateLater": "Обновить позже",
+    "@updateLater": {
+      "description": "Метка для кнопки отложить обновление"
+    },
+    "updateNow": "Обновить сейчас",
+    "@updateNow": {
+      "description": "Метка для кнопки немедленного обновления приложения"
+    },
+    "pressBackAgainToExit": "Нажмите еще раз, чтобы выйти",
+    "@pressBackAgainToExit": {
+      "description": "Сообщение, показываемое, когда пользователь нажимает кнопку 'назад' для выхода"
+    },
+    "klHighlights": "Основные моменты KL",
+    "@klHighlights": {
+      "description": "Метка для раздела с основными достопримечательностями KL"
+    },
+    "recommendations": "Рекомендации",
+    "@recommendations": {
+      "description": "Метка для раздела рекомендаций"
+    },
+    "exploreKL": "Исследуйте KL",
+    "@exploreKL": {
+      "description": "Заголовок для изображения Исследуйте KL"
+    },
+    "shopLikeLocals": "Покупки как у местных",
+    "@shopLikeLocals": {
+      "description": "Заголовок для изображения Покупки как у местных"
+    },
+    "placesToStay": "Места для проживания",
+    "@placesToStay": {
+      "description": "Заголовок для изображения Места для проживания"
+    },
+    "spaTime": "Время для спа",
+    "@spaTime": {
+      "description": "Заголовок для изображения Время для спа"
+    },
+    "medicalTourism": "Медицинский туризм",
+    "@medicalTourism": {
+      "description": "Заголовок для изображения Медицинский туризм"
+    },
+    "beyondKL": "За пределами KL",
+    "@beyondKL": {
+      "description": "Заголовок для изображения За пределами KL"
+    },
+    "klAtAGlance": "KL с первого взгляда",
+    "@klAtAGlance": {
+      "description": "Заголовок для изображения KL с первого взгляда в разделе достопримечательностей"
+    },
+    "gettingAroundKL": "Передвижение по KL",
+    "@gettingAroundKL": {
+      "description": "Заголовок для изображения Передвижение по KL в разделе достопримечательностей"
+    },
+    "travelTips": "Советы путешественникам",
+    "@travelTips": {
+      "description": "Заголовок для изображения Советы путешественникам в разделе достопримечательностей"
+    },
+    "ourCompany": "Наша компания",
+    "@ourCompany": {
+      "description": "Заголовок для раздела 'Наша компания'"
+    },
+    "ourCompanyDescription": "KL The Guide – это ежеквартальный путеводитель, впервые опубликованный в августе 2007 года. Мы – бесплатный путеводитель, который помогает путешественникам планировать поездки по столице Малайзии, Куала-Лумпуру. KL The Guide включает советы для путешествий, места для изучения, места для детей, отели и многое другое. С KL The Guide навигация по городу становится проще.",
+    "@ourCompanyDescription": {
+      "description": "Описание компании и путеводителя"
+    },
+    "findUs": "Найдите нас",
+    "@findUs": {
+      "description": "Заголовок для раздела 'Найдите нас'"
+    },
+    "appVersion": "Версия приложения: {version}+{buildNumber}",
+    "@appVersion": {
+      "description": "Текст, отображающий версию приложения и номер сборки",
+      "placeholders": {
+        "version": {
+          "type": "String",
+          "example": "1.0.0"
+        },
+        "buildNumber": {
+          "type": "String",
+          "example": "1"
+        }
+      }
+    },
+    "errorLoadingVersion": "Ошибка загрузки версии",
+    "@errorLoadingVersion": {
+      "description": "Сообщение, показываемое при ошибке загрузки версии приложения"
+    },
+    "islands": "Острова",
+    "@islands": {
+      "description": "Заголовок для раздела Острова"
+    },
+    "hillStation": "Горная станция",
+    "@hillStation": {
+      "description": "Заголовок для раздела Горная станция"
+    },
+    "waterfall": "Водопад",
+    "@waterfall": {
+      "description": "Заголовок для раздела Водопад"
+    },
+    "hiking": "Пеший туризм",
+    "@hiking": {
+      "description": "Заголовок для раздела Пеший туризм"
+    },
+    "extremeSports": "Экстремальные виды спорта",
+    "@extremeSports": {
+      "description": "Заголовок для раздела Экстремальные виды спорта"
+    },
+    "errorLoadingData": "Ошибка загрузки данных",
+    "@errorLoadingData": {
+      "description": "Сообщение, показываемое при ошибке загрузки данных"
+    },
+    "loadingData": "Загрузка данных...",
+    "@loadingData": {
+      "description": "Сообщение, показываемое во время загрузки данных"
+    },
+    "email": "Электронная почта: enquiry@bluedale.com.my",
+    "@email": {
+      "description": "Текст для контакта компании по электронной почте"
+    },
+    "whatsapp": "WhatsApp: +6012-220 0622",
+    "@whatsapp": {
+      "description": "Текст для контакта компании по WhatsApp"
+    },
+    "phone": "Телефон: +603-78869219",
+    "@phone": {
+      "description": "Текст для контакта компании по телефону"
+    },
+    "address": "адрес",
+    "@address": {
+      "description": "Текст для адреса компании на русском языке"
+    },
+    "workingHours": "Понедельник-пятница: 9:00 - 18:00",
+    "@workingHours": {
+      "description": "Текст для рабочего времени компании"
+    },
+    "whatToDo": "Что делать",
+    "@whatToDo": {
+      "description": "Заголовок для страницы 'Что делать' в разделе Исследуйте KL"
+    },
+    "loading": "Загрузка...",
+    "@loading": {
+      "description": "Сообщение, отображаемое при загрузке данных"
+    },
+    "details": "Детали",
+    "@details": {
+      "description": "Метка для страницы с деталями"
+    },
+    "historicalSites": "Исторические места",
+  "@historicalSites": {
+    "description": "Заголовок для страницы, отображающей исторические места в Куала-Лумпуре."
+  },
+  "dataranMerdekaDescription": "Датаран Мердека, также известная как площадь Мердека, является самой известной достопримечательностью KL...",
+  "@dataranMerdekaDescription": {
+    "description": "Описание Датаран Мердека, подчеркивающее её историческое значение в Куала-Лумпуре."
+  },
+  "klRailwayStationDescription": "Железнодорожная станция Куала-Лумпур, выполненная в мавританском стиле, была основным железнодорожным узлом до 2001 года...",
+  "@klRailwayStationDescription": {
+    "description": "Описание железнодорожной станции Куала-Лумпур, отмечающее её архитектурный стиль и историческую роль."
+  },
+  "royalMuseumDescription": "Королевский музей предлагает заглянуть в жизнь королевской семьи, располагаясь в бывшем Национальном дворце...",
+  "@royalMuseumDescription": {
+    "description": "Описание Королевского музея, дающее представление о его значении как бывшего королевского дворца."
+  },
+  "sultanAbdulSamadDescription": "Здание султана Абдул Самада, построенное в 1897 году, объединяет готическую, западную и мавританскую архитектуру...",
+  "@sultanAbdulSamadDescription": {
+    "description": "Описание здания султана Абдул Самада, упоминающее его архитектурные влияния и историческую ценность."
+  },
+  "tuguNegaraDescription": "Национальный монумент увековечивает память о малайзийских солдатах, погибших во время борьбы за независимость...",
+  "@tuguNegaraDescription": {
+    "description": "Описание Национального монумента (Тугу Негара), посвящённое его цели - почтить павших солдат."
+  },
+  "victoriaFountainDescription": "Фонтан королевы Виктории, завершённый в 1904 году, имеет два яруса и гаргулий на основании...",
+  "@victoriaFountainDescription": {
+    "description": "Описание фонтана королевы Виктории, выделяющее его архитектурные детали и историческое значение."
+  },
+  "ilhamBaruTowerDescription": "Башня Ильхам Бару - это 58-этажный небоскреб, являющийся третьим по высоте зданием в районе KLCC...",
+  "@ilhamBaruTowerDescription": {
+    "description": "Описание башни Ильхам Бару, упоминающее её высоту и архитектурную значимость в Куала-Лумпуре."
+  },
+  "bangunanSulaimanDescription": "Здание Сулеймана - это британский колониальный памятник, построенный в 1933 году, известный проведением заседаний шариатского суда...",
+  "@bangunanSulaimanDescription": {
+    "description": "Описание здания Сулеймана, детализирующее его колониальную архитектуру и историческое значение."
+  },
+  "centralMarketDescription": "Центральный рынок, построенный в 1892 году, является популярной туристической достопримечательностью, известной своими местными ремеслами...",
+  "@centralMarketDescription": {
+    "description": "Описание Центрального рынка (Пасар Сени), подчёркивающее его историческую важность и нынешнюю функцию рынка для местных ремесел."
+  },
+  "locationJalanRaja": "Местоположение: Джалан Раджа, Центр города, 50050 Куала-Лумпур",
+  "@locationJalanRaja": {
+    "description": "Местоположение Датаран Мердека с указанием точного адреса."
+  },
+  "locationKampungAttap": "Местоположение: Кампунг Аттап, 50000 Куала-Лумпур",
+  "@locationKampungAttap": {
+    "description": "Местоположение железнодорожной станции Куала-Лумпур."
+  },
+  "locationIstanaNegara": "Местоположение: Джалан Истана, 50460 Куала-Лумпур",
+  "@locationIstanaNegara": {
+    "description": "Местоположение Королевского музея, ранее Национального дворца."
+  },
+  "locationParliamentRoad": "Местоположение: Ботанический сад Пердана, Джалан Парлимен, 50480 Куала-Лумпур",
+  "@locationParliamentRoad": {
+    "description": "Местоположение Национального монумента (Тугу Негара)."
+  },
+  "locationCityCentre": "Местоположение: Центр города, 50050 Куала-Лумпур",
+  "@locationCityCentre": {
+    "description": "Местоположение фонтана королевы Виктории."
+  },
+  "locationIlhamTower": "Местоположение: Башня Ильхам, 8, Джалан Бинджай, 50450 Куала-Лумпур",
+  "@locationIlhamTower": {
+    "description": "Местоположение башни Ильхам Бару."
+  },
+  "locationSultanHishamuddin": "Местоположение: Джалан Султан Хишамуддин, Кампунг Аттап, 50000 Куала-Лумпур",
+  "@locationSultanHishamuddin": {
+    "description": "Местоположение здания Сулеймана."
+  },
+  "locationJalanHangKasturi": "Местоположение: No. 10, 1-3 этажи, Джалан Ханг Кастури",
+  "@locationJalanHangKasturi": {
+    "description": "Местоположение Центрального рынка (Пасар Сени)."
+  },
+  "open24Hours": "Открыто 24 часа (ежедневно)",
+  "@open24Hours": {
+    "description": "Указывает, что место открыто 24 часа в сутки, ежедневно."
+  },
+  "hours900to500Daily": "Часы работы: 9:00 - 17:00 (ежедневно)",
+  "@hours900to500Daily": {
+    "description": "Часы работы с 9:00 до 17:00, ежедневно."
+  },
+  "hours700to600Daily": "Часы работы: 7:00 - 18:00 (ежедневно)",
+  "@hours700to600Daily": {
+    "description": "Часы работы с 7:00 до 18:00, ежедневно."
+  },
+  "hours830to530Weekdays": "Часы работы: 8:30 - 17:30 (понедельник - пятница)",
+  "@hours830to530Weekdays": {
+    "description": "Часы работы с 8:30 до 17:30, по будням (понедельник - пятница)."
+  },
+  "hours1000to600Daily": "Часы работы: 10:00 - 18:00 (ежедневно)",
+  "@hours1000to600Daily": {
+    "description": "Часы работы с 10:00 до 18:00, ежедневно."
+  },
+  "parks": "Парки",
+  "@parks": {
+    "description": "Заголовок для страницы с парками в Куала-Лумпуре."
+  },
+  "tamanEkoRimba": "Таман Эко Римба, Куала-Лумпур",
+  "@tamanEkoRimba": {
+    "description": "Название парка Таман Эко Римба в Куала-Лумпуре."
+  },
+  "tamanEkoRimbaLocation": "Куала-Лумпур, 50250 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@tamanEkoRimbaLocation": {
+    "description": "Местоположение парка Таман Эко Римба в Куала-Лумпуре."
+  },
+  "aseanSculptureGarden": "Скульптурный сад АСЕАН",
+  "@aseanSculptureGarden": {
+    "description": "Название Скульптурного сада АСЕАН."
+  },
+  "aseanSculptureGardenLocation": "Скульптурный сад АСЕАН, Персиаран Султан Салахуддин, Тасик Пердана, 50480 Куала-Лумпур",
+  "@aseanSculptureGardenLocation": {
+    "description": "Местоположение Скульптурного сада АСЕАН в Куала-Лумпуре."
+  },
+  "klccPark": "Парк KLCC",
+  "@klccPark": {
+    "description": "Название парка KLCC."
+  },
+  "klccParkLocation": "Джалан Ампанг, Куала-Лумпур Сити Центр, 50088 Куала-Лумпур",
+  "@klccParkLocation": {
+    "description": "Местоположение парка KLCC в Куала-Лумпуре."
+  },
+  "hours700to600": "Часы работы: 7:00 - 18:00",
+  "@hours700to600": {
+    "description": "Часы работы с 7:00 до 18:00."
+  },
+  "hours700to1000": "Часы работы: 7:00 - 22:00",
+  "@hours700to1000": {
+    "description": "Часы работы с 7:00 до 22:00."
+  },
+  "kl4kids": "KL для детей",
+  "@kl4kids": {
+    "description": "Заголовок для страницы, отображающей места для детей в Куала-Лумпуре."
+  },
+  "aeonFantasy": "Aeon Fantasy",
+  "@aeonFantasy": {
+    "description": "Название детского развлекательного центра Aeon Fantasy в Куала-Лумпуре."
+  },
+  "aeonFantasyLocation": "F41, 1 этаж, AEON Alpha Angle Shopping Centre, Джалан R1, Секция 1, Бандар Бару Вангса Маджу, 53300 Куала-Лумпур.",
+  "@aeonFantasyLocation": {
+    "description": "Местоположение Aeon Fantasy."
+  },
+  "aeonFantasyHours": "10:00 - 22:00 (вс-чт), 10:00 - 23:00 (пт-сб)",
+  "@aeonFantasyHours": {
+    "description": "Часы работы Aeon Fantasy."
+  },
+  "klUpsideDownHouse": "Дом вверх дном KL",
+  "@klUpsideDownHouse": {
+    "description": "Название Дома вверх дном в Куала-Лумпуре."
+  },
+  "klUpsideDownHouseLocation": "Off, Джалан П. Рамли, &, Джалан Пунчак, 50250 Куала-Лумпур",
+  "@klUpsideDownHouseLocation": {
+    "description": "Местоположение Дома вверх дном KL."
+  },
+  "klUpsideDownHouseHours": "10:00 - 22:00 (ежедневно)",
+  "@klUpsideDownHouseHours": {
+    "description": "Часы работы Дома вверх дном KL."
+  },
+  "klTowerMiniZoo": "Мини-зоопарк KL Tower",
+  "@klTowerMiniZoo": {
+    "description": "Название Мини-зоопарка KL Tower."
+  },
+  "klTowerMiniZooLocation": "1 этаж, Башня Куала-Лумпур, WP, Джалан Пунчак, 50250 Куала-Лумпур",
+  "@klTowerMiniZooLocation": {
+    "description": "Местоположение Мини-зоопарка KL Tower."
+  },
+  "klTowerMiniZooHours": "10:00 - 21:00 (ежедневно)",
+  "@klTowerMiniZooHours": {
+    "description": "Часы работы Мини-зоопарка KL Tower."
+  },
+  "petrosainsKlcc": "Petrosains KLCC",
+  "@petrosainsKlcc": {
+    "description": "Название детского научного центра Petrosains KLCC."
+  },
+  "petrosainsKlccLocation": "4 этаж, Suria KLCC, Башни-близнецы Петронас, Куала-Лумпур Сити Центр, 50088, Куала-Лумпур",
+  "@petrosainsKlccLocation": {
+    "description": "Местоположение Petrosains KLCC."
+  },
+  "petrosainsKlccHours": "9:30 - 17:30 (вт-вс)",
+  "@petrosainsKlccHours": {
+    "description": "Часы работы Petrosains KLCC."
+  },
+  "contact": "Контакты",
+  "@contact": {
+    "description": "Метка для контактной информации детского места."
+  },
+  "placesOfWorship": "Места поклонения",
+  "@placesOfWorship": {
+    "description": "Заголовок для страницы, отображающей места поклонения в Куала-Лумпуре."
+  },
+  "muslim": "Мусульманские",
+  "@muslim": {
+    "description": "Вкладка для мусульманских мест поклонения."
+  },
+  "buddhistTao": "Буддийские/Даосские",
+  "@buddhistTao": {
+    "description": "Вкладка для буддийских и даосских мест поклонения."
+  },
+  "hindu": "Индуистские",
+  "@hindu": {
+    "description": "Вкладка для индуистских мест поклонения."
+  },
+  "others": "Прочие",
+  "@others": {
+    "description": "Вкладка для прочих мест поклонения."
+  },
+  "masjidNegara": "Мечеть Негара",
+  "@masjidNegara": {
+    "description": "Название мечети Негара в Куала-Лумпуре."
+  },
+  "masjidNegaraLocation": "Джалан Пердана, Тасик Пердана, 50480 Куала-Лумпур",
+  "@masjidNegaraLocation": {
+    "description": "Местоположение мечети Негара в Куала-Лумпуре."
+  },
+  "masjidNegaraHours": "9:00 - 23:00 (сб-чт) / 14:45 - 18:00 (пт)",
+  "@masjidNegaraHours": {
+    "description": "Часы работы мечети Негара."
+  },
+  "masjidJamek": "Мечеть Джамек",
+  "@masjidJamek": {
+    "description": "Название мечети Джамек в Куала-Лумпуре."
+  },
+  "masjidJamekLocation": "Джалан Тун Перек, Центр города, 50050 Куала-Лумпур",
+  "@masjidJamekLocation": {
+    "description": "Местоположение мечети Джамек в Куала-Лумпуре."
+  },
+  "masjidJamekHours": "10:00 - 12:30; 14:30 - 16:00 (сб-чт) / Закрыто по пятницам",
+  "@masjidJamekHours": {
+    "description": "Часы работы мечети Джамек."
+  },
+  "federalTerritoryMosque": "Мечеть Федеральной территории Куала-Лумпур",
+  "@federalTerritoryMosque": {
+    "description": "Название мечети Федеральной территории в Куала-Лумпуре."
+  },
+  "federalTerritoryMosqueLocation": "Джалан Султан Мизан Зайнал Абидин, Комплекс Кераджан, Куала-Лумпур",
+  "@federalTerritoryMosqueLocation": {
+    "description": "Местоположение мечети Федеральной территории в Куала-Лумпуре."
+  },
+  "masjidAlBukhari": "Мечеть Аль-Бухари",
+  "@masjidAlBukhari": {
+    "description": "Название мечети Аль-Бухари в Куала-Лумпуре."
+  },
+  "masjidAlBukhariLocation": "1, Джалан Ханг Туах, Букит Бинтанг, 55200 Куала-Лумпур",
+  "@masjidAlBukhariLocation": {
+    "description": "Местоположение мечети Аль-Бухари в Куала-Лумпуре."
+  },
+  "masjidAbdullahHukum": "Мечеть Джамек Абдулла Хукум - KL Eco City",
+  "@masjidAbdullahHukum": {
+    "description": "Название мечети Джамек Абдулла Хукум в Куала-Лумпуре."
+  },
+  "masjidAbdullahHukumLocation": "59200 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@masjidAbdullahHukumLocation": {
+    "description": "Местоположение мечети Джамек Абдулла Хукум."
+  },
+  "masjidAsySyakirin": "Мечеть Аси-Шакиркин KLCC",
+  "@masjidAsySyakirin": {
+    "description": "Название мечети Аси-Шакиркин в Куала-Лумпуре."
+  },
+  "masjidAsySyakirinLocation": "Lot 41, Секция 58, Джалан Пинанг, 50450 Куала-Лумпур",
+  "@masjidAsySyakirinLocation": {
+    "description": "Местоположение мечети Аси-Шакиркин."
+  },
+  "masjidAlFirdaus": "Мечеть Аль-Фирдаус",
+  "@masjidAlFirdaus": {
+    "description": "Название мечети Аль-Фирдаус в Куала-Лумпуре."
+  },
+  "masjidAlFirdausLocation": "Джалан Масджид Фирдаус, Джалан 1/42, Сегамбут Луар, 51200 Куала-Лумпур",
+  "@masjidAlFirdausLocation": {
+    "description": "Местоположение мечети Аль-Фирдаус."
+  },
+  "masjidJamiulEhsan": "Мечеть Джамиул Эхсан",
+  "@masjidJamiulEhsan": {
+    "description": "Название мечети Джамиул Эхсан в Куала-Лумпуре."
+  },
+  "masjidJamiulEhsanLocation": "Джалан Паханг, Таман Сетапак Индах Джая, 53000 Куала-Лумпур",
+  "@masjidJamiulEhsanLocation": {
+    "description": "Местоположение мечети Джамиул Эхсан."
+  },
+  "theanHouTemple": "Храм Тиан Хоу",
+  "@theanHouTemple": {
+    "description": "Название храма Тиан Хоу в Куала-Лумпуре."
+  },
+  "theanHouTempleLocation": "65, Персиаран Эндах, Таман Персиаран Деса, 50460 Куала-Лумпур",
+  "@theanHouTempleLocation": {
+    "description": "Местоположение храма Тиан Хоу в Куала-Лумпуре."
+  },
+  "theanHouTempleHours": "8:00 - 14:00 / 16:00 - 22:00 (ежедневно)",
+  "@theanHouTempleHours": {
+    "description": "Часы работы храма Тиан Хоу."
+  },
+  "guanDiTemple": "Храм Гуан Ди",
+  "@guanDiTemple": {
+    "description": "Название храма Гуан Ди в Куала-Лумпуре."
+  },
+  "guanDiTempleLocation": "168, Джалан Тун Х С Ли, Центр города, 50000 Куала-Лумпур",
+  "@guanDiTempleLocation": {
+    "description": "Местоположение храма Гуан Ди."
+  },
+  "guanDiTempleHours": "8:30 - 17:30 (будние дни) / Закрыто на выходные",
+  "@guanDiTempleHours": {
+    "description": "Часы работы храма Гуан Ди."
+  },
+  "buddhistMahaViharaTemple": "Буддийский храм Маха Вихара",
+  "@buddhistMahaViharaTemple": {
+    "description": "Название буддийского храма Маха Вихара в Куала-Лумпуре."
+  },
+  "buddhistMahaViharaTempleLocation": "123 Джалан Берхала, Брикфилдс, Куала-Лумпур",
+  "@buddhistMahaViharaTempleLocation": {
+    "description": "Местоположение буддийского храма Маха Вихара."
+  },
+  "buddhistMahaViharaTempleHours": "8:00 - 14:00 / 17:00 - 21:00 (ежедневно)",
+  "@buddhistMahaViharaTempleHours": {
+    "description": "Часы работы буддийского храма Маха Вихара."
+  },
+  "sinSzeSiYaTemple": "Храм Син Сзе Си Я",
+  "@sinSzeSiYaTemple": {
+    "description": "Название храма Син Сзе Си Я в Куала-Лумпуре."
+  },
+  "sinSzeSiYaTempleLocation": "113А, Джалан Тун Х С Ли, Центр города, 50050 Куала-Лумпур",
+  "@sinSzeSiYaTempleLocation": {
+    "description": "Местоположение храма Син Сзе Си Я в Куала-Лумпуре."
+  },
+  "sinSzeSiYaTempleHours": "7:00 - 17:00 (ежедневно)",
+  "@sinSzeSiYaTempleHours": {
+    "description": "Часы работы храма Син Сзе Си Я."
+  },
+  "sriMahamariammanTemple": "Храм Шри Махамариамман",
+  "@sriMahamariammanTemple": {
+    "description": "Название храма Шри Махамариамман в Куала-Лумпуре."
+  },
+  "sriMahamariammanTempleLocation": "Джалан Тун Х С Ли, Центр города, 50000 Куала-Лумпур",
+  "@sriMahamariammanTempleLocation": {
+    "description": "Местоположение храма Шри Махамариамман в Куала-Лумпуре."
+  },
+  "sriMahamariammanTempleHours": "6:00 - 20:30 (вс-чт) / 6:00 - 21:30 (пт) / 6:00 - 21:00 (вс)",
+  "@sriMahamariammanTempleHours": {
+    "description": "Часы работы храма Шри Махамариамман."
+  },
+  "batuCavesTemple": "Храм Бату Кейвс",
+  "@batuCavesTemple": {
+    "description": "Название храма Бату Кейвс."
+  },
+  "batuCavesTempleLocation": "Гомбак, 68100 Бату Кейвс, Селангор",
+  "@batuCavesTempleLocation": {
+    "description": "Местоположение храма Бату Кейвс в Селангоре."
+  },
+  "sriKandaswamyTemple": "Храм Шри Кандасвами",
+  "@sriKandaswamyTemple": {
+    "description": "Название храма Шри Кандасвами в Куала-Лумпуре."
+  },
+  "sriKandaswamyTempleLocation": "Брикфилдс, 50470 Куала-Лумпур",
+  "@sriKandaswamyTempleLocation": {
+    "description": "Местоположение храма Шри Кандасвами в Брикфилдсе, Куала-Лумпур."
+  },
+  "stMarysAnglicanCathedral": "Англиканский собор Святой Марии",
+  "@stMarysAnglicanCathedral": {
+    "description": "Название англиканского собора Святой Марии в Куала-Лумпуре."
+  },
+  "stMarysAnglicanCathedralLocation": "Джалан Раджа, Центр города, 50050 Куала-Лумпур",
+  "@stMarysAnglicanCathedralLocation": {
+    "description": "Местоположение англиканского собора Святой Марии в Куала-Лумпуре."
+  },
+  "wesleyMethodistChurch": "Методистская церковь Уэсли в Куала-Лумпуре",
+  "@wesleyMethodistChurch": {
+    "description": "Название методистской церкви Уэсли в Куала-Лумпуре."
+  },
+  "wesleyMethodistChurchLocation": "2, Джалан Уэсли, Центр города, 50150 Куала-Лумпур",
+  "@wesleyMethodistChurchLocation": {
+    "description": "Местоположение методистской церкви Уэсли в Куала-Лумпуре."
+  },
+  "wesleyMethodistChurchHours": "8:30 - 16:30 (пн-пт) / 8:30 - 12:30 (сб) / 8:00 - 10:30 (вс)",
+  "@wesleyMethodistChurchHours": {
+    "description": "Часы работы методистской церкви Уэсли."
+  },
+  "whatToEat": "Что поесть",
+  "@whatToEat": {
+    "description": "Заголовок для страницы с местами питания в Куала-Лумпуре."
+  },
+  "streetFood": "Уличная еда",
+  "@streetFood": {
+    "description": "Вкладка для уличной еды."
+  },
+  "cafes": "Кафе",
+  "@cafes": {
+    "description": "Вкладка для кафе."
+  },
+  "restaurants": "Рестораны",
+  "@restaurants": {
+    "description": "Вкладка для ресторанов."
+  },
+  "jalanAlor": "Джалан Алор",
+  "@jalanAlor": {
+    "description": "Название уличного рынка Джалан Алор."
+  },
+  "jalanAlorLocation": "Букит Бинтанг, Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@jalanAlorLocation": {
+    "description": "Местоположение Джалан Алор."
+  },
+  "tamanConnaught": "Ночной рынок Таман Коннаут",
+  "@tamanConnaught": {
+    "description": "Название ночного рынка Таман Коннаут."
+  },
+  "tamanConnaughtLocation": "130, 108, Джалан Чердас, Таман Коннаут, 56000 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@tamanConnaughtLocation": {
+    "description": "Местоположение ночного рынка Таман Коннаут."
+  },
+  "tamanConnaughtHours": "18:00 - 1:00 (ср)",
+  "@tamanConnaughtHours": {
+    "description": "Часы работы ночного рынка Таман Коннаут."
+  },
+  "petalingStreet": "Петалинг Стрит",
+  "@petalingStreet": {
+    "description": "Название Петалинг Стрит."
+  },
+  "petalingStreetLocation": "Джалан Петалинг, Центр города, 50000 Куала-Лумпур, Вилайя Персекутуан Куала-Лумпур",
+  "@petalingStreetLocation": {
+    "description": "Местоположение Петалинг Стрит."
+  },
+  "petalingStreetHours": "Открыто 24 часа (ежедневно)",
+  "@petalingStreetHours": {
+    "description": "Часы работы Петалинг Стрит."
+  },
+  "wildflowersKL": "Wildflowers KL",
+  "@wildflowersKL": {
+    "description": "Название кафе Wildflowers KL."
+  },
+  "wildflowersKLLocation": "Джалан Петалинг, 50000 Куала-Лумпур",
+  "@wildflowersKLLocation": {
+    "description": "Местоположение Wildflowers KL."
+  },
+  "wildflowersKLHours": "12:00 - 0:00 (пт-сб), 12:00 - 22:00 (вс), 17:00 - 22:00 (вт-ср), Понедельник (закрыто)",
+  "@wildflowersKLHours": {
+    "description": "Часы работы Wildflowers KL."
+  },
+  "lisettesCafe": "Кафе и пекарня Lisette",
+  "@lisettesCafe": {
+    "description": "Название кафе и пекарни Lisette."
+  },
+  "lisettesCafeLocation": "No. 8, Джалан Кемуджа, Бангсар, 59000 Куала-Лумпур, Вилайя Персекутуан Куала-Лумпур",
+  "@lisettesCafeLocation": {
+    "description": "Местоположение кафе и пекарни Lisette."
+  },
+  "lisettesCafeHours": "8:00 - 22:00 (ежедневно)",
+  "@lisettesCafeHours": {
+    "description": "Часы работы кафе и пекарни Lisette."
+  },
+  "merchantsLane": "Merchants Lane",
+  "@merchantsLane": {
+    "description": "Название кафе Merchant's Lane."
+  },
+  "merchantsLaneLocation": "150, Джалан Петалинг, Центр города, 50000 Куала-Лумпур, Вилайя Персекутуан Куала-Лумпур",
+  "@merchantsLaneLocation": {
+    "description": "Местоположение кафе Merchant's Lane."
+  },
+  "merchantsLaneHours": "8:00 - 22:00 (ежедневно)",
+  "@merchantsLaneHours": {
+    "description": "Часы работы кафе Merchant's Lane."
+  },
+  "bijanBar": "Бар и ресторан Bijan",
+  "@bijanBar": {
+    "description": "Название бара и ресторана Bijan."
+  },
+  "bijanBarLocation": "No 3, Джалан Сейлон, Букит Сейлон, 50200 Куала-Лумпур",
+  "@bijanBarLocation": {
+    "description": "Местоположение бара и ресторана Bijan."
+  },
+  "bijanBarHours": "12:00 - 23:00 (ежедневно)",
+  "@bijanBarHours": {
+    "description": "Часы работы бара и ресторана Bijan."
+  },
+  "songketRestaurant": "Ресторан Songket",
+  "@songketRestaurant": {
+    "description": "Название ресторана Songket."
+  },
+  "songketRestaurantLocation": "31G, Plaza Crystavilla, 1, Джалан 22а/70а, Деса Сри Хартамас, 50480 Куала-Лумпур",
+  "@songketRestaurantLocation": {
+    "description": "Местоположение ресторана Songket."
+  },
+  "songketRestaurantHours": "12:00 - 22:00 (ежедневно)",
+  "@songketRestaurantHours": {
+    "description": "Часы работы ресторана Songket."
+  },
+  "manjaOldMalaya": "Manja Old Malaya",
+  "@manjaOldMalaya": {
+    "description": "Название ресторана Manja Old Malaya."
+  },
+  "manjaOldMalayaLocation": "6, Лорунг Раджа Чулан, Куала-Лумпур, 50250 Куала-Лумпур",
+  "@manjaOldMalayaLocation": {
+    "description": "Местоположение ресторана Manja Old Malaya."
+  },
+  "manjaOldMalayaHours": "12:00 - 0:00 (ежедневно)",
+  "@manjaOldMalayaHours": {
+    "description": "Часы работы ресторана Manja Old Malaya."
+  },
+  "location": "Местоположение",
+  "@location": {
+    "description": "Метка для местоположения заведения."
+  },
+  "operatingHours": "Часы работы",
+  "@operatingHours": {
+    "description": "Метка для часов работы заведения."
+  },
+  "website": "Веб-сайт",
+  "@website": {
+    "description": "Метка для веб-сайта заведения."
+  },
+  "nightLife": "Ночная жизнь",
+  "@nightLife": {
+    "description": "Заголовок для страницы, отображающей ночную жизнь в Куала-Лумпуре."
+  },
+  "bars": "Бары",
+  "@bars": {
+    "description": "Вкладка для баров."
+  },
+  "nightMarket": "Ночной рынок",
+  "@nightMarket": {
+    "description": "Вкладка для ночных рынков."
+  },
+  "changkatBukitBintang": "Чангкат, Букит Бинтанг",
+  "@changkatBukitBintang": {
+    "description": "Название Чангката, популярного района ночной жизни в Куала-Лумпуре."
+  },
+  "changkatBukitBintangDescription": "Чангкат Букит Бинтанг предлагает тематические ночи, диджеев и выступления живых групп, создавая захватывающую ночную атмосферу.",
+  "@changkatBukitBintangDescription": {
+    "description": "Описание ночной жизни в районе Чангкат Букит Бинтанг."
+  },
+  "bangsar": "Бангсар",
+  "@bangsar": {
+    "description": "Название района Бангсар, популярного для ночной жизни."
+  },
+  "bangsarDescription": "Бангсар и Мид Вэлли известны своими модными барами, пабами и коктейльными лаунжами. Основные заведения ночной жизни сосредоточены вокруг Джалан Телауи в Бангсар Бару.",
+  "@bangsarDescription": {
+    "description": "Описание ночной жизни в районе Бангсар."
+  },
+  "ampang": "Ампанг",
+  "@ampang": {
+    "description": "Название района Ампанг, известного ночной жизнью."
+  },
+  "ampangDescription": "Ампанг предлагает разнообразную ночную жизнь с барами на крышах, ночными клубами и захватывающими видами на городской пейзаж Куала-Лумпура.",
+  "@ampangDescription": {
+    "description": "Описание ночной жизни в районе Ампанг."
+  },
+  "petalingStreetDescription": "Петалинг Стрит превращается в оживленный ночной рынок, предлагая множество ночных развлечений и горячих точек.",
+  "@petalingStreetDescription": {
+    "description": "Описание ночной жизни и рынка на Петалинг Стрит."
+  },
+  "marinisOn57": "Marinis On 57",
+  "@marinisOn57": {
+    "description": "Название бара Marini's On 57 в Куала-Лумпуре."
+  },
+  "marinisOn57Location": "57 этаж, Башня 3 Петронас, Куала-Лумпур Сити Центр, 50088 Куала-Лумпур",
+  "@marinisOn57Location": {
+    "description": "Местоположение бара Marini's On 57."
+  },
+  "heliLoungeBar": "Heli Lounge Bar",
+  "@heliLoungeBar": {
+    "description": "Название бара Heli Lounge Bar в Куала-Лумпуре."
+  },
+  "heliLoungeBarLocation": "4 этаж, Башня KH, Джалан Султан Исмаил, Букит Бинтанг, 50450 Куала-Лумпур",
+  "@heliLoungeBarLocation": {
+    "description": "Местоположение бара Heli Lounge Bar."
+  },
+  "zetaBar": "Zeta Bar",
+  "@zetaBar": {
+    "description": "Название Zeta Bar в Куала-Лумпуре."
+  },
+  "zetaBarLocation": "5 этаж, 3, Джалан Сентрал, Куала-Лумпур Сентрал, 50470 Куала-Лумпур",
+  "@zetaBarLocation": {
+    "description": "Местоположение Zeta Bar."
+  },
+  "connaughtNightMarket": "Ночной рынок Коннаут",
+  "@connaughtNightMarket": {
+    "description": "Название ночного рынка Коннаут."
+  },
+  "connaughtNightMarketDescription": "Ночной рынок Коннаут известен своим выбором китайских закусок, а также местных десертов и закусок.",
+  "@connaughtNightMarketDescription": {
+    "description": "Описание ночного рынка Коннаут."
+  },
+  "connaughtNightMarketLocation": "130, 108, Джалан Чердас, Таман Коннаут, 56000 Куала-Лумпур",
+  "@connaughtNightMarketLocation": {
+    "description": "Местоположение ночного рынка Коннаут."
+  },
+  "kasturiWalk": "Кастури Уок",
+  "@kasturiWalk": {
+    "description": "Название ночного рынка Кастури Уок в Куала-Лумпуре."
+  },
+  "kasturiWalkLocation": "Джалан Ханг Кастури, Центр города, 50050 Куала-Лумпур",
+  "@kasturiWalkLocation": {
+    "description": "Местоположение Кастури Уок."
+  },
+  "kasturiWalkHours": "Открыто 24 часа",
+  "@kasturiWalkHours": {
+    "description": "Часы работы Кастури Уок."
+  },
+  "sightseeing": "Экскурсии",
+  "@sightseeing": {
+    "description": "Заголовок для страницы с экскурсионными местами в Куала-Лумпуре."
+  },
+  "mustVisit": "Обязательно посетить",
+  "@mustVisit": {
+    "description": "Вкладка для обязательных мест для посещения."
+  },
+  "museums": "Музеи",
+  "@museums": {
+    "description": "Вкладка для музеев."
+  },
+  "klArtScene": "Арт-сцена KL",
+  "@klArtScene": {
+    "description": "Вкладка для арт-сцены Куала-Лумпура."
+  },
+  "klcc": "KLCC",
+  "@klcc": {
+    "description": "Название района KLCC, популярного туристического направления."
+  },
+  "klccLocation": "Джалан Ампанг, Золотой треугольник, Куала-Лумпур Сити Центр, 50088",
+  "@klccLocation": {
+    "description": "Местоположение KLCC."
+  },
+  "klccHours": "10:00 - 22:00",
+  "@klccHours": {
+    "description": "Часы работы KLCC."
+  },
+  "istanaNegara": "Истана Негара",
+  "@istanaNegara": {
+    "description": "Название Истана Негара."
+  },
+  "istanaNegaraLocation": "Джалан Туанку Абдул Халим, Букит Дамансара, 50480 Куала-Лумпур",
+  "@istanaNegaraLocation": {
+    "description": "Местоположение Истана Негара."
+  },
+  "istanaNegaraHours": "Открыто 24 часа",
+  "@istanaNegaraHours": {
+    "description": "Часы работы Истана Негара."
+  },
+  "tunkuAbdulRahmanMemorial": "Мемориал Тунку Абдул Рахмана",
+  "@tunkuAbdulRahmanMemorial": {
+    "description": "Название мемориала Тунку Абдул Рахмана."
+  },
+  "tunkuAbdulRahmanMemorialLocation": "Джалан Дато Онн, 50480 Куала-Лумпур",
+  "@tunkuAbdulRahmanMemorialLocation": {
+    "description": "Местоположение мемориала Тунку Абдул Рахмана."
+  },
+  "tunkuAbdulRahmanMemorialHours": "10:00 - 17:30 (вт-вс), Закрыто по пятницам (12:00 - 15:00)",
+  "@tunkuAbdulRahmanMemorialHours": {
+    "description": "Часы работы мемориала Тунку Абдул Рахмана."
+  },
+  "klTower": "Башня Куала-Лумпур / KL Tower",
+  "@klTower": {
+    "description": "Название Башни Куала-Лумпур."
+  },
+  "klTowerLocation": "No. 2, Джалан Пунчак, Off Джалан П.Рамли, 50250 Куала-Лумпур",
+  "@klTowerLocation": {
+    "description": "Местоположение Башни Куала-Лумпур."
+  },
+  "klTowerHours": "11:00 - 19:00 (пн-пт), 10:00 - 22:00 (сб-вс)",
+  "@klTowerHours": {
+    "description": "Часы работы Башни Куала-Лумпур."
+  },
+  "ethnologyMuseum": "Музей этнологии Малайского мира",
+  "@ethnologyMuseum": {
+    "description": "Название Музея этнологии Малайского мира."
+  },
+  "ethnologyMuseumLocation": "Джалан Дамансара, Тасик Пердана, 50480 Куала-Лумпур",
+  "@ethnologyMuseumLocation": {
+    "description": "Местоположение Музея этнологии Малайского мира."
+  },
+  "ethnologyMuseumHours": "9:00 - 17:00 (вт-вс), Закрыто по понедельникам",
+  "@ethnologyMuseumHours": {
+    "description": "Часы работы Музея этнологии Малайского мира."
+  },
+  "textilesMuseum": "Национальный музей текстиля",
+  "@textilesMuseum": {
+    "description": "Название Национального музея текстиля."
+  },
+  "textilesMuseumLocation": "26, Джалан Султан Хишамуддин, Центр города, 50000 Куала-Лумпур",
+  "@textilesMuseumLocation": {
+    "description": "Местоположение Национального музея текстиля."
+  },
+  "textilesMuseumHours": "9:00 - 18:00 (ежедневно)",
+  "@textilesMuseumHours": {
+    "description": "Часы работы Национального музея текстиля."
+  },
+  "museumOfAsianArts": "Музей азиатского искусства",
+  "@museumOfAsianArts": {
+    "description": "Название Музея азиатского искусства."
+  },
+  "museumOfAsianArtsLocation": "Джалан Илму, 50603 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@museumOfAsianArtsLocation": {
+    "description": "Местоположение Музея азиатского искусства."
+  },
+  "museumOfAsianArtsHours": "8:30 - 17:00 (пн-чт), 8:30 - 17:00 (пт)",
+  "@museumOfAsianArtsHours": {
+    "description": "Часы работы Музея азиатского искусства."
+  },
+  "urbanMuseum": "Городской музей",
+  "@urbanMuseum": {
+    "description": "Название Городского музея."
+  },
+  "urbanMuseumLocation": "3, Джалан Бедара, Букит Бинтанг, 50200 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@urbanMuseumLocation": {
+    "description": "Местоположение Городского музея."
+  },
+  "urbanMuseumHours": "10:00 - 20:30 (вт-вс), Закрыто по понедельникам",
+  "@urbanMuseumHours": {
+    "description": "Часы работы Городского музея."
+  },
+  "nationalArtGallery": "Национальная галерея искусств",
+  "@nationalArtGallery": {
+    "description": "Название Национальной галереи искусств."
+  },
+  "nationalArtGalleryLocation": "No. 2, Джалан Темерлох, Титивангса, 53200 Куала-Лумпур",
+  "@nationalArtGalleryLocation": {
+    "description": "Местоположение Национальной галереи искусств."
+  },
+  "nationalArtGalleryHours": "10:00 - 16:00 (вт-вс), Закрыто по понедельникам",
+  "@nationalArtGalleryHours": {
+    "description": "Часы работы Национальной галереи искусств."
+  },
+  "ourArtProjects": "OUR ArtProjects (Здание Zhongshan)",
+  "@ourArtProjects": {
+    "description": "Название OUR ArtProjects в здании Zhongshan."
+  },
+  "ourArtProjectsLocation": "80А, Джалан Ротан, Кампунг Аттап, 50460 Куала-Лумпур",
+  "@ourArtProjectsLocation": {
+    "description": "Местоположение OUR ArtProjects."
+  },
+  "ourArtProjectsHours": "11:00 - 19:00 (вт-сб), Закрыто по вс и пн",
+  "@ourArtProjectsHours": {
+    "description": "Часы работы OUR ArtProjects."
+  },
+  "klDescription1": "Центр Куала-Лумпура (KL) известен своими высокими футуристическими небоскребами и современными постройками. Однако, чтобы по-настоящему ощутить KL, нужно пройтись по его улицам и дорогам, чтобы оценить его во всей красе. Именно так можно почувствовать ароматы еды с уличных лотков, оценить фрески на старых зданиях. Чем больше вы гуляете, тем больше понимаете, что KL — это не просто бетонные небоскребы, а произведение архитектурного искусства. Прогуливаясь по улицам, можно лучше насладиться видами KL.",
+  "@klDescription1": {
+    "description": "Первое описание страницы 'Краткий обзор KL'."
+  },
+  "klDescription2": "Основание KL было почти случайным. В 1857 году 87 китайских старателей, ищущих олово, прибыли к месту слияния рек Кланг и Гомбак и разбили лагерь, назвав это место Куала-Лумпур, что означает 'грязное слияние'.",
+  "@klDescription2": {
+    "description": "Второе описание страницы 'Краткий обзор KL', описывающее историю основания KL."
+  },
+  "lrtTitle": "Легкорельсовый транспорт (LRT)",
+  "@lrtTitle": {
+    "description": "Заголовок для описания легкорельсового транспорта."
+  },
+  "lrtDescription": "Легкорельсовый транспорт (LRT) — один из самых распространенных видов общественного железнодорожного транспорта. LRT разделен на две линии: Ампанг/Шри Петалинг и Келана Джая. Это лучший способ передвижения, если вы хотите посетить места, находящиеся вне пешей досягаемости от центра Куала-Лумпура. Справочная служба: 03-7885 2585",
+  "@lrtDescription": {
+    "description": "Описание легкорельсового транспорта."
+  },
+  "mrtTitle": "Масс-Рапид Транспорт (MRT)",
+  "@mrtTitle": {
+    "description": "Заголовок для описания масс-рапид транспорта."
+  },
+  "mrtDescription": "Масс-Рапид Транспорт (MRT) разделен на две линии; первая — линия Сунгай Булох-Каянг протяженностью 51 км с 31 станцией на маршруте. Все станции начинают работу в 6:00 ежедневно. Время закрытия варьируется в зависимости от станции. Стоимость одной поездки начинается от RM1.20. Справочная служба: 1800-82-6868",
+  "@mrtDescription": {
+    "description": "Описание масс-рапид транспорта."
+  },
+  "ktmKomuterTitle": "KTM Комутер",
+  "@ktmKomuterTitle": {
+    "description": "Заголовок для описания KTM Комутер."
+  },
+  "ktmKomuterDescription": "Старейшая железнодорожная система в Малайзии, KTM Комутер больше рассчитана на местных жителей, чем на туристов. Она является более дешевым вариантом для дальних поездок. Линии разделены на две: Раванг - Пелабухан Кланг и Бату Кейвс - Серембан. Справочная служба: 03-2267 1200",
+  "@ktmKomuterDescription": {
+    "description": "Описание KTM Комутер."
+  },
+  "klMonorailTitle": "Монорельс KL",
+  "@klMonorailTitle": {
+    "description": "Заголовок для описания монорельса KL."
+  },
+  "klMonorailDescription": "Монорельс KL — это простая, но хорошо связанная система поездов, которая курсирует между транспортным узлом KL Sentral и Титивангсой в центре KL. Она действует как мост между центром Куала-Лумпура и его внутренними районами. Монорельс KL начинает работу в 6:00 и закрывается в 0:00. Справочная служба: 03-2267 9888",
+  "@klMonorailDescription": {
+    "description": "Описание монорельса KL."
+  },
+  "rapidKLBusTitle": "Автобус RapidKL",
+  "@rapidKLBusTitle": {
+    "description": "Заголовок для описания автобуса RapidKL."
+  },
+  "rapidKLBusDescription": "Автобусы RapidKL часто можно увидеть на большинстве железнодорожных станций, и они обычно используются как транзитный транспорт для пассажиров, чтобы добраться до нужных мест. Каждая поездка может стоить до RM5.00, и оплата может быть произведена с помощью точной суммы или через карту Touch n’ Go при входе и выходе. Справочная служба: 03-7885 2585",
+  "@rapidKLBusDescription": {
+    "description": "Описание автобусов RapidKL."
+  },
+  "weatherTitle": "Погода",
+  "@weatherTitle": {
+    "description": "Заголовок для раздела 'Погода' в разделе 'Советы путешественникам'."
+  },
+  "weatherDescription": "Климат в Куала-Лумпуре довольно влажный на протяжении всего года. Любой путешественник в KL должен быть готов к дождям в любое время года. Тем не менее, лучшее время для посещения KL — с мая по июль или с декабря по февраль. Погода может быть довольно жаркой в период с марта по апрель. Из-за лесных пожаров в Суматре, которые обычно случаются с июня по август, в это время пыль может образовывать смог над KL, что делает это не самым лучшим временем для посещения города.",
+  "@weatherDescription": {
+    "description": "Описание раздела 'Погода' в разделе 'Советы путешественникам'."
+  },
+  "timeZoneTitle": "Часовой пояс",
+  "@timeZoneTitle": {
+    "description": "Заголовок для раздела 'Часовой пояс' в разделе 'Советы путешественникам'."
+  },
+  "timeZoneDescription": "Стандартное малайзийское время опережает время по Гринвичу на 8 часов (GMT +8).",
+  "@timeZoneDescription": {
+    "description": "Описание часового пояса в разделе 'Советы путешественникам'."
+  },
+  "currencyTitle": "Валюта",
+  "@currencyTitle": {
+    "description": "Заголовок для раздела 'Валюта' в разделе 'Советы путешественникам'."
+  },
+  "currencyDescription": "Денежная единица Малайзии разделена на две части. Термин 'Ringgit Malaysia (RM)' используется для обозначения бумажных денег. Номиналы: RM1, RM5, RM10, RM20, RM50 и RM100. Монеты называются сен (центовые). Номиналы монет: 5 сен, 10 сен, 20 сен и 50 сен.",
+  "@currencyDescription": {
+    "description": "Описание валюты в разделе 'Советы путешественникам'."
+  },
+  "visaAndPassportTitle": "Виза и паспорт",
+  "@visaAndPassportTitle": {
+    "description": "Заголовок для раздела 'Виза и паспорт' в разделе 'Советы путешественникам'."
+  },
+  "visaAndPassportDescription": "Паспорт должен быть действителен не менее 6 месяцев на момент въезда. Требования к визам могут меняться, поэтому лучше заранее проверить информацию в посольстве Малайзии или на сайте Иммиграционной службы.",
+  "@visaAndPassportDescription": {
+    "description": "Описание раздела 'Виза и паспорт' в разделе 'Советы путешественникам'."
+  },
+  "healthcare": "Здравоохранение",
+  "@healthcare": {
+    "description": "Ярлык для раздела 'Здравоохранение'."
+  },
+  "dental": "Стоматология",
+  "@dental": {
+    "description": "Ярлык для раздела 'Стоматология'."
+  },
+  "dermatologist": "Дерматология",
+  "@dermatologist": {
+    "description": "Ярлык для раздела 'Дерматология'."
+  },
+  "ophthalmologist": "Офтальмология",
+  "@ophthalmologist": {
+    "description": "Ярлык для раздела 'Офтальмология'."
+  },
+  "plasticSurgery": "Пластическая хирургия",
+  "@plasticSurgery": {
+    "description": "Ярлык для раздела 'Пластическая хирургия'."
+  },
+  "gleneagles": "Gleneagles, Куала-Лумпур",
+  "@gleneagles": {
+    "description": "Название больницы Gleneagles в Куала-Лумпуре."
+  },
+  "gleneaglesLocation": "Блок A и Блок B, 286 и 288, Jalan Ampang, Kampung Berembang, 50450 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@gleneaglesLocation": {
+    "description": "Адрес больницы Gleneagles в Куала-Лумпуре."
+  },
+  "gleneaglesHours": "9:00 - 17:00 (пн-пт), Закрыто в выходные",
+  "@gleneaglesHours": {
+    "description": "Часы работы больницы Gleneagles в Куала-Лумпуре."
+  },
+  "gleneaglesPhone": "603-2282 6800",
+  "@gleneaglesPhone": {
+    "description": "Телефон больницы Gleneagles в Куала-Лумпуре."
+  },
+  "kpjTawakkal": "Специализированная больница KPJ Tawakkal",
+  "@kpjTawakkal": {
+    "description": "Название специализированной больницы KPJ Tawakkal в Куала-Лумпуре."
+  },
+  "kpjTawakkalLocation": "1, Jalan Pahang Barat, Pekeliling, 53000 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@kpjTawakkalLocation": {
+    "description": "Адрес специализированной больницы KPJ Tawakkal в Куала-Лумпуре."
+  },
+  "kpjTawakkalHours": "8:00 - 18:00 (пн-пт), 9:00 - 15:00 (сб)",
+  "@kpjTawakkalHours": {
+    "description": "Часы работы специализированной больницы KPJ Tawakkal в Куала-Лумпуре."
+  },
+  "kpjTawakkalPhone": "603-2283 4567",
+  "@kpjTawakkalPhone": {
+    "description": "Телефон специализированной больницы KPJ Tawakkal в Куала-Лумпуре."
+  },
+  "klinikPergigianBangsar": "Стоматологическая клиника Bangsar",
+  "@klinikPergigianBangsar": {
+    "description": "Название стоматологической клиники Bangsar."
+  },
+  "klinikPergigianBangsarLocation": "43-1, Jalan Telawi 3, Bangsar, 59100 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@klinikPergigianBangsarLocation": {
+    "description": "Адрес стоматологической клиники Bangsar."
+  },
+  "klinikPergigianBangsarHours": "9:00 - 18:00 (пн-пт), 9:00 - 17:00 (сб), 9:00 - 14:00 (вс)",
+  "@klinikPergigianBangsarHours": {
+    "description": "Часы работы стоматологической клиники Bangsar."
+  },
+  "klinikPergigianBangsarPhone": "603-2282 6800",
+  "@klinikPergigianBangsarPhone": {
+    "description": "Телефон стоматологической клиники Bangsar."
+  },
+  "dentalPro": "DentalPro (Куала-Лумпур, Малайзия)",
+  "@dentalPro": {
+    "description": "Название стоматологической клиники DentalPro."
+  },
+  "dentalProLocation": "12, Jalan Sri Semantan 1, Damansara Heights, 50490 Куала-Лумпур",
+  "@dentalProLocation": {
+    "description": "Адрес стоматологической клиники DentalPro."
+  },
+  "dentalProHours": "9:00 - 18:00 (пн-сб)",
+  "@dentalProHours": {
+    "description": "Часы работы стоматологической клиники DentalPro."
+  },
+  "dentalProPhone": "+603-2147 1111",
+  "@dentalProPhone": {
+    "description": "Телефон стоматологической клиники DentalPro."
+  },
+  "drJaneClinic": "Клиника Dr Jane",
+  "@drJaneClinic": {
+    "description": "Название клиники Dr Jane."
+  },
+  "drJaneClinicLocation": "Tropicana Avenue, P01-09 (Первый этаж), Persiaran Tropicana, PJU3, 47410 Петалинг-Джая, Селангор",
+  "@drJaneClinicLocation": {
+    "description": "Адрес клиники Dr Jane."
+  },
+  "drJaneClinicHours": "10:00 - 19:00 (пн-пт), 10:00 - 18:00 (сб-вс)",
+  "@drJaneClinicHours": {
+    "description": "Часы работы клиники Dr Jane."
+  },
+  "drJaneClinicPhone": "",
+  "@drJaneClinicPhone": {
+    "description": "Телефон клиники Dr Jane (если доступен)."
+  },
+  "dermlaze": "Центр Dermlaze Skin Laser & Aesthetics",
+  "@dermlaze": {
+    "description": "Название центра Dermlaze Skin Laser & Aesthetics."
+  },
+  "dermlazeLocation": "75, Jalan SS 21/60, Damansara Utama, 47400 Петалинг-Джая, Селангор",
+  "@dermlazeLocation": {
+    "description": "Адрес центра Dermlaze Skin Laser & Aesthetics."
+  },
+  "dermlazeHours": "10:00 - 18:00 (пн-сб)",
+  "@dermlazeHours": {
+    "description": "Часы работы центра Dermlaze Skin Laser & Aesthetics."
+  },
+  "dermlazePhone": "",
+  "@dermlazePhone": {
+    "description": "Телефон центра Dermlaze Skin Laser & Aesthetics (если доступен)."
+  },
+  "isec": "Международный центр специализированной офтальмологии",
+  "@isec": {
+    "description": "Название Международного центра специализированной офтальмологии."
+  },
+  "isecLocation": "Centrepoint South, Lingkaran Syed Putra, Mid Valley City, 59200 Куала-Лумпур",
+  "@isecLocation": {
+    "description": "Адрес Международного центра специализированной офтальмологии."
+  },
+  "isecHours": "8:30 - 17:30 (пн-пт), 8:30 - 13:00 (сб), Закрыто в воскресенье",
+  "@isecHours": {
+    "description": "Часы работы Международного центра специализированной офтальмологии."
+  },
+  "isecPhone": "+603-22848989",
+  "@isecPhone": {
+    "description": "Телефон Международного центра специализированной офтальмологии."
+  },
+  "vistaEyeSpecialist": "Vista Eye Specialist",
+  "@vistaEyeSpecialist": {
+    "description": "Название Vista Eye Specialist."
+  },
+  "vistaEyeSpecialistLocation": "Lot G217, Ground Floor, Mid Valley Megamall, 59200 Куала-Лумпур",
+  "@vistaEyeSpecialistLocation": {
+    "description": "Адрес Vista Eye Specialist."
+  },
+  "vistaEyeSpecialistHours": "10:00 - 22:00 (пн-вс)",
+  "@vistaEyeSpecialistHours": {
+    "description": "Часы работы Vista Eye Specialist."
+  },
+  "vistaEyeSpecialistPhone": "+603-22423937",
+  "@vistaEyeSpecialistPhone": {
+    "description": "Телефон Vista Eye Specialist."
+  },
+  "somaPlasticSurgery": "Пластическая хирургия Soma",
+  "@somaPlasticSurgery": {
+    "description": "Название клиники пластической хирургии Soma."
+  },
+  "somaPlasticSurgeryLocation": "45B, Второй этаж, Jalan SS15/5a, SS15, 47500 Субанг Джая, Селангор",
+  "@somaPlasticSurgeryLocation": {
+    "description": "Адрес клиники пластической хирургии Soma."
+  },
+  "somaPlasticSurgeryHours": "9:00 - 17:00 (пн-пт), 9:00 - 13:00 (сб), Закрыто в воскресенье",
+  "@somaPlasticSurgeryHours": {
+    "description": "Часы работы клиники пластической хирургии Soma."
+  },
+  "somaPlasticSurgeryPhone": "+603-5887 44229",
+  "@somaPlasticSurgeryPhone": {
+    "description": "Телефон клиники пластической хирургии Soma."
+  },
+  "placesToShop": "Места для шопинга",
+  "@placesToShop": {
+    "description": "Название страницы 'Места для шопинга'."
+  },
+  "avenueKShop": "Магазин Avenue K",
+  "@avenueKShop": {
+    "description": "Название магазина Avenue K."
+  },
+  "avenueKShopLocation": "156, Jalan Ampang, Kuala Lumpur City Centre, 50450 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@avenueKShopLocation": {
+    "description": "Адрес магазина Avenue K."
+  },
+  "avenueKShopHours": "10:00 - 22:00 (ежедневно)",
+  "@avenueKShopHours": {
+    "description": "Часы работы магазина Avenue K."
+  },
+  "avenueKShopWebsite": "http://www.avenuek.com.my/",
+  "@avenueKShopWebsite": {
+    "description": "Веб-сайт магазина Avenue K."
+  },
+  "sanctuaryMall": "Торговый центр Sanctuary",
+  "@sanctuaryMall": {
+    "description": "Название торгового центра Sanctuary."
+  },
+  "sanctuaryMallLocation": "Persiaran Eco Sanctuary, 8/3, Eco Santuari, 42500, Селангор",
+  "@sanctuaryMallLocation": {
+    "description": "Адрес торгового центра Sanctuary."
+  },
+  "sanctuaryMallHours": "10:00 - 22:00 (ежедневно)",
+  "@sanctuaryMallHours": {
+    "description": "Часы работы торгового центра Sanctuary."
+  },
+  "sanctuaryMallWebsite": "https://www.facebook.com/SanctuaryMall",
+  "@sanctuaryMallWebsite": {
+    "description": "Веб-сайт торгового центра Sanctuary."
+  },
+  "lincKL": "The LINC KL",
+  "@lincKL": {
+    "description": "Название The LINC KL."
+  },
+  "lincKLLocation": "Lingkaran Syed Putra, 59200 Куала-Лумпур",
+  "@lincKLLocation": {
+    "description": "Адрес The LINC KL."
+  },
+  "lincKLHours": "10:00 - 22:00 (ежедневно)",
+  "@lincKLHours": {
+    "description": "Часы работы The LINC KL."
+  },
+  "lincKLWebsite": "https://thelinckl.com.my/",
+  "@lincKLWebsite": {
+    "description": "Веб-сайт The LINC KL."
+  },
+  "manjakaki": "Манжуаки",
+  "@manjakaki": {
+    "description": "Название спа Манжуаки."
+  },
+  "manjakakiLocation": "Mid Valley Megamall, Lot No.2, LG, 59, Lingkaran Syed Putra, Mid Valley City, 59200 Куала-Лумпур",
+  "@manjakakiLocation": {
+    "description": "Адрес спа Манжуаки."
+  },
+  "manjakakiHours": "10:00 - 22:00 (ежедневно)",
+  "@manjakakiHours": {
+    "description": "Часы работы спа Манжуаки."
+  },
+  "manjakakiWebsite": "",
+  "@manjakakiWebsite": {
+    "description": "Веб-сайт спа Манжуаки (если доступен)."
+  },
+  "urbanRetreatSpaKL": "Спа Urban Retreat KL",
+  "@urbanRetreatSpaKL": {
+    "description": "Название спа Urban Retreat KL."
+  },
+  "urbanRetreatSpaKLLocation": "No 1, Lot 15, 2-й этаж, 1 Mont Kiara, Jalan Mont Kiara, Федеральная территория Куала-Лумпур",
+  "@urbanRetreatSpaKLLocation": {
+    "description": "Адрес спа Urban Retreat KL."
+  },
+  "urbanRetreatSpaKLHours": "11:00 - 22:00 (ежедневно)",
+  "@urbanRetreatSpaKLHours": {
+    "description": "Часы работы спа Urban Retreat KL."
+  },
+  "urbanRetreatSpaKLWebsite": "",
+  "@urbanRetreatSpaKLWebsite": {
+    "description": "Веб-сайт спа Urban Retreat KL (если доступен)."
+  },
+  "ozmosisSpa": "Озмозис Спа",
+  "@ozmosisSpa": {
+    "description": "Название спа Озмозис."
+  },
+  "ozmosisSpaLocation": "16-1, Jalan Telawi 2, Bangsar, 59100 Куала-Лумпур",
+  "@ozmosisSpaLocation": {
+    "description": "Адрес спа Озмозис."
+  },
+  "ozmosisSpaHours": "10:00 - 21:00 (пн-вс)",
+  "@ozmosisSpaHours": {
+    "description": "Часы работы спа Озмозис."
+  },
+  "ozmosisSpaWebsite": "",
+  "@ozmosisSpaWebsite": {
+    "description": "Веб-сайт спа Озмозис (если доступен)."
+  },
+  "description": "Описание",
+  "@description": {
+    "description": "Ярлык для поля описания места для проживания."
+  },
+  "bukitBintang": "Букит Бинтанг",
+  "@bukitBintang": {
+    "description": "Название района Букит Бинтанг."
+  },
+  "bukitBintangDescription": "Если вы хотите находиться в центре всех потрясающих магазинов, ресторанов и развлечений, которые может предложить Куала-Лумпур, район Букит Бинтанг — это то место, где нужно остановиться...",
+  "@bukitBintangDescription": {
+    "description": "Описание района Букит Бинтанг."
+  },
+  "klccDescription": "Самым популярным районом для проживания в Куала-Лумпуре является Куала-Лумпур Сити Центр...",
+  "@klccDescription": {
+    "description": "Описание района Куала-Лумпур Сити Центр."
+  },
+  "bangsarSouth": "Бангсар Саут",
+  "@bangsarSouth": {
+    "description": "Название района Бангсар Саут."
+  },
+  "bangsarSouthDescription": "Если вы предпочитаете остановиться немного дальше от загруженного и оживленного центра Куала-Лумпура...",
+  "@bangsarSouthDescription": {
+    "description": "Описание района Бангсар Саут."
+  },
+  "mercureKL": "Mercure Куала-Лумпур Гленмари",
+  "@mercureKL": {
+    "description": "Название отеля Mercure Куала-Лумпур Гленмари."
+  },
+  "mercureKLLocation": "Jalan Kontraktor U1/14, Секция U1, 40150 Шах Алам, Селангор",
+  "@mercureKLLocation": {
+    "description": "Адрес отеля Mercure Куала-Лумпур Гленмари."
+  },
+  "mercureKLContact": "+603-5030 2888",
+  "@mercureKLContact": {
+    "description": "Контактный номер отеля Mercure Куала-Лумпур Гленмари."
+  },
+  "grandCampbellHotel": "The Grand Campbell Hotel KL",
+  "@grandCampbellHotel": {
+    "description": "Название отеля The Grand Campbell Hotel KL."
+  },
+  "grandCampbellHotelLocation": "Ground Campbell Complex, 98, Jalan Dang Wangi, 50100 Куала-Лумпур",
+  "@grandCampbellHotelLocation": {
+    "description": "Адрес отеля The Grand Campbell Hotel KL."
+  },
+  "grandCampbellHotelContact": "+6011-1301 1300",
+  "@grandCampbellHotelContact": {
+    "description": "Контактный номер отеля The Grand Campbell Hotel KL."
+  },
+  "leoBackpackers": "Leo Backpackers @ Central Market",
+  "@leoBackpackers": {
+    "description": "Название хостела Leo Backpackers @ Central Market."
+  },
+  "leoBackpackersLocation": "Jalan Hang Kasturi, City Centre, 50000 Куала-Лумпур",
+  "@leoBackpackersLocation": {
+    "description": "Адрес хостела Leo Backpackers @ Central Market."
+  },
+  "leoBackpackersContact": "+603-2031 1733",
+  "@leoBackpackersContact": {
+    "description": "Контактный номер хостела Leo Backpackers @ Central Market."
+  },
+  "topPlacesToStay": "Лучшие места для проживания",
+  "@topPlacesToStay": {
+    "description": "Название вкладки, отображающей лучшие места для проживания."
+  },
+  "hotels": "Отели",
+  "@hotels": {
+    "description": "Название вкладки, отображающей отели."
+  },
+  "budgetHotels": "Бюджетные отели",
+  "@budgetHotels": {
+    "description": "Название вкладки, отображающей бюджетные отели."
+  },
+  "backpackersLodge": "Хостелы для путешественников",
+  "@backpackersLodge": {
+    "description": "Название вкладки, отображающей хостелы для путешественников."
+  },
+  "upcomingEvents": "Предстоящие мероприятия",
+  "@upcomingEvents": {
+    "description": "Ярлык для раздела с предстоящими мероприятиями."
+  },
+  "previous": "Предыдущий",
+  "@previous": {
+    "description": "Ярлык для кнопки 'Предыдущий'."
+  },
+  "next": "Следующий",
+  "@next": {
+    "description": "Ярлык для кнопки 'Следующий'."
+  },
+  "error": "Произошла ошибка",
+  "@error": {
+    "description": "Сообщение, отображаемое при возникновении ошибки."
+  },
+  "noEventsFound": "Мероприятия не найдены",
+  "@noEventsFound": {
+    "description": "Сообщение, отображаемое при отсутствии мероприятий."
+  },
+  "cachedDataMessage": "Показаны кэшированные данные",
+  "@cachedDataMessage": {
+    "description": "Сообщение, отображаемое при показе кэшированных данных."
+  },
+  "noEventsThisMonth": "В этом месяце нет мероприятий",
+  "@noEventsThisMonth": {
+    "description": "Сообщение, отображаемое при отсутствии мероприятий в текущем месяце."
+  },
+  "viewDetails": "Посмотреть детали",
+  "@viewDetails": {
+    "description": "Ярлык для кнопки просмотра деталей мероприятия."
+  },
+  "EventScreen": "Экран мероприятий",
+  "@EventScreen": {
+    "description": "Название экрана мероприятий."
+  },
+  "Contest": "Конкурс",
+  "@Contest": {
+    "description": "Ярлык для экрана конкурса."
+  },
+  "vouchers": "Ваучеры",
+  "@vouchers": {
+    "description": "Название экрана с ваучерами."
+  },
+  "clickHereToClaim": "Нажмите здесь, чтобы получить",
+  "@clickHereToClaim": {
+    "description": "Текст кнопки для получения ваучеров."
+  },
+  "kl4Kids": "Куала-Лумпур для детей",
+  "@kl4Kids": {
+    "description": "Название раздела 'Куала-Лумпур для детей'."
+  },
+  "sampleLocalFlavour": "Попробуйте местный вкус с Наси Лемак",
+  "@sampleLocalFlavour": {
+    "description": "Название раздела 'Наси Лемак'."
+  },
+  "nasiLemakDescription": "Наси Лемак — это ароматный рис, традиционно приготовленный на кокосовом молоке и листьях пандана, подаваемый с острым самбалом, огурцами, жареными анчоусами, яйцом и жареными арахисами. Лучше всего сочетается с горячим стаканом те тарик. В большинстве магазинов или киосков можно добавить такие ингредиенты, как курица или говяжий ренданг, жареная курица, самбал с креветками и многое другое.",
+  "@nasiLemakDescription": {
+    "description": "Описание Наси Лемак, местного блюда."
+  },
+  "walkThroughForest": "Прогуляйтесь в лесу посреди города",
+  "@walkThroughForest": {
+    "description": "Название раздела 'Прогулка по лесу'."
+  },
+  "forestEcoParkDescription": "Вы правильно прочитали! Таман Эко Римба Куала-Лумпур, также известный как Лесной Эко-парк Куала-Лумпур, находится в одном из старейших лесов Малайзии — Хутан Симпан Букит Нанас. Независимо от того, местный вы житель или гость, это место обязательно для посещения!",
+  "@forestEcoParkDescription": {
+    "description": "Описание Лесного Эко-парка Куала-Лумпур."
+  },
+  "baskInHistory": "Погрузитесь в историю в Национальном музее",
+  "@baskInHistory": {
+    "description": "Название раздела Национального музея."
+  },
+  "nationalMuseumDescription": "Чтобы больше узнать о малайзийской истории и культуре, а также увидеть реплики малайских домов, свадебные сцены и охотничьи экспозиции. В музее также будут представлены национальные инструменты и костюмы. Помимо постоянных экспозиций, в Центральном зале в течение года проходят временные выставки.",
+  "@nationalMuseumDescription": {
+    "description": "Описание Национального музея."
+  },
+  "shopUntilDrop": "Шопинг до упаду на Пелинг-стрит",
+  "@shopUntilDrop": {
+    "description": "Название раздела 'Шопинг на Пелинг-стрит'."
+  },
+  "spendNightOut": "Проведите ночь вне дома",
+  "@spendNightOut": {
+    "description": "Название раздела ночной жизни."
+  },
+  "nightOutDescription": "Куала-Лумпур — это яркий город с потрясающей ночной жизнью. Отправляйтесь в Бангсар или Чангкат Букит Бинтанг, чтобы насладиться ночной жизнью Куала-Лумпура. Здесь множество баров с собственными коктейльными барами и диджеями, которые играют всю ночь напролет. С уникальными ресторанами, модными барами, трендовыми ночными клубами и крутыми караоке-заведениями здесь найдется что-то для каждого.",
+  "@nightOutDescription": {
+    "description": "Описание ночной жизни в Куала-Лумпуре."
+  },
+  "october": "Октябрь",
+  "@october": {
+    "description": "Название месяца октябрь."
+  },
+  "november": "Ноябрь",
+  "@november": {
+    "description": "Название месяца ноябрь."
+  },
+  "december": "Декабрь",
+  "@december": {
+    "description": "Название месяца декабрь."
+  },
+  "click": "Нажмите",
+  "@click": {
+    "description": "Текст, отображаемый для кнопки или ссылки."
+  },
+  "miles_hotel": "1000 Майлс Отель",
+  "@miles_hotel": {
+    "description": "Название отеля."
+  },
+  "hotel_description": "",
+  "@hotel_description": {
+    "description": "Краткое описание отеля."
+  },
+  "hotel_location": "17 и 19, Jalan Tun H S Lee, Центр города, 50000 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@hotel_location": {
+    "description": "Местоположение отеля."
+  },
+  "hotel_contact": "+603-2022 3333",
+  "@hotel_contact": {
+    "description": "Контактный номер отеля."
+  },
+  "hotel_website": "",
+  "@hotel_website": {
+    "description": "Веб-сайт отеля."
+  },
+  "ritz_carlton": "Ритц-Карлтон",
+  "@ritz_carlton": {
+    "description": "Название отеля."
+  },
+  "ritz_description": "",
+  "@ritz_description": {
+    "description": "Краткое описание отеля."
+  },
+  "ritz_location": "168, Jalan Imbi, Bukit Bintang, 55100 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@ritz_location": {
+    "description": "Местоположение отеля."
+  },
+  "ritz_contact": "+603-2142 8000",
+  "@ritz_contact": {
+    "description": "Контактный номер отеля."
+  },
+  "ritz_website": "",
+  "@ritz_website": {
+    "description": "Веб-сайт отеля."
+  },
+  "ansa_hotel": "Отель ANSA, Куала-Лумпур",
+  "@ansa_hotel": {
+    "description": "Название отеля."
+  },
+  "ansa_description": "",
+  "@ansa_description": {
+    "description": "Краткое описание отеля."
+  },
+  "ansa_location": "101, Jalan Bukit Bintang, Bukit Bintang, 55100 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@ansa_location": {
+    "description": "Местоположение отеля."
+  },
+  "ansa_contact": "+603-2142 8000",
+  "@ansa_contact": {
+    "description": "Контактный номер отеля."
+  },
+  "ansa_website": "",
+  "@ansa_website": {
+    "description": "Веб-сайт отеля."
+  },
+  "royale_chulan": "Рояль Чулан, Куала-Лумпур",
+  "@royale_chulan": {
+    "description": "Название отеля."
+  },
+  "chulan_description": "",
+  "@chulan_description": {
+    "description": "Краткое описание отеля."
+  },
+  "chulan_location": "5, Jalan Conlay, Kuala Lumpur, 50450 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@chulan_location": {
+    "description": "Местоположение отеля."
+  },
+  "chulan_contact": "+603-2688 9688",
+  "@chulan_contact": {
+    "description": "Контактный номер отеля."
+  },
+  "chulan_website": "",
+  "@chulan_website": {
+    "description": "Веб-сайт отеля."
+  },
+  "ymca_hostel": "Хостел YMCA в Куала-Лумпуре",
+  "@ymca_hostel": {
+    "description": "Название хостела."
+  },
+  "ymca_description": "",
+  "@ymca_description": {
+    "description": "Краткое описание хостела."
+  },
+  "ymca_location": "95, Jalan Padang Belia, Brickfields, 50470 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@ymca_location": {
+    "description": "Местоположение хостела."
+  },
+  "ymca_contact": "+603-2274 1439",
+  "@ymca_contact": {
+    "description": "Контактный номер хостела."
+  },
+  "ymca_website": "",
+  "@ymca_website": {
+    "description": "Веб-сайт хостела."
+  },
+  "pods_hostel": "PODs Дом и Кафе для Бэкпэкеров, Куала-Лумпур",
+  "@pods_hostel": {
+    "description": "Название хостела."
+  },
+  "pods_description": "",
+  "@pods_description": {
+    "description": "Краткое описание хостела."
+  },
+  "pods_location": "G-6, 30, Jalan Thambipillay, Brickfields, 50470 Куала-Лумпур",
+  "@pods_location": {
+    "description": "Местоположение хостела."
+  },
+  "pods_contact": "+603-2276 0858",
+  "@pods_contact": {
+    "description": "Контактный номер хостела."
+  },
+  "pods_website": "",
+  "@pods_website": {
+    "description": "Веб-сайт хостела."
+  },
+  "bunk_bilik": "Bunk & Bilik@Sri Petaling",
+  "@bunk_bilik": {
+    "description": "Название жилья."
+  },
+  "bunk_description": "",
+  "@bunk_description": {
+    "description": "Краткое описание жилья."
+  },
+  "bunk_location": "No, 9, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 Куала-Лумпур, Федеральная территория Куала-Лумпур",
+  "@bunk_location": {
+    "description": "Местоположение жилья."
+  },
+  "bunk_contact": "+603-9054 0040",
+  "@bunk_contact": {
+    "description": "Контактный номер жилья."
+  },
+  "bunk_website": "",
+  "@bunk_website": {
+    "description": "Веб-сайт жилья."
+  },
+  "pangkorIsland": "Остров Пангкор",
+  "@pangkorIsland": {
+    "description": "Название для острова Пангкор"
+  },
+  "pangkorIslandContent": "Посетите остров Пангкор, если вы ищете место без туристов. Расположенный недалеко от побережья Перак, остров предлагает пустынные пляжи, чистую воду и густые джунгли в центре. Посетители наслаждаются возможностью загорать под пальмами в одиночестве. Также посетите голландский колониальный форт и сделайте фотографии на традиционном деревянном причале.",
+  "@pangkorIslandContent": {
+    "description": "Описание для острова Пангкор"
+  },
+  
+  "pulauRedang": "Остров Пулау Реданг",
+  "@pulauRedang": {
+    "description": "Название для острова Пулау Реданг"
+  },
+  "pulauRedangContent": "Один из крупнейших островов на восточном побережье Малайзии, Пулау Реданг славится кристально чистыми водами и белыми песчаными пляжами. Это один из девяти островов, образующих морской заповедник, предлагающий туристам возможность для снорклинга и дайвинга. Пляж покрыт мягким белым песком. Вы можете увидеть кораллы и рыб буквально в нескольких метрах от берега.",
+  "@pulauRedangContent": {
+    "description": "Описание для острова Пулау Реданг"
+  },
+  
+  "pulauLangkawi": "Остров Пулау Лангкави",
+  "@pulauLangkawi": {
+    "description": "Название для острова Пулау Лангкави"
+  },
+  "pulauLangkawiContent": "Остров Лангкави является домом для некоторых из лучших пляжей полуострова Малайзия. Остров сочетает горы и мангровые леса с сверкающими берегами. Совершите однодневную поездку на остров Пулау Даян Бунтинг, который включен в список ЮНЕСКО, покормите орлов и посмотрите, как обезьяны плавают в поисках еды. Или возьмите полотенце и позагорайте на пляже Пантай Ченанг, прежде чем отправиться в бар на берегу. Еще одно преимущество этого острова - он безналоговый, так что не стесняйтесь предаться шопингу!",
+  "@pulauLangkawiContent": {
+    "description": "Описание для острова Пулау Лангкави"
+  },
+  
+  "sipadanIsland": "Остров Сипадан",
+  "@sipadanIsland": {
+    "description": "Название для острова Сипадан"
+  },
+  "sipadanIslandContent": "Небольшой остров рядом с Семпорной в Сабахе считается одним из лучших мест для дайвинга в мире. На острове нет ни жилья, ни большого количества удобств. Рекомендуется взять тур во время вашей поездки. Перелет из Кота-Кинабалу в Семпорну и часовая поездка на лодке к черепахам и стаям барракуд того стоят. С момента получения охраняемого статуса в 2002 году, меньшее количество туристов может получить разрешение на посещение известнякового пика.",
+  "@sipadanIslandContent": {
+    "description": "Описание для острова Сипадан"
+  },
+  
+  "mantananiIsland": "Остров Мантанани",
+  "@mantananiIsland": {
+    "description": "Название для острова Мантанани"
+  },
+  "mantananiIslandContent": "Рядом с Кота-Белудом в Сабахе остров Мантанани предлагает одни из лучших мест для дайвинга на Борнео. Любители снорклинга и дайвинга приезжают, чтобы поплавать с морскими коньками и скатами на однодневных экскурсиях из столицы. Сертифицированные дайверы могут исследовать более 20 мест для погружений, включая три затонувших корабля. После нескольких часов на Южно-Китайском море отдохните и насладитесь знаменитым закатом Борнео на нетронутых белоснежных пляжах.",
+  "@mantananiIslandContent": {
+    "description": "Описание для острова Мантанани"
+  },
+  "gentingHighlands": "Гентинг Хайлендс, Паханг",
+  "@gentingHighlands": {
+    "description": "Заголовок для Гентинг Хайлендс"
+  },
+  "gentingHighlandsContent": "Всего в 45 минутах от Куала-Лумпура находится Гентинг Хайлендс — прохладная горная станция, окружённая свежим горным воздухом и великолепным тропическим лесом возрастом 100 миллионов лет. Если вы хотите сбежать от суеты городской жизни, Гентинг Хайлендс предлагает множество отелей с тремя и пятью звездами, ресторанами, удобствами, безупречным сервисом и роскошными номерами с потрясающим видом на горы.",
+  "@gentingHighlandsContent": {
+    "description": "Описание для Гентинг Хайлендс"
+  },
+
+  "bukitTinggi": "Букит Тинги, Паханг",
+  "@bukitTinggi": {
+    "description": "Заголовок для Букит Тинги"
+  },
+  "bukitTinggiContent": "Колмар Тропикал — это деревня и отель в стиле французской деревни, расположенные в Букит Тинги, Паханг, Малайзия. Он занимает 80 акров природного леса на высоте 2600 футов (790 м). Дизайн вдохновлён оригинальным городом Кольмар в Эльзасе, Франция. Нет ничего более расслабляющего, чем спокойное пребывание в одном из горных курортов, где можно сидеть на открытой веранде, попивая свежезаваренный чай или наслаждаясь клубникой со сливками.",
+  "@bukitTinggiContent": {
+    "description": "Описание для Букит Тинги"
+  },
+
+  "fraserHill": "Фрейзер Хилл, Паханг",
+  "@fraserHill": {
+    "description": "Заголовок для Фрейзер Хилл"
+  },
+  "fraserHillContent": "Фрейзер Хилл расположен в штате Паханг, в центральной части полуострова Малайзия. Этот прохладный курорт славится своими природными активностями и свежим воздухом и является одной из последних горных станций Малайзии, сохранивших следы британского колониального периода. Средняя высота Букит Фрейзер — 1200 метров, а его самая высокая точка — 1500 метров над уровнем моря. Температуры колеблются от 22°C до 28°C днём и от 16°C до 20°C ночью.",
+  "@fraserHillContent": {
+    "description": "Описание для Фрейзер Хилл"
+  },
+
+  "cameronHighland": "Кэмерон Хайлендс, Паханг",
+  "@cameronHighland": {
+    "description": "Заголовок для Кэмерон Хайлендс"
+  },
+  "cameronHighlandContent": "Кэмерон Хайлендс — самый известный горный курорт Малайзии с мягким климатом: дневные температуры около 25°C, а ночные — около 18°C. Эти возвышенности делятся на три посёлка: Тана Рата, Бринчанг и Ринглет. В колониальный период британцы выращивали чай на плодородных склонах, и это традиция, которую продолжают местные жители. С тех пор Кэмерон Хайлендс стал крупнейшим экспортёром чая в Малайзии. Помимо чая, здесь также идеально подходят условия для выращивания деревьев, фруктов и овощей континентального климата.",
+  "@cameronHighlandContent": {
+    "description": "Описание для Кэмерон Хайлендс"
+  },
+
+  "maxwellHill": "Максвелл Хилл, Перак",
+  "@maxwellHill": {
+    "description": "Заголовок для Максвелл Хилл"
+  },
+  "maxwellHillContent": "Кэмерон Хайлендс — самый известный горный курорт Малайзии с мягким климатом: дневные температуры около 25°C, а ночные — около 18°C. Эти возвышенности делятся на три посёлка: Тана Рата, Бринчанг и Ринглет. В колониальный период британцы выращивали чай на плодородных склонах, и это традиция, которую продолжают местные жители. С тех пор Кэмерон Хайлендс стал крупнейшим экспортёром чая в Малайзии. Помимо чая, здесь также идеально подходят условия для выращивания деревьев, фруктов и овощей континентального климата.",
+  "@maxwellHillContent": {
+    "description": "Описание для Максвелл Хилл"
+  },
+
+
+  "sungaiPisangWaterfall": "Водопад Сунгай Писанг, Бату Кейвз",
+  "@sungaiPisangWaterfall": {
+    "description": "Название для водопада Сунгай Писанг"
+  },
+  "sungaiPisangContent": "Водопад Писанг — это маршрут длиной 3,1 километра рядом с водопадом в Гомбаке, Селангор, Малайзия. Он подходит для туристов любого уровня подготовки. Тропа открыта круглый год и часто используется для кемпинга, катания на велосипедах и наблюдения за птицами. Ближе к вершине водопада есть отличные места для пикников и кемпинга. Это легкий поход, который требует перехода через водопад, так что приготовьтесь к мокрой обуви.",
+  "@sungaiPisangContent": {
+    "description": "Описание для водопада Сунгай Писанг"
+  },
+
+  "jeramToi": "Джерам Тои, Негери Сембилан",
+  "@jeramToi": {
+    "description": "Название для водопада Джерам Тои"
+  },
+  "jeramToiContent": "Водопады Джерам Тои расположены между Серембаном и Куала-Келауангом. После основания в 1985 году это место быстро стало популярным для расслабляющего купания и семейных пикников. Учтите, что у Джерам Тои есть отдельный выезд, который отмечен на шоссе. Здесь есть палатки, туалеты, места для барбекю и бетонная дорожка с лестницей, ведущей к ущелью. В выходные дни это место может быть многолюдным, но в течение недели здесь спокойно.",
+  "@jeramToiContent": {
+    "description": "Описание для водопада Джерам Тои"
+  },
+
+  "uluChepor": "Улу Чепор, Перак",
+  "@uluChepor": {
+    "description": "Название для водопада Улу Чепор"
+  },
+  "uluCheporContent": "Лата Улу Чепор находится всего в 10 километрах от города Ипох и окружена зелеными холмами тропических лесов. Парк доступен по маршруту A1 к Чемору, недалеко от платной дороги Ипох Утара. Это место идеально подходит для отдыха на свежем воздухе и проведения пикников в выходные дни. Для гостей, желающих остаться подольше или принять участие в образовательных и развлекательных мероприятиях, здесь есть кемпинг, многоцелевой зал, молельная комната и туалет. Парк хорошо ухожен и обозначен на главной дороге.",
+  "@uluCheporContent": {
+    "description": "Описание для водопада Улу Чепор"
+  },
+
+  "sungaiLembing": "Сунгай Лембинг, Паханг",
+  "@sungaiLembing": {
+    "description": "Название для водопада Сунгай Лембинг"
+  },
+  "sungaiLembingContent": "Малайзия богата тропическими лесами, в которых есть потрясающие водопады. Водопад Радуга находится в 45 километрах к северо-западу от Куантана, полуостров Малайзия, в городе Сунгай Лембинг. Каждое утро, между 9 и 10 часами, солнце освещает воду у подножия водопада, создавая удивительную радугу. Люди со всего мира приезжают сюда на полтора часа, чтобы увидеть красоту природы. Водопад Радуга — это большой водопад, скрытый в лесах Сунгай Лембинг, к нему можно добраться на внедорожнике и пешком.",
+  "@sungaiLembingContent": {
+    "description": "Описание для водопада Сунгай Лембинг"
+  },
+
+  "sevenWellsWaterfall": "Водопад Семи Колодцев, Кедах",
+  "@sevenWellsWaterfall": {
+    "description": "Название для водопада Семи Колодцев"
+  },
+  "sevenWellsContent": "Водопад Семи Колодцев, также известный как Джалан Телага Туджух, расположен примерно в 20 минутах ходьбы от знаменитого моста Лангкави Скай и является одной из самых впечатляющих природных достопримечательностей острова. Водопад ниспадает с горы Мат Чинчанг, второй по высоте вершины Лангкави, и пользуется популярностью среди туристов и местных жителей. Полная вертикальная высота водопада составляет 91 метр, но с нижнего уровня видна только небольшая часть. Согласно легенде, этот водопад является домом для фей, а вода обладает успокаивающими свойствами. Водопад выглядит волшебно, окруженный природой с богатой флорой и фауной.",
+  "@sevenWellsContent": {
+    "description": "Описание для водопада Семи Колодцев"
+  },
+  "brogaHill": "Холм Брога, Семеньих",
+  "@brogaHill": {
+    "description": "Заголовок для Холма Брога"
+  },
+  "brogaHillContent": "Холм Брога, известный местным жителям как «Букит Лаланг», назван в честь «лаланга», местного вида травы, который здесь растет в изобилии. Этот холм высотой 400 метров расположен в тропическом лесу в Семеньих, на краю горного хребта Титивангса, в 40 минутах езды от Куала-Лумпура. Его захватывающие панорамные виды, особенно на рассвете, известны как местным жителям, так и туристам. Популярность холма также объясняется легкостью доступа пешком. Для новичков подъем на первый пик может показаться сложным, но на деревьях есть веревки, которые помогают новым посетителям. Вид с вершины обязательно оправдает все ваши усилия.",
+  "@brogaHillContent": {
+    "description": "Описание для Холма Брога"
+  },
+
+  "mountPulai": "Гора Пулаи, Джохор",
+  "@mountPulai": {
+    "description": "Заголовок для Горы Пулаи"
+  },
+  "mountPulaiContent": "Гора Пулаи высотой 654 метра расположена в Джохоре, на полуострове Малайзия. Благодаря близости и легкости доступа, это популярное место для походов среди сингапурцев и местных жителей. Вершина горы Пулаи закрыта для публики, так как охраняется военными и имеет две телекоммуникационные башни. Гора Пулаи — это умеренно загруженный маршрут длиной 14,3 километра недалеко от Кулая, Джохор, с водопадом и средней сложностью. Этот маршрут также используется для кемпинга, катания на велосипедах, бега и прогулок на природе.",
+  "@mountPulaiContent": {
+    "description": "Описание для Горы Пулаи"
+  },
+
+  "panoramaHill": "Холм Панорама, Сунгай Лембинг",
+  "@panoramaHill": {
+    "description": "Заголовок для Холма Панорама"
+  },
+  "panoramaHillContent": "Холм Панорама — это холм в Сунгай Лембинг, в 45 километрах к северо-западу от Куантана. С высотой 271 метр, на него ведет только один путь. Начните подъем с нижней ступеньки и двигайтесь вверх. Основной особенностью маршрута является лестница с перилами; лишь небольшие участки не имеют лестницы. Достигнув вершины, вы сможете увидеть панорамный вид на окружающий город. Обычно подъем на холм Панорама занимает от 30 до 45 минут.",
+  "@panoramaHillContent": {
+    "description": "Описание для Холма Панорама"
+  },
+
+  "mossyForest": "Мшистый лес, Камерон Хайлендс",
+  "@mossyForest": {
+    "description": "Заголовок для Мшистого леса"
+  },
+  "mossyForestContent": "Мшистый лес — это природная экосистема, которая растет только на больших высотах в Камерон Хайлендс и других горных хребтах Малайзии. Низкие облака, перемещаемые ветром, окутывают деревья постоянным туманом и влагой, создавая идеальные условия для мхов, папоротников, лишайников и орхидей. Этот влажный тропический вечнозеленый лес также является убежищем для разнообразных горных видов, включая бабочек, грызунов, лягушек, птиц и млекопитающих, которые встречаются только в этом холодном климате.",
+  "@mossyForestContent": {
+    "description": "Описание для Мшистого леса"
+  },
+
+  "penangNationalPark": "Национальный парк Пенанг, Пенанг",
+  "@penangNationalPark": {
+    "description": "Заголовок для Национального парка Пенанг"
+  },
+  "penangNationalParkContent": "Это самый маленький национальный парк Малайзии, площадью 23 квадратных километра, но его леса на побережье являются домом для серебристых листовых обезьян, летающих лемуров, леопардовых кошек и множества ящериц, амфибий и рептилий. Такие виды отдыха, как прогулки по джунглям и поездки на лодках к спокойным пляжам с золотым песком, могут занять весь день. В парке есть два основных маршрута для треккинга: один ведет вдоль побережья к Обезьяньему пляжу, а другой — через холмы и джунгли к более изолированным пляжам, где находится заповедник черепах.",
+  "@penangNationalParkContent": {
+    "description": "Описание для Национального парка Пенанг"
+  },
+  "kkbParaglidingPark": "Парк Парапланеризма KKB",
+  "@kkbParaglidingPark": {
+    "description": "Название для Парка Парапланеризма KKB"
+  },
+  "kkbParaglidingParkContent": "Для тех, кто любит приключения, Куала Кубу Бахру предлагает лучшее из экстремальных видов спорта. Летая в воздухе, вы сможете насладиться красотами природы, окружающей Куала Кубу Бахру, с высоты птичьего полета.",
+  "@kkbParaglidingParkContent": {
+    "description": "Описание для Парка Парапланеризма KKB"
+  },
+
+  "whitewaterRafting": "Рафтинг на Белой Воде в Куала Кубу Бахру",
+  "@whitewaterRafting": {
+    "description": "Название для Рафтинга на Белой Воде в Куала Кубу Бахру"
+  },
+  "whitewaterRaftingContent": "Рафтинг на белой воде проходит вдоль реки Хулу Селангор. Рафтинг на белой воде дарит незабываемые эмоции с захватывающим дрейфом в конце маршрута и прекрасным видом на природу вдоль берегов реки.",
+  "@whitewaterRaftingContent": {
+    "description": "Описание для Рафтинга на Белой Воде в Куала Кубу Бахру"
+  },
+
+  "jugraHill": "Холм Джугра",
+  "@jugraHill": {
+    "description": "Название для Холма Джугра"
+  },
+  "jugraHillContent": "На смотровой площадке маяка на Холме Джугра можно испытать острые ощущения от полета на параплане. В зависимости от погодных условий, с марта по сентябрь — лучшее время для полетов.",
+  "@jugraHillContent": {
+    "description": "Описание для Холма Джугра"
+  }
+
+  }
+  

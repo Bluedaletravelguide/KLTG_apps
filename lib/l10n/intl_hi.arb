@@ -1,0 +1,2042 @@
+{
+    "@@locale": "hi",
+    "appTitle": "KL द गाइड",
+    "@appTitle": {
+      "description": "एप्लिकेशन का शीर्षक"
+    },
+    "pickALanguage": "एक भाषा चुनें",
+    "@pickALanguage": {
+      "description": "भाषा चयन ड्रॉअर के लिए शीर्षक"
+    },
+    "home": "होम",
+    "@home": {
+      "description": "होम स्क्रीन का लेबल"
+    },
+    "bookmarks": "बुकमार्क्स",
+    "@bookmarks": {
+      "description": "बुकमार्क अनुभाग के लिए लेबल"
+    },
+    "blog": "ब्लॉग",
+    "@blog": {
+      "description": "ब्लॉग अनुभाग के लिए लेबल"
+    },
+    "ebook": "ई-बुक",
+    "@ebook": {
+      "description": "ई-बुक अनुभाग के लिए लेबल"
+    },
+    "aboutUs": "हमारे बारे में",
+    "@aboutUs": {
+      "description": "हमारे बारे में अनुभाग के लिए लेबल"
+    },
+    "contactUs": "संपर्क करें",
+    "@contactUs": {
+      "description": "संपर्क करें अनुभाग के लिए लेबल"
+    },
+    "updateRequired": "अपडेट आवश्यक",
+    "@updateRequired": {
+      "description": "जब ऐप अपडेट की आवश्यकता हो तो दिखाया गया संदेश"
+    },
+    "updateAvailable": "ऐप का नया संस्करण उपलब्ध है। नए फीचर्स का आनंद लेने के लिए कृपया अपडेट करें।",
+    "@updateAvailable": {
+      "description": "उपयोगकर्ता को सूचित करने वाला संदेश कि अपडेट उपलब्ध है"
+    },
+    "updateLater": "बाद में अपडेट करें",
+    "@updateLater": {
+      "description": "ऐप अपडेट को स्थगित करने के लिए बटन का लेबल"
+    },
+    "updateNow": "अभी अपडेट करें",
+    "@updateNow": {
+      "description": "ऐप को तुरंत अपडेट करने के लिए बटन का लेबल"
+    },
+    "pressBackAgainToExit": "बाहर निकलने के लिए पुनः बैक दबाएं",
+    "@pressBackAgainToExit": {
+      "description": "जब उपयोगकर्ता ऐप से बाहर निकलने के लिए बैक बटन दबाता है तो प्रदर्शित संदेश"
+    },
+    "klHighlights": "KL मुख्य विशेषताएं",
+    "@klHighlights": {
+      "description": "KL मुख्य विशेषताएं प्रदर्शित करने वाले अनुभाग के लिए लेबल"
+    },
+    "recommendations": "अनुशंसाएं",
+    "@recommendations": {
+      "description": "अनुशंसाओं के अनुभाग के लिए लेबल"
+    },
+    "exploreKL": "KL का अन्वेषण करें",
+    "@exploreKL": {
+      "description": "KL अन्वेषण छवि के लिए शीर्षक"
+    },
+    "shopLikeLocals": "स्थानीय लोगों की तरह खरीदारी करें",
+    "@shopLikeLocals": {
+      "description": "स्थानीय खरीदारी छवि के लिए शीर्षक"
+    },
+    "placesToStay": "रहने के स्थान",
+    "@placesToStay": {
+      "description": "रहने के स्थान छवि के लिए शीर्षक"
+    },
+    "spaTime": "स्पा समय",
+    "@spaTime": {
+      "description": "स्पा समय छवि के लिए शीर्षक"
+    },
+    "medicalTourism": "मेडिकल टूरिज़्म",
+    "@medicalTourism": {
+      "description": "मेडिकल टूरिज़्म छवि के लिए शीर्षक"
+    },
+    "beyondKL": "KL के परे",
+    "@beyondKL": {
+      "description": "KL के परे छवि के लिए शीर्षक"
+    },
+    "klAtAGlance": "KL @ एक नजर में",
+    "@klAtAGlance": {
+      "description": "मुख्य विशेषताओं में KL @ एक नजर में छवि के लिए शीर्षक"
+    },
+    "gettingAroundKL": "KL के आसपास यात्रा",
+    "@gettingAroundKL": {
+      "description": "मुख्य विशेषताओं में KL के आसपास यात्रा छवि के लिए शीर्षक"
+    },
+    "travelTips": "यात्रा युक्तियाँ",
+    "@travelTips": {
+      "description": "मुख्य विशेषताओं में यात्रा युक्तियाँ छवि के लिए शीर्षक"
+    },
+    "ourCompany": "हमारी कंपनी",
+    "@ourCompany": {
+      "description": "'हमारी कंपनी' अनुभाग के लिए शीर्षक"
+    },
+    "ourCompanyDescription": "KL द गाइड एक त्रैमासिक गाइडबुक है, जो पहली बार अगस्त 2007 में प्रकाशित हुई थी। हम एक मुफ्त यात्रा गाइडबुक हैं जो यात्रियों को मलेशिया की राजधानी, कुआलालंपुर के आसपास की यात्रा योजनाएं बनाने में मदद करती है। KL द गाइड में यात्रा युक्तियाँ, अन्वेषण के स्थान, बच्चों के अनुकूल स्थान, होटल, और भी बहुत कुछ शामिल है। KL द गाइड के साथ, शहर को नेविगेट करना आसान हो जाता है।",
+    "@ourCompanyDescription": {
+      "description": "कंपनी और गाइड का विवरण"
+    },
+    "findUs": "हमें खोजें",
+    "@findUs": {
+      "description": "'हमें खोजें' अनुभाग के लिए शीर्षक"
+    },
+    "appVersion": "ऐप संस्करण: {version}+{buildNumber}",
+    "@appVersion": {
+      "description": "ऐप संस्करण और बिल्ड नंबर प्रदर्शित करने वाला पाठ",
+      "placeholders": {
+        "version": {
+          "type": "String",
+          "example": "1.0.0"
+        },
+        "buildNumber": {
+          "type": "String",
+          "example": "1"
+        }
+      }
+    },
+    "errorLoadingVersion": "संस्करण लोड करने में त्रुटि",
+    "@errorLoadingVersion": {
+      "description": "ऐप संस्करण लोड करने में त्रुटि होने पर प्रदर्शित संदेश"
+    },
+    "islands": "द्वीप",
+    "@islands": {
+      "description": "द्वीप अनुभाग के लिए शीर्षक"
+    },
+    "hillStation": "हिल स्टेशन",
+    "@hillStation": {
+      "description": "हिल स्टेशन अनुभाग के लिए शीर्षक"
+    },
+    "waterfall": "झरना",
+    "@waterfall": {
+      "description": "झरना अनुभाग के लिए शीर्षक"
+    },
+    "hiking": "पैदल यात्रा",
+    "@hiking": {
+      "description": "पैदल यात्रा अनुभाग के लिए शीर्षक"
+    },
+    "extremeSports": "चरम खेल",
+    "@extremeSports": {
+      "description": "चरम खेल अनुभाग के लिए शीर्षक"
+    },
+    "errorLoadingData": "डेटा लोड करने में त्रुटि",
+    "@errorLoadingData": {
+      "description": "डेटा लोड करने में त्रुटि होने पर दिखाया गया संदेश"
+    },
+    "loadingData": "डेटा लोड हो रहा है...",
+    "@loadingData": {
+      "description": "डेटा लोड होने के दौरान दिखाया गया संदेश"
+    },
+    "email": "ईमेल: enquiry@bluedale.com.my",
+    "@email": {
+      "description": "कंपनी के ईमेल संपर्क के लिए पाठ"
+    },
+    "whatsapp": "व्हाट्सएप: +6012-220 0622",
+    "@whatsapp": {
+      "description": "कंपनी के व्हाट्सएप संपर्क के लिए पाठ"
+    },
+    "phone": "फोन: +603-78869219",
+    "@phone": {
+      "description": "कंपनी के फोन संपर्क के लिए पाठ"
+    },
+    "address": "पता",
+    "@address": {
+      "description": "कंपनी के पते के लिए पाठ हिंदी में"
+    },
+    "workingHours": "सोमवार-शुक्रवार: सुबह 9:00 - शाम 6:00",
+    "@workingHours": {
+      "description": "कंपनी के कार्य घंटे के लिए पाठ"
+    },
+    "whatToDo": "क्या करें",
+    "@whatToDo": {
+      "description": "Explore KL में 'क्या करें' पेज के लिए शीर्षक"
+    },
+    "loading": "लोड हो रहा है...",
+    "@loading": {
+      "description": "डेटा लोड होने के दौरान प्रदर्शित संदेश"
+    },
+    "details": "विवरण",
+    "@details": {
+      "description": "विवरण पृष्ठ के लिए लेबल"
+    },
+    "historicalSites": "ऐतिहासिक स्थल",
+    "@historicalSites": {
+      "description": "कुआलालंपुर में ऐतिहासिक स्थलों को प्रदर्शित करने वाले पृष्ठ का शीर्षक"
+    },
+    "dataranMerdekaDescription": "दातारन मर्डेका, जिसे मर्डेका स्क्वायर के नाम से भी जाना जाता है, KL का सबसे प्रसिद्ध स्थल है...",
+  "@dataranMerdekaDescription": {
+    "description": "कुआलालंपुर में दातारन मर्डेका के ऐतिहासिक महत्व को उजागर करने वाला विवरण"
+  },
+
+  "klRailwayStationDescription": "कुआलालंपुर रेलवे स्टेशन, इसकी मूरिश-शैली की डिज़ाइन के साथ, 2001 तक मुख्य रेलवे केंद्र था...",
+  "@klRailwayStationDescription": {
+    "description": "कुआलालंपुर रेलवे स्टेशन का विवरण, इसकी स्थापत्य शैली और ऐतिहासिक भूमिका को नोट करता है"
+  },
+
+  "royalMuseumDescription": "रॉयल म्यूजियम पूर्व नेशनल पैलेस में स्थित है और शाही जीवनशैली की एक झलक प्रदान करता है...",
+  "@royalMuseumDescription": {
+    "description": "रॉयल म्यूजियम का विवरण, इसे एक पूर्व शाही महल के रूप में महत्वपूर्णता देता है"
+  },
+
+  "sultanAbdulSamadDescription": "सुल्तान अब्दुल समद भवन, 1897 में निर्मित, इसमें गोथिक, पश्चिमी और मूरिश स्थापत्य शैली की विशेषताएं हैं...",
+  "@sultanAbdulSamadDescription": {
+    "description": "सुल्तान अब्दुल समद भवन का विवरण, इसके स्थापत्य प्रभावों और ऐतिहासिक महत्व का उल्लेख करता है"
+  },
+
+  "tuguNegaraDescription": "नेशनल मोन्यूमेंट (तुगु नेगारा) स्वतंत्रता संग्राम के दौरान मलेशिया के शहीद सैनिकों को समर्पित है...",
+  "@tuguNegaraDescription": {
+    "description": "तुगु नेगारा (नेशनल मोन्यूमेंट) का विवरण, इसका उद्देश्य शहीद सैनिकों का सम्मान करना है"
+  },
+
+  "victoriaFountainDescription": "क्वीन विक्टोरिया फाउंटेन, 1904 में पूर्ण हुई, इसमें इसके आधार पर गर्गॉयल की सजावट है...",
+  "@victoriaFountainDescription": {
+    "description": "क्वीन विक्टोरिया फाउंटेन का विवरण, इसके स्थापत्य विवरण और ऐतिहासिक महत्व को उजागर करता है"
+  },
+
+  "ilhamBaruTowerDescription": "इल्हाम बारू टॉवर एक 58-मंजिला गगनचुंबी इमारत है और KLCC क्षेत्र की तीसरी सबसे ऊँची इमारत है...",
+  "@ilhamBaruTowerDescription": {
+    "description": "इल्हाम बारू टॉवर का विवरण, इसकी ऊंचाई और कुआलालंपुर में इसकी स्थापत्य प्रासंगिकता का उल्लेख करता है"
+  },
+
+  "bangunanSulaimanDescription": "बंगुनन सुलैमान एक ब्रिटिश औपनिवेशिक स्मारक है जिसे 1933 में बनाया गया था, जो अपनी शरिया अदालत की मेजबानी के लिए प्रसिद्ध है...",
+  "@bangunanSulaimanDescription": {
+    "description": "बंगुनन सुलैमान का विवरण, इसके औपनिवेशिक स्थापत्य और ऐतिहासिक महत्व को उजागर करता है"
+  },
+
+  "centralMarketDescription": "सेंट्रल मार्केट, 1892 में बनाया गया था, यह स्थानीय हस्तशिल्प के लिए प्रसिद्ध एक लोकप्रिय पर्यटन स्थल है...",
+  "@centralMarketDescription": {
+    "description": "सेंट्रल मार्केट (पसार सेना) का विवरण, इसके ऐतिहासिक महत्व और वर्तमान में स्थानीय शिल्प के बाज़ार के रूप में इसके कार्य का उल्लेख करता है"
+  },
+  "locationJalanRaja": "स्थान: Jalan Raja, सिटी सेंटर, 50050 कुआलालंपुर",
+  "@locationJalanRaja": {
+    "description": "दातारन मर्डेका का स्थान, विशिष्ट पता प्रदान करता है"
+  },
+
+  "locationKampungAttap": "स्थान: Kampung Attap, 50000 कुआलालंपुर",
+  "@locationKampungAttap": {
+    "description": "कुआलालंपुर रेलवे स्टेशन का स्थान"
+  },
+
+  "locationIstanaNegara": "स्थान: Jalan Istana, 50460 कुआलालंपुर",
+  "@locationIstanaNegara": {
+    "description": "रॉयल म्यूजियम (पूर्व नेशनल पैलेस) का स्थान"
+  },
+
+  "locationParliamentRoad": "स्थान: Perdana Botanical Garden, Jalan Parlimen, 50480 कुआलालंपुर",
+  "@locationParliamentRoad": {
+    "description": "तुगु नेगारा (नेशनल मोन्यूमेंट) का स्थान"
+  },
+
+  "locationCityCentre": "स्थान: सिटी सेंटर, 50050 कुआलालंपुर",
+  "@locationCityCentre": {
+    "description": "क्वीन विक्टोरिया फाउंटेन का स्थान"
+  },
+
+  "locationIlhamTower": "स्थान: इल्हाम टॉवर, 8, Jalan Binjai, 50450 कुआलालंपुर",
+  "@locationIlhamTower": {
+    "description": "इल्हाम बारू टॉवर का स्थान"
+  },
+
+  "locationSultanHishamuddin": "स्थान: Jalan Sultan Hishamuddin, Kampung Attap, 50000 कुआलालंपुर",
+  "@locationSultanHishamuddin": {
+    "description": "बंगुनन सुलैमान का स्थान"
+  },
+
+  "locationJalanHangKasturi": "स्थान: No. 10, 1st-3rd फ्लोर, Jalan Hang Kasturi",
+  "@locationJalanHangKasturi": {
+    "description": "सेंट्रल मार्केट (पसार सेना) का स्थान"
+  },
+
+  "open24Hours": "24 घंटे खुला (रोजाना)",
+  "@open24Hours": {
+    "description": "संकेत करता है कि स्थान 24 घंटे प्रतिदिन खुला है"
+  },
+
+  "hours900to500Daily": "समय: सुबह 9:00 बजे - शाम 5:00 बजे (रोजाना)",
+  "@hours900to500Daily": {
+    "description": "रोजाना सुबह 9:00 बजे से शाम 5:00 बजे तक खुलने का समय"
+  },
+
+  "hours700to600Daily": "समय: सुबह 7:00 बजे - शाम 6:00 बजे (रोजाना)",
+  "@hours700to600Daily": {
+    "description": "रोजाना सुबह 7:00 बजे से शाम 6:00 बजे तक खुलने का समय"
+  },
+
+  "hours830to530Weekdays": "समय: सुबह 8:30 बजे - शाम 5:30 बजे (सोमवार - शुक्रवार)",
+  "@hours830to530Weekdays": {
+    "description": "सप्ताह के दिनों में सुबह 8:30 बजे से शाम 5:30 बजे तक खुलने का समय (सोमवार - शुक्रवार)"
+  },
+
+  "hours1000to600Daily": "समय: सुबह 10:00 बजे - शाम 6:00 बजे (रोजाना)",
+  "@hours1000to600Daily": {
+    "description": "रोजाना सुबह 10:00 बजे से शाम 6:00 बजे तक खुलने का समय"
+  },
+  "parks": "पार्क्स",
+  "@parks": {
+    "description": "कुआलालंपुर में पार्क्स प्रदर्शित करने वाले पृष्ठ का शीर्षक"
+  },
+
+  "tamanEkoRimba": "तमन एको रिम्बा, कुआलालंपुर",
+  "@tamanEkoRimba": {
+    "description": "कुआलालंपुर में स्थित तमन एको रिम्बा पार्क का नाम"
+  },
+
+  "tamanEkoRimbaLocation": "कुआलालंपुर, 50250 कुआलालंपुर, संघीय क्षेत्र कुआलालंपुर",
+  "@tamanEkoRimbaLocation": {
+    "description": "कुआलालंपुर में तमन एको रिम्बा का स्थान"
+  },
+
+  "aseanSculptureGarden": "आसियान स्कल्पचर गार्डन",
+  "@aseanSculptureGarden": {
+    "description": "आसियान स्कल्पचर गार्डन का नाम"
+  },
+
+  "aseanSculptureGardenLocation": "आसियान स्कल्पचर गार्डन, पर्सिआरन सुल्तान सलाहुद्दीन, तमन तासिक पर्दाना, 50480 कुआलालंपुर",
+  "@aseanSculptureGardenLocation": {
+    "description": "कुआलालंपुर में आसियान स्कल्पचर गार्डन का स्थान"
+  },
+
+  "klccPark": "KLCC पार्क",
+  "@klccPark": {
+    "description": "KLCC पार्क का नाम"
+  },
+
+  "klccParkLocation": "जालान अंपंग, कुआलालंपुर सिटी सेंटर, 50088 कुआलालंपुर",
+  "@klccParkLocation": {
+    "description": "कुआलालंपुर में KLCC पार्क का स्थान"
+  },
+
+  "hours700to600": "समय: सुबह 7:00 बजे - शाम 6:00 बजे",
+  "@hours700to600": {
+    "description": "सुबह 7:00 बजे से शाम 6:00 बजे तक खुलने का समय"
+  },
+
+  "hours700to1000": "समय: सुबह 7:00 बजे - रात 10:00 बजे",
+  "@hours700to1000": {
+    "description": "सुबह 7:00 बजे से रात 10:00 बजे तक खुलने का समय"
+  },
+
+  "kl4kids": "KL 4 किड्स",
+  "@kl4kids": {
+    "description": "कुआलालंपुर में बच्चों के अनुकूल स्थान प्रदर्शित करने वाले पृष्ठ का शीर्षक"
+  },
+
+  "aeonFantasy": "एओन फैंटेसी",
+  "@aeonFantasy": {
+    "description": "कुआलालंपुर में बच्चों के अनुकूल एओन फैंटेसी स्थान का नाम"
+  },
+
+  "aeonFantasyLocation": "F41, पहला तल, AEON अल्फा एंगल शॉपिंग सेंटर, Jalan R1, सेक्शन 1, बांडार बारु वांगसा माजू, 53300 कुआलालंपुर",
+  "@aeonFantasyLocation": {
+    "description": "एओन फैंटेसी का स्थान"
+  },
+
+  "aeonFantasyHours": "सुबह 10:00 बजे - रात 10:00 बजे (रविवार - गुरुवार), सुबह 10:00 बजे - रात 11:00 बजे (शुक्रवार - शनिवार)",
+  "@aeonFantasyHours": {
+    "description": "एओन फैंटेसी का खुलने का समय"
+  },
+
+  "klUpsideDownHouse": "KL अपसाइड डाउन हाउस",
+  "@klUpsideDownHouse": {
+    "description": "कुआलालंपुर में बच्चों के अनुकूल KL अपसाइड डाउन हाउस का नाम"
+  },
+
+  "klUpsideDownHouseLocation": "ऑफ, Jalan P Ramlee, &, Jalan Puncak, 50250 कुआलालंपुर",
+  "@klUpsideDownHouseLocation": {
+    "description": "KL अपसाइड डाउन हाउस का स्थान"
+  },
+
+  "klUpsideDownHouseHours": "सुबह 10:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@klUpsideDownHouseHours": {
+    "description": "KL अपसाइड डाउन हाउस का खुलने का समय"
+  },
+
+  "klTowerMiniZoo": "KL टॉवर मिनी ज़ू",
+  "@klTowerMiniZoo": {
+    "description": "KL टॉवर मिनी ज़ू का नाम"
+  },
+
+  "klTowerMiniZooLocation": "ग्राउंड फ्लोर, मेनारा कुआलालंपुर, Jalan Puncak, 50250 कुआलालंपुर",
+  "@klTowerMiniZooLocation": {
+    "description": "KL टॉवर मिनी ज़ू का स्थान"
+  },
+
+  "klTowerMiniZooHours": "सुबह 10:00 बजे - रात 9:00 बजे (रोजाना)",
+  "@klTowerMiniZooHours": {
+    "description": "KL टॉवर मिनी ज़ू का खुलने का समय"
+  },
+
+  "petrosainsKlcc": "पेट्रोसाइन्स KLCC",
+  "@petrosainsKlcc": {
+    "description": "कुआलालंपुर में बच्चों के अनुकूल पेट्रोसाइन्स KLCC स्थान का नाम"
+  },
+
+  "petrosainsKlccLocation": "लेवल 4, सुरिया KLCC, PETRONAS ट्विन टावर्स, कुआलालंपुर सिटी सेंटर, 50088, कुआलालंपुर",
+  "@petrosainsKlccLocation": {
+    "description": "पेट्रोसाइन्स KLCC का स्थान"
+  },
+
+  "petrosainsKlccHours": "सुबह 9:30 बजे - शाम 5:30 बजे (मंगलवार - रविवार)",
+  "@petrosainsKlccHours": {
+    "description": "पेट्रोसाइन्स KLCC का खुलने का समय"
+  },
+
+  "contact": "संपर्क करें",
+  "@contact": {
+    "description": "बच्चों के अनुकूल स्थान के संपर्क जानकारी का लेबल"
+  },
+  "placesOfWorship": "उपासना स्थल",
+  "@placesOfWorship": {
+    "description": "कुआलालंपुर में उपासना स्थलों को प्रदर्शित करने वाले पृष्ठ का शीर्षक"
+  },
+
+  "muslim": "मुस्लिम",
+  "@muslim": {
+    "description": "मुस्लिम उपासना स्थलों के लिए टैब शीर्षक"
+  },
+
+  "buddhistTao": "बौद्ध/ताओ",
+  "@buddhistTao": {
+    "description": "बौद्ध और ताओ उपासना स्थलों के लिए टैब शीर्षक"
+  },
+
+  "hindu": "हिंदू",
+  "@hindu": {
+    "description": "हिंदू उपासना स्थलों के लिए टैब शीर्षक"
+  },
+
+  "others": "अन्य",
+  "@others": {
+    "description": "अन्य उपासना स्थलों के लिए टैब शीर्षक"
+  },
+
+  "masjidNegara": "मस्जिद नेगारा",
+  "@masjidNegara": {
+    "description": "कुआलालंपुर में मस्जिद नेगारा (नेशनल मस्जिद) का नाम"
+  },
+
+  "masjidNegaraLocation": "जालान पर्दाना, तासिक पर्दाना, 50480 कुआलालंपुर",
+  "@masjidNegaraLocation": {
+    "description": "मस्जिद नेगारा का स्थान"
+  },
+
+  "masjidNegaraHours": "सुबह 9:00 बजे - रात 11:00 बजे (शनिवार-गुरुवार) / दोपहर 2:45 बजे - शाम 6:00 बजे (शुक्रवार)",
+  "@masjidNegaraHours": {
+    "description": "मस्जिद नेगारा का खुलने का समय"
+  },
+
+  "masjidJamek": "मस्जिद जमेक",
+  "@masjidJamek": {
+    "description": "कुआलालंपुर में मस्जिद जमेक का नाम"
+  },
+
+  "masjidJamekLocation": "जालान टुन पराक, सिटी सेंटर, 50050 कुआलालंपुर",
+  "@masjidJamekLocation": {
+    "description": "मस्जिद जमेक का स्थान"
+  },
+
+  "masjidJamekHours": "सुबह 10:00 बजे - दोपहर 12:30 बजे; दोपहर 2:30 बजे - शाम 4:00 बजे (शनिवार-गुरुवार) / शुक्रवार को बंद",
+  "@masjidJamekHours": {
+    "description": "मस्जिद जमेक का खुलने का समय"
+  },
+
+  "federalTerritoryMosque": "फेडरल टेरिटरी मस्जिद कुआलालंपुर",
+  "@federalTerritoryMosque": {
+    "description": "कुआलालंपुर में फेडरल टेरिटरी मस्जिद का नाम"
+  },
+
+  "federalTerritoryMosqueLocation": "जालान सुल्तान मिज़ान ज़ैनल अबीदिन, सरकारी परिसर, कुआलालंपुर",
+  "@federalTerritoryMosqueLocation": {
+    "description": "फेडरल टेरिटरी मस्जिद का स्थान"
+  },
+
+  "masjidAlBukhari": "मस्जिद अल बुखारी",
+  "@masjidAlBukhari": {
+    "description": "कुआलालंपुर में मस्जिद अल बुखारी का नाम"
+  },
+
+  "masjidAlBukhariLocation": "1, जालान हांग तुआह, बुकिट बिंटांग, 55200 कुआलालंपुर",
+  "@masjidAlBukhariLocation": {
+    "description": "मस्जिद अल बुखारी का स्थान"
+  },
+
+  "masjidAbdullahHukum": "मस्जिद जमेक अब्दुल्लाह हुकुम - KL इको सिटी",
+  "@masjidAbdullahHukum": {
+    "description": "कुआलालंपुर में मस्जिद जमेक अब्दुल्लाह हुकुम का नाम"
+  },
+
+  "masjidAbdullahHukumLocation": "59200 कुआलालंपुर, संघीय क्षेत्र कुआलालंपुर",
+  "@masjidAbdullahHukumLocation": {
+    "description": "मस्जिद जमेक अब्दुल्लाह हुकुम का स्थान"
+  },
+
+  "masjidAsySyakirin": "मस्जिद अस्य-स्यकीरिन KLCC",
+  "@masjidAsySyakirin": {
+    "description": "कुआलालंपुर में मस्जिद अस्य-स्यकीरिन का नाम"
+  },
+
+  "masjidAsySyakirinLocation": "लॉट 41, सेक्शन, 58, जालान पिनांग, 50450 कुआलालंपुर",
+  "@masjidAsySyakirinLocation": {
+    "description": "मस्जिद अस्य-स्यकीरिन का स्थान"
+  },
+
+  "masjidAlFirdaus": "मस्जिद अल-फिरदौस",
+  "@masjidAlFirdaus": {
+    "description": "कुआलालंपुर में मस्जिद अल-फिरदौस का नाम"
+  },
+
+  "masjidAlFirdausLocation": "जालान मस्जिद फिरदौस, जालान 1/42, सेगामबुट लुआर, 51200 कुआलालंपुर",
+  "@masjidAlFirdausLocation": {
+    "description": "मस्जिद अल-फिरदौस का स्थान"
+  },
+
+  "masjidJamiulEhsan": "मस्जिद जमीउल एहसान",
+  "@masjidJamiulEhsan": {
+    "description": "कुआलालंपुर में मस्जिद जमीउल एहसान का नाम"
+  },
+
+  "masjidJamiulEhsanLocation": "जालान पहांग, तमन सेतपाक इंदाह जाया, 53000 कुआलालंपुर",
+  "@masjidJamiulEhsanLocation": {
+    "description": "मस्जिद जमीउल एहसान का स्थान"
+  },
+  "theanHouTemple": "थियन हौ मंदिर",
+  "@theanHouTemple": {
+    "description": "कुआलालंपुर में थियन हौ मंदिर का नाम"
+  },
+
+  "theanHouTempleLocation": "65, पर्सियारन एंडाह, तमन पर्सियारन देसा, 50460 कुआलालंपुर",
+  "@theanHouTempleLocation": {
+    "description": "थियन हौ मंदिर का स्थान"
+  },
+
+  "theanHouTempleHours": "सुबह 8:00 बजे - दोपहर 2:00 बजे / शाम 4:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@theanHouTempleHours": {
+    "description": "थियन हौ मंदिर के खुलने का समय"
+  },
+
+  "guanDiTemple": "गुआन दी मंदिर",
+  "@guanDiTemple": {
+    "description": "कुआलालंपुर में गुआन दी मंदिर का नाम"
+  },
+
+  "guanDiTempleLocation": "168, जालान टुन एच एस ली, सिटी सेंटर, 50000 कुआलालंपुर",
+  "@guanDiTempleLocation": {
+    "description": "गुआन दी मंदिर का स्थान"
+  },
+
+  "guanDiTempleHours": "सुबह 8:30 बजे - शाम 5:30 बजे (सप्ताह के दिन) / सप्ताहांत में बंद",
+  "@guanDiTempleHours": {
+    "description": "गुआन दी मंदिर के खुलने का समय"
+  },
+
+  "buddhistMahaViharaTemple": "बौद्ध महा विहार मंदिर",
+  "@buddhistMahaViharaTemple": {
+    "description": "कुआलालंपुर में बौद्ध महा विहार मंदिर का नाम"
+  },
+
+  "buddhistMahaViharaTempleLocation": "123 जालान बर्हाला, ब्रिकफील्ड्स, कुआलालंपुर",
+  "@buddhistMahaViharaTempleLocation": {
+    "description": "बौद्ध महा विहार मंदिर का स्थान"
+  },
+
+  "buddhistMahaViharaTempleHours": "सुबह 8:00 बजे - दोपहर 2:00 बजे / शाम 5:00 बजे - रात 9:00 बजे (रोजाना)",
+  "@buddhistMahaViharaTempleHours": {
+    "description": "बौद्ध महा विहार मंदिर के खुलने का समय"
+  },
+
+  "sinSzeSiYaTemple": "सिन स्ज़े सि या मंदिर",
+  "@sinSzeSiYaTemple": {
+    "description": "कुआलालंपुर में सिन स्ज़े सि या मंदिर का नाम"
+  },
+
+  "sinSzeSiYaTempleLocation": "113A, जालान टुन एच एस ली, सिटी सेंटर, 50050 कुआलालंपुर",
+  "@sinSzeSiYaTempleLocation": {
+    "description": "सिन स्ज़े सि या मंदिर का स्थान"
+  },
+
+  "sinSzeSiYaTempleHours": "सुबह 7:00 बजे - शाम 5:00 बजे (रोजाना)",
+  "@sinSzeSiYaTempleHours": {
+    "description": "सिन स्ज़े सि या मंदिर के खुलने का समय"
+  },
+
+  "sriMahamariammanTemple": "श्री महा मरियम्मन मंदिर",
+  "@sriMahamariammanTemple": {
+    "description": "कुआलालंपुर में श्री महा मरियम्मन मंदिर का नाम"
+  },
+
+  "sriMahamariammanTempleLocation": "जालान टुन एच एस ली, सिटी सेंटर, 50000 कुआलालंपुर",
+  "@sriMahamariammanTempleLocation": {
+    "description": "श्री महा मरियम्मन मंदिर का स्थान"
+  },
+
+  "sriMahamariammanTempleHours": "सुबह 6:00 बजे - रात 8:30 बजे (रविवार-गुरुवार) / सुबह 6:00 बजे - रात 9:30 बजे (शुक्रवार) / सुबह 6:00 बजे - रात 9:00 बजे (रविवार)",
+  "@sriMahamariammanTempleHours": {
+    "description": "श्री महा मरियम्मन मंदिर के खुलने का समय"
+  },
+
+  "batuCavesTemple": "बातू केव्स मंदिर",
+  "@batuCavesTemple": {
+    "description": "बातू केव्स मंदिर का नाम"
+  },
+
+  "batuCavesTempleLocation": "गोम्बाक, 68100 बातू केव्स, सेलांगोर",
+  "@batuCavesTempleLocation": {
+    "description": "बातू केव्स मंदिर का स्थान"
+  },
+
+  "sriKandaswamyTemple": "श्री कंदस्वामी मंदिर",
+  "@sriKandaswamyTemple": {
+    "description": "कुआलालंपुर में श्री कंदस्वामी मंदिर का नाम"
+  },
+
+  "sriKandaswamyTempleLocation": "ब्रिकफील्ड्स, 50470 कुआलालंपुर",
+  "@sriKandaswamyTempleLocation": {
+    "description": "ब्रिकफील्ड्स, कुआलालंपुर में श्री कंदस्वामी मंदिर का स्थान"
+  },
+  "stMarysAnglicanCathedral": "सेंट मैरी एंग्लिकन कैथेड्रल",
+  "@stMarysAnglicanCathedral": {
+    "description": "कुआलालंपुर में सेंट मैरी एंग्लिकन कैथेड्रल का नाम"
+  },
+
+  "stMarysAnglicanCathedralLocation": "जालान राजा, सिटी सेंटर, 50050 कुआलालंपुर",
+  "@stMarysAnglicanCathedralLocation": {
+    "description": "सेंट मैरी एंग्लिकन कैथेड्रल का स्थान"
+  },
+
+  "wesleyMethodistChurch": "वेस्ली मेथोडिस्ट चर्च कुआलालंपुर",
+  "@wesleyMethodistChurch": {
+    "description": "कुआलालंपुर में वेस्ली मेथोडिस्ट चर्च का नाम"
+  },
+
+  "wesleyMethodistChurchLocation": "2, जालान वेस्ली, सिटी सेंटर, 50150 कुआलालंपुर",
+  "@wesleyMethodistChurchLocation": {
+    "description": "वेस्ली मेथोडिस्ट चर्च का स्थान"
+  },
+
+  "wesleyMethodistChurchHours": "सुबह 8:30 बजे - शाम 4:30 बजे (सोमवार - शुक्रवार) / सुबह 8:30 बजे - दोपहर 12:30 बजे (शनिवार) / सुबह 8:00 बजे - सुबह 10:30 बजे (रविवार)",
+  "@wesleyMethodistChurchHours": {
+    "description": "वेस्ली मेथोडिस्ट चर्च के खुलने का समय"
+  },
+
+  "whatToEat": "क्या खाएं",
+  "@whatToEat": {
+    "description": "कुआलालंपुर में क्या खाएं पृष्ठ का शीर्षक"
+  },
+
+  "streetFood": "स्ट्रीट फूड",
+  "@streetFood": {
+    "description": "स्ट्रीट फूड के लिए टैब शीर्षक"
+  },
+
+  "cafes": "कैफे",
+  "@cafes": {
+    "description": "कैफे के लिए टैब शीर्षक"
+  },
+
+  "restaurants": "रेस्तरां",
+  "@restaurants": {
+    "description": "रेस्तरां के लिए टैब शीर्षक"
+  },
+
+  "jalanAlor": "जालान अलोर",
+  "@jalanAlor": {
+    "description": "जालान अलोर स्ट्रीट फूड स्थान का नाम"
+  },
+
+  "jalanAlorLocation": "बुकिट बिंटांग, कुआलालंपुर, संघीय क्षेत्र कुआलालंपुर",
+  "@jalanAlorLocation": {
+    "description": "जालान अलोर का स्थान"
+  },
+
+  "tamanConnaught": "तमन कोनौट नाइट मार्केट",
+  "@tamanConnaught": {
+    "description": "तमन कोनौट नाइट मार्केट का नाम"
+  },
+
+  "tamanConnaughtLocation": "130, 108, जालान सेर्दास, तमन कोनौट, 56000 कुआलालंपुर, संघीय क्षेत्र कुआलालंपुर",
+  "@tamanConnaughtLocation": {
+    "description": "तमन कोनौट नाइट मार्केट का स्थान"
+  },
+
+  "tamanConnaughtHours": "रात 6:00 बजे - रात 1:00 बजे (बुधवार)",
+  "@tamanConnaughtHours": {
+    "description": "तमन कोनौट नाइट मार्केट के खुलने का समय"
+  },
+
+  "petalingStreet": "पेटालिंग स्ट्रीट",
+  "@petalingStreet": {
+    "description": "पेटालिंग स्ट्रीट का नाम"
+  },
+
+  "petalingStreetLocation": "जालान पेटालिंग, सिटी सेंटर, 50000 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@petalingStreetLocation": {
+    "description": "पेटालिंग स्ट्रीट का स्थान"
+  },
+
+  "petalingStreetHours": "24 घंटे खुला (रोजाना)",
+  "@petalingStreetHours": {
+    "description": "पेटालिंग स्ट्रीट का खुलने का समय"
+  },
+
+  "wildflowersKL": "वाइल्डफ्लावर्स KL",
+  "@wildflowersKL": {
+    "description": "वाइल्डफ्लावर्स KL कैफे का नाम"
+  },
+
+  "wildflowersKLLocation": "जालान पेटालिंग, 50000 कुआलालंपुर",
+  "@wildflowersKLLocation": {
+    "description": "वाइल्डफ्लावर्स KL का स्थान"
+  },
+
+  "wildflowersKLHours": "दोपहर 12:00 बजे - रात 12:00 बजे (शुक्रवार-शनिवार) / दोपहर 12:00 बजे - रात 10:00 बजे (रविवार) / शाम 5:00 बजे - रात 10:00 बजे (मंगलवार,बुधवार,गुरुवार) सोमवार को बंद",
+  "@wildflowersKLHours": {
+    "description": "वाइल्डफ्लावर्स KL के खुलने का समय"
+  },
+
+  "lisettesCafe": "लिसेट्स कैफे और बेकरी",
+  "@lisettesCafe": {
+    "description": "लिसेट्स कैफे और बेकरी का नाम"
+  },
+
+  "lisettesCafeLocation": "नं. 8, जालान केमुजा, बांगसर, 59000 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@lisettesCafeLocation": {
+    "description": "लिसेट्स कैफे और बेकरी का स्थान"
+  },
+
+  "lisettesCafeHours": "सुबह 8:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@lisettesCafeHours": {
+    "description": "लिसेट्स कैफे और बेकरी का खुलने का समय"
+  },
+  "merchantsLane": "मर्चेंट्स लेन",
+  "@merchantsLane": {
+    "description": "मर्चेंट्स लेन कैफे का नाम"
+  },
+
+  "merchantsLaneLocation": "150, जालान पेटालिंग, सिटी सेंटर, 50000 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@merchantsLaneLocation": {
+    "description": "मर्चेंट्स लेन कैफे का स्थान"
+  },
+
+  "merchantsLaneHours": "सुबह 8:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@merchantsLaneHours": {
+    "description": "मर्चेंट्स लेन का खुलने का समय"
+  },
+
+  "bijanBar": "बिजान बार और रेस्तरां",
+  "@bijanBar": {
+    "description": "बिजान बार और रेस्तरां का नाम"
+  },
+
+  "bijanBarLocation": "नं. 3, जालान सीलोन, बुकिट सीलोन, 50200 कुआलालंपुर",
+  "@bijanBarLocation": {
+    "description": "बिजान बार और रेस्तरां का स्थान"
+  },
+
+  "bijanBarHours": "दोपहर 12:00 बजे - रात 11:00 बजे (रोजाना)",
+  "@bijanBarHours": {
+    "description": "बिजान बार और रेस्तरां का खुलने का समय"
+  },
+
+  "songketRestaurant": "सोंगकेट रेस्तरां",
+  "@songketRestaurant": {
+    "description": "सोंगकेट रेस्तरां का नाम"
+  },
+
+  "songketRestaurantLocation": "31G, प्लाजा क्रिस्टाविला, 1, जालान 22a/70a, देसा श्री हार्तामास, 50480 कुआलालंपुर",
+  "@songketRestaurantLocation": {
+    "description": "सोंगकेट रेस्तरां का स्थान"
+  },
+
+  "songketRestaurantHours": "दोपहर 12:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@songketRestaurantHours": {
+    "description": "सोंगकेट रेस्तरां का खुलने का समय"
+  },
+
+  "manjaOldMalaya": "मंजा ओल्ड मलाया",
+  "@manjaOldMalaya": {
+    "description": "मंजा ओल्ड मलाया का नाम"
+  },
+
+  "manjaOldMalayaLocation": "6, लोरोन राजा चुलान, कुआलालंपुर, 50250 कुआलालंपुर",
+  "@manjaOldMalayaLocation": {
+    "description": "मंजा ओल्ड मलाया का स्थान"
+  },
+
+  "manjaOldMalayaHours": "दोपहर 12:00 बजे - रात 12:00 बजे (रोजाना)",
+  "@manjaOldMalayaHours": {
+    "description": "मंजा ओल्ड मलाया का खुलने का समय"
+  },
+
+  "location": "स्थान",
+  "@location": {
+    "description": "स्थान के लिए लेबल"
+  },
+
+  "operatingHours": "खुलने का समय",
+  "@operatingHours": {
+    "description": "संस्थान के खुलने का समय बताने वाला लेबल"
+  },
+
+  "website": "वेबसाइट",
+  "@website": {
+    "description": "संस्थान की वेबसाइट के लिए लेबल"
+  },
+
+  "nightLife": "नाइट लाइफ",
+  "@nightLife": {
+    "description": "कुआलालंपुर में नाइट लाइफ के विकल्प दिखाने वाले पृष्ठ का शीर्षक"
+  },
+
+  "bars": "बार्स",
+  "@bars": {
+    "description": "बार्स के लिए टैब शीर्षक"
+  },
+
+  "nightMarket": "नाइट मार्केट",
+  "@nightMarket": {
+    "description": "नाइट मार्केट के लिए टैब शीर्षक"
+  },
+
+  "changkatBukitBintang": "चांगकाट, बुकिट बिंटांग",
+  "@changkatBukitBintang": {
+    "description": "चांगकाट बुकिट बिंटांग का नाम, कुआलालंपुर का एक लोकप्रिय नाइटलाइफ क्षेत्र"
+  },
+
+  "changkatBukitBintangDescription": "चांगकाट बुकिट बिंटांग थीम नाइट्स, डीजे, और लाइव बैंड शो के साथ एक रोमांचक नाइटलाइफ प्रदान करता है।",
+  "@changkatBukitBintangDescription": {
+    "description": "चांगकाट बुकिट बिंटांग के नाइटलाइफ दृश्य का विवरण"
+  },
+
+  "bangsar": "बांगसर",
+  "@bangsar": {
+    "description": "बांगसर का नाम, एक लोकप्रिय नाइटलाइफ गंतव्य"
+  },
+
+  "bangsarDescription": "बांगसर और मिड वैली में फैशनेबल बार्स, पब्स, और कॉकटेल लाउंज होते हैं। ज्यादातर नाइटलाइफ स्पॉट्स बांगसर बारू के जालान तेलावी के आसपास केंद्रित हैं।",
+  "@bangsarDescription": {
+    "description": "बांगसर में नाइटलाइफ का विवरण"
+  },
+
+  "ampang": "अमपंग",
+  "@ampang": {
+    "description": "अमपंग का नाम, एक नाइटलाइफ क्षेत्र"
+  },
+
+  "ampangDescription": "अमपंग में विविध नाइटलाइफ है, जिसमें रूफटॉप बार्स, लेट-नाइट क्लब्स, और कुआलालंपुर के स्काईलाइन के अद्भुत दृश्य हैं।",
+  "@ampangDescription": {
+    "description": "अमपंग में नाइटलाइफ का विवरण"
+  },
+  "petalingStreetDescription": "पेटालिंग स्ट्रीट रात के बाद एक जीवंत नाइट मार्केट में बदल जाता है, जहाँ कई नाइटलाइफ हॉटस्पॉट्स और मनोरंजन की पेशकश होती है।",
+  "@petalingStreetDescription": {
+    "description": "पेटालिंग स्ट्रीट में नाइटलाइफ और बाजार के दृश्य का विवरण"
+  },
+
+  "marinisOn57": "मारिनिस ऑन 57",
+  "@marinisOn57": {
+    "description": "कुआलालंपुर में मारिनिस ऑन 57 बार का नाम"
+  },
+
+  "marinisOn57Location": "57 मेनारा 3 पेट्रोनास पर्सियारन, कुआलालंपुर सिटी सेंटर, 50088 कुआलालंपुर",
+  "@marinisOn57Location": {
+    "description": "मारिनिस ऑन 57 का स्थान"
+  },
+
+  "heliLoungeBar": "हेली लाउंज बार",
+  "@heliLoungeBar": {
+    "description": "कुआलालंपुर में हेली लाउंज बार का नाम"
+  },
+
+  "heliLoungeBarLocation": "4 मेनारा KH, जालान सुल्तान इस्माइल, बुकिट बिंटांग, 50450 कुआलालंपुर",
+  "@heliLoungeBarLocation": {
+    "description": "हेली लाउंज बार का स्थान"
+  },
+
+  "zetaBar": "ज़ेटा बार",
+  "@zetaBar": {
+    "description": "कुआलालंपुर में ज़ेटा बार का नाम"
+  },
+
+  "zetaBarLocation": "लेवल 5, 3, जालान स्टेशन सेंट्रल, कुआलालंपुर सेंट्रल, 50470 कुआलालंपुर",
+  "@zetaBarLocation": {
+    "description": "ज़ेटा बार का स्थान"
+  },
+
+  "connaughtNightMarket": "कोनौट नाइट मार्केट",
+  "@connaughtNightMarket": {
+    "description": "कोनौट नाइट मार्केट का नाम"
+  },
+
+  "connaughtNightMarketDescription": "चीनी स्ट्रीट फूड के लिए प्रसिद्ध, कोनौट नाइट मार्केट स्थानीय मिठाईयों, स्नैक्स और बहुत कुछ प्रदान करता है।",
+  "@connaughtNightMarketDescription": {
+    "description": "कोनौट नाइट मार्केट का विवरण"
+  },
+
+  "connaughtNightMarketLocation": "130, 108, जालान सेर्दास, तमन कोनौट, 56000 कुआलालंपुर",
+  "@connaughtNightMarketLocation": {
+    "description": "कोनौट नाइट मार्केट का स्थान"
+  },
+
+  "kasturiWalk": "कस्तूरी वॉक",
+  "@kasturiWalk": {
+    "description": "कस्तूरी वॉक का नाम, एक नाइट मार्केट"
+  },
+
+  "kasturiWalkLocation": "जालान हांग कस्तुरी, सिटी सेंटर, 50050 कुआलालंपुर",
+  "@kasturiWalkLocation": {
+    "description": "कस्तूरी वॉक का स्थान"
+  },
+
+  "kasturiWalkHours": "24 घंटे खुला",
+  "@kasturiWalkHours": {
+    "description": "कस्तूरी वॉक का खुलने का समय"
+  },
+
+  "sightseeing": "दर्शनीय स्थल",
+  "@sightseeing": {
+    "description": "कुआलालंपुर में दर्शनीय स्थलों को प्रदर्शित करने वाले पृष्ठ का शीर्षक"
+  },
+
+  "mustVisit": "आवश्यक यात्रा",
+  "@mustVisit": {
+    "description": "आवश्यक यात्रा स्थलों के लिए टैब शीर्षक"
+  },
+
+  "museums": "संग्रहालय",
+  "@museums": {
+    "description": "संग्रहालय के लिए टैब शीर्षक"
+  },
+
+  "klArtScene": "KL आर्ट सीन",
+  "@klArtScene": {
+    "description": "KL आर्ट सीन के लिए टैब शीर्षक"
+  },
+
+  "klcc": "KLCC",
+  "@klcc": {
+    "description": "कुआलालंपुर में एक लोकप्रिय गंतव्य KLCC का नाम"
+  },
+
+  "klccLocation": "जालान अंपंग, गोल्डन ट्रायंगल, कुआलालंपुर सिटी सेंटर, 50088",
+  "@klccLocation": {
+    "description": "KLCC का स्थान"
+  },
+
+  "klccHours": "सुबह 10:00 बजे से रात 10:00 बजे तक",
+  "@klccHours": {
+    "description": "KLCC के खुलने का समय"
+  },
+
+  "istanaNegara": "इस्ताना नेगारा",
+  "@istanaNegara": {
+    "description": "इस्ताना नेगारा का नाम"
+  },
+
+  "istanaNegaraLocation": "जालान तुआनकु अब्दुल हलीम, बुकिट दामनसारा, 50480 कुआलालंपुर",
+  "@istanaNegaraLocation": {
+    "description": "इस्ताना नेगारा का स्थान"
+  },
+
+  "istanaNegaraHours": "24 घंटे",
+  "@istanaNegaraHours": {
+    "description": "इस्ताना नेगारा के खुलने का समय"
+  },
+
+  "tunkuAbdulRahmanMemorial": "तुनकु अब्दुल रहमान पुत्रा मेमोरियल",
+  "@tunkuAbdulRahmanMemorial": {
+    "description": "तुनकु अब्दुल रहमान पुत्रा मेमोरियल का नाम"
+  },
+
+  "tunkuAbdulRahmanMemorialLocation": "जालान दातो ओन्न, 50480 कुआलालंपुर",
+  "@tunkuAbdulRahmanMemorialLocation": {
+    "description": "तुनकु अब्दुल रहमान पुत्रा मेमोरियल का स्थान"
+  },
+
+  "tunkuAbdulRahmanMemorialHours": "सुबह 10:00 बजे - शाम 5:30 बजे (मंगलवार से रविवार), शुक्रवार को बंद (दोपहर 12:00 बजे से 3:00 बजे तक)",
+  "@tunkuAbdulRahmanMemorialHours": {
+    "description": "तुनकु अब्दुल रहमान पुत्रा मेमोरियल का खुलने का समय"
+  },
+
+  "klTower": "मेनारा कुआलालंपुर/ KL टॉवर",
+  "@klTower": {
+    "description": "KL टॉवर का नाम"
+  },
+
+  "klTowerLocation": "नं. 2 जालान पन्चक ऑफ जालान पी.रामली 50250 कुआलालंपुर",
+  "@klTowerLocation": {
+    "description": "KL टॉवर का स्थान"
+  },
+
+  "klTowerHours": "सोमवार से शुक्रवार: सुबह 11:00 बजे - शाम 7:00 बजे, शनिवार और रविवार: सुबह 10:00 बजे - रात 10:00 बजे",
+  "@klTowerHours": {
+    "description": "KL टॉवर के खुलने का समय"
+  },
+  "ethnologyMuseum": "मलय विश्व की नृविज्ञान संग्रहालय",
+  "@ethnologyMuseum": {
+    "description": "मलय विश्व की नृविज्ञान संग्रहालय का नाम"
+  },
+
+  "ethnologyMuseumLocation": "जालान दामनसारा, तासिक पर्दाना, 50480 कुआलालंपुर",
+  "@ethnologyMuseumLocation": {
+    "description": "मलय विश्व की नृविज्ञान संग्रहालय का स्थान"
+  },
+
+  "ethnologyMuseumHours": "सुबह 9:00 बजे - शाम 5:00 बजे (मंगलवार - रविवार), सोमवार को बंद",
+  "@ethnologyMuseumHours": {
+    "description": "मलय विश्व की नृविज्ञान संग्रहालय के खुलने का समय"
+  },
+
+  "textilesMuseum": "राष्ट्रीय वस्त्र संग्रहालय",
+  "@textilesMuseum": {
+    "description": "राष्ट्रीय वस्त्र संग्रहालय का नाम"
+  },
+
+  "textilesMuseumLocation": "26, जालान सुल्तान हिशामुद्दीन, सिटी सेंटर, 50000 कुआलालंपुर",
+  "@textilesMuseumLocation": {
+    "description": "राष्ट्रीय वस्त्र संग्रहालय का स्थान"
+  },
+
+  "textilesMuseumHours": "सुबह 9:00 बजे - शाम 6:00 बजे (रोजाना)",
+  "@textilesMuseumHours": {
+    "description": "राष्ट्रीय वस्त्र संग्रहालय के खुलने का समय"
+  },
+
+  "museumOfAsianArts": "एशियाई कला संग्रहालय",
+  "@museumOfAsianArts": {
+    "description": "एशियाई कला संग्रहालय का नाम"
+  },
+
+  "museumOfAsianArtsLocation": "जालान इल्मु, 50603 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@museumOfAsianArtsLocation": {
+    "description": "एशियाई कला संग्रहालय का स्थान"
+  },
+
+  "museumOfAsianArtsHours": "सोमवार - गुरुवार: सुबह 8:30 बजे - शाम 5:00 बजे, शुक्रवार: सुबह 8:30 बजे - शाम 5:00 बजे",
+  "@museumOfAsianArtsHours": {
+    "description": "एशियाई कला संग्रहालय के खुलने का समय"
+  },
+
+  "urbanMuseum": "अर्बन म्यूज़ियम",
+  "@urbanMuseum": {
+    "description": "अर्बन म्यूज़ियम का नाम"
+  },
+
+  "urbanMuseumLocation": "3, जालान बेदारा, बुकिट बिंटांग, 50200 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@urbanMuseumLocation": {
+    "description": "अर्बन म्यूज़ियम का स्थान"
+  },
+
+  "urbanMuseumHours": "सुबह 10:00 बजे - रात 8:30 बजे (मंगलवार - रविवार), सोमवार को बंद",
+  "@urbanMuseumHours": {
+    "description": "अर्बन म्यूज़ियम के खुलने का समय"
+  },
+
+  "nationalArtGallery": "राष्ट्रीय कला दीर्घा",
+  "@nationalArtGallery": {
+    "description": "राष्ट्रीय कला दीर्घा का नाम"
+  },
+
+  "nationalArtGalleryLocation": "नं. 2, जालान टेमेरलोह, तितिवांगसा, 53200 कुआलालंपुर",
+  "@nationalArtGalleryLocation": {
+    "description": "राष्ट्रीय कला दीर्घा का स्थान"
+  },
+
+  "nationalArtGalleryHours": "सुबह 10:00 बजे - शाम 4:00 बजे (मंगलवार - रविवार), सोमवार को बंद",
+  "@nationalArtGalleryHours": {
+    "description": "राष्ट्रीय कला दीर्घा के खुलने का समय"
+  },
+
+  "ourArtProjects": "OUR आर्टप्रोजेक्ट्स (द झोंगशान बिल्डिंग)",
+  "@ourArtProjects": {
+    "description": "OUR आर्टप्रोजेक्ट्स का नाम जो द झोंगशान बिल्डिंग में स्थित है"
+  },
+
+  "ourArtProjectsLocation": "80A, जालान रोटान, काम्पुंग अट्टाप, 50460 कुआलालंपुर",
+  "@ourArtProjectsLocation": {
+    "description": "OUR आर्टप्रोजेक्ट्स का स्थान"
+  },
+
+  "ourArtProjectsHours": "मंगलवार - शनिवार: सुबह 11:00 बजे - शाम 7:00 बजे, रविवार और सोमवार को बंद",
+  "@ourArtProjectsHours": {
+    "description": "OUR आर्टप्रोजेक्ट्स के खुलने का समय"
+  },
+
+  "klDescription1": "कुआलालंपुर सिटी सेंटर (KL) अपनी ऊँची, भविष्यवादी गगनचुंबी इमारतों और आधुनिक संरचनाओं के लिए प्रसिद्ध है। फिर भी, KL का सबसे अच्छा अनुभव करने के लिए आपको इसकी सड़कों और गलियों से होकर गुजरना पड़ेगा। तभी आप हॉकर्स स्टॉल्स से उठती खाने की खुशबू और कुछ पुराने भवनों पर बने भित्तिचित्रों की सराहना कर पाएंगे। जितना अधिक आप चलेंगे, उतना ही आपको महसूस होगा कि KL सिर्फ कंक्रीट की गगनचुंबी इमारतें नहीं है, बल्कि यह एक वास्तुकला का अद्वितीय कार्य है। सड़कों पर धीरे-धीरे चलते हुए, आप KL के नज़ारों को बेहतर तरीके से देख सकेंगे।",
+  "@klDescription1": {
+    "description": "KL @ A Glance पृष्ठ का पहला विवरण"
+  },
+
+  "klDescription2": "KL की स्थापना लगभग एक दुर्घटना थी। 1857 में, 87 चीनी खोजकर्ताओं का एक समूह टिन की तलाश में आया और क्लांग और गोम्बाक नदियों के मिलन बिंदु पर डेरा डाला। उन्होंने इस स्थान का नाम कुआलालंपुर रखा, जिसका अर्थ है 'कीचड़ वाला संगम'।",
+  "@klDescription2": {
+    "description": "KL @ A Glance पृष्ठ का दूसरा विवरण, जो KL की स्थापना का इतिहास बताता है"
+  },
+  "lrtTitle": "लाइट रेल ट्रांज़िट (LRT)",
+  "@lrtTitle": {
+    "description": "लाइट रेल ट्रांज़िट का शीर्षक"
+  },
+
+  "lrtDescription": "लाइट रेल ट्रांज़िट (LRT) सार्वजनिक रेल परिवहन के सबसे सामान्य साधनों में से एक है। LRT को दो लाइनों में विभाजित किया गया है: अंपांग/श्री पेटलिंग और केलाना जया। यदि आप कुआलालंपुर सिटी सेंटर से दूर किसी स्थान की यात्रा करने की सोच रहे हैं, तो यह सबसे अच्छा साधन है। हेल्पलाइन: 03-7885 2585",
+  "@lrtDescription": {
+    "description": "लाइट रेल ट्रांज़िट का विवरण"
+  },
+
+  "mrtTitle": "मास रैपिड ट्रांज़िट (MRT)",
+  "@mrtTitle": {
+    "description": "मास रैपिड ट्रांज़िट का शीर्षक"
+  },
+
+  "mrtDescription": "मास रैपिड ट्रांज़िट (MRT) को दो लाइनों में विभाजित किया गया है; पहला सुंगाई बुलोह-काजंग लाइन है, जो 51 किलोमीटर लंबी है और इसके रास्ते में 31 स्टेशन हैं। सभी स्टेशन सुबह 6:00 बजे से चालू होते हैं। बंद होने का समय स्टेशन के आधार पर अलग-अलग हो सकता है। एकल यात्रा का शुल्क RM1.20 और उससे अधिक है। हेल्पलाइन: 1800-82-6868",
+  "@mrtDescription": {
+    "description": "मास रैपिड ट्रांज़िट का विवरण"
+  },
+
+  "ktmKomuterTitle": "KTM कोम्यूटर",
+  "@ktmKomuterTitle": {
+    "description": "KTM कोम्यूटर का शीर्षक"
+  },
+
+  "ktmKomuterDescription": "मलेशिया की सबसे पुरानी रेल प्रणाली, KTM को अधिकतर स्थानीय यात्रियों के लिए तैयार किया गया है बजाय पर्यटकों के। यह लंबी दूरी की यात्रा का एक सस्ता विकल्प प्रदान करता है। लाइनें दो भागों में विभाजित हैं: रावांग - पेलाबुहान क्लांग और बातू गुफाएं - सेरंबन। हेल्पलाइन: 03-2267 1200",
+  "@ktmKomuterDescription": {
+    "description": "KTM कोम्यूटर का विवरण"
+  },
+
+  "klMonorailTitle": "KL मोनोरेल",
+  "@klMonorailTitle": {
+    "description": "KL मोनोरेल का शीर्षक"
+  },
+
+  "klMonorailDescription": "KL मोनोरेल एक सरल और अच्छी तरह से जुड़ा हुआ ट्रेन सिस्टम है, जो कुआलालंपुर के परिवहन हब KL सेंट्रल और तितिवांगसा के बीच चलता है। यह कुआलालंपुर सिटी सेंटर और आंतरिक क्षेत्रों के बीच एक पुल के रूप में कार्य करता है। KL मोनोरेल सुबह 6:00 बजे से चालू होता है और रात 12:00 बजे बंद होता है। हेल्पलाइन: 03-2267 9888",
+  "@klMonorailDescription": {
+    "description": "KL मोनोरेल का विवरण"
+  },
+
+  "rapidKLBusTitle": "रैपिडKL बस",
+  "@rapidKLBusTitle": {
+    "description": "रैपिडKL बस का शीर्षक"
+  },
+
+  "rapidKLBusDescription": "रैपिडKL बस आमतौर पर अधिकांश ट्रेन स्टेशनों पर देखी जाती है और आमतौर पर यात्रियों को उनके गंतव्य तक सीधे पहुंचाने के लिए ट्रांज़िट आधारित परिवहन साधन के रूप में काम करती है। प्रत्येक यात्रा का खर्च RM5.00 प्रति यात्रा हो सकता है, जिसे सटीक राशि से या प्रवेश और निकास के समय अपने 'टच एन गो' कार्ड को टैप करके भुगतान किया जा सकता है। हेल्पलाइन: 03-7885 2585",
+  "@rapidKLBusDescription": {
+    "description": "रैपिडKL बस का विवरण"
+  },
+
+  "weatherTitle": "मौसम",
+  "@weatherTitle": {
+    "description": "ट्रैवल टिप्स में मौसम अनुभाग का शीर्षक"
+  },
+
+  "weatherDescription": "KL का मौसम साल भर काफी आर्द्र होता है। KL की यात्रा करने वालों को साल के किसी भी समय बारिश के लिए तैयार रहना चाहिए। फिर भी, KL आने का सबसे अच्छा समय मई-जुलाई या दिसंबर-फरवरी के बीच होता है। मार्च-अप्रैल के बीच मौसम काफी गर्म हो सकता है। जून-अगस्त के दौरान सुमात्रा के जंगल की आग से उत्पन्न धूल के कणों के कारण शहर पर धुंध छा सकती है, जिससे KL की यात्रा का यह समय आदर्श नहीं होता।",
+  "@weatherDescription": {
+    "description": "मौसम अनुभाग का विवरण"
+  },
+  "timeZoneTitle": "समय क्षेत्र",
+  "@timeZoneTitle": {
+    "description": "ट्रैवल टिप्स में समय क्षेत्र अनुभाग का शीर्षक"
+  },
+
+  "timeZoneDescription": "मलेशिया का मानक समय GMT से 8 घंटे आगे है (GMT +8)।",
+  "@timeZoneDescription": {
+    "description": "समय क्षेत्र अनुभाग का विवरण"
+  },
+
+  "currencyTitle": "मुद्रा",
+  "@currencyTitle": {
+    "description": "ट्रैवल टिप्स में मुद्रा अनुभाग का शीर्षक"
+  },
+
+  "currencyDescription": "मलेशिया की मुद्रा इकाई दो भागों में विभाजित है। कागजी मुद्रा के लिए रिंगिट मलेशिया (RM) का उपयोग किया जाता है। इसके विभिन्न मूल्यवर्ग हैं: RM1, RM5, RM10, RM20, RM50, और RM100। जबकि सिक्कों को सेन (सेंट्स) कहा जाता है। इसके मूल्यवर्ग हैं: 5 सेन, 10 सेन, 20 सेन, और 50 सेन।",
+  "@currencyDescription": {
+    "description": "मुद्रा अनुभाग का विवरण"
+  },
+
+  "visaAndPassportTitle": "वीज़ा और पासपोर्ट",
+  "@visaAndPassportTitle": {
+    "description": "ट्रैवल टिप्स में वीज़ा और पासपोर्ट अनुभाग का शीर्षक"
+  },
+
+  "visaAndPassportDescription": "प्रवेश के समय पासपोर्ट की वैधता कम से कम 6 महीने होनी चाहिए। वीज़ा आवश्यकताएं समय-समय पर बदल सकती हैं, इसलिए मलेशिया के दूतावास या कांसुलेट या इमिग्रेशन विभाग की वेबसाइट से जांच करना सबसे अच्छा है।",
+  "@visaAndPassportDescription": {
+    "description": "वीज़ा और पासपोर्ट अनुभाग का विवरण"
+  },
+
+  "healthcare": "स्वास्थ्य सेवा",
+  "@healthcare": {
+    "description": "स्वास्थ्य सेवा अनुभाग का टैब लेबल"
+  },
+
+  "dental": "दंत चिकित्सा",
+  "@dental": {
+    "description": "दंत चिकित्सा अनुभाग का टैब लेबल"
+  },
+
+  "dermatologist": "त्वचा रोग विशेषज्ञ",
+  "@dermatologist": {
+    "description": "त्वचा रोग विशेषज्ञ अनुभाग का टैब लेबल"
+  },
+
+  "ophthalmologist": "नेत्र विशेषज्ञ",
+  "@ophthalmologist": {
+    "description": "नेत्र विशेषज्ञ अनुभाग का टैब लेबल"
+  },
+
+  "plasticSurgery": "प्लास्टिक सर्जरी",
+  "@plasticSurgery": {
+    "description": "प्लास्टिक सर्जरी अनुभाग का टैब लेबल"
+  },
+
+  "gleneagles": "ग्लेनईगल्स, कुआलालंपुर",
+  "@gleneagles": {
+    "description": "कुआलालंपुर में ग्लेनईगल्स अस्पताल का नाम"
+  },
+
+  "gleneaglesLocation": "ब्लॉक A और ब्लॉक B, 286 और 288, जालान अंपांग, काम्पुंग बेरंबंग, 50450 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@gleneaglesLocation": {
+    "description": "ग्लेनईगल्स कुआलालंपुर का स्थान पता"
+  },
+
+  "gleneaglesHours": "सुबह 9:00 बजे - शाम 5:00 बजे (सोमवार - शुक्रवार), सप्ताहांत में बंद",
+  "@gleneaglesHours": {
+    "description": "ग्लेनईगल्स कुआलालंपुर के खुलने का समय"
+  },
+
+  "gleneaglesPhone": "603-2282 6800",
+  "@gleneaglesPhone": {
+    "description": "ग्लेनईगल्स कुआलालंपुर का फोन नंबर"
+  },
+
+  "kpjTawakkal": "KPJ तवक्कल स्पेशलिस्ट हॉस्पिटल",
+  "@kpjTawakkal": {
+    "description": "कुआलालंपुर में KPJ तवक्कल स्पेशलिस्ट हॉस्पिटल का नाम"
+  },
+
+  "kpjTawakkalLocation": "1, जालान पहांग बाराट, पेकलिलिंग, 53000 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@kpjTawakkalLocation": {
+    "description": "KPJ तवक्कल स्पेशलिस्ट हॉस्पिटल का स्थान पता"
+  },
+
+  "kpjTawakkalHours": "सुबह 8:00 बजे - शाम 6:00 बजे (सोमवार - शुक्रवार), सुबह 9:00 बजे - दोपहर 3:00 बजे (शनिवार)",
+  "@kpjTawakkalHours": {
+    "description": "KPJ तवक्कल स्पेशलिस्ट हॉस्पिटल के खुलने का समय"
+  },
+
+  "kpjTawakkalPhone": "603-2283 4567",
+  "@kpjTawakkalPhone": {
+    "description": "KPJ तवक्कल स्पेशलिस्ट हॉस्पिटल का फोन नंबर"
+  },
+  "klinikPergigianBangsar": "क्लिनिक पेर्गिगियन बांगसर डेंटल",
+  "@klinikPergigianBangsar": {
+    "description": "क्लिनिक पेर्गिगियन बांगसर डेंटल क्लिनिक का नाम"
+  },
+
+  "klinikPergigianBangsarLocation": "43-1, जालान तेलावी 3, बांगसर, 59100 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@klinikPergigianBangsarLocation": {
+    "description": "क्लिनिक पेर्गिगियन बांगसर डेंटल का स्थान"
+  },
+
+  "klinikPergigianBangsarHours": "सुबह 9:00 बजे - शाम 6:00 बजे (सोमवार - शुक्रवार), सुबह 9:00 बजे - शाम 5:00 बजे (शनिवार), सुबह 9:00 बजे - दोपहर 2:00 बजे (रविवार)",
+  "@klinikPergigianBangsarHours": {
+    "description": "क्लिनिक पेर्गिगियन बांगसर डेंटल के खुलने का समय"
+  },
+
+  "klinikPergigianBangsarPhone": "603-2282 6800",
+  "@klinikPergigianBangsarPhone": {
+    "description": "क्लिनिक पेर्गिगियन बांगसर डेंटल का फोन नंबर"
+  },
+
+  "dentalPro": "डेंटलप्रो (कुआलालंपुर, मलेशिया)",
+  "@dentalPro": {
+    "description": "डेंटलप्रो डेंटल क्लिनिक का नाम"
+  },
+
+  "dentalProLocation": "12, जालान श्री सेमांटन 1, दामनसारा हाइट्स, 50490 कुआलालंपुर",
+  "@dentalProLocation": {
+    "description": "डेंटलप्रो डेंटल क्लिनिक का स्थान"
+  },
+
+  "dentalProHours": "सुबह 9:00 बजे - शाम 6:00 बजे (सोमवार - शनिवार)",
+  "@dentalProHours": {
+    "description": "डेंटलप्रो डेंटल क्लिनिक के खुलने का समय"
+  },
+
+  "dentalProPhone": "+603-2147 1111",
+  "@dentalProPhone": {
+    "description": "डेंटलप्रो डेंटल क्लिनिक का फोन नंबर"
+  },
+
+  "drJaneClinic": "डॉ जेन क्लिनिक",
+  "@drJaneClinic": {
+    "description": "डॉ जेन क्लिनिक का नाम"
+  },
+
+  "drJaneClinicLocation": "ट्रोपिकाना एवेन्यू, P01-09 (पहली मंजिल), पर्सियारन ट्रोपिकाना, PJU3, 47410 पेटलिंग जया, सेलांगोर",
+  "@drJaneClinicLocation": {
+    "description": "डॉ जेन क्लिनिक का स्थान"
+  },
+
+  "drJaneClinicHours": "सुबह 10:00 बजे - शाम 7:00 बजे (सोमवार - शुक्रवार), सुबह 10:00 बजे - शाम 6:00 बजे (शनिवार - रविवार)",
+  "@drJaneClinicHours": {
+    "description": "डॉ जेन क्लिनिक के खुलने का समय"
+  },
+
+  "dermlaze": "डर्मलेज़ स्किन लेज़र और एस्थेटिक्स सेंटर",
+  "@dermlaze": {
+    "description": "डर्मलेज़ स्किन लेज़र और एस्थेटिक्स सेंटर का नाम"
+  },
+
+  "dermlazeLocation": "75, जालान SS 21/60, दामनसारा उत्तमा, 47400 पेटलिंग जया, सेलांगोर",
+  "@dermlazeLocation": {
+    "description": "डर्मलेज़ स्किन लेज़र और एस्थेटिक्स सेंटर का स्थान"
+  },
+
+  "dermlazeHours": "सुबह 10:00 बजे - शाम 6:00 बजे (सोमवार - शनिवार)",
+  "@dermlazeHours": {
+    "description": "डर्मलेज़ स्किन लेज़र और एस्थेटिक्स सेंटर के खुलने का समय"
+  },
+
+  "isec": "इंटरनेशनल स्पेशलिस्ट आई सेंटर",
+  "@isec": {
+    "description": "इंटरनेशनल स्पेशलिस्ट आई सेंटर का नाम"
+  },
+
+  "isecLocation": "सेंट्रेपॉइंट साउथ, लिंगकारन सैयद पुतरा, मिड वैली सिटी, 59200 कुआलालंपुर",
+  "@isecLocation": {
+    "description": "इंटरनेशनल स्पेशलिस्ट आई सेंटर का स्थान"
+  },
+
+  "isecHours": "सुबह 8:30 बजे - शाम 5:30 बजे (सोमवार - शुक्रवार), सुबह 8:30 बजे - दोपहर 1:00 बजे (शनिवार), रविवार को बंद",
+  "@isecHours": {
+    "description": "इंटरनेशनल स्पेशलिस्ट आई सेंटर के खुलने का समय"
+  },
+
+  "isecPhone": "+603-22848989",
+  "@isecPhone": {
+    "description": "इंटरनेशनल स्पेशलिस्ट आई सेंटर का फोन नंबर"
+  },
+
+  "vistaEyeSpecialist": "विस्टा आई स्पेशलिस्ट",
+  "@vistaEyeSpecialist": {
+    "description": "विस्टा आई स्पेशलिस्ट का नाम"
+  },
+
+  "vistaEyeSpecialistLocation": "लॉट G217, ग्राउंड फ्लोर, मिड वैली मेगामॉल, 59200 कुआलालंपुर",
+  "@vistaEyeSpecialistLocation": {
+    "description": "विस्टा आई स्पेशलिस्ट का स्थान"
+  },
+
+  "vistaEyeSpecialistHours": "सुबह 10:00 बजे - रात 10:00 बजे (सोमवार - रविवार)",
+  "@vistaEyeSpecialistHours": {
+    "description": "विस्टा आई स्पेशलिस्ट के खुलने का समय"
+  },
+
+  "vistaEyeSpecialistPhone": "+603-22423937",
+  "@vistaEyeSpecialistPhone": {
+    "description": "विस्टा आई स्पेशलिस्ट का फोन नंबर"
+  },
+
+  "somaPlasticSurgery": "सोमा प्लास्टिक सर्जरी",
+  "@somaPlasticSurgery": {
+    "description": "सोमा प्लास्टिक सर्जरी क्लिनिक का नाम"
+  },
+
+  "somaPlasticSurgeryLocation": "45B, दूसरी मंजिल, जालान SS15/5a, SS15, 47500 सुबांग जया, सेलांगोर",
+  "@somaPlasticSurgeryLocation": {
+    "description": "सोमा प्लास्टिक सर्जरी का स्थान"
+  },
+
+  "somaPlasticSurgeryHours": "सुबह 9:00 बजे - शाम 5:00 बजे (सोमवार - शुक्रवार), सुबह 9:00 बजे - दोपहर 1:00 बजे (शनिवार), रविवार को बंद",
+  "@somaPlasticSurgeryHours": {
+    "description": "सोमा प्लास्टिक सर्जरी के खुलने का समय"
+  },
+
+  "somaPlasticSurgeryPhone": "+603-5887 44229",
+  "@somaPlasticSurgeryPhone": {
+    "description": "सोमा प्लास्टिक सर्जरी का फोन नंबर"
+  },
+  "placesToShop": "खरीदारी के स्थान",
+  "@placesToShop": {
+    "description": "खरीदारी के स्थान पृष्ठ का शीर्षक"
+  },
+
+  "avenueKShop": "एवेन्यू K शॉप",
+  "@avenueKShop": {
+    "description": "एवेन्यू K शॉप का शीर्षक"
+  },
+
+  "avenueKShopLocation": "156, जालान अंपांग, कुआलालंपुर सिटी सेंटर, 50450 कुआलालंपुर, विलायाह पर्सेकुटुआन कुआलालंपुर",
+  "@avenueKShopLocation": {
+    "description": "एवेन्यू K शॉप का स्थान"
+  },
+
+  "avenueKShopHours": "सुबह 10:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@avenueKShopHours": {
+    "description": "एवेन्यू K शॉप के खुलने का समय"
+  },
+
+  "avenueKShopWebsite": "http://www.avenuek.com.my/",
+  "@avenueKShopWebsite": {
+    "description": "एवेन्यू K शॉप की वेबसाइट"
+  },
+
+  "sanctuaryMall": "सैंक्चुरी मॉल",
+  "@sanctuaryMall": {
+    "description": "सैंक्चुरी मॉल का शीर्षक"
+  },
+
+  "sanctuaryMallLocation": "पर्सियारन इको सैंक्चुरी, 8/3, इको सैंक्चुरी, 42500, सेलांगोर",
+  "@sanctuaryMallLocation": {
+    "description": "सैंक्चुरी मॉल का स्थान"
+  },
+
+  "sanctuaryMallHours": "सुबह 10:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@sanctuaryMallHours": {
+    "description": "सैंक्चुरी मॉल के खुलने का समय"
+  },
+
+  "sanctuaryMallWebsite": "https://www.facebook.com/SanctuaryMall",
+  "@sanctuaryMallWebsite": {
+    "description": "सैंक्चुरी मॉल की वेबसाइट"
+  },
+
+  "lincKL": "द लिंक KL",
+  "@lincKL": {
+    "description": "द लिंक KL का शीर्षक"
+  },
+
+  "lincKLLocation": "लिंगकारन सैयद पुतरा, 59200 कुआलालंपुर",
+  "@lincKLLocation": {
+    "description": "द लिंक KL का स्थान"
+  },
+
+  "lincKLHours": "सुबह 10:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@lincKLHours": {
+    "description": "द लिंक KL के खुलने का समय"
+  },
+
+  "lincKLWebsite": "https://thelinckl.com.my/",
+  "@lincKLWebsite": {
+    "description": "द लिंक KL की वेबसाइट"
+  },
+
+  "manjakaki": "मंजाकाकी",
+  "@manjakaki": {
+    "description": "मंजाकाकी स्पा का शीर्षक"
+  },
+
+  "manjakakiLocation": "मिड वैली मेगामॉल, लॉट नं.2, LG, 59, लिंगकारन सैयद पुतरा, मिड वैली सिटी, 59200 कुआलालंपुर",
+  "@manjakakiLocation": {
+    "description": "मंजाकाकी स्पा का स्थान"
+  },
+
+  "manjakakiHours": "सुबह 10:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@manjakakiHours": {
+    "description": "मंजाकाकी स्पा के खुलने का समय"
+  },
+
+  "urbanRetreatSpaKL": "अर्बन रिट्रीट स्पा KL",
+  "@urbanRetreatSpaKL": {
+    "description": "अर्बन रिट्रीट स्पा KL का शीर्षक"
+  },
+
+  "urbanRetreatSpaKLLocation": "नं. 1, लॉट 15, दूसरी मंजिल, 1 मोंट कियारा, जालान मोंट कियारा, विलायाह पर्सेकुटुआन, कुआलालंपुर",
+  "@urbanRetreatSpaKLLocation": {
+    "description": "अर्बन रिट्रीट स्पा KL का स्थान"
+  },
+
+  "urbanRetreatSpaKLHours": "सुबह 11:00 बजे - रात 10:00 बजे (रोजाना)",
+  "@urbanRetreatSpaKLHours": {
+    "description": "अर्बन रिट्रीट स्पा KL के खुलने का समय"
+  },
+
+  "ozmosisSpa": "ओज़मोसिस हेल्थ और डे स्पा",
+  "@ozmosisSpa": {
+    "description": "ओज़मोसिस हेल्थ और डे स्पा का शीर्षक"
+  },
+
+  "ozmosisSpaLocation": "16-1, जालान तेलावी 2, बांगसर, 59100 कुआलालंपुर",
+  "@ozmosisSpaLocation": {
+    "description": "ओज़मोसिस हेल्थ और डे स्पा का स्थान"
+  },
+
+  "ozmosisSpaHours": "सुबह 10:00 बजे - रात 9:00 बजे (सोमवार-सुबह)",
+  "@ozmosisSpaHours": {
+    "description": "ओज़मोसिस हेल्थ और डे स्पा के खुलने का समय"
+  },
+  "description": "विवरण",
+  "@description": {
+    "description": "रहने के स्थान के विवरण फ़ील्ड के लिए लेबल"
+  },
+
+  "bukitBintang": "बुकिट बिंटांग",
+  "@bukitBintang": {
+    "description": "बुकिट बिंटांग क्षेत्र का शीर्षक"
+  },
+
+  "bukitBintangDescription": "यदि आप कुआलालंपुर के अद्भुत शॉपिंग, डाइनिंग और मनोरंजन के केंद्र में रहना चाहते हैं, तो बुकिट बिंटांग क्षेत्र एक बढ़िया स्थान है...",
+  "@bukitBintangDescription": {
+    "description": "बुकिट बिंटांग क्षेत्र के लिए विवरण"
+  },
+
+  "klccDescription": "कुआलालंपुर में रहने के लिए सबसे लोकप्रिय क्षेत्र कुआलालंपुर सिटी सेंटर (KLCC) है...",
+  "@klccDescription": {
+    "description": "KLCC क्षेत्र के लिए विवरण"
+  },
+
+  "bangsarSouth": "बांगसर साउथ",
+  "@bangsarSouth": {
+    "description": "बांगसर साउथ क्षेत्र का शीर्षक"
+  },
+
+  "bangsarSouthDescription": "यदि आप KL के व्यस्त और हलचल वाले शहर के केंद्र से थोड़ा बाहर रहना पसंद करते हैं...",
+  "@bangsarSouthDescription": {
+    "description": "बांगसर साउथ क्षेत्र का विवरण"
+  },
+
+  "mercureKL": "मर्क्योर कुआलालंपुर ग्लेनमारी",
+  "@mercureKL": {
+    "description": "मर्क्योर कुआलालंपुर ग्लेनमारी होटल का शीर्षक"
+  },
+
+  "mercureKLLocation": "जालान कॉन्ट्रेक्टर U1/14, सेक्शन U1, 40150 शाह आलम, सेलांगोर",
+  "@mercureKLLocation": {
+    "description": "मर्क्योर कुआलालंपुर ग्लेनमारी का स्थान"
+  },
+
+  "mercureKLContact": "+603-5030 2888",
+  "@mercureKLContact": {
+    "description": "मर्क्योर कुआलालंपुर ग्लेनमारी का संपर्क नंबर"
+  },
+
+  "grandCampbellHotel": "द ग्रैंड कैंपबेल होटल KL",
+  "@grandCampbellHotel": {
+    "description": "द ग्रैंड कैंपबेल होटल KL का शीर्षक"
+  },
+
+  "grandCampbellHotelLocation": "ग्राउंड कैंपबेल कॉम्प्लेक्स, 98, जालान डैंग वांगी, 50100 कुआलालंपुर",
+  "@grandCampbellHotelLocation": {
+    "description": "द ग्रैंड कैंपबेल होटल KL का स्थान"
+  },
+
+  "grandCampbellHotelContact": "+6011-1301 1300",
+  "@grandCampbellHotelContact": {
+    "description": "द ग्रैंड कैंपबेल होटल KL का संपर्क नंबर"
+  },
+
+  "leoBackpackers": "लेओ बैकपैकर @ सेंट्रल मार्केट",
+  "@leoBackpackers": {
+    "description": "लेओ बैकपैकर @ सेंट्रल मार्केट का शीर्षक"
+  },
+
+  "leoBackpackersLocation": "जालान हैंग कस्तूरी, सिटी सेंटर, 50000 कुआलालंपुर",
+  "@leoBackpackersLocation": {
+    "description": "लेओ बैकपैकर @ सेंट्रल मार्केट का स्थान"
+  },
+
+  "leoBackpackersContact": "+603-2031 1733",
+  "@leoBackpackersContact": {
+    "description": "लेओ बैकपैकर @ सेंट्रल मार्केट का संपर्क नंबर"
+  },
+
+  "topPlacesToStay": "रहने के लिए शीर्ष स्थान",
+  "@topPlacesToStay": {
+    "description": "रहने के लिए शीर्ष स्थान टैब का शीर्षक"
+  },
+
+  "hotels": "होटल",
+  "@hotels": {
+    "description": "होटल टैब का शीर्षक"
+  },
+
+  "budgetHotels": "बजट होटल",
+  "@budgetHotels": {
+    "description": "बजट होटल टैब का शीर्षक"
+  },
+
+  "backpackersLodge": "बैकपैकर लॉज",
+  "@backpackersLodge": {
+    "description": "बैकपैकर लॉज टैब का शीर्षक"
+  },
+  "upcomingEvents": "आगामी घटनाएँ",
+  "@upcomingEvents": {
+    "description": "आगामी घटनाओं अनुभाग के लिए लेबल"
+  },
+
+  "previous": "पिछला",
+  "@previous": {
+    "description": "पिछले बटन के लिए लेबल"
+  },
+
+  "next": "अगला",
+  "@next": {
+    "description": "अगले बटन के लिए लेबल"
+  },
+
+  "error": "एक त्रुटि हुई",
+  "@error": {
+    "description": "जब कोई त्रुटि होती है, तो संदेश प्रदर्शित होता है"
+  },
+
+  "noEventsFound": "कोई घटना नहीं मिली",
+  "@noEventsFound": {
+    "description": "संदेश जब कोई घटनाएँ नहीं मिलती"
+  },
+
+  "cachedDataMessage": "कैश्ड डेटा दिखाया जा रहा है",
+  "@cachedDataMessage": {
+    "description": "संदेश जो कैश्ड डेटा दिखाने का संकेत देता है"
+  },
+
+  "noEventsThisMonth": "इस महीने कोई घटना नहीं है",
+  "@noEventsThisMonth": {
+    "description": "संदेश जो उस महीने के लिए कोई घटना नहीं होने पर दिखाया जाता है"
+  },
+
+  "viewDetails": "विवरण देखें",
+  "@viewDetails": {
+    "description": "घटना के विवरण देखने के लिए बटन का लेबल"
+  },
+
+  "EventScreen": "इवेंट स्क्रीन",
+  "@EventScreen": {
+    "description": "इवेंट स्क्रीन का शीर्षक"
+  },
+
+  "Contest": "प्रतियोगिता",
+  "@Contest": {
+    "description": "प्रतियोगिता स्क्रीन का लेबल"
+  },
+  "vouchers": "वाउचर",
+  "@vouchers": {
+    "description": "वाउचर स्क्रीन के लिए शीर्षक"
+  },
+  "clickHereToClaim": "दावा करने के लिए यहाँ क्लिक करें",
+  "@clickHereToClaim": {
+    "description": "वाउचर प्राप्त करने के लिए बटन का पाठ"
+  },
+  "kl4Kids": "KL 4 बच्चों के लिए",
+"@kl4Kids": {
+  "description": "'KL 4 बच्चों के लिए' शीर्षक।"
+},
+"sampleLocalFlavour": "नसी लेमक के साथ कुछ स्थानीय स्वाद का आनंद लें",
+"@sampleLocalFlavour": {
+  "description": "'नसी लेमक' अनुभाग के लिए शीर्षक।"
+},
+"nasiLemakDescription": "नसी लेमक एक सुगंधित चावल है जिसे पारंपरिक रूप से नारियल के दूध और पांदान पत्तियों में पकाया जाता है और इसे मसालेदार सांबल, खीरे, तली हुई एंकोवी, अंडे और तले हुए मूंगफली के साथ परोसा जाता है। यह गर्म-गर्म तेह तारिक के गिलास के साथ सबसे अच्छा लगता है। अधिकांश दुकानों या स्टॉल में अन्य विकल्प भी होते हैं, जैसे चिकन या बीफ रेंडंग, तला हुआ चिकन, प्रॉन सांबल और बहुत कुछ।",
+"@nasiLemakDescription": {
+  "description": "नसी लेमक, एक स्थानीय व्यंजन का विवरण।"
+},
+"walkThroughForest": "शहर के बीचों-बीच एक जंगल की सैर करें",
+"@walkThroughForest": {
+  "description": "वन इको पार्क अनुभाग के लिए शीर्षक।"
+},
+"forestEcoParkDescription": "आपने बिल्कुल सही पढ़ा! तमन इको रिंबा कुआलालंपुर, जिसे अंग्रेजी में केएल फॉरेस्ट इको पार्क के नाम से भी जाना जाता है, मलेशिया के सबसे पुराने जंगलों में से एक, हुतन सिम्पन बुकित नानास में स्थित है। चाहे आप स्थानीय हों या बाहरी, आप जानते हैं कि यह एक अनिवार्य रूप से देखने लायक स्थान है!",
+"@forestEcoParkDescription": {
+  "description": "केएल फॉरेस्ट इको पार्क का विवरण।"
+},
+"baskInHistory": "राष्ट्रीय संग्रहालय में इतिहास का आनंद लें",
+"@baskInHistory": {
+  "description": "राष्ट्रीय संग्रहालय अनुभाग के लिए शीर्षक।"
+},
+"nationalMuseumDescription": "मलेशिया के इतिहास और संस्कृति के बारे में अधिक जानने और मलय घरों, शादी के दृश्यों और शिकार प्रदर्शनों की प्रतिकृतियों को देखने के लिए। स्थानीय वाद्ययंत्र और राष्ट्रीय परिधान भी प्रदर्शित किए जाएंगे। संग्रहालय में स्थायी प्रदर्शनों के साथ-साथ, अस्थायी प्रदर्शनियां भी होंगी, जो साल भर घूमेंगी और केंद्रीय हॉल में स्थित होंगी।",
+"@nationalMuseumDescription": {
+  "description": "राष्ट्रीय संग्रहालय का विवरण।"
+},
+"shopUntilDrop": "पेटलिंग स्ट्रीट पर खरीदारी करते रहें जब तक थक न जाएं",
+"@shopUntilDrop": {
+  "description": "पेटलिंग स्ट्रीट शॉपिंग अनुभाग के लिए शीर्षक।"
+},
+"spendNightOut": "रात का आनंद लें",
+"@spendNightOut": {
+  "description": "रात्रि जीवन अनुभाग के लिए शीर्षक।"
+},
+"nightOutDescription": "कुआलालंपुर एक जीवंत शहर है जहाँ अद्भुत रात्रि जीवन है। KL के रात्रि जीवन का अनुभव करने के लिए बंसार या चांगकट बुकित बिन्तांग पर जाएँ। इन स्थानों पर चुनने के लिए कई बार हैं, और उनके अपने कॉकटेल बार और डीजे हैं जो पूरी रात संगीत बजाते रहते हैं। अद्वितीय रेस्तरां, आधुनिक बार, ट्रेंडी नाइटक्लब और शानदार कराओके स्थानों के साथ, हर किसी के लिए कुछ न कुछ है।",
+"@nightOutDescription": {
+  "description": "कुआलालंपुर के रात्रि जीवन का विवरण।"
+},
+"october": "अक्टूबर",
+"@october": {
+  "description": "अक्टूबर महीने का नाम।"
+},
+"november": "नवंबर",
+"@november": {
+  "description": "नवंबर महीने का नाम।"
+},
+"december": "दिसंबर",
+"@december": {
+  "description": "दिसंबर महीने का नाम।"
+},
+"click": "क्लिक",
+"@click": {
+  "description": "क्लिक करने योग्य बटन या लिंक पर प्रदर्शित पाठ।"
+},
+"miles_hotel": "1000 माइल्स होटल",
+  "@miles_hotel": {
+    "description": "होटल का नाम।"
+  },
+  "hotel_description": "",
+  "@hotel_description": {
+    "description": "होटल का संक्षिप्त विवरण।"
+  },
+  "hotel_location": "17 और 19, Jalan Tun H S Lee, City Centre, 50000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@hotel_location": {
+    "description": "होटल का स्थान।"
+  },
+  "hotel_contact": "+603-2022 3333",
+  "@hotel_contact": {
+    "description": "होटल का संपर्क नंबर।"
+  },
+  "hotel_website": "",
+  "@hotel_website": {
+    "description": "होटल की वेबसाइट।"
+  },
+  "ritz_carlton": "द रिट्ज-कार्लटन",
+  "@ritz_carlton": {
+    "description": "होटल का नाम।"
+  },
+  "ritz_description": "",
+  "@ritz_description": {
+    "description": "होटल का संक्षिप्त विवरण।"
+  },
+  "ritz_location": "168, Jalan Imbi, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ritz_location": {
+    "description": "होटल का स्थान।"
+  },
+  "ritz_contact": "+603-2142 8000",
+  "@ritz_contact": {
+    "description": "होटल का संपर्क नंबर।"
+  },
+  "ritz_website": "",
+  "@ritz_website": {
+    "description": "होटल की वेबसाइट।"
+  },
+  "ansa_hotel": "ANSA होटल, KL",
+  "@ansa_hotel": {
+    "description": "होटल का नाम।"
+  },
+  "ansa_description": "",
+  "@ansa_description": {
+    "description": "होटल का संक्षिप्त विवरण।"
+  },
+  "ansa_location": "101, Jalan Bukit Bintang, Bukit Bintang, 55100 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ansa_location": {
+    "description": "होटल का स्थान।"
+  },
+  "ansa_contact": "+603-2142 8000",
+  "@ansa_contact": {
+    "description": "होटल का संपर्क नंबर।"
+  },
+  "ansa_website": "",
+  "@ansa_website": {
+    "description": "होटल की वेबसाइट।"
+  },
+  "royale_chulan": "रॉयल चुलान, KL",
+  "@royale_chulan": {
+    "description": "होटल का नाम।"
+  },
+  "chulan_description": "",
+  "@chulan_description": {
+    "description": "होटल का संक्षिप्त विवरण।"
+  },
+  "chulan_location": "5, Jalan Conlay, Kuala Lumpur, 50450 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@chulan_location": {
+    "description": "होटल का स्थान।"
+  },
+  "chulan_contact": "+603-2688 9688",
+  "@chulan_contact": {
+    "description": "होटल का संपर्क नंबर।"
+  },
+  "chulan_website": "",
+  "@chulan_website": {
+    "description": "होटल की वेबसाइट।"
+  },
+  "ymca_hostel": "YMCA ऑफ़ कुआलालंपुर हॉस्टल",
+  "@ymca_hostel": {
+    "description": "हॉस्टल का नाम।"
+  },
+  "ymca_description": "",
+  "@ymca_description": {
+    "description": "हॉस्टल का संक्षिप्त विवरण।"
+  },
+  "ymca_location": "95, Jalan Padang Belia, Brickfields, 50470 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@ymca_location": {
+    "description": "हॉस्टल का स्थान।"
+  },
+  "ymca_contact": "+603-2274 1439",
+  "@ymca_contact": {
+    "description": "हॉस्टल का संपर्क नंबर।"
+  },
+  "ymca_website": "",
+  "@ymca_website": {
+    "description": "हॉस्टल की वेबसाइट।"
+  },
+  "pods_hostel": "पॉड्स द बैकपैकर्स होम और कैफे, कुआलालंपुर",
+  "@pods_hostel": {
+    "description": "हॉस्टल का नाम।"
+  },
+  "pods_description": "",
+  "@pods_description": {
+    "description": "हॉस्टल का संक्षिप्त विवरण।"
+  },
+  "pods_location": "G-6, 30, Jalan Thambipillay, Brickfields, 50470 Kuala Lumpur",
+  "@pods_location": {
+    "description": "हॉस्टल का स्थान।"
+  },
+  "pods_contact": "+603-2276 0858",
+  "@pods_contact": {
+    "description": "हॉस्टल का संपर्क नंबर।"
+  },
+  "pods_website": "",
+  "@pods_website": {
+    "description": "हॉस्टल की वेबसाइट।"
+  },
+  "bunk_bilik": "बंक और बिलिक@स्री पेतालिंग",
+  "@bunk_bilik": {
+    "description": "आवास का नाम।"
+  },
+  "bunk_description": "",
+  "@bunk_description": {
+    "description": "आवास का संक्षिप्त विवरण।"
+  },
+  "bunk_location": "No, 9, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur",
+  "@bunk_location": {
+    "description": "आवास का स्थान।"
+  },
+  "bunk_contact": "+603-9054 0040",
+  "@bunk_contact": {
+    "description": "आवास का संपर्क नंबर।"
+  },
+  "bunk_website": "",
+  "@bunk_website": {
+    "description": "आवास की वेबसाइट।"
+  },
+  "pangkorIsland": "पंगकोर द्वीप",
+  "@pangkorIsland": {
+    "description": "पंगकोर द्वीप के लिए शीर्षक"
+  },
+  "pangkorIslandContent": "यदि आप बिना पर्यटकों वाली जगह की तलाश में हैं, तो पंगकोर द्वीप का दौरा करें। पेराक के तट के पास स्थित, इस द्वीप में खाली समुद्र तट, साफ पानी और एक घना जंगल है जो केंद्र को देखता है। आगंतुकों को ताड़ के पेड़ों के नीचे किसी अन्य व्यक्ति के बिना धूप सेंकने का अवसर मिलता है। साथ ही, औपनिवेशिक डच किले का दौरा करें और एक पारंपरिक लकड़ी के घाट की तस्वीरें लें।",
+  "@pangkorIslandContent": {
+    "description": "पंगकोर द्वीप के लिए विवरण"
+  },
+  
+  "pulauRedang": "पुलाऊ रेडांग द्वीप",
+  "@pulauRedang": {
+    "description": "पुलाऊ रेडांग द्वीप के लिए शीर्षक"
+  },
+  "pulauRedangContent": "मलेशिया के पूर्वी तट के सबसे बड़े द्वीपों में से एक, पुलाऊ रेडांग अपने क्रिस्टल साफ पानी और सफेद रेत के समुद्र तटों के लिए प्रसिद्ध है। यह नौ द्वीपों में से एक है, जो एक समुद्री अभयारण्य पार्क का हिस्सा है, जो पर्यटकों को स्नॉर्कलिंग और डाइविंग का अवसर प्रदान करता है। समुद्र तट सफेद और नरम रेत से भरा हुआ है। आप समुद्र तट से कुछ ही मीटर की दूरी पर मूंगा और मछली देख सकते हैं।",
+  "@pulauRedangContent": {
+    "description": "पुलाऊ रेडांग द्वीप के लिए विवरण"
+  },
+  
+  "pulauLangkawi": "पुलाऊ लंगकावी द्वीप",
+  "@pulauLangkawi": {
+    "description": "पुलाऊ लंगकावी द्वीप के लिए शीर्षक"
+  },
+  "pulauLangkawiContent": "लंगकावी द्वीप मलेशिया के कुछ सबसे अच्छे समुद्र तटों का घर है। द्वीप में पहाड़ों और मैंग्रोव्स के साथ चमकते तट का मेल है। यूनेस्को द्वारा सूचीबद्ध पुलाऊ दयांग बंटिंग की यात्रा करें, ईगल को खिलाएं और बंदरों को खाने के लिए तैरते हुए देखें। या अपना तौलिया लें और पंताई सेनांग में धूप में आराम करें और समुद्र तट के बार में पेय का आनंद लें। एक और फायदा यह है कि यह द्वीप कर मुक्त है, वहां होने पर अपने शॉपिंग का आनंद लें!",
+  "@pulauLangkawiContent": {
+    "description": "पुलाऊ लंगकावी द्वीप के लिए विवरण"
+  },
+  
+  "sipadanIsland": "सिपाडान द्वीप",
+  "@sipadanIsland": {
+    "description": "सिपाडान द्वीप के लिए शीर्षक"
+  },
+  "sipadanIslandContent": "सबा में सेमपोर्ना के पास एक छोटा द्वीप दुनिया के शीर्ष डाइविंग क्षेत्रों में से एक है। आपको द्वीप पर आवास या बहुत सी सुविधाएं नहीं मिलेंगी। यात्रा के दौरान एक टूर करने की सिफारिश की जाती है। कोटा किनाबालू से सेमपोर्ना तक की उड़ान और कछुओं और बर्राकुडा के झुंडों के लिए एक घंटे की बोट यात्रा इसके लायक है। 2002 में संरक्षित दर्जा प्राप्त करने के बाद, चूना पत्थर शिखर की यात्रा के लिए कम पर्यटकों को अनुमति मिलेगी।",
+  "@sipadanIslandContent": {
+    "description": "सिपाडान द्वीप के लिए विवरण"
+  },
+  
+  "mantananiIsland": "मंतानानी द्वीप",
+  "@mantananiIsland": {
+    "description": "मंतानानी द्वीप के लिए शीर्षक"
+  },
+  "mantananiIslandContent": "सबा में कोटा बेलुद के पास, मंतानानी द्वीप बोर्नियो के कुछ बेहतरीन डाइविंग स्थलों की पेशकश करता है। स्नॉर्कलर्स और डाइवर्स समुद्र घोड़ों और स्टिंगरे के साथ तैरने के लिए राजधानी से डे ट्रिप पर आते हैं। स्कूबा-प्रमाणित व्यक्ति 20 से अधिक स्थानों पर गोता लगा सकते हैं, जिसमें तीन जहाज़ मलबे शामिल हैं। दक्षिण चीन सागर में कुछ घंटे बिताने के बाद, बोर्नियो के प्रसिद्ध सूर्यास्त का आनंद लें और सफेद रेत के प्राचीन समुद्र तटों पर आराम करें।",
+  "@mantananiIslandContent": {
+    "description": "मंतानानी द्वीप के लिए विवरण"
+  },
+
+
+  "gentingHighlands": "जेंटिंग हाइलैंड्स, पहांग",
+  "@gentingHighlands": {
+    "description": "जेंटिंग हाइलैंड्स के लिए शीर्षक"
+  },
+  "gentingHighlandsContent": "केएल से सिर्फ 45 मिनट की दूरी पर, जेंटिंग हाइलैंड्स एक ठंडी पहाड़ी स्टेशन है, जो ठंडी पहाड़ी हवा और 100 मिलियन साल पुराने शानदार वर्षावन से घिरा है। यदि आप शहरी जीवन की हलचल से दूर जाना चाहते हैं, तो जेंटिंग हाइलैंड्स में तीन और पांच सितारा होटलों की भरमार है, जिनमें रेस्तरां, सुविधाएँ, उत्कृष्ट सेवा और पहाड़ के सुंदर दृश्य वाले लक्जरी कमरे हैं।",
+  "@gentingHighlandsContent": {
+    "description": "जेंटिंग हाइलैंड्स के लिए विवरण"
+  },
+
+  "bukitTinggi": "बुकित टिंग्गी, पहांग",
+  "@bukitTinggi": {
+    "description": "बुकित टिंग्गी के लिए शीर्षक"
+  },
+  "bukitTinggiContent": "कोलमार ट्रॉपिकल एक 'फ्रेंच-थीम' वाला गाँव और होटल है, जो मलेशिया के बुकित टिंग्गी, पहांग में स्थित है। यह 80 एकड़ प्राकृतिक जंगल में 2,600 फीट (790 मीटर) की ऊंचाई पर स्थित है। इसका डिज़ाइन फ्रांस के अलसास क्षेत्र के कोलमार शहर से प्रेरित है। गर्म और उमस भरे वातावरण में रोमांचक अनुभवों के बाद खुली बालकनी में बैठकर ताज़ा चाय पीते हुए या ताज़ी क्रीम लगी स्ट्रॉबेरी का आनंद लेते हुए पहाड़ी रिसॉर्ट में एक शांतिपूर्ण प्रवास से अधिक आरामदायक कुछ नहीं हो सकता।",
+  "@bukitTinggiContent": {
+    "description": "बुकित टिंग्गी के लिए विवरण"
+  },
+
+  "fraserHill": "फ्रेजर हिल, पहांग",
+  "@fraserHill": {
+    "description": "फ्रेजर हिल के लिए शीर्षक"
+  },
+  "fraserHillContent": "फ्रेजर हिल, पेनिनसुला मलेशिया के मध्य क्षेत्र में स्थित पहांग राज्य में स्थित है। यह ठंडी छुट्टियों का रिसॉर्ट अपनी प्राकृतिक गतिविधियों और ठंडी जलवायु के लिए प्रसिद्ध है और मलेशिया के अंतिम पहाड़ी स्टेशनों में से एक है, जो ब्रिटिश औपनिवेशिक काल का प्रतीक है। बुकित फ्रेजर की औसत ऊंचाई 1,200 मीटर है, और इसका उच्चतम बिंदु टेलीकॉम के लूप पर समुद्र तल से 1,500 मीटर की ऊंचाई पर है। दिन में तापमान आमतौर पर 22°C से 28°C और रात में 16°C से 20°C के बीच रहता है।",
+  "@fraserHillContent": {
+    "description": "फ्रेजर हिल के लिए विवरण"
+  },
+
+  "cameronHighland": "कैमरन हाइलैंड, पहांग",
+  "@cameronHighland": {
+    "description": "कैमरन हाइलैंड के लिए शीर्षक"
+  },
+  "cameronHighlandContent": "कैमरन हाइलैंड्स मलेशिया का सबसे लोकप्रिय पहाड़ी रिसॉर्ट है, जहां हल्की जलवायु होती है, दिन में तापमान लगभग 25°C और रात में औसतन 18°C होता है। यह तीन शहरों में विभाजित है: तानाह राटा, ब्रिंचांग और रिंगलेट। औपनिवेशिक काल में ब्रिटिशों ने यहां की उपजाऊ पहाड़ियों पर चाय उगाई, जो आज भी स्थानीय लोग करते हैं। तब से यह मलेशिया का सबसे बड़ा चाय निर्यातक बन गया है। चाय के अलावा, कैमरन महाद्वीपीय पेड़, फल और सब्जियों की खेती के लिए भी आदर्श है।",
+  "@cameronHighlandContent": {
+    "description": "कैमरन हाइलैंड के लिए विवरण"
+  },
+
+  "maxwellHill": "मैक्सवेल हिल, पेराक",
+  "@maxwellHill": {
+    "description": "मैक्सवेल हिल के लिए शीर्षक"
+  },
+  "maxwellHillContent": "कैमरन हाइलैंड्स मलेशिया का सबसे लोकप्रिय पहाड़ी रिसॉर्ट है, जहां हल्की जलवायु होती है, दिन में तापमान लगभग 25°C और रात में औसतन 18°C होता है। यह तीन शहरों में विभाजित है: तानाह राटा, ब्रिंचांग और रिंगलेट। औपनिवेशिक काल में ब्रिटिशों ने यहां की उपजाऊ पहाड़ियों पर चाय उगाई, जो आज भी स्थानीय लोग करते हैं। तब से यह मलेशिया का सबसे बड़ा चाय निर्यातक बन गया है। चाय के अलावा, कैमरन महाद्वीपीय पेड़, फल और सब्जियों की खेती के लिए भी आदर्श है।",
+  "@maxwellHillContent": {
+    "description": "मैक्सवेल हिल के लिए विवरण"
+  },
+  "sungaiPisangWaterfall": "सुंगाई पीसांग जलप्रपात, बाटू गुफाएँ",
+  "@sungaiPisangWaterfall": {
+    "description": "सुंगाई पीसांग जलप्रपात के लिए शीर्षक"
+  },
+  "sungaiPisangContent": "पीसांग जलप्रपात 3.1 किलोमीटर का एक पथ है जिसमें एक जलप्रपात है जो गोंबाक, सेलेनगोर, मलेशिया के पास है। यह सभी स्तरों के पर्वतारोहियों के लिए उपयुक्त है। यह मार्ग पूरे साल खुला रहता है और कैंपिंग, साइकिलिंग और पक्षी देखने के लिए भी इस्तेमाल होता है। जलप्रपात के शीर्ष के पास पिकनिक और कैंपिंग के लिए बेहतरीन जगहें हैं। एक हल्का हाइक जिसमें जलप्रपात के पार चलना शामिल है, तैयार रहें कि आपके जूते गीले होंगे।",
+  "@sungaiPisangContent": {
+    "description": "सुंगाई पीसांग जलप्रपात का विवरण"
+  },
+
+  "jeramToi": "जेराम तोई, नेगरी सेम्बिलन",
+  "@jeramToi": {
+    "description": "जेराम तोई जलप्रपात के लिए शीर्षक"
+  },
+  "jeramToiContent": "जेराम तोई जलप्रपात सेरेम्बान और कुआला केलावांग के बीच स्थित है। 1985 में स्थापित होने के बाद यह स्थान आरामदायक स्नान और पारिवारिक पिकनिक के लिए लोकप्रिय बन गया। ध्यान दें कि जेराम तोई का एक अलग निकास है जो हाईवे के माध्यम से संकेतित है। यहाँ टेंट, शौचालय, बारबेक्यू पिट्स और सीढ़ियों के साथ एक पक्का रास्ता है। सप्ताहांत में यह स्थान व्यस्त हो सकता है लेकिन सप्ताह के बाकी दिनों में शांत रहता है।",
+  "@jeramToiContent": {
+    "description": "जेराम तोई जलप्रपात का विवरण"
+  },
+
+  "uluChepor": "उलू चेपोर, पेराक",
+  "@uluChepor": {
+    "description": "उलू चेपोर जलप्रपात के लिए शीर्षक"
+  },
+  "uluCheporContent": "लता उलू चेपोर इपो शहर से केवल 10 किलोमीटर दूर है और हरे-भरे उष्णकटिबंधीय वर्षावनों की पहाड़ियों से घिरा हुआ है। पार्क तक रूट A1 के माध्यम से पहुँचा जा सकता है, जो इपो उत्तर टोल प्लाजा के पास केमोर की ओर जाता है। यह स्थान ताज़ी हवा लेने, आराम करने और सप्ताहांत में पिकनिक मनाने के लिए आदर्श है। उन मेहमानों के लिए जो लंबे समय तक रहना चाहते हैं या शैक्षिक और मनोरंजन कार्यक्रमों में भाग लेना चाहते हैं, यहाँ कैंपिंग ग्राउंड, बहुउद्देशीय हॉल, प्रार्थना हॉल और बाथरूम जैसी सुविधाएँ उपलब्ध हैं। पार्क को अच्छी तरह से बनाए रखा गया है और मुख्य मार्ग पर संकेतित है।",
+  "@uluCheporContent": {
+    "description": "उलू चेपोर जलप्रपात का विवरण"
+  },
+
+  "sungaiLembing": "सुंगाई लेम्बिंग, पहांग",
+  "@sungaiLembing": {
+    "description": "सुंगाई लेम्बिंग जलप्रपात के लिए शीर्षक"
+  },
+  "sungaiLembingContent": "मलेशिया में कई वर्षावन हैं जो सुंदर जलप्रपातों से युक्त हैं। रेनबो जलप्रपात कुआंटन के उत्तर-पश्चिम में 45 किलोमीटर दूर स्थित है, सुंगाई लेम्बिंग शहर में। प्रत्येक सुबह, 9 से 10 बजे के बीच, सूर्य जलप्रपात के आधार पर गिरते पानी से टकराता है, जिससे एक सुंदर इंद्रधनुष बनता है। लोग दुनिया भर से एक घंटे और आधे का सफर तय कर इस प्राकृतिक सौंदर्य को देखने आते हैं। रेनबो जलप्रपात सुंगाई लेम्बिंग के वर्षावन क्षेत्र में स्थित है, और इसे 4WD वाहन यात्रा और ट्रेकिंग के माध्यम से पहुँचा जा सकता है।",
+  "@sungaiLembingContent": {
+    "description": "सुंगाई लेम्बिंग जलप्रपात का विवरण"
+  },
+
+  "sevenWellsWaterfall": "सात कुएं जलप्रपात, केदाह",
+  "@sevenWellsWaterfall": {
+    "description": "सात कुएं जलप्रपात के लिए शीर्षक"
+  },
+  "sevenWellsContent": "सात कुएं जलप्रपात, जिसे Jalan Telaga Tujuh के नाम से भी जाना जाता है, प्रसिद्ध लंगकावी स्काई ब्रिज से लगभग 20 मिनट की पैदल दूरी पर स्थित है और यह द्वीप का सबसे सुंदर प्राकृतिक आकर्षणों में से एक है। जलप्रपात माउंट मैट सिंचांग से गिरता है, जो लंगकावी का दूसरा सबसे ऊँचा शिखर है। कुल ऊर्ध्वाधर गिरावट 91 मीटर ऊँची है, लेकिन केवल एक छोटा हिस्सा नीचे से दिखाई देता है। किंवदंती के अनुसार, यह जलप्रपात परियों का घर है और इसकी नदी में शांतिप्रद गुण हैं। जलप्रपात प्राकृतिक वातावरण से घिरा हुआ है और इसका दृश्य जादुई लगता है।",
+  "@sevenWellsContent": {
+    "description": "सात कुएं जलप्रपात का विवरण"
+  },
+  "brogaHill": "ब्रोगा हिल, सेमेनीह",
+  "@brogaHill": {
+    "description": "ब्रोगा हिल का शीर्षक"
+  },
+  "brogaHillContent": "ब्रोगा हिल, जिसे स्थानीय लोग 'बुकिट लालंग' के नाम से जानते हैं, का नाम यहाँ उगने वाली 'लालंग' घास के नाम पर रखा गया है। यह 400 मीटर ऊँची पहाड़ी सेमेनीह में टिटिवांगसा रेंज के किनारे पर स्थित है, जो कुआलालंपुर से 40 मिनट की दूरी पर है। इसके शानदार दृश्य, खासकर सुबह के समय, स्थानीय लोगों और पर्यटकों में प्रसिद्ध हैं। यह अपनी आसान पैदल पहुँच के कारण भी लोकप्रिय है। नए लोगों के लिए, पहली चोटी पर चढ़ना चुनौतीपूर्ण हो सकता है, लेकिन मदद के लिए पेड़ों से रस्सियाँ बंधी हुई हैं। शिखर पर मिलने वाला दृश्य आपके प्रयासों का शानदार इनाम होगा।",
+  "@brogaHillContent": {
+    "description": "ब्रोगा हिल का विवरण"
+  },
+
+  "mountPulai": "माउंट पुलाई, जोहोर",
+  "@mountPulai": {
+    "description": "माउंट पुलाई का शीर्षक"
+  },
+  "mountPulaiContent": "गुनुंग पुलाई जोहोर, मलेशिया की प्रायद्वीपीय भूमि में स्थित 654 मीटर ऊँचा पर्वत है। इसकी निकटता और आसान पहुँच के कारण यह सिंगापुरी और स्थानीय लोगों के बीच एक लोकप्रिय पर्वतारोहण स्थल है। गुनुंग पुलाई का शिखर सार्वजनिक नहीं है, क्योंकि इसे सेना द्वारा संरक्षित किया गया है और यहाँ दो संचार टावर हैं। माउंट पुलाई में 14.3 किलोमीटर का लूप ट्रेल है, जिसमें एक झरना और चुनौतीपूर्ण ट्रेकिंग है। इस ट्रेल का उपयोग कैंपिंग, साइक्लिंग, दौड़ने और प्रकृति की सैर के लिए भी किया जाता है।",
+  "@mountPulaiContent": {
+    "description": "माउंट पुलाई का विवरण"
+  },
+
+  "panoramaHill": "पैनोरमा हिल, सुंगाई लेम्बिंग",
+  "@panoramaHill": {
+    "description": "पैनोरमा हिल का शीर्षक"
+  },
+  "panoramaHillContent": "पैनोरमा हिल सुंगाई लेम्बिंग में स्थित है, जो कुआंटान से 45 किलोमीटर उत्तर-पश्चिम में है। 271 मीटर की ऊँचाई के साथ, इसमें केवल एक ही चढ़ाई का मार्ग है। सीढ़ियों से शुरुआत करें और ऊपर की ओर बढ़ें। इस मार्ग की विशेषता सीढ़ियाँ हैं, जिनमें रेलिंग लगी हुई है। केवल कुछ छोटे खंडों में सीढ़ियाँ नहीं हैं। पहाड़ी के शिखर पर पहुँचने के बाद, आसपास के शहर का एक सुंदर दृश्य दिखाई देता है। आमतौर पर पैनोरमा हिल पर चढ़ने में 30 से 45 मिनट का समय लगता है।",
+  "@panoramaHillContent": {
+    "description": "पैनोरमा हिल का विवरण"
+  },
+
+  "mossyForest": "मॉसी फॉरेस्ट, कैमरन हाइलैंड्स",
+  "@mossyForest": {
+    "description": "मॉसी फॉरेस्ट का शीर्षक"
+  },
+  "mossyForestContent": "मॉसी फॉरेस्ट एक प्राकृतिक पारिस्थितिकी तंत्र है जो केवल कैमरन हाइलैंड्स और मलेशिया के अन्य पर्वत श्रृंखलाओं की ऊँचाई पर ही उगता है। हवा द्वारा प्रेरित बादल पेड़ों को निरंतर कोहरे और नमी में ढकते हैं, जो काई, फर्न, लिचेन और ऑर्किड के लिए एक आदर्श वातावरण प्रदान करते हैं। यह आर्द्र उष्णकटिबंधीय सदाबहार वन तितलियों, कृन्तकों, मेंढ़कों, पक्षियों और स्तनधारियों सहित विविध प्रकार की पहाड़ी प्रजातियों के लिए भी एक शरणस्थल का काम करता है।",
+  "@mossyForestContent": {
+    "description": "मॉसी फॉरेस्ट का विवरण"
+  },
+
+  "penangNationalPark": "पेनांग राष्ट्रीय उद्यान, पेनांग",
+  "@penangNationalPark": {
+    "description": "पेनांग राष्ट्रीय उद्यान का शीर्षक"
+  },
+  "penangNationalParkContent": "यह मलेशिया का सबसे छोटा राष्ट्रीय उद्यान है, जिसका क्षेत्रफल 23 वर्ग किलोमीटर है, लेकिन इसके समुद्र तटीय जंगलों में चाँदी के रंग वाले पत्तों वाले बंदर, उड़ने वाले लंगूर, तेंदुआ बिल्ली और कई प्रकार के छिपकली, उभयचर और सरीसृप जीव हैं। जंगल की सैर और सुनहरे रेत वाले शांत समुद्र तटों की नाव यात्रा जैसी गतिविधियाँ एक दिन भर का कार्यक्रम बना सकती हैं। उद्यान में दो मुख्य ट्रेकिंग मार्ग हैं: एक जो आपको तट के साथ मंकी बीच तक ले जाता है, और दूसरा जो आपको पहाड़ों और जंगल के माध्यम से अधिक अलग-थलग समुद्र तटों तक ले जाता है, जहाँ कछुआ संरक्षण केंद्र स्थित है।",
+  "@penangNationalParkContent": {
+    "description": "पेनांग राष्ट्रीय उद्यान का विवरण"
+  },
+  "kkbParaglidingPark": "केकेबी पैराग्लाइडिंग पार्क",
+  "@kkbParaglidingPark": {
+    "description": "केकेबी पैराग्लाइडिंग पार्क का शीर्षक"
+  },
+  "kkbParaglidingParkContent": "जिनके दिल में रोमांच के लिए जगह है, उनके लिए कुआला कुबु बहारू सर्वश्रेष्ठ एडवेंचर स्पोर्ट्स का केंद्र है। हवा में उड़ते समय, आपको कुआला कुबु बहारू की खूबसूरत प्रकृति का हवाई दृश्य से आनंद लेने का सौभाग्य प्राप्त होगा।",
+  "@kkbParaglidingParkContent": {
+    "description": "केकेबी पैराग्लाइडिंग पार्क का विवरण"
+  },
+
+  "whitewaterRafting": "व्हाइटवाटर राफ्टिंग कुआला कुबु बहारू",
+  "@whitewaterRafting": {
+    "description": "व्हाइटवाटर राफ्टिंग कुआला कुबु बहारू का शीर्षक"
+  },
+  "whitewaterRaftingContent": "व्हाइटवाटर राफ्टिंग यात्रा हूलू सेलंगोर नदी के किनारे होती है। यह खेल रोमांच के साथ-साथ नदी के किनारों की सुंदर प्राकृतिक दृश्यों का अनुभव कराता है, जो राफ्टिंग के अंत में एक अद्भुत अनुभव प्रदान करता है।",
+  "@whitewaterRaftingContent": {
+    "description": "व्हाइटवाटर राफ्टिंग कुआला कुबु बहारू का विवरण"
+  },
+
+  "jugraHill": "जुगरा हिल",
+  "@jugraHill": {
+    "description": "जुगरा हिल का शीर्षक"
+  },
+  "jugraHillContent": "जुगरा हिल के लाइटहाउस से पैराग्लाइडिंग का रोमांच महसूस करें। हवा की स्थिति के अनुसार, मार्च से सितंबर का समय इसे करने के लिए सबसे अच्छा माना जाता है।",
+  "@jugraHillContent": {
+    "description": "जुगरा हिल का विवरण"
+  }
+
+}

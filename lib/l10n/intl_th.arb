@@ -1,0 +1,1840 @@
+{
+    "@@locale": "th",
+    "appTitle": "คู่มือกรุงเทพ",
+    "@appTitle": {
+        "description": "ชื่อของแอปพลิเคชัน"
+    },
+    "pickALanguage": "เลือกภาษา",
+    "@pickALanguage": {
+        "description": "หัวข้อสำหรับการเลือกภาษาในเมนู"
+    },
+    "home": "หน้าแรก",
+    "@home": {
+        "description": "ป้ายหน้าจอหลัก"
+    },
+    "bookmarks": "ที่คั่นหนังสือ",
+    "@bookmarks": {
+        "description": "ป้ายสำหรับส่วนที่คั่นหนังสือ"
+    },
+    "blog": "บล็อก",
+    "@blog": {
+        "description": "ป้ายสำหรับส่วนบล็อก"
+    },
+    "ebook": "อีบุ๊ค",
+    "@ebook": {
+        "description": "ป้ายสำหรับส่วนอีบุ๊ค"
+    },
+    "aboutUs": "เกี่ยวกับเรา",
+    "@aboutUs": {
+        "description": "ป้ายสำหรับส่วนเกี่ยวกับเรา"
+    },
+    "contactUs": "ติดต่อเรา",
+    "@contactUs": {
+        "description": "ป้ายสำหรับส่วนติดต่อเรา"
+    },
+    "updateRequired": "ต้องการการอัปเดต",
+    "@updateRequired": {
+        "description": "ข้อความที่แสดงเมื่อแอปต้องการอัปเดต"
+    },
+    "updateAvailable": "มีเวอร์ชันใหม่ของแอปที่พร้อมใช้งาน โปรดอัปเดตเพื่อรับฟีเจอร์ใหม่",
+    "@updateAvailable": {
+        "description": "ข้อความแจ้งผู้ใช้ว่าอัปเดตพร้อมใช้งาน"
+    },
+    "updateLater": "อัปเดตภายหลัง",
+    "@updateLater": {
+        "description": "ป้ายสำหรับปุ่มเลื่อนการอัปเดต"
+    },
+    "updateNow": "อัปเดตทันที",
+    "@updateNow": {
+        "description": "ป้ายสำหรับปุ่มอัปเดตทันที"
+    },
+    "pressBackAgainToExit": "กดกลับอีกครั้งเพื่อออก",
+    "@pressBackAgainToExit": {
+        "description": "ข้อความที่แสดงเมื่อผู้ใช้กดปุ่มกลับเพื่อออก"
+    },
+    "klHighlights": "ไฮไลท์กรุงเทพ",
+    "@klHighlights": {
+        "description": "ป้ายสำหรับส่วนไฮไลท์กรุงเทพ"
+    },
+    "recommendations": "คำแนะนำ",
+    "@recommendations": {
+        "description": "ป้ายสำหรับส่วนคำแนะนำ"
+    },
+    "exploreKL": "สำรวจกรุงเทพ",
+    "@exploreKL": {
+        "description": "หัวข้อสำหรับรูปสำรวจกรุงเทพ"
+    },
+    "shopLikeLocals": "ช้อปปิ้งแบบคนท้องถิ่น",
+    "@shopLikeLocals": {
+        "description": "หัวข้อสำหรับรูปช้อปปิ้งแบบคนท้องถิ่น"
+    },
+    "placesToStay": "ที่พัก",
+    "@placesToStay": {
+        "description": "หัวข้อสำหรับรูปที่พัก"
+    },
+    "spaTime": "เวลาเข้าสปา",
+    "@spaTime": {
+        "description": "หัวข้อสำหรับรูปเวลาเข้าสปา"
+    },
+    "medicalTourism": "การท่องเที่ยวเพื่อการแพทย์",
+    "@medicalTourism": {
+        "description": "หัวข้อสำหรับรูปการท่องเที่ยวเพื่อการแพทย์"
+    },
+    "beyondKL": "นอกกรุงเทพ",
+    "@beyondKL": {
+        "description": "หัวข้อสำหรับรูปนอกกรุงเทพ"
+    },
+    "klAtAGlance": "กรุงเทพในพริบตา",
+    "@klAtAGlance": {
+        "description": "หัวข้อสำหรับไฮไลท์รูปกรุงเทพในพริบตา"
+    },
+    "gettingAroundKL": "การเดินทางในกรุงเทพ",
+    "@gettingAroundKL": {
+        "description": "หัวข้อสำหรับรูปการเดินทางในกรุงเทพ"
+    },
+    "travelTips": "เคล็ดลับการเดินทาง",
+    "@travelTips": {
+        "description": "หัวข้อสำหรับรูปเคล็ดลับการเดินทาง"
+    },
+    "ourCompany": "บริษัทของเรา",
+    "@ourCompany": {
+        "description": "หัวข้อสำหรับส่วนบริษัทของเรา"
+    },
+    "ourCompanyDescription": "คู่มือกรุงเทพคือหนังสือแนะนำที่ออกรายไตรมาส เปิดตัวครั้งแรกในเดือนสิงหาคม พ.ศ. 2550...",
+    "@ourCompanyDescription": {
+        "description": "คำอธิบายเกี่ยวกับบริษัทและคู่มือ"
+    },
+    "findUs": "ค้นหาเรา",
+    "@findUs": {
+        "description": "หัวข้อสำหรับส่วนค้นหาเรา"
+    },
+    "appVersion": "เวอร์ชันแอป: {version}+{buildNumber}",
+    "@appVersion": {
+        "description": "ข้อความที่แสดงเวอร์ชันแอปและหมายเลขบิลด์",
+        "placeholders": {
+            "version": {
+                "type": "String",
+                "example": "1.0.0"
+            },
+            "buildNumber": {
+                "type": "String",
+                "example": "1"
+            }
+        }
+    },
+    "errorLoadingVersion": "เกิดข้อผิดพลาดในการโหลดเวอร์ชัน",
+    "@errorLoadingVersion": {
+        "description": "ข้อความที่แสดงเมื่อเกิดข้อผิดพลาดในการโหลดเวอร์ชันแอป"
+    },
+    "islands": "หมู่เกาะ",
+    "@islands": {
+        "description": "หัวข้อสำหรับส่วนหมู่เกาะ"
+    },
+    "hillStation": "สถานีเขา",
+    "@hillStation": {
+        "description": "หัวข้อสำหรับส่วนสถานีเขา"
+    },
+    "waterfall": "น้ำตก",
+    "@waterfall": {
+        "description": "หัวข้อสำหรับส่วนน้ำตก"
+    },
+    "hiking": "เดินป่า",
+    "@hiking": {
+        "description": "หัวข้อสำหรับส่วนเดินป่า"
+    },
+    "extremeSports": "กีฬาผาดโผน",
+    "@extremeSports": {
+        "description": "หัวข้อสำหรับส่วนกีฬาผาดโผน"
+    },
+    "errorLoadingData": "เกิดข้อผิดพลาดในการโหลดข้อมูล",
+    "@errorLoadingData": {
+        "description": "ข้อความแสดงเมื่อเกิดข้อผิดพลาดในการโหลดข้อมูล"
+    },
+    "loadingData": "กำลังโหลดข้อมูล...",
+    "@loadingData": {
+        "description": "ข้อความแสดงขณะกำลังโหลดข้อมูล"
+    },
+    "email": "อีเมล: enquiry@bluedale.com.my",
+    "@email": {
+        "description": "ข้อความสำหรับอีเมลติดต่อของบริษัท"
+    },
+    "whatsapp": "Whatsapp: +6012-220 0622",
+    "@whatsapp": {
+        "description": "ข้อความสำหรับการติดต่อ WhatsApp ของบริษัท"
+    },
+    "phone": "โทรศัพท์: +603-78869219",
+    "@phone": {
+        "description": "ข้อความสำหรับเบอร์ติดต่อของบริษัท"
+    },
+    "address": "ที่อยู่",
+    "@address": {
+      "description": "ข้อความที่อยู่บริษัทในภาษาไทย"
+    },
+    "workingHours": "เวลาทำการ: จันทร์-ศุกร์: 9:00น. - 18:00น.",
+    "@workingHours": {
+        "description": "ข้อความสำหรับเวลาทำการของบริษัท"
+    },
+    "whatToDo": "สิ่งที่ต้องทำ",
+    "@whatToDo": {
+        "description": "หัวข้อสำหรับหน้าสิ่งที่ต้องทำในส่วนสำรวจกรุงเทพ"
+    },
+    "loading": "กำลังโหลด...",
+    "@loading": {
+        "description": "ข้อความแสดงขณะกำลังโหลดข้อมูล"
+    },
+    "details": "รายละเอียด",
+    "@details": {
+        "description": "ป้ายสำหรับหน้ารายละเอียด"
+    },
+    "historicalSites": "สถานที่ประวัติศาสตร์",
+    "@historicalSites": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงสถานที่ประวัติศาสตร์ในกรุงเทพ"
+    },
+    "dataranMerdekaDescription": "ดาตารันเมอร์เดกา หรือที่รู้จักกันในชื่อเมอร์เดกาสแควร์...",
+    "@dataranMerdekaDescription": {
+        "description": "คำอธิบายสำหรับดาตารันเมอร์เดกา ที่เน้นความสำคัญทางประวัติศาสตร์"
+    },
+    "klRailwayStationDescription": "สถานีรถไฟกรุงเทพ สร้างในสไตล์มัวริช...",
+    "@klRailwayStationDescription": {
+        "description": "คำอธิบายสำหรับสถานีรถไฟกรุงเทพที่เน้นสถาปัตยกรรมและบทบาททางประวัติศาสตร์"
+    },
+    "royalMuseumDescription": "พิพิธภัณฑ์หลวงเปิดให้เห็นวิถีชีวิตของราชวงศ์...",
+    "@royalMuseumDescription": {
+        "description": "คำอธิบายเกี่ยวกับพิพิธภัณฑ์หลวงในฐานะอดีตพระราชวัง"
+    },
+    "sultanAbdulSamadDescription": "อาคารสุลต่านอับดุลซามัด สร้างขึ้นในปี พ.ศ. 2440...",
+    "@sultanAbdulSamadDescription": {
+        "description": "คำอธิบายสำหรับอาคารสุลต่านอับดุลซามัดที่เน้นสถาปัตยกรรมและคุณค่าทางประวัติศาสตร์"
+    },
+    "tuguNegaraDescription": "อนุสาวรีย์แห่งชาติเป็นเกียรติแก่ทหารที่สละชีพ...",
+    "@tuguNegaraDescription": {
+        "description": "คำอธิบายสำหรับอนุสาวรีย์แห่งชาติ (ตูกูเนการา) ซึ่งเป็นการยกย่องทหารผู้สละชีพ"
+    },
+    "victoriaFountainDescription": "น้ำพุควีนวิกตอเรีย สร้างเสร็จในปี พ.ศ. 2447...",
+    "@victoriaFountainDescription": {
+        "description": "คำอธิบายเกี่ยวกับน้ำพุควีนวิกตอเรียที่ระบุรายละเอียดสถาปัตยกรรมและความสำคัญทางประวัติศาสตร์"
+    },
+    "ilhamBaruTowerDescription": "อาคารอิลฮามบารู เป็นตึกสูง 58 ชั้น...",
+    "@ilhamBaruTowerDescription": {
+        "description": "คำอธิบายสำหรับอาคารอิลฮามบารู โดยกล่าวถึงความสูงและความสำคัญด้านสถาปัตยกรรม"
+    },
+    "bangunanSulaimanDescription": "บังกูนันสุไลมาน เป็นอนุสาวรีย์ยุคอาณานิคมอังกฤษ...",
+    "@bangunanSulaimanDescription": {
+        "description": "คำอธิบายสำหรับบังกูนันสุไลมาน โดยระบุสถาปัตยกรรมยุคอาณานิคมและความสำคัญทางประวัติศาสตร์"
+    },
+    "centralMarketDescription": "ตลาดเซ็นทรัลมาร์เก็ต สร้างในปี พ.ศ. 2435...",
+    "@centralMarketDescription": {
+        "description": "คำอธิบายเกี่ยวกับตลาดเซ็นทรัลมาร์เก็ต ที่เน้นถึงความสำคัญทางประวัติศาสตร์และเป็นสถานที่ขายหัตถกรรมท้องถิ่น"
+    },
+    "locationJalanRaja": "ที่ตั้ง: ถนนราจา, ใจกลางเมือง, 50050 กรุงเทพฯ",
+    "@locationJalanRaja": {
+        "description": "ที่ตั้งของดาตารันเมอร์เดกา โดยระบุที่อยู่ที่เฉพาะเจาะจง"
+    },
+    "locationKampungAttap": "ที่ตั้ง: Kampung Attap, 50000 กรุงเทพฯ",
+    "@locationKampungAttap": {
+        "description": "ที่ตั้งของสถานีรถไฟกรุงเทพฯ"
+    },
+    "locationIstanaNegara": "ที่ตั้ง: ถนนอิสตานา, 50460 กรุงเทพฯ",
+    "@locationIstanaNegara": {
+        "description": "ที่ตั้งของพิพิธภัณฑ์หลวง ที่เคยเป็นพระราชวังแห่งชาติ"
+    },
+    "locationParliamentRoad": "ที่ตั้ง: สวนพฤกษศาสตร์เปอร์ดานา, ถนนสภา, 50480 กรุงเทพฯ",
+    "@locationParliamentRoad": {
+        "description": "ที่ตั้งของอนุสาวรีย์แห่งชาติ (ตูกูเนการา)"
+    },
+    "locationCityCentre": "ที่ตั้ง: ใจกลางเมือง, 50050 กรุงเทพฯ",
+    "@locationCityCentre": {
+        "description": "ที่ตั้งของน้ำพุควีนวิกตอเรีย"
+    },
+    "locationIlhamTower": "ที่ตั้ง: อาคารอิลฮาม, 8, Jalan Binjai, 50450 กรุงเทพฯ",
+    "@locationIlhamTower": {
+        "description": "ที่ตั้งของอาคารอิลฮามบารู"
+    },
+    "locationSultanHishamuddin": "ที่ตั้ง: ถนนสุลต่านฮิชามุดดิน, Kampung Attap, 50000 กรุงเทพฯ",
+    "@locationSultanHishamuddin": {
+        "description": "ที่ตั้งของบังกูนันสุไลมาน"
+    },
+    "locationJalanHangKasturi": "ที่ตั้ง: เลขที่ 10, ชั้น 1-3, Jalan Hang Kasturi",
+    "@locationJalanHangKasturi": {
+        "description": "ที่ตั้งของตลาดเซ็นทรัลมาร์เก็ต (Pasar Seni)"
+    },
+    "open24Hours": "เปิด 24 ชั่วโมง (ทุกวัน)",
+    "@open24Hours": {
+        "description": "ระบุว่าสถานที่นี้เปิด 24 ชั่วโมงทุกวัน"
+    },
+    "hours900to500Daily": "เวลา: 9:00 น. - 17:00 น. (ทุกวัน)",
+    "@hours900to500Daily": {
+        "description": "เวลาทำการตั้งแต่ 9:00 น. ถึง 17:00 น. ทุกวัน"
+    },
+    "hours700to600Daily": "เวลา: 7:00 น. - 18:00 น. (ทุกวัน)",
+    "@hours700to600Daily": {
+        "description": "เวลาทำการตั้งแต่ 7:00 น. ถึง 18:00 น. ทุกวัน"
+    },
+    "hours830to530Weekdays": "เวลา: 8:30 น. - 17:30 น. (จันทร์ - ศุกร์)",
+    "@hours830to530Weekdays": {
+        "description": "เวลาทำการตั้งแต่ 8:30 น. ถึง 17:30 น. ในวันธรรมดา (จันทร์ - ศุกร์)"
+    },
+    "hours1000to600Daily": "เวลา: 10:00 น. - 18:00 น. (ทุกวัน)",
+    "@hours1000to600Daily": {
+        "description": "เวลาทำการตั้งแต่ 10:00 น. ถึง 18:00 น. ทุกวัน"
+    },
+    "parks": "สวนสาธารณะ",
+    "@parks": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงสวนสาธารณะในกรุงเทพฯ"
+    },
+    "tamanEkoRimba": "สวนป่าริมบากัวลาลัมเปอร์",
+    "@tamanEkoRimba": {
+        "description": "ชื่อของสวนป่าริมบากัวลาลัมเปอร์"
+    },
+    "tamanEkoRimbaLocation": "กัวลาลัมเปอร์, 50250 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@tamanEkoRimbaLocation": {
+        "description": "ที่ตั้งของสวนป่าริมบากัวลาลัมเปอร์"
+    },
+    "aseanSculptureGarden": "สวนประติมากรรมอาเซียน",
+    "@aseanSculptureGarden": {
+        "description": "ชื่อของสวนประติมากรรมอาเซียน"
+    },
+    "aseanSculptureGardenLocation": "สวนประติมากรรมอาเซียน, Persiaran Sultan Salahuddin, สวนตาซิกเปอรดานา, 50480 กัวลาลัมเปอร์",
+    "@aseanSculptureGardenLocation": {
+        "description": "ที่ตั้งของสวนประติมากรรมอาเซียนในกัวลาลัมเปอร์"
+    },
+    "klccPark": "สวนกัวลาลัมเปอร์ซิตี้เซ็นเตอร์ (KLCC)",
+    "@klccPark": {
+        "description": "ชื่อของสวน KLCC"
+    },
+    "klccParkLocation": "Jalan Ampang, ใจกลางเมืองกัวลาลัมเปอร์, 50088 กัวลาลัมเปอร์",
+    "@klccParkLocation": {
+        "description": "ที่ตั้งของสวน KLCC ในกัวลาลัมเปอร์"
+    },
+    "hours700to600": "เวลา: 7:00 น. - 18:00 น.",
+    "@hours700to600": {
+        "description": "เวลาทำการตั้งแต่ 7:00 น. ถึง 18:00 น."
+    },
+    "hours700to1000": "เวลา: 7:00 น. - 22:00 น.",
+    "@hours700to1000": {
+        "description": "เวลาทำการตั้งแต่ 7:00 น. ถึง 22:00 น."
+    },
+    "kl4kids": "กรุงเทพฯ สำหรับเด็ก",
+    "@kl4kids": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงสถานที่สำหรับเด็กในกรุงเทพฯ"
+    },
+    "aeonFantasy": "เอออน แฟนตาซี",
+    "@aeonFantasy": {
+        "description": "ชื่อของสถานที่สำหรับเด็กเอออน แฟนตาซีในกัวลาลัมเปอร์"
+    },
+    "aeonFantasyLocation": "F41, ชั้น 1, ห้างสรรพสินค้าเอออน อัลฟาแองเกิล, Jalan R1, Seksyen 1, Bandar Baru Wangsa Maju, 53300 กัวลาลัมเปอร์",
+    "@aeonFantasyLocation": {
+        "description": "ที่ตั้งของเอออน แฟนตาซี"
+    },
+    "aeonFantasyHours": "10:00 น. - 22:00 น. (อาทิตย์-พฤหัสบดี), 10:00 น. - 23:00 น. (ศุกร์-เสาร์)",
+    "@aeonFantasyHours": {
+        "description": "เวลาทำการของเอออน แฟนตาซี"
+    },
+    "klUpsideDownHouse": "บ้านกลับหัวกัวลาลัมเปอร์",
+    "@klUpsideDownHouse": {
+        "description": "ชื่อของบ้านกลับหัวในกัวลาลัมเปอร์"
+    },
+    "klUpsideDownHouseLocation": "Off, Jalan P Ramlee, &, Jalan Puncak, 50250 กัวลาลัมเปอร์",
+    "@klUpsideDownHouseLocation": {
+        "description": "ที่ตั้งของบ้านกลับหัวกัวลาลัมเปอร์"
+    },
+    "klUpsideDownHouseHours": "10:00 น. - 22:00 น. (ทุกวัน)",
+    "@klUpsideDownHouseHours": {
+        "description": "เวลาทำการของบ้านกลับหัวกัวลาลัมเปอร์"
+    },
+    "klTowerMiniZoo": "สวนสัตว์ขนาดเล็กหอคอยกัวลาลัมเปอร์",
+    "@klTowerMiniZoo": {
+        "description": "ชื่อของสวนสัตว์ขนาดเล็กหอคอยกัวลาลัมเปอร์"
+    },
+    "klTowerMiniZooLocation": "ชั้นล่าง, หอคอยกัวลาลัมเปอร์, Jalan Puncak, 50250 กัวลาลัมเปอร์",
+    "@klTowerMiniZooLocation": {
+        "description": "ที่ตั้งของสวนสัตว์ขนาดเล็กหอคอยกัวลาลัมเปอร์"
+    },
+    "klTowerMiniZooHours": "10:00 น. - 21:00 น. (ทุกวัน)",
+    "@klTowerMiniZooHours": {
+        "description": "เวลาทำการของสวนสัตว์ขนาดเล็กหอคอยกัวลาลัมเปอร์"
+    },
+    "petrosainsKlcc": "เปโตรไซน์ กัวลาลัมเปอร์ซิตี้เซ็นเตอร์ (KLCC)",
+    "@petrosainsKlcc": {
+        "description": "ชื่อของพิพิธภัณฑ์เปโตรไซน์ KLCC"
+    },
+    "petrosainsKlccLocation": "ชั้น 4, Suria KLCC, อาคารคู่เปโตรนาส, ใจกลางเมืองกัวลาลัมเปอร์, 50088 กัวลาลัมเปอร์",
+    "@petrosainsKlccLocation": {
+        "description": "ที่ตั้งของเปโตรไซน์ KLCC"
+    },
+    "petrosainsKlccHours": "9:30 น. - 17:30 น. (อังคาร-อาทิตย์)",
+    "@petrosainsKlccHours": {
+        "description": "เวลาทำการของเปโตรไซน์ KLCC"
+    },
+    "contact": "ติดต่อ",
+    "@contact": {
+        "description": "ป้ายสำหรับข้อมูลการติดต่อของสถานที่สำหรับเด็ก"
+    },
+    "placesOfWorship": "สถานที่สักการะบูชา",
+    "@placesOfWorship": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงสถานที่สักการะบูชาในกรุงเทพฯ"
+    },
+    "muslim": "มุสลิม",
+    "@muslim": {
+        "description": "ป้ายสำหรับแท็บสถานที่สักการะของชาวมุสลิม"
+    },
+    "buddhistTao": "พุทธ/เต๋า",
+    "@buddhistTao": {
+        "description": "ป้ายสำหรับแท็บสถานที่สักการะของพุทธและเต๋า"
+    },
+    "hindu": "ฮินดู",
+    "@hindu": {
+        "description": "ป้ายสำหรับแท็บสถานที่สักการะของฮินดู"
+    },
+    "others": "อื่นๆ",
+    "@others": {
+        "description": "ป้ายสำหรับแท็บสถานที่สักการะอื่นๆ"
+    },
+    "masjidNegara": "มัสยิดแห่งชาติ",
+    "@masjidNegara": {
+        "description": "ชื่อของมัสยิดแห่งชาติในกัวลาลัมเปอร์"
+    },
+    "masjidNegaraLocation": "Jalan Perdana, Tasik Perdana, 50480 กัวลาลัมเปอร์",
+    "@masjidNegaraLocation": {
+        "description": "ที่ตั้งของมัสยิดแห่งชาติในกัวลาลัมเปอร์"
+    },
+    "masjidNegaraHours": "9:00 น. - 23:00 น. (เสาร์-พฤหัสบดี) / 14:45 น. - 18:00 น. (ศุกร์)",
+    "@masjidNegaraHours": {
+        "description": "เวลาทำการของมัสยิดแห่งชาติ"
+    },
+    "masjidJamek": "มัสยิดจาเมก",
+    "@masjidJamek": {
+        "description": "ชื่อของมัสยิดจาเมกในกัวลาลัมเปอร์"
+    },
+    "masjidJamekLocation": "Jalan Tun Perak, ใจกลางเมือง, 50050 กัวลาลัมเปอร์",
+    "@masjidJamekLocation": {
+        "description": "ที่ตั้งของมัสยิดจาเมกในกัวลาลัมเปอร์"
+    },
+    "masjidJamekHours": "10:00 น. - 12:30 น.; 14:30 น. - 16:00 น. (เสาร์-พฤหัสบดี) / ปิดในวันศุกร์",
+    "@masjidJamekHours": {
+        "description": "เวลาทำการของมัสยิดจาเมก"
+    },
+    "federalTerritoryMosque": "มัสยิดเขตสหพันธ์กัวลาลัมเปอร์",
+    "@federalTerritoryMosque": {
+        "description": "ชื่อของมัสยิดเขตสหพันธ์กัวลาลัมเปอร์"
+    },
+    "federalTerritoryMosqueLocation": "Jalan Sultan Mizan Zainal Abidin, Kompleks Kerajaan, กัวลาลัมเปอร์",
+    "@federalTerritoryMosqueLocation": {
+        "description": "ที่ตั้งของมัสยิดเขตสหพันธ์ในกัวลาลัมเปอร์"
+    },
+    "masjidAlBukhari": "มัสยิดอัลบูคอรี",
+    "@masjidAlBukhari": {
+        "description": "ชื่อของมัสยิดอัลบูคอรีในกัวลาลัมเปอร์"
+    },
+    "masjidAlBukhariLocation": "1, Jalan Hang Tuah, บูกิตบินตัง, 55200 กัวลาลัมเปอร์",
+    "@masjidAlBukhariLocation": {
+        "description": "ที่ตั้งของมัสยิดอัลบูคอรีในกัวลาลัมเปอร์"
+    },
+    "masjidAbdullahHukum": "มัสยิดจาเมกอับดุลลาห์ฮุกุม - กรุงกัวลาลัมเปอร์",
+    "@masjidAbdullahHukum": {
+        "description": "ชื่อของมัสยิดจาเมกอับดุลลาห์ฮุกุมในกัวลาลัมเปอร์"
+    },
+    "masjidAbdullahHukumLocation": "59200 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@masjidAbdullahHukumLocation": {
+        "description": "ที่ตั้งของมัสยิดจาเมกอับดุลลาห์ฮุกุม"
+    },
+    "masjidAsySyakirin": "มัสยิดอัสยชากีรีน KLCC",
+    "@masjidAsySyakirin": {
+        "description": "ชื่อของมัสยิดอัสยชากีรีนในกัวลาลัมเปอร์"
+    },
+    "masjidAsySyakirinLocation": "Lot 41, Seksyen, 58, Jalan Pinang, 50450 กัวลาลัมเปอร์",
+    "@masjidAsySyakirinLocation": {
+        "description": "ที่ตั้งของมัสยิดอัสยชากีรีน"
+    },
+    "masjidAlFirdaus": "มัสยิดอัลฟิรเดาส์",
+    "@masjidAlFirdaus": {
+        "description": "ชื่อของมัสยิดอัลฟิรเดาส์ในกัวลาลัมเปอร์"
+    },
+    "masjidAlFirdausLocation": "Jalan Masjid Firdaus, Jalan 1/42, Segambut Luar, 51200 กัวลาลัมเปอร์",
+    "@masjidAlFirdausLocation": {
+        "description": "ที่ตั้งของมัสยิดอัลฟิรเดาส์"
+    },
+    "masjidJamiulEhsan": "มัสยิดจามิอุลอีฮ์ซาน",
+    "@masjidJamiulEhsan": {
+        "description": "ชื่อของมัสยิดจามิอุลอีฮ์ซานในกัวลาลัมเปอร์"
+    },
+    "masjidJamiulEhsanLocation": "Jalan Pahang, Taman Setapak Indah Jaya, 53000 กัวลาลัมเปอร์",
+    "@masjidJamiulEhsanLocation": {
+        "description": "ที่ตั้งของมัสยิดจามิอุลอีฮ์ซาน"
+    },
+    "theanHouTemple": "วัดเทียนโฮ่ว",
+    "@theanHouTemple": {
+        "description": "ชื่อของวัดเทียนโฮ่วในกัวลาลัมเปอร์"
+    },
+    "theanHouTempleLocation": "65, Persiaran Endah, Taman Persiaran Desa, 50460 กัวลาลัมเปอร์",
+    "@theanHouTempleLocation": {
+        "description": "ที่ตั้งของวัดเทียนโฮ่วในกัวลาลัมเปอร์"
+    },
+    "theanHouTempleHours": "8:00 น. - 14:00 น. / 16:00 น. - 22:00 น. (ทุกวัน)",
+    "@theanHouTempleHours": {
+        "description": "เวลาทำการของวัดเทียนโฮ่ว"
+    },
+    "guanDiTemple": "วัดกวนตี่",
+    "@guanDiTemple": {
+        "description": "ชื่อของวัดกวนตี่ในกัวลาลัมเปอร์"
+    },
+    "guanDiTempleLocation": "168, Jalan Tun H S Lee, ใจกลางเมือง, 50000 กัวลาลัมเปอร์",
+    "@guanDiTempleLocation": {
+        "description": "ที่ตั้งของวัดกวนตี่ในกัวลาลัมเปอร์"
+    },
+    "guanDiTempleHours": "8:30 น. - 17:30 น. (วันธรรมดา) / ปิดในวันหยุดสุดสัปดาห์",
+    "@guanDiTempleHours": {
+        "description": "เวลาทำการของวัดกวนตี่"
+    },
+    "buddhistMahaViharaTemple": "วัดพุทธมหาวิหาร",
+    "@buddhistMahaViharaTemple": {
+        "description": "ชื่อของวัดพุทธมหาวิหารในกัวลาลัมเปอร์"
+    },
+    "buddhistMahaViharaTempleLocation": "123 Jalan Berhala, บริกฟิลด์, กัวลาลัมเปอร์",
+    "@buddhistMahaViharaTempleLocation": {
+        "description": "ที่ตั้งของวัดพุทธมหาวิหาร"
+    },
+    "buddhistMahaViharaTempleHours": "8:00 น. - 14:00 น. / 17:00 น. - 21:00 น. (ทุกวัน)",
+    "@buddhistMahaViharaTempleHours": {
+        "description": "เวลาทำการของวัดพุทธมหาวิหาร"
+    },
+    "sinSzeSiYaTemple": "วัดซินซื่อซี่ย่า",
+    "@sinSzeSiYaTemple": {
+        "description": "ชื่อของวัดซินซื่อซี่ย่าในกัวลาลัมเปอร์"
+    },
+    "sinSzeSiYaTempleLocation": "113A, Jalan Tun H S Lee, ใจกลางเมือง, 50050 กัวลาลัมเปอร์",
+    "@sinSzeSiYaTempleLocation": {
+        "description": "ที่ตั้งของวัดซินซื่อซี่ย่าในกัวลาลัมเปอร์"
+    },
+    "sinSzeSiYaTempleHours": "7:00 น. - 17:00 น. (ทุกวัน)",
+    "@sinSzeSiYaTempleHours": {
+        "description": "เวลาทำการของวัดซินซื่อซี่ย่า"
+    },
+    "sriMahamariammanTemple": "วัดศรีมหามาเรียมมัน",
+    "@sriMahamariammanTemple": {
+        "description": "ชื่อของวัดศรีมหามาเรียมมันในกัวลาลัมเปอร์"
+    },
+    "sriMahamariammanTempleLocation": "Jalan Tun H S Lee, ใจกลางเมือง, 50000 กัวลาลัมเปอร์",
+    "@sriMahamariammanTempleLocation": {
+        "description": "ที่ตั้งของวัดศรีมหามาเรียมมันในกัวลาลัมเปอร์"
+    },
+    "sriMahamariammanTempleHours": "6:00 น. - 20:30 น. (อาทิตย์-พฤหัสบดี) / 6:00 น. - 21:30 น. (ศุกร์) / 6:00 น. - 21:00 น. (อาทิตย์)",
+    "@sriMahamariammanTempleHours": {
+        "description": "เวลาทำการของวัดศรีมหามาเรียมมัน"
+    },
+    "batuCavesTemple": "วัดถ้ำบาตู",
+    "@batuCavesTemple": {
+        "description": "ชื่อของวัดถ้ำบาตู"
+    },
+    "batuCavesTempleLocation": "Gombak, 68100 ถ้ำบาตู, เซลังงอร์",
+    "@batuCavesTempleLocation": {
+        "description": "ที่ตั้งของวัดถ้ำบาตูในเซลังงอร์"
+    },
+    "sriKandaswamyTemple": "วัดศรีกันดาสวามี",
+    "@sriKandaswamyTemple": {
+        "description": "ชื่อของวัดศรีกันดาสวามีในกัวลาลัมเปอร์"
+    },
+    "sriKandaswamyTempleLocation": "บริกฟิลด์, 50470 กัวลาลัมเปอร์",
+    "@sriKandaswamyTempleLocation": {
+        "description": "ที่ตั้งของวัดศรีกันดาสวามีในบริกฟิลด์"
+    },
+    "stMarysAnglicanCathedral": "โบสถ์แองกลิกันเซนต์แมรี่",
+    "@stMarysAnglicanCathedral": {
+        "description": "ชื่อของโบสถ์แองกลิกันเซนต์แมรี่ในกัวลาลัมเปอร์"
+    },
+    "stMarysAnglicanCathedralLocation": "Jalan Raja, ใจกลางเมือง, 50050 กัวลาลัมเปอร์",
+    "@stMarysAnglicanCathedralLocation": {
+        "description": "ที่ตั้งของโบสถ์แองกลิกันเซนต์แมรี่"
+    },
+    "wesleyMethodistChurch": "โบสถ์เวสลีย์เมธอดิสต์ กัวลาลัมเปอร์",
+    "@wesleyMethodistChurch": {
+        "description": "ชื่อของโบสถ์เวสลีย์เมธอดิสต์ในกัวลาลัมเปอร์"
+    },
+    "wesleyMethodistChurchLocation": "2, Jalan Wesley, ใจกลางเมือง, 50150 กัวลาลัมเปอร์",
+    "@wesleyMethodistChurchLocation": {
+        "description": "ที่ตั้งของโบสถ์เวสลีย์เมธอดิสต์"
+    },
+    "wesleyMethodistChurchHours": "8:30 น. - 16:30 น. (จันทร์-ศุกร์) / 8:30 น. - 12:30 น. (เสาร์) / 8:00 น. - 10:30 น. (อาทิตย์)",
+    "@wesleyMethodistChurchHours": {
+        "description": "เวลาทำการของโบสถ์เวสลีย์เมธอดิสต์"
+    },
+    "whatToEat": "อาหารที่ต้องลอง",
+    "@whatToEat": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงอาหารที่ต้องลองในกรุงเทพฯ"
+    },
+    "streetFood": "อาหารริมทาง",
+    "@streetFood": {
+        "description": "ป้ายสำหรับแท็บอาหารริมทาง"
+    },
+    "cafes": "คาเฟ่",
+    "@cafes": {
+        "description": "ป้ายสำหรับแท็บคาเฟ่"
+    },
+    "restaurants": "ร้านอาหาร",
+    "@restaurants": {
+        "description": "ป้ายสำหรับแท็บร้านอาหาร"
+    },
+    "jalanAlor": "ถนนจาลันอาลอร์",
+    "@jalanAlor": {
+        "description": "ชื่อของถนนจาลันอาลอร์ ซึ่งเป็นสถานที่ขายอาหารริมทาง"
+    },
+    "jalanAlorLocation": "บูกิตบินตัง, กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@jalanAlorLocation": {
+        "description": "ที่ตั้งของถนนจาลันอาลอร์"
+    },
+    "tamanConnaught": "ตลาดกลางคืนตามันคอนนอต",
+    "@tamanConnaught": {
+        "description": "ชื่อของตลาดกลางคืนตามันคอนนอต"
+    },
+    "tamanConnaughtLocation": "130, 108, Jalan Cerdas, ตามันคอนนอต, 56000 กัวลาลัมเปอร์",
+    "@tamanConnaughtLocation": {
+        "description": "ที่ตั้งของตลาดกลางคืนตามันคอนนอต"
+    },
+    "tamanConnaughtHours": "18:00 น. - 01:00 น. (วันพุธ)",
+    "@tamanConnaughtHours": {
+        "description": "เวลาทำการของตลาดกลางคืนตามันคอนนอต"
+    },
+    "petalingStreet": "ถนนเปตาลิง",
+    "@petalingStreet": {
+        "description": "ชื่อของถนนเปตาลิง"
+    },
+    "petalingStreetLocation": "ถนนเปตาลิง, ใจกลางเมือง, 50000 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@petalingStreetLocation": {
+        "description": "ที่ตั้งของถนนเปตาลิง"
+    },
+    "petalingStreetHours": "เปิด 24 ชั่วโมง (ทุกวัน)",
+    "@petalingStreetHours": {
+        "description": "เวลาทำการของถนนเปตาลิง"
+    },
+    "wildflowersKL": "ไวลด์ฟลาวเวอร์ส กัวลาลัมเปอร์",
+    "@wildflowersKL": {
+        "description": "ชื่อของคาเฟ่ไวลด์ฟลาวเวอร์สในกัวลาลัมเปอร์"
+    },
+    "wildflowersKLLocation": "ถนนเปตาลิง, 50000 กัวลาลัมเปอร์",
+    "@wildflowersKLLocation": {
+        "description": "ที่ตั้งของคาเฟ่ไวลด์ฟลาวเวอร์ส"
+    },
+    "wildflowersKLHours": "12:00 น. - 24:00 น. (ศุกร์-เสาร์), 12:00 น. - 22:00 น. (อาทิตย์), 17:00 น. - 22:00 น. (อังคาร-พฤหัสบดี), ปิดวันจันทร์",
+    "@wildflowersKLHours": {
+        "description": "เวลาทำการของคาเฟ่ไวลด์ฟลาวเวอร์ส"
+    },
+    "lisettesCafe": "ลิซเซตต์ คาเฟ่ & เบเกอรี่",
+    "@lisettesCafe": {
+        "description": "ชื่อของลิซเซตต์ คาเฟ่ & เบเกอรี่"
+    },
+    "lisettesCafeLocation": "เลขที่ 8, Jalan Kemuja, บูกิตบินตัง, 59000 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@lisettesCafeLocation": {
+        "description": "ที่ตั้งของลิซเซตต์ คาเฟ่ & เบเกอรี่"
+    },
+    "lisettesCafeHours": "08:00 น. - 22:00 น. (ทุกวัน)",
+    "@lisettesCafeHours": {
+        "description": "เวลาทำการของลิซเซตต์ คาเฟ่ & เบเกอรี่"
+    },
+    "merchantsLane": "เมอร์แชนต์ เลน",
+    "@merchantsLane": {
+        "description": "ชื่อของคาเฟ่เมอร์แชนต์ เลน"
+    },
+    "merchantsLaneLocation": "เลขที่ 150, Jalan Petaling, ใจกลางเมือง, 50000 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@merchantsLaneLocation": {
+        "description": "ที่ตั้งของคาเฟ่เมอร์แชนต์ เลน"
+    },
+    "merchantsLaneHours": "08:00 น. - 22:00 น. (ทุกวัน)",
+    "@merchantsLaneHours": {
+        "description": "เวลาทำการของคาเฟ่เมอร์แชนต์ เลน"
+    },
+    "bijanBar": "บิจัน บาร์ & เรสเตอรองต์",
+    "@bijanBar": {
+        "description": "ชื่อของบิจัน บาร์ & เรสเตอรองต์"
+    },
+    "bijanBarLocation": "เลขที่ 3, Jalan Ceylon, บูกิตซีลอน, 50200 กัวลาลัมเปอร์",
+    "@bijanBarLocation": {
+        "description": "ที่ตั้งของบิจัน บาร์ & เรสเตอรองต์"
+    },
+    "bijanBarHours": "12:00 น. - 23:00 น. (ทุกวัน)",
+    "@bijanBarHours": {
+        "description": "เวลาทำการของบิจัน บาร์ & เรสเตอรองต์"
+    },
+    "songketRestaurant": "ร้านอาหารซองเก็ต",
+    "@songketRestaurant": {
+        "description": "ชื่อของร้านอาหารซองเก็ต"
+    },
+    "songketRestaurantLocation": "เลขที่ 31G, Plaza Crystavilla, Jalan 22a/70a, Desa Sri Hartamas, 50480 กัวลาลัมเปอร์",
+    "@songketRestaurantLocation": {
+        "description": "ที่ตั้งของร้านอาหารซองเก็ต"
+    },
+    "songketRestaurantHours": "12:00 น. - 22:00 น. (ทุกวัน)",
+    "@songketRestaurantHours": {
+        "description": "เวลาทำการของร้านอาหารซองเก็ต"
+    },
+    "manjaOldMalaya": "มันจา โอลด์ มลายา",
+    "@manjaOldMalaya": {
+        "description": "ชื่อของมันจา โอลด์ มลายา"
+    },
+    "manjaOldMalayaLocation": "เลขที่ 6, Lorong Raja Chulan, กัวลาลัมเปอร์, 50250 กัวลาลัมเปอร์",
+    "@manjaOldMalayaLocation": {
+        "description": "ที่ตั้งของมันจา โอลด์ มลายา"
+    },
+    "manjaOldMalayaHours": "12:00 น. - 24:00 น. (ทุกวัน)",
+    "@manjaOldMalayaHours": {
+        "description": "เวลาทำการของมันจา โอลด์ มลายา"
+    },
+    "location": "ที่ตั้ง",
+    "@location": {
+        "description": "ป้ายที่ตั้งของสถานที่"
+    },
+    "operatingHours": "เวลาทำการ",
+    "@operatingHours": {
+        "description": "ป้ายเวลาทำการของสถานที่"
+    },
+    "website": "เว็บไซต์",
+    "@website": {
+        "description": "ป้ายเว็บไซต์ของสถานที่"
+    },
+    "nightLife": "ชีวิตกลางคืน",
+    "@nightLife": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงตัวเลือกชีวิตกลางคืนในกัวลาลัมเปอร์"
+    },
+    "bars": "บาร์",
+    "@bars": {
+        "description": "ป้ายสำหรับแท็บบาร์"
+    },
+    "nightMarket": "ตลาดกลางคืน",
+    "@nightMarket": {
+        "description": "ป้ายสำหรับแท็บตลาดกลางคืน"
+    },
+    "changkatBukitBintang": "ชางกัต บูกิตบินตัง",
+    "@changkatBukitBintang": {
+        "description": "ชื่อของชางกัต บูกิตบินตัง สถานที่ท่องเที่ยวกลางคืนยอดนิยมในกัวลาลัมเปอร์"
+    },
+    "changkatBukitBintangDescription": "ชางกัต บูกิตบินตังมีบาร์ธีมต่าง ๆ พร้อมดีเจและวงดนตรีสด...",
+    "@changkatBukitBintangDescription": {
+        "description": "คำอธิบายสำหรับสถานบันเทิงกลางคืนที่ชางกัต บูกิตบินตัง"
+    },
+    "bangsar": "บังซาร์",
+    "@bangsar": {
+        "description": "ชื่อของบังซาร์ สถานที่ท่องเที่ยวกลางคืนยอดนิยม"
+    },
+    "bangsarDescription": "บังซาร์และมิดวัลเลย์มีบาร์สุดทันสมัย ผับ และเลาจ์ค็อกเทล...",
+    "@bangsarDescription": {
+        "description": "คำอธิบายสำหรับชีวิตกลางคืนในบังซาร์"
+    },
+    "ampang": "อัมปัง",
+    "@ampang": {
+        "description": "ชื่อของอัมปัง พื้นที่ท่องเที่ยวกลางคืน"
+    },
+    "ampangDescription": "อัมปังมีชีวิตกลางคืนที่หลากหลาย มีบาร์บนดาดฟ้า และคลับที่เปิดดึก...",
+    "@ampangDescription": {
+        "description": "คำอธิบายสำหรับชีวิตกลางคืนในอัมปัง"
+    },
+    "petalingStreetDescription": "ถนนเปตาลิงเปลี่ยนเป็นตลาดกลางคืนที่คึกคักหลังจากพระอาทิตย์ตก...",
+    "@petalingStreetDescription": {
+        "description": "คำอธิบายสำหรับสถานบันเทิงและตลาดกลางคืนที่ถนนเปตาลิง"
+    },
+    "marinisOn57": "มารินิส ออน 57",
+    "@marinisOn57": {
+        "description": "ชื่อของบาร์มารินิส ออน 57 ในกัวลาลัมเปอร์"
+    },
+    "marinisOn57Location": "57 Menara 3 Petronas Persiaran, ใจกลางเมืองกัวลาลัมเปอร์, 50088 กัวลาลัมเปอร์",
+    "@marinisOn57Location": {
+        "description": "ที่ตั้งของบาร์มารินิส ออน 57"
+    },
+    "heliLoungeBar": "เฮลิ เลานจ์ บาร์",
+    "@heliLoungeBar": {
+        "description": "ชื่อของบาร์เฮลิ เลานจ์ ในกัวลาลัมเปอร์"
+    },
+    "heliLoungeBarLocation": "4 Menara KH, Jalan Sultan Ismail, บูกิตบินตัง, 50450 กัวลาลัมเปอร์",
+    "@heliLoungeBarLocation": {
+        "description": "ที่ตั้งของบาร์เฮลิ เลานจ์"
+    },
+    "zetaBar": "เซต้า บาร์",
+    "@zetaBar": {
+        "description": "ชื่อของบาร์เซต้า ในกัวลาลัมเปอร์"
+    },
+    "zetaBarLocation": "ชั้น 5, 3, Jalan Stesen Sentral, Kuala Lumpur Sentral, 50470 กัวลาลัมเปอร์",
+    "@zetaBarLocation": {
+        "description": "ที่ตั้งของบาร์เซต้า"
+    },
+    "connaughtNightMarket": "ตลาดกลางคืนคอนนอต",
+    "@connaughtNightMarket": {
+        "description": "ชื่อของตลาดกลางคืนคอนนอต"
+    },
+    "connaughtNightMarketDescription": "ตลาดกลางคืนคอนนอตเป็นที่รู้จักในเรื่องอาหารริมทางของจีน...",
+    "@connaughtNightMarketDescription": {
+        "description": "คำอธิบายสำหรับตลาดกลางคืนคอนนอต"
+    },
+    "connaughtNightMarketLocation": "130, 108, Jalan Cerdas, Taman Connaught, 56000 กัวลาลัมเปอร์",
+    "@connaughtNightMarketLocation": {
+        "description": "ที่ตั้งของตลาดกลางคืนคอนนอต"
+    },
+    "kasturiWalk": "ทางเดินกัสตูรี",
+    "@kasturiWalk": {
+        "description": "ชื่อของตลาดกลางคืนกัสตูรีในกัวลาลัมเปอร์"
+    },
+    "kasturiWalkLocation": "Jalan Hang Kasturi, ใจกลางเมือง, 50050 กัวลาลัมเปอร์",
+    "@kasturiWalkLocation": {
+        "description": "ที่ตั้งของตลาดกลางคืนกัสตูรี"
+    },
+    "kasturiWalkHours": "เปิด 24 ชั่วโมง",
+    "@kasturiWalkHours": {
+        "description": "เวลาทำการของตลาดกลางคืนกัสตูรี"
+    },
+    "sightseeing": "สถานที่ท่องเที่ยว",
+    "@sightseeing": {
+        "description": "หัวข้อสำหรับหน้าที่แสดงสถานที่ท่องเที่ยวในกัวลาลัมเปอร์"
+    },
+    "mustVisit": "สถานที่ที่ต้องไปเยือน",
+    "@mustVisit": {
+        "description": "ป้ายสำหรับแท็บสถานที่ที่ต้องไปเยือน"
+    },
+    "museums": "พิพิธภัณฑ์",
+    "@museums": {
+        "description": "ป้ายสำหรับแท็บพิพิธภัณฑ์"
+    },
+    "klArtScene": "ศิลปะกัวลาลัมเปอร์",
+    "@klArtScene": {
+        "description": "ป้ายสำหรับแท็บศิลปะกัวลาลัมเปอร์"
+    },
+    "klcc": "กัวลาลัมเปอร์ซิตี้เซ็นเตอร์ (KLCC)",
+    "@klcc": {
+        "description": "ชื่อของกัวลาลัมเปอร์ซิตี้เซ็นเตอร์ (KLCC)"
+    },
+    "klccLocation": "Jalan Ampang, โกลเด้นไทรแองเกิล, ใจกลางเมืองกัวลาลัมเปอร์, 50088",
+    "@klccLocation": {
+        "description": "ที่ตั้งของ KLCC"
+    },
+    "klccHours": "10:00 น. - 22:00 น.",
+    "@klccHours": {
+        "description": "เวลาทำการของ KLCC"
+    },
+    "istanaNegara": "พระราชวังอิสตานา",
+    "@istanaNegara": {
+        "description": "ชื่อของพระราชวังอิสตานา"
+    },
+    "istanaNegaraLocation": "Jalan Tuanku Abdul Halim, Bukit Damansara, 50480 กัวลาลัมเปอร์",
+    "@istanaNegaraLocation": {
+        "description": "ที่ตั้งของพระราชวังอิสตานา"
+    },
+    "istanaNegaraHours": "เปิด 24 ชั่วโมง",
+    "@istanaNegaraHours": {
+        "description": "เวลาทำการของพระราชวังอิสตานา"
+    },
+    "tunkuAbdulRahmanMemorial": "อนุสรณ์สถานตุนกู อับดุลราห์มาน ปุตรา",
+    "@tunkuAbdulRahmanMemorial": {
+        "description": "ชื่อของอนุสรณ์สถานตุนกู อับดุลราห์มาน ปุตรา"
+    },
+    "tunkuAbdulRahmanMemorialLocation": "Jalan Dato Onn, 50480 กัวลาลัมเปอร์",
+    "@tunkuAbdulRahmanMemorialLocation": {
+        "description": "ที่ตั้งของอนุสรณ์สถานตุนกู อับดุลราห์มาน ปุตรา"
+    },
+    "tunkuAbdulRahmanMemorialHours": "10:00 น. - 17:30 น. (อังคาร-อาทิตย์), ปิดวันศุกร์ 12:00 น. - 15:00 น.",
+    "@tunkuAbdulRahmanMemorialHours": {
+        "description": "เวลาทำการของอนุสรณ์สถานตุนกู อับดุลราห์มาน ปุตรา"
+    },
+    "klTower": "หอคอยกัวลาลัมเปอร์ (Menara KL)",
+    "@klTower": {
+        "description": "ชื่อของหอคอยกัวลาลัมเปอร์ (Menara KL)"
+    },
+    "klTowerLocation": "เลขที่ 2 Jalan Punchak Off Jalan P.Ramlee 50250 กัวลาลัมเปอร์",
+    "@klTowerLocation": {
+        "description": "ที่ตั้งของหอคอยกัวลาลัมเปอร์"
+    },
+    "klTowerHours": "11:00 น. - 19:00 น. (จันทร์ - ศุกร์), 10:00 น. - 22:00 น. (เสาร์ - อาทิตย์)",
+    "@klTowerHours": {
+        "description": "เวลาทำการของหอคอยกัวลาลัมเปอร์"
+    },
+    "ethnologyMuseum": "พิพิธภัณฑ์ชาติพันธุ์วิทยาแห่งโลกมลายู",
+    "@ethnologyMuseum": {
+        "description": "ชื่อของพิพิธภัณฑ์ชาติพันธุ์วิทยาแห่งโลกมลายู"
+    },
+    "ethnologyMuseumLocation": "Jalan Damansara, สวนตาซิกเปอร์ดานา, 50480 กัวลาลัมเปอร์",
+    "@ethnologyMuseumLocation": {
+        "description": "ที่ตั้งของพิพิธภัณฑ์ชาติพันธุ์วิทยาแห่งโลกมลายู"
+    },
+    "ethnologyMuseumHours": "9:00 น. - 17:00 น. (อังคาร - อาทิตย์), ปิดวันจันทร์",
+    "@ethnologyMuseumHours": {
+        "description": "เวลาทำการของพิพิธภัณฑ์ชาติพันธุ์วิทยาแห่งโลกมลายู"
+    },
+    "textilesMuseum": "พิพิธภัณฑ์ผ้าแห่งชาติ",
+    "@textilesMuseum": {
+        "description": "ชื่อของพิพิธภัณฑ์ผ้าแห่งชาติ"
+    },
+    "textilesMuseumLocation": "26, Jalan Sultan Hishamuddin, ใจกลางเมือง, 50000 กัวลาลัมเปอร์",
+    "@textilesMuseumLocation": {
+        "description": "ที่ตั้งของพิพิธภัณฑ์ผ้าแห่งชาติ"
+    },
+    "textilesMuseumHours": "9:00 น. - 18:00 น. (ทุกวัน)",
+    "@textilesMuseumHours": {
+        "description": "เวลาทำการของพิพิธภัณฑ์ผ้าแห่งชาติ"
+    },
+    "museumOfAsianArts": "พิพิธภัณฑ์ศิลปะเอเชีย",
+    "@museumOfAsianArts": {
+        "description": "ชื่อของพิพิธภัณฑ์ศิลปะเอเชีย"
+    },
+    "museumOfAsianArtsLocation": "Jalan Ilmu, 50603 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@museumOfAsianArtsLocation": {
+        "description": "ที่ตั้งของพิพิธภัณฑ์ศิลปะเอเชีย"
+    },
+    "museumOfAsianArtsHours": "8:30 น. - 17:00 น. (จันทร์ - พฤหัสบดี), 8:30 น. - 17:00 น. (ศุกร์)",
+    "@museumOfAsianArtsHours": {
+        "description": "เวลาทำการของพิพิธภัณฑ์ศิลปะเอเชีย"
+    },
+    "urbanMuseum": "พิพิธภัณฑ์เมือง",
+    "@urbanMuseum": {
+        "description": "ชื่อของพิพิธภัณฑ์เมือง"
+    },
+    "urbanMuseumLocation": "เลขที่ 3, Jalan Bedara, บูกิตบินตัง, 50200 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@urbanMuseumLocation": {
+        "description": "ที่ตั้งของพิพิธภัณฑ์เมือง"
+    },
+    "urbanMuseumHours": "10:00 น. - 20:30 น. (อังคาร - อาทิตย์), ปิดวันจันทร์",
+    "@urbanMuseumHours": {
+        "description": "เวลาทำการของพิพิธภัณฑ์เมือง"
+    },
+    "nationalArtGallery": "หอศิลป์แห่งชาติ",
+    "@nationalArtGallery": {
+        "description": "ชื่อของหอศิลป์แห่งชาติ"
+    },
+    "nationalArtGalleryLocation": "เลขที่ 2, Jalan Temerloh, ติติวังสา, 53200 กัวลาลัมเปอร์",
+    "@nationalArtGalleryLocation": {
+        "description": "ที่ตั้งของหอศิลป์แห่งชาติ"
+    },
+    "nationalArtGalleryHours": "10:00 น. - 16:00 น. (อังคาร - อาทิตย์), ปิดวันจันทร์",
+    "@nationalArtGalleryHours": {
+        "description": "เวลาทำการของหอศิลป์แห่งชาติ"
+    },
+    "ourArtProjects": "OUR ArtProjects (อาคารจงซาน)",
+    "@ourArtProjects": {
+        "description": "ชื่อของ OUR ArtProjects ในอาคารจงซาน"
+    },
+    "ourArtProjectsLocation": "เลขที่ 80A, Jalan Rotan, Kampung Attap, 50460 กัวลาลัมเปอร์",
+    "@ourArtProjectsLocation": {
+        "description": "ที่ตั้งของ OUR ArtProjects"
+    },
+    "ourArtProjectsHours": "11:00 น. - 19:00 น. (อังคาร - เสาร์), ปิดวันอาทิตย์และวันจันทร์",
+    "@ourArtProjectsHours": {
+        "description": "เวลาทำการของ OUR ArtProjects"
+    },
+    "klDescription1": "ใจกลางเมืองกัวลาลัมเปอร์ (KL) เป็นที่รู้จักในเรื่องของตึกสูงระฟ้าที่ทันสมัย...",
+    "@klDescription1": {
+        "description": "คำอธิบายแรกของหน้ากัวลาลัมเปอร์ในพริบตา (KL @ A Glance)"
+    },
+    "klDescription2": "การก่อตั้ง KL เกิดขึ้นเกือบจะโดยบังเอิญ ในปี 1857 กลุ่มนักขุดแร่ชาวจีน 87 คนที่กำลังมองหาดีบุก...",
+    "@klDescription2": {
+        "description": "คำอธิบายที่สองของหน้ากัวลาลัมเปอร์ในพริบตา (KL @ A Glance) ซึ่งอธิบายถึงประวัติความเป็นมาของ KL"
+    },
+    "lrtTitle": "ระบบรถไฟขนส่งทางด่วน (LRT)",
+    "@lrtTitle": {
+        "description": "หัวข้อสำหรับคำอธิบายของระบบรถไฟขนส่งทางด่วน"
+    },
+    "lrtDescription": "รถไฟขนส่งทางด่วน (LRT) เป็นระบบรถไฟที่มีการใช้งานแพร่หลาย โดยแบ่งเป็นสองสาย: สายอัมปัง/ศรีเปตาลิง และสายเกลานา จายา...",
+    "@lrtDescription": {
+        "description": "คำอธิบายสำหรับระบบรถไฟขนส่งทางด่วน"
+    },
+    "mrtTitle": "ระบบรถไฟขนส่งมวลชน (MRT)",
+    "@mrtTitle": {
+        "description": "หัวข้อสำหรับคำอธิบายของระบบรถไฟขนส่งมวลชน"
+    },
+    "mrtDescription": "ระบบรถไฟขนส่งมวลชน (MRT) มีสองสาย โดยสายแรกคือสายซุงไกบูโลห์-กาจัง ซึ่งยาว 51 กิโลเมตร...",
+    "@mrtDescription": {
+        "description": "คำอธิบายสำหรับระบบรถไฟขนส่งมวลชน"
+    },
+    "ktmKomuterTitle": "รถไฟคอมมิวเตอร์ KTM",
+    "@ktmKomuterTitle": {
+        "description": "หัวข้อสำหรับคำอธิบายของรถไฟคอมมิวเตอร์ KTM"
+    },
+    "ktmKomuterDescription": "รถไฟ KTM เป็นระบบรถไฟที่เก่าแก่ที่สุดในมาเลเซียและเหมาะกับคนท้องถิ่นมากกว่านักท่องเที่ยว...",
+    "@ktmKomuterDescription": {
+        "description": "คำอธิบายสำหรับรถไฟคอมมิวเตอร์ KTM"
+    },
+    "klMonorailTitle": "รถไฟลอยฟ้ากัวลาลัมเปอร์",
+    "@klMonorailTitle": {
+        "description": "หัวข้อสำหรับคำอธิบายของรถไฟลอยฟ้ากัวลาลัมเปอร์"
+    },
+    "klMonorailDescription": "รถไฟลอยฟ้ากัวลาลัมเปอร์เป็นระบบรถไฟที่เชื่อมต่อระหว่าง KL Sentral และ Titiwangsa...",
+    "@klMonorailDescription": {
+        "description": "คำอธิบายสำหรับรถไฟลอยฟ้ากัวลาลัมเปอร์"
+    },
+    "rapidKLBusTitle": "รถบัส RapidKL",
+    "@rapidKLBusTitle": {
+        "description": "หัวข้อสำหรับคำอธิบายของรถบัส RapidKL"
+    },
+    "rapidKLBusDescription": "รถบัส RapidKL เป็นบริการรถบัสที่สามารถพบได้ตามสถานีรถไฟหลักส่วนใหญ่ และใช้ในการเชื่อมต่อผู้โดยสารไปยังจุดหมายปลายทาง...",
+    "@rapidKLBusDescription": {
+        "description": "คำอธิบายสำหรับรถบัส RapidKL"
+    },
+    "weatherTitle": "สภาพอากาศ",
+    "@weatherTitle": {
+        "description": "หัวข้อสำหรับส่วนสภาพอากาศในเคล็ดลับการท่องเที่ยว"
+    },
+    "weatherDescription": "สภาพอากาศใน KL ค่อนข้างชื้นตลอดทั้งปี ควรเตรียมพร้อมรับมือกับฝนได้ทุกเมื่อ...",
+    "@weatherDescription": {
+        "description": "คำอธิบายสำหรับส่วนสภาพอากาศในเคล็ดลับการท่องเที่ยว"
+    },
+    "timeZoneTitle": "เขตเวลา",
+    "@timeZoneTitle": {
+        "description": "หัวข้อสำหรับส่วนเขตเวลาในเคล็ดลับการท่องเที่ยว"
+    },
+    "timeZoneDescription": "เวลามาตรฐานของมาเลเซียอยู่ล่วงหน้า GMT 8 ชั่วโมง (GMT +8)",
+    "@timeZoneDescription": {
+        "description": "คำอธิบายสำหรับส่วนเขตเวลาในเคล็ดลับการท่องเที่ยว"
+    },
+    "currencyTitle": "สกุลเงิน",
+    "@currencyTitle": {
+        "description": "หัวข้อสำหรับส่วนสกุลเงินในเคล็ดลับการท่องเที่ยว"
+    },
+    "currencyDescription": "สกุลเงินของมาเลเซียแบ่งออกเป็นสองประเภท ได้แก่ ริงกิตมาเลเซีย (RM) ใช้เรียกธนบัตร และเซน (sen) ใช้เรียกเหรียญ...",
+    "@currencyDescription": {
+        "description": "คำอธิบายสำหรับส่วนสกุลเงินในเคล็ดลับการท่องเที่ยว"
+    },
+    "visaAndPassportTitle": "วีซ่าและหนังสือเดินทาง",
+    "@visaAndPassportTitle": {
+        "description": "หัวข้อสำหรับส่วนวีซ่าและหนังสือเดินทางในเคล็ดลับการท่องเที่ยว"
+    },
+    "visaAndPassportDescription": "หนังสือเดินทางต้องมีอายุอย่างน้อย 6 เดือนในขณะที่เข้าประเทศ ข้อกำหนดเกี่ยวกับวีซ่าอาจเปลี่ยนแปลงได้ตามสถานการณ์...",
+    "@visaAndPassportDescription": {
+        "description": "คำอธิบายสำหรับส่วนวีซ่าและหนังสือเดินทางในเคล็ดลับการท่องเที่ยว"
+    },
+    "healthcare": "บริการสุขภาพ",
+    "@healthcare": {
+        "description": "ป้ายสำหรับส่วนบริการสุขภาพ"
+    },
+    "dental": "ทันตกรรม",
+    "@dental": {
+        "description": "ป้ายสำหรับส่วนทันตกรรม"
+    },
+    "dermatologist": "แพทย์ผิวหนัง",
+    "@dermatologist": {
+        "description": "ป้ายสำหรับส่วนแพทย์ผิวหนัง"
+    },
+    "ophthalmologist": "จักษุแพทย์",
+    "@ophthalmologist": {
+        "description": "ป้ายสำหรับส่วนจักษุแพทย์"
+    },
+    "plasticSurgery": "ศัลยกรรมตกแต่ง",
+    "@plasticSurgery": {
+        "description": "ป้ายสำหรับส่วนศัลยกรรมตกแต่ง"
+    },
+    "gleneagles": "โรงพยาบาลเกลนีเกิลส์ กัวลาลัมเปอร์",
+    "@gleneagles": {
+        "description": "ชื่อของโรงพยาบาลเกลนีเกิลส์ในกัวลาลัมเปอร์"
+    },
+    "gleneaglesLocation": "Block A & Block B, 286 & 288, Jalan Ampang, Kampung Berembang, 50450 กัวลาลัมเปอร์",
+    "@gleneaglesLocation": {
+        "description": "ที่ตั้งของโรงพยาบาลเกลนีเกิลส์ในกัวลาลัมเปอร์"
+    },
+    "gleneaglesHours": "9:00 น. - 17:00 น. (จันทร์ - ศุกร์), ปิดในวันหยุดสุดสัปดาห์",
+    "@gleneaglesHours": {
+        "description": "เวลาทำการของโรงพยาบาลเกลนีเกิลส์ในกัวลาลัมเปอร์"
+    },
+    "gleneaglesPhone": "603-2282 6800",
+    "@gleneaglesPhone": {
+        "description": "เบอร์โทรศัพท์ของโรงพยาบาลเกลนีเกิลส์ในกัวลาลัมเปอร์"
+    },
+    "kpjTawakkal": "โรงพยาบาลเฉพาะทาง KPJ ตาวักกัล",
+    "@kpjTawakkal": {
+        "description": "ชื่อของโรงพยาบาลเฉพาะทาง KPJ ตาวักกัลในกัวลาลัมเปอร์"
+    },
+    "kpjTawakkalLocation": "เลขที่ 1, Jalan Pahang Barat, เปเกอลิลิง, 53000 กัวลาลัมเปอร์",
+    "@kpjTawakkalLocation": {
+        "description": "ที่ตั้งของโรงพยาบาลเฉพาะทาง KPJ ตาวักกัลในกัวลาลัมเปอร์"
+    },
+    "kpjTawakkalHours": "8:00 น. - 18:00 น. (จันทร์ - ศุกร์), 9:00 น. - 15:00 น. (เสาร์)",
+    "@kpjTawakkalHours": {
+        "description": "เวลาทำการของโรงพยาบาลเฉพาะทาง KPJ ตาวักกัลในกัวลาลัมเปอร์"
+    },
+    "kpjTawakkalPhone": "603-2283 4567",
+    "@kpjTawakkalPhone": {
+        "description": "เบอร์โทรศัพท์ของโรงพยาบาลเฉพาะทาง KPJ ตาวักกัล"
+    },
+    "klinikPergigianBangsar": "คลินิกทันตกรรมบางซาร์",
+    "@klinikPergigianBangsar": {
+        "description": "ชื่อของคลินิกทันตกรรมบางซาร์"
+    },
+    "klinikPergigianBangsarLocation": "เลขที่ 43-1, Jalan Telawi 3, บางซาร์, 59100 กัวลาลัมเปอร์",
+    "@klinikPergigianBangsarLocation": {
+        "description": "ที่ตั้งของคลินิกทันตกรรมบางซาร์"
+    },
+    "klinikPergigianBangsarHours": "9:00 น. - 18:00 น. (จันทร์ - ศุกร์), 9:00 น. - 17:00 น. (เสาร์), 9:00 น. - 14:00 น. (อาทิตย์)",
+    "@klinikPergigianBangsarHours": {
+        "description": "เวลาทำการของคลินิกทันตกรรมบางซาร์"
+    },
+    "klinikPergigianBangsarPhone": "603-2282 6800",
+    "@klinikPergigianBangsarPhone": {
+        "description": "เบอร์โทรศัพท์ของคลินิกทันตกรรมบางซาร์"
+    },
+    "dentalPro": "เดนทัลโปร (กัวลาลัมเปอร์ มาเลเซีย)",
+    "@dentalPro": {
+        "description": "ชื่อของคลินิกเดนทัลโปร"
+    },
+    "dentalProLocation": "เลขที่ 12, Jalan Sri Semantan 1, Damansara Heights, 50490 กัวลาลัมเปอร์",
+    "@dentalProLocation": {
+        "description": "ที่ตั้งของคลินิกเดนทัลโปร"
+    },
+    "dentalProHours": "9:00 น. - 18:00 น. (จันทร์ - เสาร์)",
+    "@dentalProHours": {
+        "description": "เวลาทำการของคลินิกเดนทัลโปร"
+    },
+    "dentalProPhone": "+603-2147 1111",
+    "@dentalProPhone": {
+        "description": "เบอร์โทรศัพท์ของคลินิกเดนทัลโปร"
+    },
+    "drJaneClinic": "คลินิกดร.เจน",
+    "@drJaneClinic": {
+        "description": "ชื่อของคลินิกดร.เจน"
+    },
+    "drJaneClinicLocation": "Tropicana Avenue, P01-09 (ชั้น 1), Persiaran Tropicana, PJU3, 47410 ปตาลิงจายา, เซลังงอร์",
+    "@drJaneClinicLocation": {
+        "description": "ที่ตั้งของคลินิกดร.เจน"
+    },
+    "drJaneClinicHours": "10:00 น. - 19:00 น. (จันทร์ - ศุกร์), 10:00 น. - 18:00 น. (เสาร์ - อาทิตย์)",
+    "@drJaneClinicHours": {
+        "description": "เวลาทำการของคลินิกดร.เจน"
+    },
+    "drJaneClinicPhone": "",
+    "@drJaneClinicPhone": {
+        "description": "เบอร์โทรศัพท์ของคลินิกดร.เจน (ถ้ามี)"
+    },
+    "dermlaze": "เดิร์มเลซ สกินเลเซอร์ & ศูนย์ศัลยกรรมความงาม",
+    "@dermlaze": {
+        "description": "ชื่อของเดิร์มเลซ สกินเลเซอร์ & ศูนย์ศัลยกรรมความงาม"
+    },
+    "dermlazeLocation": "เลขที่ 75, Jalan SS 21/60, Damansara Utama, 47400 ปตาลิงจายา, เซลังงอร์",
+    "@dermlazeLocation": {
+        "description": "ที่ตั้งของเดิร์มเลซ สกินเลเซอร์ & ศูนย์ศัลยกรรมความงาม"
+    },
+    "dermlazeHours": "10:00 น. - 18:00 น. (จันทร์ - เสาร์)",
+    "@dermlazeHours": {
+        "description": "เวลาทำการของเดิร์มเลซ สกินเลเซอร์ & ศูนย์ศัลยกรรมความงาม"
+    },
+    "dermlazePhone": "",
+    "@dermlazePhone": {
+        "description": "เบอร์โทรศัพท์ของเดิร์มเลซ สกินเลเซอร์ & ศูนย์ศัลยกรรมความงาม (ถ้ามี)"
+    },
+    "isec": "ศูนย์จักษุเฉพาะทางนานาชาติ",
+    "@isec": {
+        "description": "ชื่อของศูนย์จักษุเฉพาะทางนานาชาติ"
+    },
+    "isecLocation": "Centrepoint South, Lingkaran Syed Putra, เมืองมิดวัลเลย์, 59200 กัวลาลัมเปอร์",
+    "@isecLocation": {
+        "description": "ที่ตั้งของศูนย์จักษุเฉพาะทางนานาชาติ"
+    },
+    "isecHours": "8:30 น. - 17:30 น. (จันทร์ - ศุกร์), 8:30 น. - 13:00 น. (เสาร์), ปิดวันอาทิตย์",
+    "@isecHours": {
+        "description": "เวลาทำการของศูนย์จักษุเฉพาะทางนานาชาติ"
+    },
+    "isecPhone": "+603-2284 8989",
+    "@isecPhone": {
+        "description": "เบอร์โทรศัพท์ของศูนย์จักษุเฉพาะทางนานาชาติ"
+    },
+    "vistaEyeSpecialist": "วิสต้า อาย สเปเชียลลิสต์",
+    "@vistaEyeSpecialist": {
+        "description": "ชื่อของวิสต้า อาย สเปเชียลลิสต์"
+    },
+    "vistaEyeSpecialistLocation": "Lot G217, ชั้นล่าง, เมก้ามอลล์มิดวัลเลย์, 59200 กัวลาลัมเปอร์",
+    "@vistaEyeSpecialistLocation": {
+        "description": "ที่ตั้งของวิสต้า อาย สเปเชียลลิสต์"
+    },
+    "vistaEyeSpecialistHours": "10:00 น. - 22:00 น. (จันทร์ - อาทิตย์)",
+    "@vistaEyeSpecialistHours": {
+        "description": "เวลาทำการของวิสต้า อาย สเปเชียลลิสต์"
+    },
+    "vistaEyeSpecialistPhone": "+603-2242 3937",
+    "@vistaEyeSpecialistPhone": {
+        "description": "เบอร์โทรศัพท์ของวิสต้า อาย สเปเชียลลิสต์"
+    },
+    "somaPlasticSurgery": "โซม่า ศัลยกรรมตกแต่ง",
+    "@somaPlasticSurgery": {
+        "description": "ชื่อของโซม่า ศัลยกรรมตกแต่ง"
+    },
+    "somaPlasticSurgeryLocation": "45B, ชั้น 2, Jalan SS15/5a, SS15, 47500 ซูบังจายา, เซลังงอร์",
+    "@somaPlasticSurgeryLocation": {
+        "description": "ที่ตั้งของโซม่า ศัลยกรรมตกแต่ง"
+    },
+    "somaPlasticSurgeryHours": "9:00 น. - 17:00 น. (จันทร์ - ศุกร์), 9:00 น. - 13:00 น. (เสาร์), ปิดวันอาทิตย์",
+    "@somaPlasticSurgeryHours": {
+        "description": "เวลาทำการของโซม่า ศัลยกรรมตกแต่ง"
+    },
+    "somaPlasticSurgeryPhone": "+603-5887 4429",
+    "@somaPlasticSurgeryPhone": {
+        "description": "เบอร์โทรศัพท์ของโซม่า ศัลยกรรมตกแต่ง"
+    },
+    "placesToShop": "สถานที่ช้อปปิ้ง",
+    "@placesToShop": {
+      "description": "หัวข้อสำหรับหน้าสถานที่ช้อปปิ้ง"
+    },
+    
+    "avenueKShop": "Avenue K Shop",
+    "@avenueKShop": {
+      "description": "หัวข้อสำหรับ Avenue K Shop"
+    },
+    
+    "avenueKShopLocation": "156, Jalan Ampang, ใจกลางเมืองกัวลาลัมเปอร์, 50450 กัวลาลัมเปอร์, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@avenueKShopLocation": {
+      "description": "ที่ตั้งของ Avenue K Shop"
+    },
+    
+    "avenueKShopHours": "10:00 น. - 22:00 น. (ทุกวัน)",
+    "@avenueKShopHours": {
+      "description": "เวลาทำการของ Avenue K Shop"
+    },
+    
+    "avenueKShopWebsite": "http://www.avenuek.com.my/",
+    "@avenueKShopWebsite": {
+      "description": "เว็บไซต์ของ Avenue K Shop"
+    },
+    
+    "sanctuaryMall": "Sanctuary Mall",
+    "@sanctuaryMall": {
+      "description": "หัวข้อสำหรับ Sanctuary Mall"
+    },
+    
+    "sanctuaryMallLocation": "Persiaran Eco Sanctuary, 8/3, Eco Santuari, 42500, เซลังงอร์",
+    "@sanctuaryMallLocation": {
+      "description": "ที่ตั้งของ Sanctuary Mall"
+    },
+    
+    "sanctuaryMallHours": "10:00 น. - 22:00 น. (ทุกวัน)",
+    "@sanctuaryMallHours": {
+      "description": "เวลาทำการของ Sanctuary Mall"
+    },
+    
+    "sanctuaryMallWebsite": "https://www.facebook.com/SanctuaryMall",
+    "@sanctuaryMallWebsite": {
+      "description": "เว็บไซต์ของ Sanctuary Mall"
+    },
+    
+    "lincKL": "The LINC KL",
+    "@lincKL": {
+      "description": "หัวข้อสำหรับ The LINC KL"
+    },
+    
+    "lincKLLocation": "Lingkaran Syed Putra, 59200 กัวลาลัมเปอร์",
+    "@lincKLLocation": {
+      "description": "ที่ตั้งของ The LINC KL"
+    },
+    
+    "lincKLHours": "10:00 น. - 22:00 น. (ทุกวัน)",
+    "@lincKLHours": {
+      "description": "เวลาทำการของ The LINC KL"
+    },
+    
+    "lincKLWebsite": "https://thelinckl.com.my/",
+    "@lincKLWebsite": {
+      "description": "เว็บไซต์ของ The LINC KL"
+    },
+    
+    "manjakaki": "Manjakaki",
+    "@manjakaki": {
+      "description": "หัวข้อสำหรับสปา Manjakaki"
+    },
+    
+    "manjakakiLocation": "Mid Valley Megamall, Lot No.2, LG, 59, Lingkaran Syed Putra, Mid Valley City, 59200 กัวลาลัมเปอร์",
+    "@manjakakiLocation": {
+      "description": "ที่ตั้งของสปา Manjakaki"
+    },
+    
+    "manjakakiHours": "10:00 น. - 22:00 น. (ทุกวัน)",
+    "@manjakakiHours": {
+      "description": "เวลาทำการของสปา Manjakaki"
+    },
+    
+    "manjakakiWebsite": "",
+    "@manjakakiWebsite": {
+      "description": "เว็บไซต์ของสปา Manjakaki (ถ้ามี)"
+    },
+    
+    "urbanRetreatSpaKL": "Urban Retreat Spa KL",
+    "@urbanRetreatSpaKL": {
+      "description": "หัวข้อสำหรับ Urban Retreat Spa KL"
+    },
+    
+    "urbanRetreatSpaKLLocation": "No 1, Lot 15, ชั้น 2, 1 Mont Kiara, Jalan Mont Kiara, เขตสหพันธ์กัวลาลัมเปอร์",
+    "@urbanRetreatSpaKLLocation": {
+      "description": "ที่ตั้งของ Urban Retreat Spa KL"
+    },
+    
+    "urbanRetreatSpaKLHours": "11:00 น. - 22:00 น. (ทุกวัน)",
+    "@urbanRetreatSpaKLHours": {
+      "description": "เวลาทำการของ Urban Retreat Spa KL"
+    },
+    
+    "urbanRetreatSpaKLWebsite": "",
+    "@urbanRetreatSpaKLWebsite": {
+      "description": "เว็บไซต์ของ Urban Retreat Spa KL (ถ้ามี)"
+    },
+    
+    "ozmosisSpa": "Ozmosis Health & Day Spa",
+    "@ozmosisSpa": {
+      "description": "หัวข้อสำหรับ Ozmosis Health & Day Spa"
+    },
+    
+    "ozmosisSpaLocation": "16-1, Jalan Telawi 2, บางซาร์, 59100 กัวลาลัมเปอร์",
+    "@ozmosisSpaLocation": {
+      "description": "ที่ตั้งของ Ozmosis Health & Day Spa"
+    },
+    
+    "ozmosisSpaHours": "10:00 น. - 21:00 น. (จันทร์-อาทิตย์)",
+    "@ozmosisSpaHours": {
+      "description": "เวลาทำการของ Ozmosis Health & Day Spa"
+    },
+    
+    "ozmosisSpaWebsite": "",
+    "@ozmosisSpaWebsite": {
+      "description": "เว็บไซต์ของ Ozmosis Health & Day Spa (ถ้ามี)"
+    },
+    
+    "description": "คำอธิบาย",
+    "@description": {
+      "description": "ป้ายสำหรับช่องคำอธิบายของสถานที่พัก"
+    },
+    
+    "bukitBintang": "บูกิตบินตัง",
+    "@bukitBintang": {
+      "description": "หัวข้อสำหรับพื้นที่บูกิตบินตัง"
+    },
+    
+    "bukitBintangDescription": "ถ้าคุณต้องการอยู่ใจกลางของการช้อปปิ้ง การทานอาหาร และความบันเทิงที่ยอดเยี่ยมทั้งหมดที่กัวลาลัมเปอร์มีให้...",
+    "@bukitBintangDescription": {
+      "description": "คำอธิบายสำหรับพื้นที่บูกิตบินตัง"
+    },
+    
+    "klccDescription": "พื้นที่ยอดนิยมที่สุดในการพักอาศัยในกัวลาลัมเปอร์คือกัวลาลัมเปอร์ซิตี้เซ็นเตอร์ (KLCC)...",
+    "@klccDescription": {
+      "description": "คำอธิบายสำหรับพื้นที่ KLCC"
+    },
+    
+    "bangsarSouth": "บางซาร์ใต้",
+    "@bangsarSouth": {
+      "description": "หัวข้อสำหรับพื้นที่บางซาร์ใต้"
+    },
+    
+    "bangsarSouthDescription": "ถ้าคุณต้องการอยู่ในพื้นที่ที่ไม่วุ่นวายเหมือนใจกลางเมือง KL...",
+    "@bangsarSouthDescription": {
+      "description": "คำอธิบายสำหรับพื้นที่บางซาร์ใต้"
+    },
+    
+    "mercureKL": "Mercure กัวลาลัมเปอร์ เกลนมารี",
+    "@mercureKL": {
+      "description": "หัวข้อสำหรับโรงแรม Mercure กัวลาลัมเปอร์ เกลนมารี"
+    },
+    
+    "mercureKLLocation": "Jalan Kontraktor U1/14, Seksyen U1, 40150 ชาห์อาลัม, เซลังงอร์",
+    "@mercureKLLocation": {
+      "description": "ที่ตั้งของโรงแรม Mercure กัวลาลัมเปอร์ เกลนมารี"
+    },
+    
+    "mercureKLContact": "+603-5030 2888",
+    "@mercureKLContact": {
+      "description": "ข้อมูลการติดต่อของโรงแรม Mercure กัวลาลัมเปอร์ เกลนมารี"
+    },
+    
+    "grandCampbellHotel": "The Grand Campbell Hotel KL",
+    "@grandCampbellHotel": {
+      "description": "หัวข้อสำหรับ The Grand Campbell Hotel KL"
+    },
+    
+    "grandCampbellHotelLocation": "Ground Campbell Complex, 98, Jalan Dang Wangi, 50100 กัวลาลัมเปอร์",
+    "@grandCampbellHotelLocation": {
+      "description": "ที่ตั้งของ The Grand Campbell Hotel KL"
+    },
+    
+    "grandCampbellHotelContact": "+6011-1301 1300",
+    "@grandCampbellHotelContact": {
+      "description": "ข้อมูลการติดต่อของ The Grand Campbell Hotel KL"
+    },
+    
+    "leoBackpackers": "Leo Backpackers @ Central Market",
+    "@leoBackpackers": {
+      "description": "หัวข้อสำหรับ Leo Backpackers @ Central Market"
+    },
+    
+    "leoBackpackersLocation": "Jalan Hang Kasturi, ใจกลางเมือง, 50000 กัวลาลัมเปอร์",
+    "@leoBackpackersLocation": {
+      "description": "ที่ตั้งของ Leo Backpackers @ Central Market"
+    },
+    
+    "leoBackpackersContact": "+603-2031 1733",
+    "@leoBackpackersContact": {
+      "description": "ข้อมูลการติดต่อของ Leo Backpackers @ Central Market"
+    },
+    
+    "topPlacesToStay": "สถานที่พักที่แนะนำ",
+    "@topPlacesToStay": {
+      "description": "หัวข้อสำหรับแท็บที่แสดงสถานที่พักที่แนะนำ"
+    },
+    
+    "hotels": "โรงแรม",
+    "@hotels": {
+      "description": "หัวข้อสำหรับแท็บที่แสดงโรงแรม"
+    },
+    
+    "budgetHotels": "โรงแรมราคาประหยัด",
+    "@budgetHotels": {
+      "description": "หัวข้อสำหรับแท็บที่แสดงโรงแรมราคาประหยัด"
+    },
+    
+    "backpackersLodge": "ที่พักนักเดินทางแบ็คแพ็คเกอร์",
+    "@backpackersLodge": {
+      "description": "หัวข้อสำหรับแท็บที่แสดงที่พักนักเดินทางแบ็คแพ็คเกอร์"
+    },
+    
+    "upcomingEvents": "กิจกรรมที่กำลังจะมาถึง",
+    "@upcomingEvents": {
+      "description": "ป้ายสำหรับส่วนกิจกรรมที่กำลังจะมาถึง"
+    },
+    
+    "previous": "ก่อนหน้า",
+    "@previous": {
+      "description": "ป้ายสำหรับปุ่ม 'ก่อนหน้า'"
+    },
+    
+    "next": "ถัดไป",
+    "@next": {
+      "description": "ป้ายสำหรับปุ่ม 'ถัดไป'"
+    },
+    
+    "error": "เกิดข้อผิดพลาด",
+    "@error": {
+      "description": "ข้อความที่แสดงเมื่อเกิดข้อผิดพลาด"
+    },
+    
+    "noEventsFound": "ไม่พบกิจกรรม",
+    "@noEventsFound": {
+      "description": "ข้อความที่แสดงเมื่อไม่พบกิจกรรม"
+    },
+    
+    "cachedDataMessage": "แสดงข้อมูลที่แคชไว้",
+    "@cachedDataMessage": {
+      "description": "ข้อความที่แสดงเมื่อแสดงข้อมูลที่แคชไว้"
+    },
+    
+    "noEventsThisMonth": "ไม่มีกิจกรรมในเดือนนี้",
+    "@noEventsThisMonth": {
+      "description": "ข้อความที่แสดงเมื่อไม่มีกิจกรรมสำหรับเดือนปัจจุบัน"
+    },
+    
+    "viewDetails": "ดูรายละเอียด",
+    "@viewDetails": {
+      "description": "ป้ายสำหรับปุ่มดูรายละเอียดกิจกรรม"
+    },
+    
+    "EventScreen": "กิจกรรม",
+    "@EventScreen": {
+      "description": "หัวข้อสำหรับหน้าจอกิจกรรม"
+    },
+    
+    "Contest": "การแข่งขัน",
+    "@Contest": {
+      "description": "ป้ายสำหรับหน้าจอการแข่งขัน"
+    },
+    
+    "vouchers": "บัตรกำนัล",
+    "@vouchers": {
+      "description": "หัวข้อสำหรับหน้าจอบัตรกำนัล"
+    },
+    
+    "clickHereToClaim": "คลิกที่นี่เพื่อรับสิทธิ์",
+    "@clickHereToClaim": {
+      "description": "ข้อความบนปุ่มสำหรับรับบัตรกำนัล"
+    },
+    "kl4Kids": "กัวลาลัมเปอร์สำหรับเด็ก",
+    "@kl4Kids": {
+      "description": "หัวข้อสำหรับส่วน 'กัวลาลัมเปอร์สำหรับเด็ก'"
+    },
+    "sampleLocalFlavour": "ลิ้มลองรสชาติท้องถิ่นกับนาซิเลอมัก",
+    "@sampleLocalFlavour": {
+      "description": "หัวข้อสำหรับส่วนของนาซิเลอมัก"
+    },
+    "nasiLemakDescription": "นาซิเลอมักเป็นข้าวที่หุงด้วยน้ำกะทิและใบเตย เสิร์ฟพร้อมกับซัมบัลเผ็ด แตงกวา ปลาทูทอด ไข่ และถั่วลิสงทอด ซึ่งเข้ากันได้ดีที่สุดกับชาเตะห์ร้อน ๆ ส่วนใหญ่จะมีตัวเลือกเพิ่มเติมเช่น เรนดังไก่หรือเนื้อ ไก่ทอด และซัมบัลกุ้ง",
+    "@nasiLemakDescription": {
+      "description": "คำอธิบายของนาซิเลอมัก ซึ่งเป็นอาหารท้องถิ่น"
+    },
+    "walkThroughForest": "เดินสำรวจป่าในเมือง",
+    "@walkThroughForest": {
+      "description": "หัวข้อสำหรับส่วนอุทยานป่ารักษา"
+    },
+    "forestEcoParkDescription": "ใช่แล้ว! ตำบลเอกอิมบา กัวลาลัมเปอร์ หรือที่รู้จักในชื่อ KL Forest Eco Park ตั้งอยู่ในป่าสงวนบูกิตนานาส หนึ่งในป่าที่เก่าแก่ที่สุดของมาเลเซีย ไม่ว่าคุณจะเป็นคนท้องถิ่นหรือชาวต่างชาติ นี่คือสถานที่ที่ต้องไปเยี่ยมชม!",
+    "@forestEcoParkDescription": {
+      "description": "คำอธิบายของ KL Forest Eco Park"
+    },
+    "baskInHistory": "สำรวจประวัติศาสตร์ที่พิพิธภัณฑสถานแห่งชาติ",
+    "@baskInHistory": {
+      "description": "หัวข้อสำหรับส่วนพิพิธภัณฑสถานแห่งชาติ"
+    },
+    "nationalMuseumDescription": "เพื่อเข้าใจประวัติศาสตร์และวัฒนธรรมของมาเลเซียเพิ่มเติม และดูแบบจำลองของบ้านชาวมาเลย์ ฉากงานแต่งงาน และการล่าสัตว์ รวมถึงเครื่องดนตรีท้องถิ่นและเครื่องแต่งกายประจำชาติ นอกจากนี้ยังมีนิทรรศการหมุนเวียนเป็นบางช่วงที่จัดแสดงในห้องโถงกลางตลอดทั้งปี",
+    "@nationalMuseumDescription": {
+      "description": "คำอธิบายของพิพิธภัณฑสถานแห่งชาติ"
+    },
+    "shopUntilDrop": "ช้อปปิ้งที่ถนนเปอตาลิงจนกว่าจะหมดแรง",
+    "@shopUntilDrop": {
+      "description": "หัวข้อสำหรับส่วนช้อปปิ้งที่ถนนเปอตาลิง"
+    },
+    "spendNightOut": "ใช้เวลายามค่ำคืน",
+    "@spendNightOut": {
+      "description": "หัวข้อสำหรับส่วนกิจกรรมยามค่ำคืน"
+    },
+    "nightOutDescription": "กัวลาลัมเปอร์เป็นเมืองที่เต็มไปด้วยชีวิตชีวาด้วยฉากยามค่ำคืนที่น่าประทับใจ ไปที่บางซาร์หรือชางกัตบูกิตบินตังเพื่อสัมผัสกับฉากยามค่ำคืนของ KL ที่นี่มีบาร์มากมายพร้อมด้วยบาร์ค็อกเทลและดีเจที่เปิดเพลงตลอดทั้งคืน ด้วยร้านอาหารสุดเก๋ บาร์ทันสมัย ไนต์คลับ และคาราโอเกะที่สนุกสนาน มีสิ่งสำหรับทุกคน",
+    "@nightOutDescription": {
+      "description": "คำอธิบายของฉากยามค่ำคืนในกัวลาลัมเปอร์"
+    },
+    "october": "ตุลาคม",
+    "@october": {
+      "description": "ชื่อของเดือนตุลาคม"
+    },
+    "november": "พฤศจิกายน",
+    "@november": {
+      "description": "ชื่อของเดือนพฤศจิกายน"
+    },
+    "december": "ธันวาคม",
+    "@december": {
+      "description": "ชื่อของเดือนธันวาคม"
+    },
+    "click": "คลิก",
+    "@click": {
+      "description": "ข้อความที่แสดงสำหรับปุ่มหรือลิงก์ที่สามารถคลิกได้"
+    },
+    "miles_hotel": "โรงแรม 1000 ไมล์",
+    "@miles_hotel": {
+      "description": "ชื่อของโรงแรม."
+    },
+    "hotel_description": "",
+    "@hotel_description": {
+      "description": "คำอธิบายสั้น ๆ ของโรงแรม."
+    },
+    "hotel_location": "17 และ 19, Jalan Tun H S Lee, City Centre, 50000 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+    "@hotel_location": {
+      "description": "ที่ตั้งของโรงแรม."
+    },
+    "hotel_contact": "+603-2022 3333",
+    "@hotel_contact": {
+      "description": "หมายเลขติดต่อของโรงแรม."
+    },
+    "hotel_website": "",
+    "@hotel_website": {
+      "description": "เว็บไซต์ของโรงแรม."
+    },
+    "ritz_carlton": "โรงแรมริทซ์-คาร์ลตัน",
+  "@ritz_carlton": {
+    "description": "ชื่อของโรงแรม."
+  },
+  "ritz_description": "",
+  "@ritz_description": {
+    "description": "คำอธิบายสั้น ๆ ของโรงแรม."
+  },
+  "ritz_location": "168, Jalan Imbi, Bukit Bintang, 55100 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+  "@ritz_location": {
+    "description": "ที่ตั้งของโรงแรม."
+  },
+  "ritz_contact": "+603-2142 8000",
+  "@ritz_contact": {
+    "description": "หมายเลขติดต่อของโรงแรม."
+  },
+  "ritz_website": "",
+  "@ritz_website": {
+    "description": "เว็บไซต์ของโรงแรม."
+  },
+  "ansa_hotel": "โรงแรมแอนซา, กัวลาลัมเปอร์",
+  "@ansa_hotel": {
+    "description": "ชื่อของโรงแรม."
+  },
+  "ansa_description": "",
+  "@ansa_description": {
+    "description": "คำอธิบายสั้น ๆ ของโรงแรม."
+  },
+  "ansa_location": "101, Jalan Bukit Bintang, Bukit Bintang, 55100 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+  "@ansa_location": {
+    "description": "ที่ตั้งของโรงแรม."
+  },
+  "ansa_contact": "+603-2142 8000",
+  "@ansa_contact": {
+    "description": "หมายเลขติดต่อของโรงแรม."
+  },
+  "ansa_website": "",
+  "@ansa_website": {
+    "description": "เว็บไซต์ของโรงแรม."
+  },
+  "royale_chulan": "โรงแรมรอยัลชูลัน, กัวลาลัมเปอร์",
+  "@royale_chulan": {
+    "description": "ชื่อของโรงแรม."
+  },
+  "chulan_description": "",
+  "@chulan_description": {
+    "description": "คำอธิบายสั้น ๆ ของโรงแรม."
+  },
+  "chulan_location": "5, Jalan Conlay, Kuala Lumpur, 50450 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+  "@chulan_location": {
+    "description": "ที่ตั้งของโรงแรม."
+  },
+  "chulan_contact": "+603-2688 9688",
+  "@chulan_contact": {
+    "description": "หมายเลขติดต่อของโรงแรม."
+  },
+  "chulan_website": "",
+  "@chulan_website": {
+    "description": "เว็บไซต์ของโรงแรม."
+  },
+  "ymca_hostel": "YMCA กรุงเทพฯ โฮสเทล",
+  "@ymca_hostel": {
+    "description": "ชื่อของโฮสเทล."
+  },
+  "ymca_description": "",
+  "@ymca_description": {
+    "description": "คำอธิบายสั้น ๆ ของโฮสเทล."
+  },
+  "ymca_location": "95, Jalan Padang Belia, Brickfields, 50470 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+  "@ymca_location": {
+    "description": "ที่ตั้งของโฮสเทล."
+  },
+  "ymca_contact": "+603-2274 1439",
+  "@ymca_contact": {
+    "description": "หมายเลขติดต่อของโฮสเทล."
+  },
+  "ymca_website": "",
+  "@ymca_website": {
+    "description": "เว็บไซต์ของโฮสเทล."
+  },
+  "pods_hostel": "PODs บ้านและคาเฟ่แบ็คแพ็คเกอร์, กัวลาลัมเปอร์",
+  "@pods_hostel": {
+    "description": "ชื่อของโฮสเทล."
+  },
+  "pods_description": "",
+  "@pods_description": {
+    "description": "คำอธิบายสั้น ๆ ของโฮสเทล."
+  },
+  "pods_location": "G-6, 30, Jalan Thambipillay, Brickfields, 50470 กัวลาลัมเปอร์",
+  "@pods_location": {
+    "description": "ที่ตั้งของโฮสเทล."
+  },
+  "pods_contact": "+603-2276 0858",
+  "@pods_contact": {
+    "description": "หมายเลขติดต่อของโฮสเทล."
+  },
+  "pods_website": "",
+  "@pods_website": {
+    "description": "เว็บไซต์ของโฮสเทล."
+  },
+  "bunk_bilik": "บังค์แอนด์บิลิกที่ศรีเปตาลิง",
+  "@bunk_bilik": {
+    "description": "ชื่อของที่พัก."
+  },
+  "bunk_description": "",
+  "@bunk_description": {
+    "description": "คำอธิบายสั้น ๆ ของที่พัก."
+  },
+  "bunk_location": "No, 9, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 กัวลาลัมเปอร์, Wilayah Persekutuan กัวลาลัมเปอร์",
+  "@bunk_location": {
+    "description": "ที่ตั้งของที่พัก."
+  },
+  "bunk_contact": "+603-9054 0040",
+  "@bunk_contact": {
+    "description": "หมายเลขติดต่อของที่พัก."
+  },
+  "bunk_website": "",
+  "@bunk_website": {
+    "description": "เว็บไซต์ของที่พัก."
+  },
+  "pangkorIsland": "เกาะปังกอร์",
+  "@pangkorIsland": {
+    "description": "ชื่อสำหรับเกาะปังกอร์"
+  },
+  "pangkorIslandContent": "สำรวจเกาะปังกอร์หากคุณกำลังมองหาสถานที่ที่ไม่มีนักท่องเที่ยว ตั้งอยู่ใกล้ชายฝั่งเปรัค เกาะนี้มีชายหาดว่างเปล่า น้ำใสสะอาด และป่าทึบที่ปกคลุมอยู่ตรงกลาง นักท่องเที่ยวเพลิดเพลินกับโอกาสในการนอนอาบแดดใต้ต้นปาล์มโดยไม่มีคนอื่น นอกจากนี้ เยี่ยมชมป้อมปราการดัตช์สมัยอาณานิคมและถ่ายรูปที่ท่าเรือไม้แบบดั้งเดิม",
+  "@pangkorIslandContent": {
+    "description": "คำอธิบายสำหรับเกาะปังกอร์"
+  },
+  
+  "pulauRedang": "เกาะปูเลา เรดัง",
+  "@pulauRedang": {
+    "description": "ชื่อสำหรับเกาะปูเลา เรดัง"
+  },
+  "pulauRedangContent": "หนึ่งในเกาะที่ใหญ่ที่สุดของชายฝั่งตะวันออกของมาเลเซีย ปูเลา เรดังมีชื่อเสียงเรื่องน้ำทะเลใสและชายหาดทรายขาว หนึ่งในเก้าเกาะที่รวมกันเป็นอุทยานเขตอนุรักษ์ทางทะเล ที่นี่เปิดโอกาสให้นักท่องเที่ยวได้ดำน้ำตื้นและดำน้ำลึก ชายหาดเต็มไปด้วยทรายขาวนุ่ม คุณสามารถเห็นปะการังและปลาห่างจากชายหาดเพียงไม่กี่เมตร",
+  "@pulauRedangContent": {
+    "description": "คำอธิบายสำหรับเกาะปูเลา เรดัง"
+  },
+  
+  "pulauLangkawi": "เกาะลังกาวี",
+  "@pulauLangkawi": {
+    "description": "ชื่อสำหรับเกาะลังกาวี"
+  },
+  "pulauLangkawiContent": "เกาะลังกาวีเป็นที่ตั้งของชายหาดที่สวยที่สุดในมาเลเซีย โดยรวมพื้นที่ภูเขาและป่าชายเลนกับชายฝั่งที่ส่องประกาย เดินทางไปเที่ยวเกาะปูเลา ดายัง บุนติงที่จดทะเบียนกับยูเนสโก ให้อาหารนกอินทรี และดูฝูงลิงที่ว่ายน้ำเพื่อหาอาหาร หรือพกผ้าเช็ดตัวของคุณไปที่ปันไต เซนัง และอาบแดดก่อนจะแวะบาร์ริมชายหาด ข้อดีอีกอย่างคือเกาะนี้ปลอดภาษี ไม่ต้องลังเลที่จะช้อปปิ้งอย่างเต็มที่!",
+  "@pulauLangkawiContent": {
+    "description": "คำอธิบายสำหรับเกาะลังกาวี"
+  },
+  
+  "sipadanIsland": "เกาะซิปาดัน",
+  "@sipadanIsland": {
+    "description": "ชื่อสำหรับเกาะซิปาดัน"
+  },
+  "sipadanIslandContent": "เกาะเล็ก ๆ ใกล้เมืองเซมโปนาในรัฐซาบาห์เป็นหนึ่งในสถานที่ดำน้ำที่ดีที่สุดในโลก ที่นี่ไม่มีที่พักหรือสิ่งอำนวยความสะดวกมากมาย แนะนำให้ท่องเที่ยวแบบทัวร์ระหว่างทริปของคุณ การเดินทางจากโกตาคินาบาลูไปยังเซมโปนาและนั่งเรือประมาณหนึ่งชั่วโมงเพื่อชมเต่าและฝูงบาราคูด้านั้นคุ้มค่า หลังจากได้รับสถานะคุ้มครองในปี 2002 นักท่องเที่ยวน้อยลงจะได้รับอนุญาตให้เยี่ยมชมยอดเขาหินปูน",
+  "@sipadanIslandContent": {
+    "description": "คำอธิบายสำหรับเกาะซิปาดัน"
+  },
+  
+  "mantananiIsland": "เกาะมันตานานี",
+  "@mantananiIsland": {
+    "description": "ชื่อสำหรับเกาะมันตานานี"
+  },
+  "mantananiIslandContent": "ใกล้กับเมืองโคตาเบลุดในรัฐซาบาห์ เกาะมันตานานีมีจุดดำน้ำที่ดีที่สุดบางแห่งในเกาะบอร์เนียว นักดำน้ำและผู้ดำน้ำตื้นมาที่นี่เพื่อว่ายน้ำกับม้าน้ำและปลากระเบนในการท่องเที่ยวแบบไปเช้าเย็นกลับจากเมืองหลวง ผู้ที่ได้รับการรับรองการดำน้ำสามารถดำน้ำในสถานที่มากกว่า 20 แห่ง รวมถึงซากเรือจมสามลำ หลังจากใช้เวลาหลายชั่วโมงในทะเลจีนใต้ ผ่อนคลายและเพลิดเพลินกับพระอาทิตย์ตกที่มีชื่อเสียงของบอร์เนียวบนชายหาดทรายขาวบริสุทธิ์",
+  "@mantananiIslandContent": {
+    "description": "คำอธิบายสำหรับเกาะมันตานานี"
+  },
+  "gentingHighlands": "เก็นติ้งไฮแลนด์ส, ปาหัง",
+  "@gentingHighlands": {
+    "description": "ชื่อสำหรับเก็นติ้งไฮแลนด์ส"
+  },
+  "gentingHighlandsContent": "ห่างจากกัวลาลัมเปอร์เพียง 45 นาที เก็นติ้งไฮแลนด์สเป็นสถานีภูเขาที่เย็นสบาย ล้อมรอบด้วยอากาศภูเขาสดชื่นและป่าฝนอันงดงามอายุกว่า 100 ล้านปี หากคุณต้องการหลีกหนีจากความวุ่นวายของชีวิตในเมือง เก็นติ้งไฮแลนด์สมีโรงแรมระดับสามถึงห้าดาวมากมายพร้อมร้านอาหาร สิ่งอำนวยความสะดวก บริการที่ยอดเยี่ยม และห้องพักสุดหรูที่มีวิวภูเขาที่งดงาม",
+  "@gentingHighlandsContent": {
+    "description": "คำอธิบายสำหรับเก็นติ้งไฮแลนด์ส"
+  },
+
+  "bukitTinggi": "บูกิต ติงกี, ปาหัง",
+  "@bukitTinggi": {
+    "description": "ชื่อสำหรับบูกิต ติงกี"
+  },
+  "bukitTinggiContent": "โคลมาร์ ทรอปิคัลเป็นหมู่บ้านและโรงแรมที่มีธีมฝรั่งเศส ตั้งอยู่ในบูกิต ติงกี ปาหัง มาเลเซีย ตั้งอยู่บนพื้นที่ป่าธรรมชาติขนาด 80 เอเคอร์ ที่ระดับความสูง 2,600 ฟุต (790 เมตร) ออกแบบโดยได้รับแรงบันดาลใจจากเมืองโคลมาร์ในแคว้นอาลซัส ประเทศฝรั่งเศส ไม่มีอะไรจะผ่อนคลายไปกว่าการพักในรีสอร์ทบนภูเขาที่เงียบสงบ ที่ซึ่งคุณสามารถนั่งจิบชาสดในระเบียงเปิดโล่ง หรือเพลิดเพลินกับสตรอเบอร์รี่สดที่มีครีมปาดอยู่",
+  "@bukitTinggiContent": {
+    "description": "คำอธิบายสำหรับบูกิต ติงกี"
+  },
+
+  "fraserHill": "เฟรเซอร์ ฮิลล์, ปาหัง",
+  "@fraserHill": {
+    "description": "ชื่อสำหรับเฟรเซอร์ ฮิลล์"
+  },
+  "fraserHillContent": "เฟรเซอร์ ฮิลล์ ตั้งอยู่ในรัฐปาหัง ในภูมิภาคกลางของคาบสมุทรมาเลเซีย รีสอร์ทพักผ่อนที่เย็นสบายแห่งนี้มีชื่อเสียงด้านกิจกรรมทางธรรมชาติและอากาศเย็น และเป็นหนึ่งในสถานีภูเขาสุดท้ายของมาเลเซีย ซึ่งสะท้อนถึงอิทธิพลของอาณานิคมอังกฤษในอดีต บูกิต เฟรเซอร์มีความสูงเฉลี่ย 1,200 เมตร และจุดสูงสุดคือ 1,500 เมตรเหนือระดับน้ำทะเลที่วงจรของเทเลคอม อุณหภูมิส่วนใหญ่จะอยู่ระหว่าง 22°C ถึง 28°C ในตอนกลางวัน และระหว่าง 16°C ถึง 20°C ในตอนกลางคืน",
+  "@fraserHillContent": {
+    "description": "คำอธิบายสำหรับเฟรเซอร์ ฮิลล์"
+  },
+
+  "cameronHighland": "คาเมรอน ไฮแลนด์, ปาหัง",
+  "@cameronHighland": {
+    "description": "ชื่อสำหรับคาเมรอน ไฮแลนด์"
+  },
+  "cameronHighlandContent": "คาเมรอน ไฮแลนด์ เป็นสถานที่พักผ่อนบนภูเขาที่มีชื่อเสียงที่สุดของมาเลเซีย มีอากาศเย็นสบาย อุณหภูมิในช่วงกลางวันประมาณ 25°C และในช่วงกลางคืนประมาณ 18°C พื้นที่สูงนี้แบ่งออกเป็นสามเขต: ทานาห์ ราตะ บรินชาง และริงเล็ต ในยุคอาณานิคม ชาวอังกฤษปลูกชาบนเนินเขาที่อุดมสมบูรณ์ และปัจจุบันกลายเป็นผู้ส่งออกชารายใหญ่ที่สุดของมาเลเซีย นอกจากชาแล้ว คาเมรอนยังเหมาะสำหรับการปลูกต้นไม้ ผลไม้ และผักแบบทวีป",
+  "@cameronHighlandContent": {
+    "description": "คำอธิบายสำหรับคาเมรอน ไฮแลนด์"
+  },
+
+  "maxwellHill": "แม็กซ์เวลล์ ฮิลล์, เปรัค",
+  "@maxwellHill": {
+    "description": "ชื่อสำหรับแม็กซ์เวลล์ ฮิลล์"
+  },
+  "maxwellHillContent": "คาเมรอน ไฮแลนด์ เป็นสถานที่พักผ่อนบนภูเขาที่มีชื่อเสียงที่สุดของมาเลเซีย มีอากาศเย็นสบาย อุณหภูมิในช่วงกลางวันประมาณ 25°C และในช่วงกลางคืนประมาณ 18°C พื้นที่สูงนี้แบ่งออกเป็นสามเขต: ทานาห์ ราตะ บรินชาง และริงเล็ต ในยุคอาณานิคม ชาวอังกฤษปลูกชาบนเนินเขาที่อุดมสมบูรณ์ และปัจจุบันกลายเป็นผู้ส่งออกชารายใหญ่ที่สุดของมาเลเซีย นอกจากชาแล้ว คาเมรอนยังเหมาะสำหรับการปลูกต้นไม้ ผลไม้ และผักแบบทวีป",
+  "@maxwellHillContent": {
+    "description": "คำอธิบายสำหรับแม็กซ์เวลล์ ฮิลล์"
+  },
+  "sungaiPisangWaterfall": "น้ำตกซุงไกปีซัง, ถ้ำบาตู",
+  "@sungaiPisangWaterfall": {
+    "description": "ชื่อสำหรับน้ำตกซุงไกปีซัง"
+  },
+  "sungaiPisangContent": "น้ำตกปีซังเป็นเส้นทางไปกลับ 3.1 กิโลเมตร โดยมีน้ำตกอยู่ใกล้กอมบัก เซลังงอร์ ประเทศมาเลเซีย เหมาะสำหรับนักเดินป่าทุกระดับความสามารถ เส้นทางนี้เปิดให้เข้าได้ตลอดทั้งปีและมักใช้สำหรับการตั้งแคมป์ ปั่นจักรยาน และดูนก ใกล้ยอดน้ำตกมีจุดปิกนิกและตั้งแคมป์ที่สวยงาม เป็นการเดินป่าสบาย ๆ ที่ต้องข้ามน้ำตก เตรียมรองเท้าที่เปียกไว้ล่วงหน้า",
+  "@sungaiPisangContent": {
+    "description": "คำอธิบายสำหรับน้ำตกซุงไกปีซัง"
+  },
+
+  "jeramToi": "เจรัม ตอย, เนเกรี เซมบีลัน",
+  "@jeramToi": {
+    "description": "ชื่อสำหรับน้ำตกเจรัม ตอย"
+  },
+  "jeramToiContent": "น้ำตกเจรัม ตอยตั้งอยู่ครึ่งทางระหว่างเสรีมบันและกัวล่าเกอลาวัง ได้กลายเป็นจุดหมายยอดนิยมสำหรับการอาบน้ำและปิกนิกสำหรับครอบครัวหลังจากก่อตั้งในปี 1985 โปรดทราบว่ามีทางออกแยกสำหรับเจรัม ตอยที่มีป้ายบอกทางผ่านทางหลวง ที่นี่มีเต็นท์ ห้องน้ำ เตาปิ้งบาร์บีคิว และทางเดินซีเมนต์ที่มีขั้นบันไดขึ้นไปยังหุบเขา ที่นี่อาจมีคนมากในวันหยุดสุดสัปดาห์แต่เงียบสงบในช่วงสัปดาห์",
+  "@jeramToiContent": {
+    "description": "คำอธิบายสำหรับน้ำตกเจรัม ตอย"
+  },
+
+  "uluChepor": "อูลู เชอปอร์, เปรัค",
+  "@uluChepor": {
+    "description": "ชื่อสำหรับน้ำตกอูลู เชอปอร์"
+  },
+  "uluCheporContent": "ลาตา อูลู เชอปอร์ตั้งอยู่ห่างจากเมืองอิโปห์เพียง 10 กิโลเมตร และโอบล้อมด้วยป่าฝนเขตร้อนที่เขียวขจี อุทยานสามารถเข้าถึงได้ทางเส้นทาง A1 ไปยังเชมอร์ ใกล้กับจุดเก็บค่าผ่านทางอิโปห์อูตารา ที่นี่เหมาะสำหรับการสูดอากาศบริสุทธิ์ พักผ่อน และปิกนิกในวันหยุดสุดสัปดาห์ สำหรับผู้ที่ต้องการพักนานขึ้นหรือร่วมกิจกรรมเพื่อการเรียนรู้และนันทนาการ มีสิ่งอำนวยความสะดวก เช่น ลานกางเต็นท์ ห้องโถงอเนกประสงค์ ห้องสวดมนต์ และห้องน้ำ อุทยานได้รับการดูแลอย่างดีและมีป้ายบอกทางในเลนหลัก",
+  "@uluCheporContent": {
+    "description": "คำอธิบายสำหรับน้ำตกอูลู เชอปอร์"
+  },
+
+  "sungaiLembing": "ซุงไก เล็มบิง, ปะหัง",
+  "@sungaiLembing": {
+    "description": "ชื่อสำหรับน้ำตกซุงไก เล็มบิง"
+  },
+  "sungaiLembingContent": "มาเลเซียเต็มไปด้วยป่าฝนมากมายที่ให้วิวทิวทัศน์น้ำตกที่งดงาม น้ำตกเรนโบว์ตั้งอยู่ 45 กิโลเมตรทางตะวันตกเฉียงเหนือของกวนตัน ในคาบสมุทรมาเลเซีย ใกล้เมืองซุงไก เล็มบิง ทุกเช้า ระหว่าง 9 ถึง 10 โมง แสงอาทิตย์จะส่องกระทบกับน้ำที่ตกลงมา เกิดเป็นรุ้งที่สวยงาม ผู้คนจากทั่วโลกมาที่นี่เพื่อเดินทางหนึ่งชั่วโมงครึ่งเพื่อชมความงดงามของธรรมชาติ น้ำตกเรนโบว์เป็นน้ำตกขนาดใหญ่ที่ซ่อนอยู่ในป่าฝนของซุงไก เล็มบิง สามารถเข้าถึงได้ด้วยรถยนต์ 4WD และการเดินป่า",
+  "@sungaiLembingContent": {
+    "description": "คำอธิบายสำหรับน้ำตกซุงไก เล็มบิง"
+  },
+
+  "sevenWellsWaterfall": "น้ำตกเจ็ดบ่อ, เกดะห์",
+  "@sevenWellsWaterfall": {
+    "description": "ชื่อสำหรับน้ำตกเจ็ดบ่อ"
+  },
+  "sevenWellsContent": "น้ำตกเจ็ดบ่อ หรือที่รู้จักกันในชื่อ Jalan Telaga Tujuh ตั้งอยู่ประมาณ 20 นาทีจากสะพานลอยฟ้า Langkawi Sky Bridge อันโด่งดัง และเป็นหนึ่งในสถานที่ท่องเที่ยวธรรมชาติที่สวยงามที่สุดบนเกาะ น้ำตกนี้ไหลลงจากภูเขา Mat Cincang ซึ่งเป็นยอดเขาที่สูงเป็นอันดับสองของเกาะลังกาวี และเป็นสถานที่ยอดนิยมสำหรับนักท่องเที่ยวและคนในพื้นที่ ความสูงของน้ำตกทั้งแนวตั้งคือ 91 เมตร แต่สามารถมองเห็นได้เพียงส่วนหนึ่งจากด้านล่าง ตามตำนาน น้ำตกนี้เป็นที่อยู่ของนางฟ้าและแม่น้ำมีคุณสมบัติในการผ่อนคลาย น้ำตกนี้ดูมีมนต์ขลังเพราะล้อมรอบด้วยธรรมชาติที่อุดมไปด้วยพืชพรรณและสัตว์ป่า",
+  "@sevenWellsContent": {
+    "description": "คำอธิบายสำหรับน้ำตกเจ็ดบ่อ"
+  },
+  "brogaHill": "เขาบรอกา, เซอเมนยิห์",
+  "@brogaHill": {
+    "description": "ชื่อสำหรับเขาบรอกา"
+  },
+  "brogaHillContent": "เขาบรอกา หรือที่รู้จักในชื่อ 'บูกิต ลาลัง' ตามที่คนท้องถิ่นเรียกกัน ได้รับชื่อนี้ตาม 'ลาลัง' ซึ่งเป็นพืชพื้นเมืองที่พบมากในพื้นที่นี้ เขาลูกนี้สูง 400 เมตร ตั้งอยู่ในป่าฝนเขตร้อนอันเขียวขจีในเซอเมนยิห์ ใกล้กับแนวเทือกเขาติติวังซา ห่างจากกัวลาลัมเปอร์ประมาณ 40 นาที จุดชมวิวที่สวยงาม โดยเฉพาะช่วงรุ่งสาง เป็นที่นิยมของทั้งคนในพื้นที่และนักท่องเที่ยว ความโดดเด่นของที่นี่คือความง่ายในการเข้าถึงด้วยการเดินเท้า สำหรับผู้ที่มาครั้งแรก การปีนขึ้นสู่ยอดแรกอาจจะดูยากไปหน่อย แต่มีเชือกที่ผูกไว้กับต้นไม้เพื่อช่วยผู้มาใหม่ ทิวทัศน์ที่รอคุณอยู่บนยอดนั้นจะทำให้คุณคุ้มค่ากับความพยายามแน่นอน",
+  "@brogaHillContent": {
+    "description": "คำอธิบายสำหรับเขาบรอกา"
+  },
+
+  "mountPulai": "ภูเขาพูลาย, ยะโฮร์",
+  "@mountPulai": {
+    "description": "ชื่อสำหรับภูเขาพูลาย"
+  },
+  "mountPulaiContent": "ภูเขาพูลายเป็นภูเขาที่มีความสูง 654 เมตร ในรัฐยะโฮร์ ประเทศมาเลเซีย โดยเป็นที่นิยมสำหรับการเดินป่าในหมู่ชาวสิงคโปร์และคนในพื้นที่เพราะอยู่ใกล้และเข้าถึงได้ง่าย ยอดเขาพูลายไม่เปิดให้สาธารณชนเข้าชม เนื่องจากอยู่ภายใต้การดูแลของทหารและมีหอคอยสื่อสารสองแห่ง ภูเขาพูลายมีเส้นทางวน 14.3 กิโลเมตร ที่มีน้ำตกและระดับความยากปานกลาง ซึ่งใช้สำหรับการตั้งแคมป์ ปั่นจักรยาน วิ่ง และการเดินชมธรรมชาติ",
+  "@mountPulaiContent": {
+    "description": "คำอธิบายสำหรับภูเขาพูลาย"
+  },
+
+  "panoramaHill": "เขาพาโนรามา, ซุงไก เล็มบิง",
+  "@panoramaHill": {
+    "description": "ชื่อสำหรับเขาพาโนรามา"
+  },
+  "panoramaHillContent": "เขาพาโนรามาเป็นภูเขาที่ตั้งอยู่ในซุงไก เล็มบิง ห่างจากกวนตันไปทางตะวันตกเฉียงเหนือประมาณ 45 กิโลเมตร ด้วยความสูง 271 เมตร มีเพียงเส้นทางเดียวในการขึ้นเขา เริ่มต้นที่บันไดและปีนขึ้นไป จุดเด่นของเส้นทางนี้คือบันไดที่มีราวจับ มีเพียงไม่กี่ส่วนเท่านั้นที่ไม่มีบันได เมื่อถึงยอดเขาคุณจะได้ชมวิวของเมืองรอบๆ การเดินขึ้นเขาพาโนรามามักใช้เวลาประมาณ 30 ถึง 45 นาที",
+  "@panoramaHillContent": {
+    "description": "คำอธิบายสำหรับเขาพาโนรามา"
+  },
+
+  "mossyForest": "ป่ามอสซี่, คาเมรอน ไฮแลนด์",
+  "@mossyForest": {
+    "description": "ชื่อสำหรับป่ามอสซี่"
+  },
+  "mossyForestContent": "ป่ามอสซี่เป็นระบบนิเวศธรรมชาติที่พบได้เฉพาะในที่สูงของคาเมรอน ไฮแลนด์และภูเขาอื่นๆ ของมาเลเซีย เมฆที่อยู่ต่ำถูกลมพัดมาปกคลุมต้นไม้ด้วยหมอกและความชื้นที่ต่อเนื่อง ทำให้เกิดสภาพแวดล้อมที่เหมาะสมสำหรับมอสส์ เฟิร์น ไลเคน และกล้วยไม้ ป่าดิบชื้นแห่งนี้ยังเป็นที่หลบภัยของสัตว์ป่าที่หลากหลายชนิด ทั้งผีเสื้อ หนู กบ นก และสัตว์เลี้ยงลูกด้วยนมที่มีเฉพาะในสภาพอากาศหนาวเย็น",
+  "@mossyForestContent": {
+    "description": "คำอธิบายสำหรับป่ามอสซี่"
+  },
+
+  "penangNationalPark": "อุทยานแห่งชาติปีนัง, ปีนัง",
+  "@penangNationalPark": {
+    "description": "ชื่อสำหรับอุทยานแห่งชาติปีนัง"
+  },
+  "penangNationalParkContent": "ที่นี่เป็นอุทยานแห่งชาติที่เล็กที่สุดในมาเลเซีย มีพื้นที่ 23 ตารางกิโลเมตร แต่ป่าชายหาดนี้เป็นที่อยู่อาศัยของลิงใบเงิน ลีเมอร์บิน แมวลายจุด และสัตว์เลื้อยคลาน สัตว์ครึ่งบกครึ่งน้ำ และสัตว์เลื้อยคลานหลากหลายชนิด กิจกรรมต่างๆ เช่น การเดินป่าและการล่องเรือไปยังชายหาดที่เงียบสงบจะเติมเต็มวันของคุณได้อย่างสบาย มีเส้นทางเดินป่าสองสายหลักในอุทยาน: หนึ่งที่นำคุณไปตามชายฝั่งถึงหาดลิง และอีกเส้นทางที่พาคุณผ่านภูเขาและป่าไปยังชายหาดที่ห่างไกลซึ่งมีเขตรักษาพันธุ์เต่าตั้งอยู่",
+  "@penangNationalParkContent": {
+    "description": "คำอธิบายสำหรับอุทยานแห่งชาติปีนัง"
+  },
+
+  "kkbParaglidingPark": "สวนร่มร่อน KKB",
+  "@kkbParaglidingPark": {
+    "description": "ชื่อสำหรับสวนร่มร่อน KKB"
+  },
+  "kkbParaglidingParkContent": "สำหรับผู้ที่มีใจรักการผจญภัย, กัวลาคูบูบารูมีสิ่งที่ดีที่สุดของกีฬาผาดโผนให้เสนอ เมื่อคุณลอยอยู่ในอากาศ คุณจะมีโอกาสได้ชมความงามของธรรมชาติที่ล้อมรอบกัวลาคูบูบารูจากมุมมองที่สูง",
+  "@kkbParaglidingParkContent": {
+    "description": "คำอธิบายสำหรับสวนร่มร่อน KKB"
+  },
+
+  "whitewaterRafting": "ล่องแก่งที่กัวลาคูบูบารู",
+  "@whitewaterRafting": {
+    "description": "ชื่อสำหรับการล่องแก่งที่กัวลาคูบูบารู"
+  },
+  "whitewaterRaftingContent": "การล่องแก่งในแม่น้ำฮูลูสลังงอร์ให้ความตื่นเต้นและความสนุกสนานในระหว่างการล่องไปตามแม่น้ำ พร้อมทั้งวิวธรรมชาติที่สวยงามตามแนวริมฝั่ง",
+  "@whitewaterRaftingContent": {
+    "description": "คำอธิบายสำหรับการล่องแก่งที่กัวลาคูบูบารู"
+  },
+
+  "jugraHill": "เขาจูกรา",
+  "@jugraHill": {
+    "description": "ชื่อสำหรับเขาจูกรา"
+  },
+  "jugraHillContent": "ที่จุดชมวิวของประภาคารบนเขาจูกรา คุณสามารถสัมผัสความตื่นเต้นของการร่อนร่ม ช่วงเดือนมีนาคมถึงกันยายนมักเป็นช่วงเวลาที่ดีที่สุดในการทำกิจกรรมนี้ ขึ้นอยู่กับสภาพลม",
+  "@jugraHillContent": {
+    "description": "คำอธิบายสำหรับเขาจูกรา"
+  }
+
+}

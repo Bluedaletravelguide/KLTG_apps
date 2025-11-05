@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "735221333649",
+    "firebase_url": "https://kltg-e77d9.firebaseio.com",
+    "project_id": "kltg-e77d9",
+    "storage_bucket": "kltg-e77d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735221333649:android:70e4d75c2b9ac29e6f8930",
+        "android_client_info": {
+          "package_name": "my.com.kltheguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "735221333649-orr4uq4dd3rnorut8dasv9r503fqqmvb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0EGtsrrNVsAk2hAhML1OPRDZCqof3uOE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "735221333649-orr4uq4dd3rnorut8dasv9r503fqqmvb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

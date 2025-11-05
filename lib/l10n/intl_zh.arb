@@ -1,0 +1,1823 @@
+{
+    "@@locale": "zh",
+    "appTitle": "吉隆坡指南",
+    "@appTitle": {
+      "description": "应用程序的标题"
+    },
+    "pickALanguage": "选择语言",
+    "@pickALanguage": {
+      "description": "语言选择菜单的标题"
+    },
+    "home": "首页",
+    "@home": {
+      "description": "主屏幕标签"
+    },
+    "bookmarks": "书签",
+    "@bookmarks": {
+      "description": "书签部分的标签"
+    },
+    "blog": "博客",
+    "@blog": {
+      "description": "博客部分的标签"
+    },
+    "ebook": "电子书",
+    "@ebook": {
+      "description": "电子书部分的标签"
+    },
+    "aboutUs": "关于我们",
+    "@aboutUs": {
+      "description": "关于我们部分的标签"
+    },
+    "contactUs": "联系我们",
+    "@contactUs": {
+      "description": "联系我们部分的标签"
+    },
+    "updateRequired": "需要更新",
+    "@updateRequired": {
+      "description": "当应用程序需要更新时显示的消息"
+    },
+    "updateAvailable": "新版本的应用程序已可用。请更新以享受新功能。",
+    "@updateAvailable": {
+      "description": "通知用户有更新可用的消息"
+    },
+    "updateLater": "稍后更新",
+    "@updateLater": {
+      "description": "推迟应用更新的按钮标签"
+    },
+    "updateNow": "立即更新",
+    "@updateNow": {
+      "description": "立即更新应用程序的按钮标签"
+    },
+    "pressBackAgainToExit": "再次按返回键以退出",
+    "@pressBackAgainToExit": {
+      "description": "当用户按下返回键以退出时显示的消息"
+    },
+    "klHighlights": "吉隆坡亮点",
+    "@klHighlights": {
+      "description": "显示吉隆坡亮点部分的标签"
+    },
+    "recommendations": "推荐",
+    "@recommendations": {
+      "description": "推荐部分的标签"
+    },
+    "exploreKL": "探索吉隆坡",
+    "@exploreKL": {
+      "description": "探索吉隆坡图片的标题"
+    },
+    "shopLikeLocals": "像当地人一样购物",
+    "@shopLikeLocals": {
+      "description": "像当地人一样购物图片的标题"
+    },
+    "placesToStay": "住宿地点",
+    "@placesToStay": {
+      "description": "住宿地点图片的标题"
+    },
+    "spaTime": "水疗时间",
+    "@spaTime": {
+      "description": "水疗时间图片的标题"
+    },
+    "medicalTourism": "医疗旅游",
+    "@medicalTourism": {
+      "description": "医疗旅游图片的标题"
+    },
+    "beyondKL": "吉隆坡之外",
+    "@beyondKL": {
+      "description": "吉隆坡之外图片的标题"
+    },
+    "klAtAGlance": "吉隆坡一览",
+    "@klAtAGlance": {
+      "description": "吉隆坡一览图片的标题"
+    },
+    "gettingAroundKL": "吉隆坡交通",
+    "@gettingAroundKL": {
+      "description": "吉隆坡交通图片的标题"
+    },
+    "travelTips": "旅游贴士",
+    "@travelTips": {
+      "description": "旅游贴士图片的标题"
+    },
+    "ourCompany": "我们的公司",
+  "@ourCompany": {
+    "description": "‘我们的公司’部分的标题"
+  },
+  "ourCompanyDescription": "《吉隆坡指南》是一份季度旅行指南，首次出版于2007年8月。我们是一本免费的旅行指南，帮助旅行者制定环游马来西亚首都吉隆坡的旅行计划。吉隆坡指南包括旅游贴士、探索地点、适合儿童的地点、酒店等。使用《吉隆坡指南》，城市导航将更加轻松。",
+  "@ourCompanyDescription": {
+    "description": "公司和指南的描述"
+  },
+  "findUs": "找到我们",
+  "@findUs": {
+    "description": "‘找到我们’部分的标题"
+  },
+  "appVersion": "应用版本：{version}+{buildNumber}",
+  "@appVersion": {
+    "description": "显示应用版本和构建编号的文本",
+    "placeholders": {
+      "version": {
+        "type": "String",
+        "example": "1.0.0"
+      },
+      "buildNumber": {
+        "type": "String",
+        "example": "1"
+      }
+    }
+  },
+  "errorLoadingVersion": "加载版本时出错",
+  "@errorLoadingVersion": {
+    "description": "加载应用版本出错时显示的消息"
+  },
+  "islands": "岛屿",
+  "@islands": {
+    "description": "岛屿部分的标题"
+  },
+  "hillStation": "高山车站",
+  "@hillStation": {
+    "description": "高山车站部分的标题"
+  },
+  "waterfall": "瀑布",
+  "@waterfall": {
+    "description": "瀑布部分的标题"
+  },
+  "hiking": "徒步旅行",
+  "@hiking": {
+    "description": "徒步旅行部分的标题"
+  },
+  "extremeSports": "极限运动",
+  "@extremeSports": {
+    "description": "极限运动部分的标题"
+  },
+  "errorLoadingData": "加载数据时出错",
+  "@errorLoadingData": {
+    "description": "加载数据时显示的消息"
+  },
+  "loadingData": "正在加载数据...",
+  "@loadingData": {
+    "description": "加载数据时显示的消息"
+  },
+  "email": "电子邮件：enquiry@bluedale.com.my",
+  "@email": {
+    "description": "公司的电子邮件联系方式文本"
+  },
+  "whatsapp": "Whatsapp: +6012-220 0622",
+  "@whatsapp": {
+    "description": "公司的Whatsapp联系方式文本"
+  },
+  "phone": "电话: +603-78869219",
+  "@phone": {
+    "description": "公司的电话联系方式文本"
+  },
+  "address": "地址",
+  "@address": {
+    "description": "公司地址的中文文本"
+  },
+  "workingHours": "星期一至星期五: 9:00AM - 6:00PM",
+  "@workingHours": {
+    "description": "公司的工作时间文本"
+  },
+  "whatToDo": "做什么",
+  "@whatToDo": {
+    "description": "在吉隆坡探索页面上的‘做什么’标题"
+  },
+  "loading": "加载中...",
+  "@loading": {
+    "description": "数据加载时显示的消息"
+  },
+  "details": "详情",
+  "@details": {
+    "description": "详情页的标签"
+  },
+  "historicalSites": "历史遗迹",
+  "@historicalSites": {
+    "description": "吉隆坡历史遗迹页面的标题"
+  },
+  "dataranMerdekaDescription": "独立广场（Dataran Merdeka）又名默迪卡广场，是吉隆坡最著名的地标之一...",
+  "@dataranMerdekaDescription": {
+    "description": "独立广场的描述，强调其在吉隆坡的历史重要性"
+  },
+  "klRailwayStationDescription": "吉隆坡火车站采用摩尔式设计，曾是主要的铁路枢纽，直到2001年...",
+  "@klRailwayStationDescription": {
+    "description": "吉隆坡火车站的描述，强调其建筑风格和历史作用"
+  },
+  "royalMuseumDescription": "皇家博物馆提供了对皇室生活的窥探，它位于前国家皇宫...",
+  "@royalMuseumDescription": {
+    "description": "皇家博物馆的描述，介绍其作为前国家皇宫的意义"
+  },
+  "sultanAbdulSamadDescription": "苏丹阿都沙末大厦建于1897年，融合了哥特式、西方和摩尔式建筑风格...",
+  "@sultanAbdulSamadDescription": {
+    "description": "苏丹阿都沙末大厦的描述，提到其建筑影响和历史价值"
+  },
+  "tuguNegaraDescription": "国家纪念碑纪念了马来西亚在争取独立期间阵亡的士兵...",
+  "@tuguNegaraDescription": {
+    "description": "国家纪念碑的描述，关注其纪念为国家独立而牺牲的士兵的意义"
+  },
+  "victoriaFountainDescription": "维多利亚女王喷泉建于1904年，拥有两层，并在其基础上雕刻了怪兽...",
+  "@victoriaFountainDescription": {
+    "description": "维多利亚喷泉的描述，概述其建筑细节和历史意义"
+  },
+  "ilhamBaruTowerDescription": "伊尔哈姆巴鲁塔是一座58层的摩天大楼，是吉隆坡城中城区域的第三高建筑...",
+  "@ilhamBaruTowerDescription": {
+    "description": "伊尔哈姆巴鲁塔的描述，提到其高度及在吉隆坡的建筑重要性"
+  },
+  "bangunanSulaimanDescription": "苏莱曼大厦是一座建于1933年的英殖民地纪念建筑，因其沙里亚法庭而闻名...",
+  "@bangunanSulaimanDescription": {
+    "description": "苏莱曼大厦的描述，介绍其殖民地建筑风格和历史意义"
+  },
+  "centralMarketDescription": "中央市场建于1892年，是以当地手工艺品而闻名的旅游景点...",
+  "@centralMarketDescription": {
+    "description": "中央市场（Pasar Seni）的描述，强调其历史重要性和作为当地工艺品市场的作用"
+  },
+  "locationJalanRaja": "地址: Jalan Raja, City Centre, 50050 Kuala Lumpur",
+  "@locationJalanRaja": {
+    "description": "默迪卡广场的地址"
+  },
+  "locationKampungAttap": "地址: Kampung Attap, 50000 Kuala Lumpur",
+  "@locationKampungAttap": {
+    "description": "吉隆坡火车站的地址"
+  },
+  "locationIstanaNegara": "地址: Jalan Istana, 50460 Kuala Lumpur",
+  "@locationIstanaNegara": {
+    "description": "皇家博物馆（前国家皇宫）的地址"
+  },
+  "locationParliamentRoad": "地址: Perdana Botanical Garden, Jalan Parlimen, 50480 Kuala Lumpur",
+  "@locationParliamentRoad": {
+    "description": "国家纪念碑的地址"
+  },
+  "locationCityCentre": "地址: City Centre, 50050 Kuala Lumpur",
+  "@locationCityCentre": {
+    "description": "维多利亚喷泉的地址"
+  },
+  "locationIlhamTower": "地址: Ilham Tower, 8, Jalan Binjai, 50450 Kuala Lumpur",
+  "@locationIlhamTower": {
+    "description": "伊尔哈姆巴鲁塔的地址"
+  },
+  "locationSultanHishamuddin": "地址: Jalan Sultan Hishamuddin, Kampung Attap, 50000 Kuala Lumpur",
+  "@locationSultanHishamuddin": {
+    "description": "苏莱曼大厦的地址"
+  },
+  "locationJalanHangKasturi": "地址: No. 10, 1st-3rd floor, Jalan Hang Kasturi",
+  "@locationJalanHangKasturi": {
+    "description": "中央市场（Pasar Seni）的地址"
+  },
+  "open24Hours": "24小时营业（每日）",
+  "@open24Hours": {
+    "description": "表示该地点每天24小时营业"
+  },
+  "hours900to500Daily": "营业时间：9:00 AM - 5:00 PM（每日）",
+  "@hours900to500Daily": {
+    "description": "每天上午9点到下午5点的营业时间"
+  },
+  "hours700to600Daily": "营业时间：7:00 AM - 6:00 PM（每日）",
+  "@hours700to600Daily": {
+    "description": "每天上午7点到下午6点的营业时间"
+  },
+  "hours830to530Weekdays": "营业时间：8:30 AM - 5:30 PM（周一至周五）",
+  "@hours830to530Weekdays": {
+    "description": "周一到周五的营业时间为上午8点半到下午5点半"
+  },
+  "hours1000to600Daily": "营业时间：10:00 AM - 6:00 PM（每日）",
+  "@hours1000to600Daily": {
+    "description": "每天上午10点到下午6点的营业时间"
+  },
+  "parks": "公园",
+  "@parks": {
+    "description": "吉隆坡公园页面的标题"
+  },
+  "tamanEkoRimba": "吉隆坡生态森林公园",
+  "@tamanEkoRimba": {
+    "description": "吉隆坡生态森林公园的名称"
+  },
+  "tamanEkoRimbaLocation": "吉隆坡, 50250 吉隆坡, 吉隆坡联邦直辖区",
+  "@tamanEkoRimbaLocation": {
+    "description": "吉隆坡生态森林公园的地址"
+  },
+  "aseanSculptureGarden": "东盟雕塑园",
+  "@aseanSculptureGarden": {
+    "description": "东盟雕塑园的名称"
+  },
+  "aseanSculptureGardenLocation": "东盟雕塑园, 苏丹苏莱曼大道, 占美清真寺, 50480 吉隆坡",
+  "@aseanSculptureGardenLocation": {
+    "description": "东盟雕塑园的地址"
+  },
+  "klccPark": "吉隆坡城中城公园（KLCC公园）",
+  "@klccPark": {
+    "description": "吉隆坡城中城公园的名称"
+  },
+  "klccParkLocation": "安邦路, 吉隆坡市中心, 50088 吉隆坡",
+  "@klccParkLocation": {
+    "description": "吉隆坡城中城公园的地址"
+  },
+  "hours700to600": "营业时间：7:00 AM - 6:00 PM",
+  "@hours700to600": {
+    "description": "上午7点到下午6点的营业时间"
+  },
+  "hours700to1000": "营业时间：7:00 AM - 10:00 PM",
+  "@hours700to1000": {
+    "description": "上午7点到晚上10点的营业时间"
+  },
+  "kl4kids": "吉隆坡儿童游乐园",
+  "@kl4kids": {
+    "description": "吉隆坡儿童游乐园页面的标题"
+  },
+  "aeonFantasy": "永旺幻想",
+  "@aeonFantasy": {
+    "description": "吉隆坡永旺幻想游乐园的名称"
+  },
+  "aeonFantasyLocation": "F41, 1楼, 永旺阿尔法广场购物中心, R1路, 1区, 王莎美祖新区, 53300 吉隆坡",
+  "@aeonFantasyLocation": {
+    "description": "永旺幻想游乐园的地址"
+  },
+  "aeonFantasyHours": "上午10:00 - 晚上10:00（周日 - 周四），上午10:00 - 晚上11:00（周五 - 周六）",
+  "@aeonFantasyHours": {
+    "description": "永旺幻想游乐园的营业时间"
+  },
+  "klUpsideDownHouse": "吉隆坡倒置屋",
+  "@klUpsideDownHouse": {
+    "description": "吉隆坡倒置屋的名称"
+  },
+  "klUpsideDownHouseLocation": "旁山拉美路与彭加沙路的交界处, 50250 吉隆坡",
+  "@klUpsideDownHouseLocation": {
+    "description": "吉隆坡倒置屋的地址"
+  },
+  "klUpsideDownHouseHours": "上午10:00 - 晚上10:00（每日）",
+  "@klUpsideDownHouseHours": {
+    "description": "吉隆坡倒置屋的营业时间"
+  },
+  "klTowerMiniZoo": "吉隆坡塔迷你动物园",
+  "@klTowerMiniZoo": {
+    "description": "吉隆坡塔迷你动物园的名称"
+  },
+  "klTowerMiniZooLocation": "吉隆坡塔底层, 彭加沙路, 50250 吉隆坡",
+  "@klTowerMiniZooLocation": {
+    "description": "吉隆坡塔迷你动物园的地址"
+  },
+  "klTowerMiniZooHours": "上午10:00 - 晚上9:00（每日）",
+  "@klTowerMiniZooHours": {
+    "description": "吉隆坡塔迷你动物园的营业时间"
+  },
+  "petrosainsKlcc": "石油科技馆（吉隆坡城中城）",
+  "@petrosainsKlcc": {
+    "description": "吉隆坡城中城石油科技馆的名称"
+  },
+  "petrosainsKlccLocation": "4楼, 阳光广场, 双子塔, 吉隆坡市中心, 50088 吉隆坡",
+  "@petrosainsKlccLocation": {
+    "description": "吉隆坡城中城石油科技馆的地址"
+  },
+  "petrosainsKlccHours": "上午9:30 - 下午5:30（周二 - 周日）",
+  "@petrosainsKlccHours": {
+    "description": "吉隆坡城中城石油科技馆的营业时间"
+  },
+  "contact": "联系",
+  "@contact": {
+    "description": "儿童友好场所的联系信息标签"
+  },
+  "placesOfWorship": "宗教场所",
+  "@placesOfWorship": {
+    "description": "吉隆坡宗教场所页面的标题"
+  },
+  "muslim": "穆斯林",
+  "@muslim": {
+    "description": "穆斯林宗教场所的标签标题"
+  },
+  "buddhistTao": "佛教/道教",
+  "@buddhistTao": {
+    "description": "佛教和道教宗教场所的标签标题"
+  },
+  "hindu": "印度教",
+  "@hindu": {
+    "description": "印度教宗教场所的标签标题"
+  },
+  "others": "其他",
+  "@others": {
+    "description": "其他宗教场所的标签标题"
+  },
+  "masjidNegara": "国家清真寺",
+  "@masjidNegara": {
+    "description": "吉隆坡国家清真寺的名称"
+  },
+  "masjidNegaraLocation": "吉隆坡湖滨公园, 50480 吉隆坡",
+  "@masjidNegaraLocation": {
+    "description": "吉隆坡国家清真寺的地址"
+  },
+  "masjidNegaraHours": "周一至周四：上午9:00 - 晚上11:00 / 周五：下午2:45 - 晚上6:00",
+  "@masjidNegaraHours": {
+    "description": "国家清真寺的营业时间"
+  },
+  "masjidJamek": "加美清真寺",
+  "@masjidJamek": {
+    "description": "吉隆坡加美清真寺的名称"
+  },
+  "masjidJamekLocation": "敦拉萨路, 吉隆坡市中心, 50050 吉隆坡",
+  "@masjidJamekLocation": {
+    "description": "加美清真寺的地址"
+  },
+  "masjidJamekHours": "周一至周四：上午10:00 - 下午12:30; 下午2:30 - 下午4:00 / 周五不开放",
+  "@masjidJamekHours": {
+    "description": "加美清真寺的营业时间"
+  },
+  "federalTerritoryMosque": "吉隆坡联邦直辖区清真寺",
+  "@federalTerritoryMosque": {
+    "description": "吉隆坡联邦直辖区清真寺的名称"
+  },
+  "federalTerritoryMosqueLocation": "苏丹米赞阿比丁路, 吉隆坡政府大楼区",
+  "@federalTerritoryMosqueLocation": {
+    "description": "吉隆坡联邦直辖区清真寺的地址"
+  },
+  "masjidAlBukhari": "阿尔布哈里清真寺",
+  "@masjidAlBukhari": {
+    "description": "吉隆坡阿尔布哈里清真寺的名称"
+  },
+  "masjidAlBukhariLocation": "1号，汉都亚路，武吉免登，55200 吉隆坡",
+  "@masjidAlBukhariLocation": {
+    "description": "阿尔布哈里清真寺的地址"
+  },
+  "masjidAbdullahHukum": "阿卜杜拉胡库姆清真寺",
+  "@masjidAbdullahHukum": {
+    "description": "吉隆坡阿卜杜拉胡库姆清真寺的名称"
+  },
+  "masjidAbdullahHukumLocation": "吉隆坡生态城市，59200 吉隆坡",
+  "@masjidAbdullahHukumLocation": {
+    "description": "阿卜杜拉胡库姆清真寺的地址"
+  },
+  "masjidAsySyakirin": "阿斯-沙基林清真寺",
+  "@masjidAsySyakirin": {
+    "description": "吉隆坡城中城的阿斯-沙基林清真寺"
+  },
+  "masjidAsySyakirinLocation": "41号地块，吉隆坡城中城",
+  "@masjidAsySyakirinLocation": {
+    "description": "阿斯-沙基林清真寺的地址"
+  },
+  "masjidAlFirdaus": "阿尔菲尔达斯清真寺",
+  "@masjidAlFirdaus": {
+    "description": "吉隆坡阿尔菲尔达斯清真寺的名称"
+  },
+  "masjidAlFirdausLocation": "菲尔达斯清真寺路, 吉隆坡",
+  "@masjidAlFirdausLocation": {
+    "description": "阿尔菲尔达斯清真寺的地址"
+  },
+  "theanHouTemple": "天后宫",
+  "@theanHouTemple": {
+    "description": "吉隆坡天后宫的名称"
+  },
+  "theanHouTempleLocation": "65号, 永恒岭大道, 吉隆坡",
+  "@theanHouTempleLocation": {
+    "description": "吉隆坡天后宫的地址"
+  },
+  "theanHouTempleHours": "上午8:00 - 下午2:00 / 下午4:00 - 晚上10:00（每日）",
+  "@theanHouTempleHours": {
+    "description": "天后宫的营业时间"
+  },
+  "guanDiTemple": "关帝庙",
+  "@guanDiTemple": {
+    "description": "吉隆坡关帝庙的名称"
+  },
+  "guanDiTempleLocation": "敦胡申翁路168号, 吉隆坡市中心, 50000 吉隆坡",
+  "@guanDiTempleLocation": {
+    "description": "关帝庙的地址"
+  },
+  "guanDiTempleHours": "周一至周五：上午8:30 - 下午5:30 / 周末不开放",
+  "@guanDiTempleHours": {
+    "description": "关帝庙的营业时间"
+  },
+  "buddhistMahaViharaTemple": "马哈维哈拉佛寺",
+  "@buddhistMahaViharaTemple": {
+    "description": "吉隆坡马哈维哈拉佛寺的名称"
+  },
+  "buddhistMahaViharaTempleLocation": "吉隆坡砖厂路, 吉隆坡",
+  "@buddhistMahaViharaTempleLocation": {
+    "description": "马哈维哈拉佛寺的地址"
+  },
+  "buddhistMahaViharaTempleHours": "每日：上午8:00 - 下午2:00 / 下午5:00 - 晚上9:00",
+  "@buddhistMahaViharaTempleHours": {
+    "description": "马哈维哈拉佛寺的营业时间"
+  },
+  "sinSzeSiYaTemple": "仙四师爷庙",
+  "@sinSzeSiYaTemple": {
+    "description": "吉隆坡仙四师爷庙的名称"
+  },
+  "sinSzeSiYaTempleLocation": "敦胡申翁路113A, 吉隆坡市中心, 50050 吉隆坡",
+  "@sinSzeSiYaTempleLocation": {
+    "description": "仙四师爷庙的地址"
+  },
+  "sinSzeSiYaTempleHours": "每日：上午7:00 - 下午5:00",
+  "@sinSzeSiYaTempleHours": {
+    "description": "仙四师爷庙的营业时间"
+  },
+  "sriMahamariammanTemple": "斯里玛哈马里安曼庙",
+  "@sriMahamariammanTemple": {
+    "description": "吉隆坡斯里玛哈马里安曼庙的名称"
+  },
+  "sriMahamariammanTempleLocation": "敦胡申翁路, 吉隆坡市中心, 50000 吉隆坡",
+  "@sriMahamariammanTempleLocation": {
+    "description": "斯里玛哈马里安曼庙的地址"
+  },
+  "sriMahamariammanTempleHours": "周一至周四：上午6:00 - 晚上8:30 / 周五：上午6:00 - 晚上9:30 / 周日：上午6:00 - 晚上9:00",
+  "@sriMahamariammanTempleHours": {
+    "description": "斯里玛哈马里安曼庙的营业时间"
+  },
+  "batuCavesTemple": "黑风洞寺庙",
+  "@batuCavesTemple": {
+    "description": "黑风洞寺庙的名称"
+  },
+  "batuCavesTempleLocation": "雪兰莪, 68100 黑风洞, 吉隆坡",
+  "@batuCavesTempleLocation": {
+    "description": "黑风洞寺庙的地址"
+  },
+  "sriKandaswamyTemple": "斯里甘达斯瓦米庙",
+  "@sriKandaswamyTemple": {
+    "description": "斯里甘达斯瓦米庙的名称"
+  },
+  "sriKandaswamyTempleLocation": "吉隆坡砖厂区, 50470 吉隆坡",
+  "@sriKandaswamyTempleLocation": {
+    "description": "斯里甘达斯瓦米庙的地址"
+  },
+  "stMarysAnglicanCathedral": "圣玛丽圣公会大教堂",
+  "@stMarysAnglicanCathedral": {
+    "description": "吉隆坡圣玛丽圣公会大教堂的名称"
+  },
+  "stMarysAnglicanCathedralLocation": "拉惹路, 吉隆坡市中心, 50050 吉隆坡",
+  "@stMarysAnglicanCathedralLocation": {
+    "description": "圣玛丽圣公会大教堂的地址"
+  },
+  "wesleyMethodistChurch": "卫斯理循道会吉隆坡教堂",
+  "@wesleyMethodistChurch": {
+    "description": "吉隆坡卫斯理循道会教堂的名称"
+  },
+  "wesleyMethodistChurchLocation": "卫斯理路2号, 吉隆坡市中心, 50150 吉隆坡",
+  "@wesleyMethodistChurchLocation": {
+    "description": "卫斯理循道会教堂的地址"
+  },
+  "wesleyMethodistChurchHours": "周一至周五：上午8:30 - 下午4:30 / 周六：上午8:30 - 中午12:30 / 周日：上午8:00 - 上午10:30",
+  "@wesleyMethodistChurchHours": {
+    "description": "卫斯理循道会教堂的营业时间"
+  },
+  "whatToEat": "美食推荐",
+  "@whatToEat": {
+    "description": "吉隆坡美食推荐页面的标题"
+  },
+  "streetFood": "街头小吃",
+  "@streetFood": {
+    "description": "街头小吃标签"
+  },
+  "cafes": "咖啡馆",
+  "@cafes": {
+    "description": "咖啡馆标签"
+  },
+  "restaurants": "餐馆",
+  "@restaurants": {
+    "description": "餐馆标签"
+  },
+  "jalanAlor": "亚罗街",
+  "@jalanAlor": {
+    "description": "亚罗街夜市的名称"
+  },
+  "jalanAlorLocation": "武吉免登, 吉隆坡市中心, 50000 吉隆坡",
+  "@jalanAlorLocation": {
+    "description": "亚罗街的位置"
+  },
+  "tamanConnaught": "康乐夜市",
+  "@tamanConnaught": {
+    "description": "康乐夜市的名称"
+  },
+  "tamanConnaughtLocation": "察斯德路130号, 康乐花园, 56000 吉隆坡",
+  "@tamanConnaughtLocation": {
+    "description": "康乐夜市的位置"
+  },
+  "tamanConnaughtHours": "周三：下午6:00 - 凌晨1:00",
+  "@tamanConnaughtHours": {
+    "description": "康乐夜市的营业时间"
+  },
+  "petalingStreet": "茨厂街",
+  "@petalingStreet": {
+    "description": "茨厂街的名称"
+  },
+  "petalingStreetLocation": "茨厂街, 吉隆坡市中心, 50000 吉隆坡",
+  "@petalingStreetLocation": {
+    "description": "茨厂街的位置"
+  },
+  "petalingStreetHours": "每日全天开放",
+  "@petalingStreetHours": {
+    "description": "茨厂街的营业时间"
+  },
+  "wildflowersKL": "吉隆坡野花餐厅",
+  "@wildflowersKL": {
+    "description": "吉隆坡野花餐厅的名称"
+  },
+  "wildflowersKLLocation": "茨厂街, 50000 吉隆坡",
+  "@wildflowersKLLocation": {
+    "description": "吉隆坡野花餐厅的位置"
+  },
+  "wildflowersKLHours": "周五至周六：中午12:00 - 午夜12:00 / 周日：中午12:00 - 晚上10:00 / 周二至周四：下午5:00 - 晚上10:00 / 周一休息",
+  "@wildflowersKLHours": {
+    "description": "吉隆坡野花餐厅的营业时间"
+  },
+  "lisettesCafe": "丽丝咖啡馆与面包店",
+  "@lisettesCafe": {
+    "description": "丽丝咖啡馆与面包店的名称"
+  },
+  "lisettesCafeLocation": "八打灵路8号, 班底, 59100 吉隆坡",
+  "@lisettesCafeLocation": {
+    "description": "丽丝咖啡馆与面包店的位置"
+  },
+  "lisettesCafeHours": "每日：上午8:00 - 晚上10:00",
+  "@lisettesCafeHours": {
+    "description": "丽丝咖啡馆与面包店的营业时间"
+  },
+  "merchantsLane": "商人小巷咖啡馆",
+  "@merchantsLane": {
+    "description": "商人小巷咖啡馆的名称"
+  },
+  "merchantsLaneLocation": "茨厂街150号, 吉隆坡市中心, 50000 吉隆坡",
+  "@merchantsLaneLocation": {
+    "description": "商人小巷咖啡馆的位置"
+  },
+  "merchantsLaneHours": "每日：上午8:00 - 晚上10:00",
+  "@merchantsLaneHours": {
+    "description": "商人小巷咖啡馆的营业时间"
+  },
+  "bijanBar": "Bijan 酒吧与餐馆",
+  "@bijanBar": {
+    "description": "Bijan 酒吧与餐馆的名称"
+  },
+  "bijanBarLocation": "采兰路3号, 武吉免登, 50200 吉隆坡",
+  "@bijanBarLocation": {
+    "description": "Bijan 酒吧与餐馆的位置"
+  },
+  "bijanBarHours": "每日：中午12:00 - 晚上11:00",
+  "@bijanBarHours": {
+    "description": "Bijan 酒吧与餐馆的营业时间"
+  },
+  "songketRestaurant": "宋吉餐厅",
+  "@songketRestaurant": {
+    "description": "宋吉餐厅的名称"
+  },
+  "songketRestaurantLocation": "广场Crystavilla, 31G, Desa Sri Hartamas, 50480 吉隆坡",
+  "@songketRestaurantLocation": {
+    "description": "宋吉餐厅的位置"
+  },
+  "songketRestaurantHours": "每日：中午12:00 - 晚上10:00",
+  "@songketRestaurantHours": {
+    "description": "宋吉餐厅的营业时间"
+  },
+  "manjaOldMalaya": "曼加老马来亚餐厅",
+  "@manjaOldMalaya": {
+    "description": "曼加老马来亚餐厅的名称"
+  },
+  "manjaOldMalayaLocation": "惹兰拉惹楚兰6号, 吉隆坡, 50250 吉隆坡",
+  "@manjaOldMalayaLocation": {
+    "description": "曼加老马来亚餐厅的位置"
+  },
+  "manjaOldMalayaHours": "每日：中午12:00 - 午夜12:00",
+  "@manjaOldMalayaHours": {
+    "description": "曼加老马来亚餐厅的营业时间"
+  },
+  "location": "地点",
+  "@location": {
+    "description": "指示某一地点的标签"
+  },
+  "operatingHours": "营业时间",
+  "@operatingHours": {
+    "description": "指示营业时间的标签"
+  },
+  "website": "网站",
+  "@website": {
+    "description": "指示某一地点网站的标签"
+  },
+  "nightLife": "夜生活",
+  "@nightLife": {
+    "description": "显示吉隆坡夜生活选项页面的标题"
+  },
+  "bars": "酒吧",
+  "@bars": {
+    "description": "酒吧标签"
+  },
+  "nightMarket": "夜市",
+  "@nightMarket": {
+    "description": "夜市标签"
+  },
+  "changkatBukitBintang": "昌吉街，武吉免登",
+  "@changkatBukitBintang": {
+    "description": "昌吉街武吉免登的名称，吉隆坡的热门夜生活地点"
+  },
+  "changkatBukitBintangDescription": "昌吉街武吉免登提供主题夜晚、DJ表演和现场乐队，带来令人兴奋的夜生活体验。",
+  "@changkatBukitBintangDescription": {
+    "description": "昌吉街武吉免登夜生活的描述"
+  },
+  "bangsar": "班萨",
+  "@bangsar": {
+    "description": "班萨，热门的夜生活地点名称"
+  },
+  "bangsarDescription": "班萨和中谷区拥有时尚的酒吧、酒馆和鸡尾酒休息室。大多数夜生活场所集中在班萨新城的德拉威路周围。",
+  "@bangsarDescription": {
+    "description": "班萨夜生活的描述"
+  },
+  "ampang": "安邦",
+  "@ampang": {
+    "description": "安邦，夜生活地点名称"
+  },
+  "ampangDescription": "安邦提供多样化的夜生活，包括屋顶酒吧、深夜俱乐部和吉隆坡天际线的美丽景色。",
+  "@ampangDescription": {
+    "description": "安邦夜生活的描述"
+  },
+  "petalingStreetDescription": "入夜后，茨厂街变成一个充满活力的夜市，提供各种夜生活热点和娱乐活动。",
+  "@petalingStreetDescription": {
+    "description": "茨厂街夜生活和市场的描述"
+  },
+  "marinisOn57": "马里尼57餐厅",
+  "@marinisOn57": {
+    "description": "马里尼57餐厅的名称"
+  },
+  "marinisOn57Location": "吉隆坡市中心，57号，第三栋楼，双子塔，吉隆坡50088",
+  "@marinisOn57Location": {
+    "description": "马里尼57餐厅的位置"
+  },
+  "heliLoungeBar": "直升机酒廊",
+  "@heliLoungeBar": {
+    "description": "直升机酒廊的名称"
+  },
+  "heliLoungeBarLocation": "吉隆坡市中心，苏丹依斯迈路，4号，吉隆坡50250",
+  "@heliLoungeBarLocation": {
+    "description": "直升机酒廊的位置"
+  },
+  "zetaBar": "Zeta 酒吧",
+  "@zetaBar": {
+    "description": "Zeta 酒吧的名称"
+  },
+  "zetaBarLocation": "吉隆坡中央车站，3号，5楼，吉隆坡50470",
+  "@zetaBarLocation": {
+    "description": "Zeta 酒吧的位置"
+  },
+  "connaughtNightMarket": "康乐夜市",
+  "@connaughtNightMarket": {
+    "description": "康乐夜市的名称"
+  },
+  "connaughtNightMarketDescription": "康乐夜市以其多样化的中式小吃闻名，还提供本地甜品、零食等。",
+  "@connaughtNightMarketDescription": {
+    "description": "康乐夜市的描述"
+  },
+  "connaughtNightMarketLocation": "察斯德路130号，康乐花园，56000 吉隆坡",
+  "@connaughtNightMarketLocation": {
+    "description": "康乐夜市的位置"
+  },
+  "kasturiWalk": "卡斯图里步行街",
+  "@kasturiWalk": {
+    "description": "卡斯图里步行街的名称"
+  },
+  "kasturiWalkLocation": "卡斯图里街，吉隆坡市中心，50050 吉隆坡",
+  "@kasturiWalkLocation": {
+    "description": "卡斯图里步行街的位置"
+  },
+  "kasturiWalkHours": "全天开放",
+  "@kasturiWalkHours": {
+    "description": "卡斯图里步行街的营业时间"
+  },
+  "sightseeing": "观光",
+  "@sightseeing": {
+    "description": "吉隆坡观光选项页面的标题"
+  },
+  "mustVisit": "必去景点",
+  "@mustVisit": {
+    "description": "必去景点的标签"
+  },
+  "museums": "博物馆",
+  "@museums": {
+    "description": "博物馆的标签"
+  },
+  "klArtScene": "吉隆坡艺术场景",
+  "@klArtScene": {
+    "description": "吉隆坡艺术场景的标签"
+  },
+  "klcc": "吉隆坡市中心（KLCC）",
+  "@klcc": {
+    "description": "吉隆坡市中心（KLCC）的名称"
+  },
+  "klccLocation": "金三角，安邦路，吉隆坡市中心，50088",
+  "@klccLocation": {
+    "description": "吉隆坡市中心的地址"
+  },
+  "klccHours": "上午10点至晚上10点",
+  "@klccHours": {
+    "description": "吉隆坡市中心的营业时间"
+  },
+  "istanaNegara": "国家皇宫",
+  "@istanaNegara": {
+    "description": "国家皇宫的名称"
+  },
+  "istanaNegaraLocation": "敦阿都哈林路，武吉白沙罗，50480 吉隆坡",
+  "@istanaNegaraLocation": {
+    "description": "国家皇宫的地址"
+  },
+  "istanaNegaraHours": "全天开放",
+  "@istanaNegaraHours": {
+    "description": "国家皇宫的营业时间"
+  },
+  "tunkuAbdulRahmanMemorial": "东姑阿都拉曼纪念馆",
+  "@tunkuAbdulRahmanMemorial": {
+    "description": "东姑阿都拉曼纪念馆的名称"
+  },
+  "tunkuAbdulRahmanMemorialLocation": "拿督翁路，50480 吉隆坡",
+  "@tunkuAbdulRahmanMemorialLocation": {
+    "description": "东姑阿都拉曼纪念馆的地址"
+  },
+  "tunkuAbdulRahmanMemorialHours": "上午10点至下午5点30分（周二至周日），周五（中午12点至下午3点）关闭",
+  "@tunkuAbdulRahmanMemorialHours": {
+    "description": "东姑阿都拉曼纪念馆的营业时间"
+  },
+  "klTower": "吉隆坡塔",
+  "@klTower": {
+    "description": "吉隆坡塔的名称"
+  },
+  "klTowerLocation": "2号，潘查克路，吉隆坡50250",
+  "@klTowerLocation": {
+    "description": "吉隆坡塔的地址"
+  },
+  "klTowerHours": "周一至周五：上午11点至晚上7点，周六至周日：上午10点至晚上10点",
+  "@klTowerHours": {
+    "description": "吉隆坡塔的营业时间"
+  },
+  "ethnologyMuseum": "马来世界民族学博物馆",
+  "@ethnologyMuseum": {
+    "description": "马来世界民族学博物馆的名称"
+  },
+  "ethnologyMuseumLocation": "大马路，湖滨公园，50480 吉隆坡",
+  "@ethnologyMuseumLocation": {
+    "description": "马来世界民族学博物馆的地址"
+  },
+  "ethnologyMuseumHours": "周二至周日：上午9点至下午5点，周一关闭",
+  "@ethnologyMuseumHours": {
+    "description": "马来世界民族学博物馆的营业时间"
+  },
+  "textilesMuseum": "国家纺织博物馆",
+  "@textilesMuseum": {
+    "description": "国家纺织博物馆的名称"
+  },
+  "textilesMuseumLocation": "苏丹希沙姆丁路26号，吉隆坡市中心，50000 吉隆坡",
+  "@textilesMuseumLocation": {
+    "description": "国家纺织博物馆的地址"
+  },
+  "textilesMuseumHours": "每天上午9点至下午6点",
+  "@textilesMuseumHours": {
+    "description": "国家纺织博物馆的营业时间"
+  },
+  "museumOfAsianArts": "亚洲艺术博物馆",
+  "@museumOfAsianArts": {
+    "description": "亚洲艺术博物馆的名称"
+  },
+  "museumOfAsianArtsLocation": "知识路，50603 吉隆坡",
+  "@museumOfAsianArtsLocation": {
+    "description": "亚洲艺术博物馆的地址"
+  },
+  "museumOfAsianArtsHours": "周一至周四：上午8点30分至下午5点，周五：上午8点30分至下午5点",
+  "@museumOfAsianArtsHours": {
+    "description": "亚洲艺术博物馆的营业时间"
+  },
+  "urbanMuseum": "都市博物馆",
+  "@urbanMuseum": {
+    "description": "都市博物馆的名称"
+  },
+  "urbanMuseumLocation": "文达拉路3号，武吉免登，50200 吉隆坡",
+  "@urbanMuseumLocation": {
+    "description": "都市博物馆的地址"
+  },
+  "urbanMuseumHours": "周二至周日：上午10点至晚上8点30分，周一关闭",
+  "@urbanMuseumHours": {
+    "description": "都市博物馆的营业时间"
+  },
+  "nationalArtGallery": "国家艺术馆",
+  "@nationalArtGallery": {
+    "description": "国家艺术馆的名称"
+  },
+  "nationalArtGalleryLocation": "登美罗路2号，蒂蒂旺沙，53200 吉隆坡",
+  "@nationalArtGalleryLocation": {
+    "description": "国家艺术馆的地址"
+  },
+  "nationalArtGalleryHours": "周二至周日：上午10点至下午4点，周一关闭",
+  "@nationalArtGalleryHours": {
+    "description": "国家艺术馆的营业时间"
+  },
+  "ourArtProjects": "中山楼的“我们的艺术项目”",
+  "@ourArtProjects": {
+    "description": "中山楼的“我们的艺术项目”的名称"
+  },
+  "ourArtProjectsLocation": "转轮路80A号，亚答甘榜，50460 吉隆坡",
+  "@ourArtProjectsLocation": {
+    "description": "“我们的艺术项目”的地址"
+  },
+  "ourArtProjectsHours": "周二至周六：上午11点至晚上7点，周日和周一关闭",
+  "@ourArtProjectsHours": {
+    "description": "“我们的艺术项目”的营业时间"
+  },
+  "klDescription1": "吉隆坡市中心以其高耸、未来感十足的摩天大楼和现代建筑而闻名。要真正体验吉隆坡，您必须穿过它的街道和小巷，才能真正欣赏它的魅力。这样，您才能闻到路边摊的小吃香味，欣赏一些老建筑上的壁画。走得越多，您就会越意识到吉隆坡不仅仅是混凝土摩天大楼，而是一座建筑艺术的杰作。在街上漫步，您会更好地欣赏到吉隆坡的美景。",
+  "@klDescription1": {
+    "description": "“一览吉隆坡”页面的第一段描述"
+  },
+  "klDescription2": "吉隆坡的建立几乎是一个意外。1857年，87名中国矿工为了寻找锡矿，来到了巴生河和鹅麦河的交汇处，并在此扎营，将此地命名为吉隆坡，意为“泥泞的交汇点”。",
+  "@klDescription2": {
+    "description": "“一览吉隆坡”页面的第二段描述，描述吉隆坡的建立历史"
+  },
+  "lrtTitle": "轻轨（LRT）",
+  "@lrtTitle": {
+    "description": "轻轨交通的标题"
+  },
+  "lrtDescription": "轻轨（LRT）是最常用的公共铁路交通工具之一。LRT 分为两条线路：安邦/士布爹线和格拉那再也线。如果您计划去吉隆坡市中心以外的地方，这就是最佳的交通方式。服务热线：03-7885 2585",
+  "@lrtDescription": {
+    "description": "轻轨交通的描述"
+  },
+  "mrtTitle": "大众捷运（MRT）",
+  "@mrtTitle": {
+    "description": "大众捷运（MRT）的标题"
+  },
+  "mrtDescription": "大众捷运（MRT）分为两条线路；第一条是双溪毛糯-加影线，全长51公里，沿线共有31个车站。所有车站每天早上6点开始运行。关闭时间因车站而异。单程票价从RM1.20起。服务热线：1800-82-6868",
+  "@mrtDescription": {
+    "description": "大众捷运的描述"
+  },
+  "ktmKomuterTitle": "KTM 通勤列车",
+  "@ktmKomuterTitle": {
+    "description": "KTM 通勤列车的标题"
+  },
+  "ktmKomuterDescription": "KTM 是马来西亚最古老的铁路系统，主要服务于当地居民而非游客。它作为前往较远目的地的更廉价出行选择。线路分为两条：拉旺-巴生港线和黑风洞-芙蓉线。服务热线：03-2267 1200",
+  "@ktmKomuterDescription": {
+    "description": "KTM 通勤列车的描述"
+  },
+  "klMonorailTitle": "吉隆坡单轨列车",
+  "@klMonorailTitle": {
+    "description": "吉隆坡单轨列车的标题"
+  },
+  "klMonorailDescription": "吉隆坡单轨列车是一个简单但连接良好的铁路系统，运行于吉隆坡的交通枢纽吉隆坡中央站和吉隆坡市中心的蒂蒂旺沙之间。它是吉隆坡市中心和吉隆坡内区之间的桥梁。吉隆坡单轨列车的运行时间为早上6点至午夜12点。服务热线：03-2267 9888",
+  "@klMonorailDescription": {
+    "description": "吉隆坡单轨列车的描述"
+  },
+  "rapidKLBusTitle": "RapidKL 巴士",
+  "@rapidKLBusTitle": {
+    "description": "RapidKL 巴士的标题"
+  },
+  "rapidKLBusDescription": "RapidKL 巴士在大多数火车站附近常见，通常作为一种以公交车为基础的运输方式，乘客可以直接前往他们的目的地。每次乘坐巴士的费用最多为RM5.00，可以通过支付零钱或在进站和出站时轻触您的Touch n Go卡进行支付。服务热线：03-7885 2585",
+  "@rapidKLBusDescription": {
+    "description": "RapidKL 巴士的描述"
+  },
+  "weatherTitle": "天气",
+  "@weatherTitle": {
+    "description": "旅行提示中天气部分的标题"
+  },
+  "weatherDescription": "吉隆坡的气候全年相当潮湿。任何前往吉隆坡的人都必须随时准备好应对任何时间的降雨。无论如何，游览吉隆坡的最佳时间是从5月到7月或12月到2月。3月至4月期间，天气可能相当炎热。由于苏门答腊的森林火灾，通常发生在6月至8月之间，灰尘颗粒可能会笼罩吉隆坡，使其成为不理想的游览时间。",
+  "@weatherDescription": {
+    "description": "旅行提示中天气部分的描述"
+  },
+  "timeZoneTitle": "时区",
+  "@timeZoneTitle": {
+    "description": "旅行提示中时区部分的标题"
+  },
+  "timeZoneDescription": "马来西亚标准时间比格林尼治标准时间早8小时（GMT+8）。",
+  "@timeZoneDescription": {
+    "description": "旅行提示中时区部分的描述"
+  },
+  "currencyTitle": "货币",
+  "@currencyTitle": {
+    "description": "旅行提示中货币部分的标题"
+  },
+  "currencyDescription": "马来西亚的货币单位分为两种。纸币使用马来西亚令吉（RM）表示，面额为RM1、RM5、RM10、RM20、RM50和RM100。而硬币则称为仙（sen），面额为5仙、10仙、20仙和50仙。",
+  "@currencyDescription": {
+    "description": "旅行提示中货币部分的描述"
+  },
+  "visaAndPassportTitle": "签证与护照",
+  "@visaAndPassportTitle": {
+    "description": "旅行提示中签证与护照部分的标题"
+  },
+  "visaAndPassportDescription": "入境时护照必须至少有6个月的有效期。签证要求可能会不时变化，建议提前查询马来西亚大使馆或领事馆或移民局网站。",
+  "@visaAndPassportDescription": {
+    "description": "旅行提示中签证与护照部分的描述"
+  },
+  "healthcare": "医疗保健",
+  "@healthcare": {
+    "description": "医疗保健部分的标签"
+  },
+  "dental": "牙科",
+  "@dental": {
+    "description": "牙科部分的标签"
+  },
+  "dermatologist": "皮肤科",
+  "@dermatologist": {
+    "description": "皮肤科部分的标签"
+  },
+  "ophthalmologist": "眼科医生",
+  "@ophthalmologist": {
+    "description": "眼科部分的标签"
+  },
+  "plasticSurgery": "整形外科",
+  "@plasticSurgery": {
+    "description": "整形外科部分的标签"
+  },
+  "gleneagles": "吉隆坡鹰阁医院",
+  "@gleneagles": {
+    "description": "吉隆坡鹰阁医院的名称"
+  },
+  "gleneaglesLocation": "安邦路286号、288号，A座和B座，甘榜贝兰文，50450 吉隆坡",
+  "@gleneaglesLocation": {
+    "description": "吉隆坡鹰阁医院的地址"
+  },
+  "gleneaglesHours": "周一至周五：上午9点至下午5点，周末关闭",
+  "@gleneaglesHours": {
+    "description": "吉隆坡鹰阁医院的营业时间"
+  },
+  "gleneaglesPhone": "603-2282 6800",
+  "@gleneaglesPhone": {
+    "description": "吉隆坡鹰阁医院的电话号码"
+  },
+  "kpjTawakkal": "KPJ 拿督哈吉瓦加医院",
+  "@kpjTawakkal": {
+    "description": "KPJ 拿督哈吉瓦加医院的名称"
+  },
+  "kpjTawakkalLocation": "西坝市，巴西道，吉隆坡",
+  "@kpjTawakkalLocation": {
+    "description": "KPJ 拿督哈吉瓦加医院的地址"
+  },
+  "kpjTawakkalHours": "周一至周五：上午8点至下午6点，周六：上午9点至下午3点",
+  "@kpjTawakkalHours": {
+    "description": "KPJ 拿督哈吉瓦加医院的营业时间"
+  },
+  "kpjTawakkalPhone": "603-2283 4567",
+  "@kpjTawakkalPhone": {
+    "description": "KPJ 拿督哈吉瓦加医院的电话号码"
+  },
+  "klinikPergigianBangsar": "班底牙科诊所",
+  "@klinikPergigianBangsar": {
+    "description": "班底牙科诊所的名称"
+  },
+  "klinikPergigianBangsarLocation": "吉隆坡，59100 班底",
+  "@klinikPergigianBangsarLocation": {
+    "description": "班底牙科诊所的地址"
+  },
+  "klinikPergigianBangsarHours": "周一至周五：上午9点至下午6点，周六：上午9点至下午5点，周日：上午9点至下午2点",
+  "@klinikPergigianBangsarHours": {
+    "description": "班底牙科诊所的营业时间"
+  },
+  "klinikPergigianBangsarPhone": "603-2282 6800",
+  "@klinikPergigianBangsarPhone": {
+    "description": "班底牙科诊所的电话号码"
+  },
+  "dentalPro": "DentalPro (吉隆坡，马来西亚)",
+  "@dentalPro": {
+    "description": "DentalPro牙科诊所的名称"
+  },
+  "dentalProLocation": "12号，斯里苏丹路，白沙罗高地，50490 吉隆坡",
+  "@dentalProLocation": {
+    "description": "DentalPro牙科诊所的地址"
+  },
+  "dentalProHours": "周一至周六：上午9点至下午6点",
+  "@dentalProHours": {
+    "description": "DentalPro牙科诊所的营业时间"
+  },
+  "dentalProPhone": "+603-2147 1111",
+  "@dentalProPhone": {
+    "description": "DentalPro牙科诊所的电话号码"
+  },
+  "drJaneClinic": "简医生诊所",
+  "@drJaneClinic": {
+    "description": "简医生诊所的名称"
+  },
+  "drJaneClinicLocation": "热带大街P01-09 (一楼), 热带大道, 47410 八打灵再也, 雪兰莪",
+  "@drJaneClinicLocation": {
+    "description": "简医生诊所的地址"
+  },
+  "drJaneClinicHours": "周一至周五：上午10点至下午7点，周六至周日：上午10点至下午6点",
+  "@drJaneClinicHours": {
+    "description": "简医生诊所的营业时间"
+  },
+  "dermlaze": "Dermlaze 皮肤激光与美学中心",
+  "@dermlaze": {
+    "description": "Dermlaze皮肤激光与美学中心的名称"
+  },
+  "dermlazeLocation": "75号，SS 21/60路，白沙罗乌达玛，47400 八打灵再也，雪兰莪",
+  "@dermlazeLocation": {
+    "description": "Dermlaze皮肤激光与美学中心的地址"
+  },
+  "dermlazeHours": "周一至周六：上午10点至下午6点",
+  "@dermlazeHours": {
+    "description": "Dermlaze皮肤激光与美学中心的营业时间"
+  },
+  "isec": "国际专家眼科中心",
+  "@isec": {
+    "description": "国际专家眼科中心的名称"
+  },
+  "isecLocation": "灵南环路，谷中城, 59200 吉隆坡",
+  "@isecLocation": {
+    "description": "国际专家眼科中心的地址"
+  },
+  "isecHours": "周一至周五：上午8:30至下午5:30，周六：上午8:30至下午1:00，周日关闭",
+  "@isecHours": {
+    "description": "国际专家眼科中心的营业时间"
+  },
+  "isecPhone": "+603-22848989",
+  "@isecPhone": {
+    "description": "国际专家眼科中心的电话号码"
+  },
+  "vistaEyeSpecialist": "Vista 眼科专家",
+  "@vistaEyeSpecialist": {
+    "description": "Vista眼科专家的名称"
+  },
+  "vistaEyeSpecialistLocation": "Lot G217, 地面层，谷中城购物中心，59200 吉隆坡",
+  "@vistaEyeSpecialistLocation": {
+    "description": "Vista眼科专家的地址"
+  },
+  "vistaEyeSpecialistHours": "周一至周日：上午10点至晚上10点",
+  "@vistaEyeSpecialistHours": {
+    "description": "Vista眼科专家的营业时间"
+  },
+  "vistaEyeSpecialistPhone": "+603-22423937",
+  "@vistaEyeSpecialistPhone": {
+    "description": "Vista眼科专家的电话号码"
+  },
+  "somaPlasticSurgery": "Soma 整形外科",
+  "@somaPlasticSurgery": {
+    "description": "Soma整形外科诊所的名称"
+  },
+  "somaPlasticSurgeryLocation": "45B号，2楼，SS15/5a路，SS15，47500 梳邦再也，雪兰莪",
+  "@somaPlasticSurgeryLocation": {
+    "description": "Soma整形外科诊所的地址"
+  },
+  "somaPlasticSurgeryHours": "周一至周五：上午9点至下午5点，周六：上午9点至下午1点，周日关闭",
+  "@somaPlasticSurgeryHours": {
+    "description": "Soma整形外科诊所的营业时间"
+  },
+  "somaPlasticSurgeryPhone": "+603-5887 44229",
+  "@somaPlasticSurgeryPhone": {
+    "description": "Soma整形外科诊所的电话号码"
+  },
+  "placesToShop": "购物场所",
+  "@placesToShop": {
+    "description": "“购物场所”页面的标题"
+  },
+  
+  "avenueKShop": "Avenue K 购物中心",
+  "@avenueKShop": {
+    "description": "Avenue K 购物中心的名称"
+  },
+  
+  "avenueKShopLocation": "156号，安邦路，吉隆坡市中心，50450 吉隆坡，联邦直辖区",
+  "@avenueKShopLocation": {
+    "description": "Avenue K 购物中心的地址"
+  },
+  
+  "avenueKShopHours": "每日：上午10点至晚上10点",
+  "@avenueKShopHours": {
+    "description": "Avenue K 购物中心的营业时间"
+  },
+  
+  "avenueKShopWebsite": "http://www.avenuek.com.my/",
+  "@avenueKShopWebsite": {
+    "description": "Avenue K 购物中心的网站"
+  },
+  
+  "sanctuaryMall": "圣殿购物中心",
+  "@sanctuaryMall": {
+    "description": "圣殿购物中心的名称"
+  },
+  
+  "sanctuaryMallLocation": "圣殿生态保护区，雪兰莪42500",
+  "@sanctuaryMallLocation": {
+    "description": "圣殿购物中心的地址"
+  },
+  
+  "sanctuaryMallHours": "每日：上午10点至晚上10点",
+  "@sanctuaryMallHours": {
+    "description": "圣殿购物中心的营业时间"
+  },
+  
+  "sanctuaryMallWebsite": "https://www.facebook.com/SanctuaryMall",
+  "@sanctuaryMallWebsite": {
+    "description": "圣殿购物中心的网站"
+  },
+  
+  "lincKL": "LINC 吉隆坡",
+  "@lincKL": {
+    "description": "LINC 吉隆坡的名称"
+  },
+  
+  "lincKLLocation": "林南环路，吉隆坡59200",
+  "@lincKLLocation": {
+    "description": "LINC 吉隆坡的地址"
+  },
+  
+  "lincKLHours": "每日：上午10点至晚上10点",
+  "@lincKLHours": {
+    "description": "LINC 吉隆坡的营业时间"
+  },
+  
+  "lincKLWebsite": "https://thelinckl.com.my/",
+  "@lincKLWebsite": {
+    "description": "LINC 吉隆坡的网站"
+  },
+
+  "manjakaki": "Manjakaki",
+  "@manjakaki": {
+    "description": "Manjakaki 水疗中心的名称"
+  },
+  
+  "manjakakiLocation": "谷中城购物中心，2楼，59号，SS21/60路，吉隆坡59200",
+  "@manjakakiLocation": {
+    "description": "Manjakaki 水疗中心的地址"
+  },
+  
+  "manjakakiHours": "每日：上午10点至晚上10点",
+  "@manjakakiHours": {
+    "description": "Manjakaki 水疗中心的营业时间"
+  },
+  
+  "manjakakiWebsite": "",
+  "@manjakakiWebsite": {
+    "description": "Manjakaki 水疗中心的网站（如果有）"
+  },
+
+  "urbanRetreatSpaKL": "都市水疗中心吉隆坡",
+  "@urbanRetreatSpaKL": {
+    "description": "都市水疗中心吉隆坡的名称"
+  },
+  
+  "urbanRetreatSpaKLLocation": "蒙蒂吉拉路，1蒙蒂吉拉购物中心2楼，15号，吉隆坡",
+  "@urbanRetreatSpaKLLocation": {
+    "description": "都市水疗中心吉隆坡的地址"
+  },
+  
+  "urbanRetreatSpaKLHours": "每日：上午11点至晚上10点",
+  "@urbanRetreatSpaKLHours": {
+    "description": "都市水疗中心吉隆坡的营业时间"
+  },
+  
+  "urbanRetreatSpaKLWebsite": "",
+  "@urbanRetreatSpaKLWebsite": {
+    "description": "都市水疗中心吉隆坡的网站（如果有）"
+  },
+
+  "ozmosisSpa": "Ozmosis 健康日间水疗",
+  "@ozmosisSpa": {
+    "description": "Ozmosis 健康日间水疗中心的名称"
+  },
+  
+  "ozmosisSpaLocation": "Telawi 2号，白沙罗，吉隆坡59100",
+  "@ozmosisSpaLocation": {
+    "description": "Ozmosis 健康日间水疗中心的地址"
+  },
+  
+  "ozmosisSpaHours": "周一至周日：上午10点至晚上9点",
+  "@ozmosisSpaHours": {
+    "description": "Ozmosis 健康日间水疗中心的营业时间"
+  },
+  
+  "ozmosisSpaWebsite": "",
+  "@ozmosisSpaWebsite": {
+    "description": "Ozmosis 健康日间水疗中心的网站（如果有）"
+  },
+  "description": "描述",
+  "@description": {
+    "description": "住宿地点描述字段的标签"
+  },
+
+  "bukitBintang": "武吉免登",
+  "@bukitBintang": {
+    "description": "武吉免登区域的标题"
+  },
+
+  "bukitBintangDescription": "如果您想置身于吉隆坡提供的精彩购物、餐饮和娱乐中心，武吉免登区域是您住宿的最佳选择...",
+  "@bukitBintangDescription": {
+    "description": "武吉免登区域的描述"
+  },
+
+  "klccDescription": "吉隆坡市中心（KLCC）是吉隆坡最受欢迎的住宿区...",
+  "@klccDescription": {
+    "description": "吉隆坡市中心（KLCC）区域的描述"
+  },
+
+  "bangsarSouth": "班底南",
+  "@bangsarSouth": {
+    "description": "班底南区域的标题"
+  },
+
+  "bangsarSouthDescription": "如果您喜欢远离吉隆坡繁忙的市区，班底南是理想的选择...",
+  "@bangsarSouthDescription": {
+    "description": "班底南区域的描述"
+  },
+
+  "mercureKL": "吉隆坡格兰美酒店",
+  "@mercureKL": {
+    "description": "吉隆坡格兰美酒店的标题"
+  },
+
+  "mercureKLLocation": "U1/14路，U1区，沙阿南，雪兰莪40150",
+  "@mercureKLLocation": {
+    "description": "吉隆坡格兰美酒店的位置"
+  },
+
+  "mercureKLContact": "+603-5030 2888",
+  "@mercureKLContact": {
+    "description": "吉隆坡格兰美酒店的联系方式"
+  },
+
+  "grandCampbellHotel": "大坎贝尔酒店吉隆坡",
+  "@grandCampbellHotel": {
+    "description": "大坎贝尔酒店吉隆坡的标题"
+  },
+
+  "grandCampbellHotelLocation": "98号，丹戎旺宜路，大坎贝尔大厦，50100 吉隆坡",
+  "@grandCampbellHotelLocation": {
+    "description": "大坎贝尔酒店吉隆坡的位置"
+  },
+
+  "grandCampbellHotelContact": "+6011-1301 1300",
+  "@grandCampbellHotelContact": {
+    "description": "大坎贝尔酒店吉隆坡的联系方式"
+  },
+
+  "leoBackpackers": "Leo 背包客旅店 @ 中央市场",
+  "@leoBackpackers": {
+    "description": "Leo 背包客旅店 @ 中央市场的标题"
+  },
+
+  "leoBackpackersLocation": "吉隆坡市中心，50000吉隆坡，Hang Kasturi 路",
+  "@leoBackpackersLocation": {
+    "description": "Leo 背包客旅店的位置"
+  },
+
+  "leoBackpackersContact": "+603-2031 1733",
+  "@leoBackpackersContact": {
+    "description": "Leo 背包客旅店的联系方式"
+  },
+  "topPlacesToStay": "热门住宿地点",
+  "@topPlacesToStay": {
+    "description": "显示热门住宿地点的标签"
+  },
+
+  "hotels": "酒店",
+  "@hotels": {
+    "description": "显示酒店的标签"
+  },
+
+  "budgetHotels": "经济型酒店",
+  "@budgetHotels": {
+    "description": "显示经济型酒店的标签"
+  },
+
+  "backpackersLodge": "背包客旅舍",
+  "@backpackersLodge": {
+    "description": "显示背包客旅舍的标签"
+  },
+
+  "upcomingEvents": "即将举行的活动",
+  "@upcomingEvents": {
+    "description": "即将举行的活动部分的标签"
+  },
+
+  "previous": "上一页",
+  "@previous": {
+    "description": "“上一页”按钮的标签"
+  },
+
+  "next": "下一页",
+  "@next": {
+    "description": "“下一页”按钮的标签"
+  },
+
+  "error": "发生错误",
+  "@error": {
+    "description": "发生错误时显示的消息"
+  },
+
+  "noEventsFound": "未找到活动",
+  "@noEventsFound": {
+    "description": "未找到活动时显示的消息"
+  },
+
+  "cachedDataMessage": "显示缓存数据",
+  "@cachedDataMessage": {
+    "description": "显示缓存数据时的消息"
+  },
+
+  "noEventsThisMonth": "本月没有活动",
+  "@noEventsThisMonth": {
+    "description": "当前月份没有活动时显示的消息"
+  },
+
+  "viewDetails": "查看详情",
+  "@viewDetails": {
+    "description": "查看活动详情的按钮标签"
+  },
+
+  "EventScreen": "活动屏幕",
+  "@EventScreen": {
+    "description": "活动屏幕的标题"
+  },
+
+  "Contest": "比赛",
+  "@Contest": {
+    "description": "比赛屏幕的标签"
+  },
+  "vouchers": "优惠券",
+  "@vouchers": {
+    "description": "优惠券页面的标题"
+  },
+  "clickHereToClaim": "点击此处领取",
+  "@clickHereToClaim": {
+    "description": "点击此处领取优惠券的按钮文本"
+  },
+  "kl4Kids": "KL 4 儿童",
+"@kl4Kids": {
+  "description": "'KL 4 儿童' 部分的标题。"
+},
+"sampleLocalFlavour": "品尝当地风味的椰浆饭",
+"@sampleLocalFlavour": {
+  "description": "椰浆饭部分的标题。"
+},
+"nasiLemakDescription": "椰浆饭是用椰奶和香兰叶煮的香米，搭配辣椒酱、小黄瓜、炸江鱼仔、鸡蛋和炸花生。最好的搭配是一杯热气腾腾的拉茶。大多数店铺或摊位也有其他附加选择，例如鸡肉或牛肉仁当、炸鸡、虾仁辣酱等。",
+"@nasiLemakDescription": {
+  "description": "对当地美食椰浆饭的描述。"
+},
+"walkThroughForest": "在城市中漫步于森林中",
+"@walkThroughForest": {
+  "description": "森林生态公园部分的标题。"
+},
+"forestEcoParkDescription": "你没看错！Taman Eko Rimba Kuala Lumpur，也称为吉隆坡森林生态公园，位于Hutan Simpan Bukit Nanas，这是马来西亚最古老的森林之一。不管你是当地人还是外来者，你都知道这是一个必去的地方！",
+"@forestEcoParkDescription": {
+  "description": "吉隆坡森林生态公园的描述。"
+},
+"baskInHistory": "在国家博物馆沉浸于历史",
+"@baskInHistory": {
+  "description": "国家博物馆部分的标题。"
+},
+"nationalMuseumDescription": "了解更多关于马来西亚的历史和文化，观看马来房屋、婚礼场景和狩猎展示的复制品。当地乐器和民族服装也将展出。除了博物馆的常设展览外，还有临时展览，全年轮流展出，位于中央大厅。",
+"@nationalMuseumDescription": {
+  "description": "国家博物馆的描述。"
+},
+"shopUntilDrop": "在茨厂街逛到脚软",
+"@shopUntilDrop": {
+  "description": "茨厂街购物部分的标题。"
+},
+"spendNightOut": "享受一晚的狂欢",
+"@spendNightOut": {
+  "description": "夜生活部分的标题。"
+},
+"nightOutDescription": "吉隆坡是一个充满活力的城市，夜生活非常精彩。前往班萨或武吉免登长卡，体验吉隆坡的夜生活。这些地方有各种酒吧供你选择，还有自己的鸡尾酒吧和通宵放歌的DJ。无论是独特的餐厅、时尚的酒吧、潮流夜总会，还是酷炫的卡拉OK场所，每个人都能找到自己的乐趣。",
+"@nightOutDescription": {
+  "description": "吉隆坡夜生活的描述。"
+},
+
+"october": "十月",
+"@october": {
+  "description": "十月份的名称。"
+},
+"november": "十一月",
+"@november": {
+  "description": "十一月份的名称。"
+},
+"december": "十二月",
+"@december": {
+  "description": "十二月份的名称。"
+},
+"click": "点击",
+"@click": {
+  "description": "显示在可点击按钮或链接上的文本。"
+},
+"miles_hotel": "1000 迈酒店",
+"@miles_hotel": {
+  "description": "酒店的名称."
+},
+"hotel_description": "",
+"@hotel_description": {
+  "description": "酒店的简短描述."
+},
+"hotel_location": "17 & 19, Jalan Tun H S Lee, 市中心, 50000 吉隆坡, 吉隆坡联邦直辖区",
+"@hotel_location": {
+  "description": "酒店的位置."
+},
+"hotel_contact": "+603-2022 3333",
+"@hotel_contact": {
+  "description": "酒店的联系电话."
+},
+"hotel_website": "",
+"@hotel_website": {
+  "description": "酒店的网站."
+},
+"ritz_carlton": "丽思卡尔顿酒店",
+  "@ritz_carlton": {
+    "description": "酒店的名称."
+  },
+  "ritz_description": "",
+  "@ritz_description": {
+    "description": "酒店的简短描述."
+  },
+  "ritz_location": "168, Jalan Imbi, Bukit Bintang, 55100 吉隆坡, 吉隆坡联邦直辖区",
+  "@ritz_location": {
+    "description": "酒店的位置."
+  },
+  "ritz_contact": "+603-2142 8000",
+  "@ritz_contact": {
+    "description": "酒店的联系电话."
+  },
+  "ritz_website": "",
+  "@ritz_website": {
+    "description": "酒店的网站."
+  },
+  "ansa_hotel": "安莎酒店, 吉隆坡",
+  "@ansa_hotel": {
+    "description": "酒店的名称."
+  },
+  "ansa_description": "",
+  "@ansa_description": {
+    "description": "酒店的简短描述."
+  },
+  "ansa_location": "101, Jalan Bukit Bintang, Bukit Bintang, 55100 吉隆坡, 吉隆坡联邦直辖区",
+  "@ansa_location": {
+    "description": "酒店的位置."
+  },
+  "ansa_contact": "+603-2142 8000",
+  "@ansa_contact": {
+    "description": "酒店的联系电话."
+  },
+  "ansa_website": "",
+  "@ansa_website": {
+    "description": "酒店的网站."
+  },
+  "royale_chulan": "吉隆坡罗亚尔楚兰酒店",
+  "@royale_chulan": {
+    "description": "酒店的名称."
+  },
+  "chulan_description": "",
+  "@chulan_description": {
+    "description": "酒店的简短描述."
+  },
+  "chulan_location": "5, Jalan Conlay, 吉隆坡, 50450 吉隆坡联邦直辖区",
+  "@chulan_location": {
+    "description": "酒店的位置."
+  },
+  "chulan_contact": "+603-2688 9688",
+  "@chulan_contact": {
+    "description": "酒店的联系电话."
+  },
+  "chulan_website": "",
+  "@chulan_website": {
+    "description": "酒店的网站."
+  },
+  "ymca_hostel": "吉隆坡基督教青年会旅舍",
+  "@ymca_hostel": {
+    "description": "旅舍的名称."
+  },
+  "ymca_description": "",
+  "@ymca_description": {
+    "description": "旅舍的简短描述."
+  },
+  "ymca_location": "95, Jalan Padang Belia, Brickfields, 50470 吉隆坡, 吉隆坡联邦直辖区",
+  "@ymca_location": {
+    "description": "旅舍的位置."
+  },
+  "ymca_contact": "+603-2274 1439",
+  "@ymca_contact": {
+    "description": "旅舍的联系电话."
+  },
+  "ymca_website": "",
+  "@ymca_website": {
+    "description": "旅舍的网站."
+  },
+  "pods_hostel": "PODs 背包客之家与咖啡馆，吉隆坡",
+  "@pods_hostel": {
+    "description": "旅舍的名称."
+  },
+  "pods_description": "",
+  "@pods_description": {
+    "description": "旅舍的简短描述."
+  },
+  "pods_location": "G-6, 30, Jalan Thambipillay, Brickfields, 50470 吉隆坡",
+  "@pods_location": {
+    "description": "旅舍的位置."
+  },
+  "pods_contact": "+603-2276 0858",
+  "@pods_contact": {
+    "description": "旅舍的联系电话."
+  },
+  "pods_website": "",
+  "@pods_website": {
+    "description": "旅舍的网站."
+  },
+  "bunk_bilik": "Sri Petaling的Bunk & Bilik",
+  "@bunk_bilik": {
+    "description": "住宿的名称."
+  },
+  "bunk_description": "",
+  "@bunk_description": {
+    "description": "住宿的简短描述."
+  },
+  "bunk_location": "No, 9, Jalan Radin Bagus, Bandar Baru Sri Petaling, 57000 吉隆坡, 吉隆坡联邦直辖区",
+  "@bunk_location": {
+    "description": "住宿的位置."
+  },
+  "bunk_contact": "+603-9054 0040",
+  "@bunk_contact": {
+    "description": "住宿的联系电话."
+  },
+  "bunk_website": "",
+  "@bunk_website": {
+    "description": "住宿的网站."
+  },
+  "pangkorIsland": "邦咯岛",
+  "@pangkorIsland": {
+    "description": "邦咯岛的标题"
+  },
+  "pangkorIslandContent": "如果您正在寻找没有游客的地方，请前往邦咯岛。邦咯岛位于霹雳州海岸附近，岛上有空旷的海滩、清澈的水和茂密的丛林。游客可以享受在棕榈树下晒太阳的机会，没有他人打扰。此外，还可以参观荷兰殖民时期的堡垒，并在传统的木质码头上拍照。",
+  "@pangkorIslandContent": {
+    "description": "邦咯岛的描述"
+  },
+  
+  "pulauRedang": "热浪岛",
+  "@pulauRedang": {
+    "description": "热浪岛的标题"
+  },
+  "pulauRedangContent": "热浪岛是马来西亚东海岸最大的岛屿之一，以清澈的海水和白色的沙滩而闻名。它是九个岛屿之一，组成了一个海洋保护区，为游客提供了浮潜和潜水的机会。沙滩上满是柔软的白沙，您可以在离海岸仅几米的地方看到珊瑚和鱼。",
+  "@pulauRedangContent": {
+    "description": "热浪岛的描述"
+  },
+  
+  "pulauLangkawi": "兰卡威岛",
+  "@pulauLangkawi": {
+    "description": "兰卡威岛的标题"
+  },
+  "pulauLangkawiContent": "兰卡威岛拥有马来西亚半岛上一些最好的海滩，岛上结合了山脉和红树林以及闪亮的海岸线。您可以进行一次联合国教科文组织认定的孕妇岛之旅，喂食老鹰，观看猴子为食物游泳。或者带上您的毛巾，在珍南海滩晒日光浴，然后在海滩酒吧享用饮品。另一个好处是该岛免税，尽情享受购物吧！",
+  "@pulauLangkawiContent": {
+    "description": "兰卡威岛的描述"
+  },
+  
+  "sipadanIsland": "西巴丹岛",
+  "@sipadanIsland": {
+    "description": "西巴丹岛的标题"
+  },
+  "sipadanIslandContent": "位于沙巴仙本那附近的小岛被评为世界顶级潜水地区之一。在岛上您不会找到住宿或许多设施。建议您在旅途中选择参团游。从亚庇飞往仙本那，再乘坐一小时的船游至海龟和梭鱼群，十分值得。自2002年获得保护地位以来，获得许可证访问此石灰岩顶峰的游客更少了。",
+  "@sipadanIslandContent": {
+    "description": "西巴丹岛的描述"
+  },
+  
+  "mantananiIsland": "曼塔那尼岛",
+  "@mantananiIsland": {
+    "description": "曼塔那尼岛的标题"
+  },
+  "mantananiIslandContent": "位于沙巴哥打白沙罗附近的曼塔那尼岛是婆罗洲一些最佳潜水点所在地。浮潜者和潜水员在首都的日间游中游览这里，与海马和鳐鱼同游。持有潜水证的游客可以在20多个地点潜水，包括三处沉船点。经过数小时的南中国海之旅后，您可以在原始的白沙滩上放松身心，享受婆罗洲著名的日落。",
+  "@mantananiIslandContent": {
+    "description": "曼塔那尼岛的描述"
+  },
+
+
+  "gentingHighlands": "云顶高原，彭亨",
+  "@gentingHighlands": {
+    "description": "云顶高原的标题"
+  },
+  "gentingHighlandsContent": "距离吉隆坡仅 45 分钟，云顶高原是一座凉爽的山地站，周围环绕着清新的山风和一片壮观的亿年热带雨林。如果您想逃离城市生活的喧嚣，云顶高原有众多的三星和五星级酒店，配有餐厅、设施、无可挑剔的服务和可以欣赏山景的豪华客房。",
+  "@gentingHighlandsContent": {
+    "description": "云顶高原的描述"
+  },
+
+  "bukitTinggi": "武吉丁宜，彭亨",
+  "@bukitTinggi": {
+    "description": "武吉丁宜的标题"
+  },
+  "bukitTinggiContent": "科尔马热带度假村是位于马来西亚彭亨州武吉丁宜的一个“法国主题”村庄和酒店。它位于 80 英亩的天然森林中，高度为 2,600 英尺（790 米）。设计灵感来自法国阿尔萨斯的科尔马小镇。在体验了炎热和潮湿的氛围中的刺激之后，没有什么比在山间度假村的开放阳台上坐着，喝一杯新泡的茶或享受奶油草莓更令人放松的了。",
+  "@bukitTinggiContent": {
+    "description": "武吉丁宜的描述"
+  },
+
+  "fraserHill": "福隆港，彭亨",
+  "@fraserHill": {
+    "description": "福隆港的标题"
+  },
+  "fraserHillContent": "福隆港位于马来西亚半岛中部的彭亨州，这个凉爽的度假村以其自然活动和清新的气候而闻名，是马来西亚最后的山地站之一，保留着英国殖民时期的印记。武吉福隆港的平均海拔为 1,200 米，其最高点为电信环路的 1,500 米。白天温度通常在 22°C 到 28°C 之间，夜间在 16°C 到 20°C 之间。",
+  "@fraserHillContent": {
+    "description": "福隆港的描述"
+  },
+
+  "cameronHighland": "金马仑高原，彭亨",
+  "@cameronHighland": {
+    "description": "金马仑高原的标题"
+  },
+  "cameronHighlandContent": "金马仑高原是马来西亚最著名的高地度假胜地，气候温和，白天气温约为 25°C，夜间平均气温约为 18°C。高地分为三个小镇：丹那拉打、布律和令吉。殖民时期，英国人在肥沃的山坡上种植茶叶，这一传统至今由当地人延续。从那时起，它已成为马来西亚最大的茶叶出口地。除了茶叶，金马仑还非常适合种植大陆树木、水果和蔬菜。",
+  "@cameronHighlandContent": {
+    "description": "金马仑高原的描述"
+  },
+
+  "maxwellHill": "马克斯韦尔山，霹雳",
+  "@maxwellHill": {
+    "description": "马克斯韦尔山的标题"
+  },
+  "maxwellHillContent": "金马仑高原是马来西亚最著名的高地度假胜地，气候温和，白天气温约为 25°C，夜间平均气温约为 18°C。高地分为三个小镇：丹那拉打、布律和令吉。殖民时期，英国人在肥沃的山坡上种植茶叶，这一传统至今由当地人延续。从那时起，它已成为马来西亚最大的茶叶出口地。除了茶叶，金马仑还非常适合种植大陆树木、水果和蔬菜。",
+  "@maxwellHillContent": {
+    "description": "马克斯韦尔山的描述"
+  },
+  "sungaiPisangWaterfall": "双溪皮桑瀑布，黑风洞",
+  "@sungaiPisangWaterfall": {
+    "description": "双溪皮桑瀑布的标题"
+  },
+  "sungaiPisangContent": "皮桑瀑布是一条往返3.1公里的步道，位于马来西亚雪兰莪的哥打白沙罗附近。适合各级徒步者。此步道全年开放，常用于露营、骑行和观鸟。在瀑布的顶部附近，有一些非常适合野餐和露营的地方。这是一条需要穿越瀑布的轻松徒步路线，准备好湿鞋吧。",
+  "@sungaiPisangContent": {
+    "description": "双溪皮桑瀑布的描述"
+  },
+
+  "jeramToi": "Jeram Toi瀑布，森美兰",
+  "@jeramToi": {
+    "description": "Jeram Toi瀑布的标题"
+  },
+  "jeramToiContent": "Jeram Toi瀑布位于芙蓉和瓜拉加浪之间。自1985年成立以来，这里迅速成为了一个受欢迎的家庭野餐和放松的好地方。请注意，Jeram Toi在高速公路上有一个独立的出口标志。在此区域有帐篷、厕所、烧烤区和带台阶的水泥步道通往峡谷。周末可能会很热闹，而工作日则较为宁静。",
+  "@jeramToiContent": {
+    "description": "Jeram Toi瀑布的描述"
+  },
+
+  "uluChepor": "Ulu Chepor瀑布，霹雳州",
+  "@uluChepor": {
+    "description": "Ulu Chepor瀑布的标题"
+  },
+  "uluCheporContent": "乌鲁切波瀑布距离怡保市区仅10公里，周围环绕着郁郁葱葱的热带雨林。可以通过A1路线前往Chemor，靠近怡保北收费广场。这里非常适合周末呼吸新鲜空气、放松和野餐。对于希望逗留更长时间或参加教育和休闲活动的游客，提供了露营区、多功能厅、祈祷室和卫生间等设施。公园维护良好，并在主道上有标记。",
+  "@uluCheporContent": {
+    "description": "Ulu Chepor瀑布的描述"
+  },
+
+  "sungaiLembing": "双溪林明，彭亨",
+  "@sungaiLembing": {
+    "description": "双溪林明瀑布的标题"
+  },
+  "sungaiLembingContent": "马来西亚拥有众多热带雨林，其中隐藏着壮丽的瀑布。彩虹瀑布位于关丹西北45公里处的双溪林明小镇。每天早上9点到10点之间，太阳会在瀑布底部照射，形成美丽的彩虹。人们从世界各地来到这里，仅为一睹大自然的美景。彩虹瀑布是一处大型瀑布，隐藏在双溪林明的雨林中，可通过四驱车和徒步旅行到达。",
+  "@sungaiLembingContent": {
+    "description": "双溪林明瀑布的描述"
+  },
+
+  "sevenWellsWaterfall": "七井瀑布，吉打",
+  "@sevenWellsWaterfall": {
+    "description": "七井瀑布的标题"
+  },
+  "sevenWellsContent": "七井瀑布，又称Jalan Telaga Tujuh，位于著名的兰卡威天空桥步行约20分钟的地方，是该岛最壮观的自然景观之一。瀑布从兰卡威的第二高峰马特·森昌山落下，是游客和当地人喜爱的景点。整个垂直落差有91米，但从底部只能看到一小部分。传说中，这个瀑布是仙女的居所，河水具有镇静作用。瀑布被大自然所包围，富含植物和动物，看起来充满了神秘感。",
+  "@sevenWellsContent": {
+    "description": "七井瀑布的描述"
+  },
+  "brogaHill": "布罗加山, 士毛月",
+  "@brogaHill": {
+    "description": "布罗加山的标题"
+  },
+  "brogaHillContent": "布罗加山，当地人称为“布吉拉朗”，得名于生长在这里的一种本土草类植物。这座高400米的山位于士毛月的茂密热带森林中，坐落在蒂蒂旺沙山脉的边缘，距离吉隆坡约40分钟车程。特别是在清晨，这里的壮丽全景为当地人和游客所熟知。它因徒步容易而受到欢迎。对于新手来说，攀登第一个山峰可能有点挑战，但树上绑有绳索可帮助新手。山顶等待您的美景定会让您感到不虚此行。",
+  "@brogaHillContent": {
+    "description": "布罗加山的描述"
+  },
+
+  "mountPulai": "普莱山, 柔佛",
+  "@mountPulai": {
+    "description": "普莱山的标题"
+  },
+  "mountPulaiContent": "普莱山位于柔佛州，海拔654米。由于其地理位置便利且易于进入，是新加坡人和当地人喜爱的徒步旅行目的地。普莱山山顶不对公众开放，因为它由军队看护，并设有两座通信塔。普莱山有一条14.3公里的环形步道，靠近古来，步道上有一个瀑布，难度适中。此步道还可用于露营、骑行、跑步和观赏自然景观。",
+  "@mountPulaiContent": {
+    "description": "普莱山的描述"
+  },
+
+  "panoramaHill": "全景山, 双溪林明",
+  "@panoramaHill": {
+    "description": "全景山的标题"
+  },
+  "panoramaHillContent": "全景山位于双溪林明，距离关丹西北45公里。该山高271米，只有一条通往山顶的路径。从楼梯底部开始，逐步向上攀登。步道的主要特点是带有扶手的楼梯，仅有几段短距离没有楼梯。到达山顶时，您可以看到周边城市的全景。通常，游客需要30至45分钟才能登上全景山。",
+  "@panoramaHillContent": {
+    "description": "全景山的描述"
+  },
+
+  "mossyForest": "苔藓森林, 金马仑高原",
+  "@mossyForest": {
+    "description": "苔藓森林的标题"
+  },
+  "mossyForestContent": "苔藓森林是一种自然生态系统，仅生长在金马仑高原及马来西亚其他高山地区。低空云层在风的推动下将树木覆盖在持续的雾气和湿气中，为苔藓、蕨类、地衣和兰花等提供了理想的生境。这个潮湿的热带常绿森林也为多种山地物种提供了庇护所，包括蝴蝶、啮齿动物、青蛙、鸟类和哺乳动物，这些物种仅在这种寒冷气候中生存。",
+  "@mossyForestContent": {
+    "description": "苔藓森林的描述"
+  },
+
+  "penangNationalPark": "槟城国家公园, 槟城",
+  "@penangNationalPark": {
+    "description": "槟城国家公园的标题"
+  },
+  "penangNationalParkContent": "这是马来西亚最小的国家公园，面积为23平方公里。其海滨森林是银叶猴、飞狐、豹猫以及各种蜥蜴、两栖动物和爬行动物的栖息地。徒步穿越丛林和乘船前往宁静的金色沙滩等活动足以充实一天。公园内有两条主要的徒步路线：一条沿着海岸线通往猴子海滩，另一条穿过山丘和丛林，通往更为僻静的海滩，那里的龟类保护区也在其中。",
+  "@penangNationalParkContent": {
+    "description": "槟城国家公园的描述"
+  },
+  "kkbParaglidingPark": "KKB 滑翔伞公园",
+  "@kkbParaglidingPark": {
+    "description": "KKB 滑翔伞公园的标题"
+  },
+  "kkbParaglidingParkContent": "对于那些喜欢冒险的人，吉隆坡附近的瓜拉古楼提供了最好的极限运动。当您在空中翱翔时，您将有机会从高空欣赏瓜拉古楼周围的自然美景。",
+  "@kkbParaglidingParkContent": {
+    "description": "KKB 滑翔伞公园的描述"
+  },
+
+  "whitewaterRafting": "瓜拉古楼漂流",
+  "@whitewaterRafting": {
+    "description": "瓜拉古楼漂流的标题"
+  },
+  "whitewaterRaftingContent": "漂流活动在乌鲁雪兰莪河沿岸进行。漂流运动带来了兴奋感，在行程结束时享受自然美景，河岸景色非常迷人。",
+  "@whitewaterRaftingContent": {
+    "description": "瓜拉古楼漂流的描述"
+  },
+
+  "jugraHill": "朱格拉山",
+  "@jugraHill": {
+    "description": "朱格拉山的标题"
+  },
+  "jugraHillContent": "在朱格拉山的灯塔观景点，体验滑翔伞的刺激。根据风况，3月至9月通常是最佳时间。",
+  "@jugraHillContent": {
+    "description": "朱格拉山的描述"
+  }
+
+  }
+  

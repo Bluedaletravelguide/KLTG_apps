@@ -1,0 +1,10 @@
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/images/Logo_100x50.png
+  android: true
+  ios: true
+  fill: true
+  scaled: true
+  android_12:
+    image: assets/images/andoird12.png
+    icon_background_color: "#ffffff"
