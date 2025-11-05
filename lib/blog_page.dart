@@ -8,6 +8,7 @@ import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:kltheguide/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:vibration/vibration.dart';
+import 'package:kltheguide/bookmarks_page.dart';
 
 class BlogListScreen extends StatefulWidget {
   const BlogListScreen({super.key});
@@ -147,12 +148,19 @@ class _BlogListScreenState extends State<BlogListScreen> {
   }
 
   void addBookmark(dynamic post) async {
-    List<String>? bookmarkStrings = prefs.getStringList('bookmarks') ?? [];
+    final postId = post['id']?.toString();
+    if (postId == null) return;
 
-    String bookmarkJson = json.encode(post);
-    bookmarkStrings.add(bookmarkJson);
+    final bookmarkStrings = prefs.getStringList('bookmarks') ?? <String>[];
+    // Parse once and check for existing id
+    final parsed = bookmarkStrings.map((s) => json.decode(s)).toList();
+    final already = parsed.any((p) => (p['id']?.toString() ?? '') == postId);
+    if (already) return;
+
+    bookmarkStrings.add(json.encode(post));
     await prefs.setStringList('bookmarks', bookmarkStrings);
   }
+
 
   void removeBookmark(dynamic post) async {
     List<String>? bookmarkStrings = prefs.getStringList('bookmarks') ?? [];
@@ -177,6 +185,19 @@ class _BlogListScreenState extends State<BlogListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.grey[50],
+      floatingActionButton: FloatingActionButton.small(
+        tooltip: 'Saved Blogs',
+        backgroundColor: const Color.fromARGB(255, 0, 71, 133),
+        child: const Icon(Icons.bookmarks_outlined, color: Colors.white),
+        onPressed: () async {
+          // Open Saved (BookmarkPage)
+          await Navigator.of(context).push(
+            MaterialPageRoute(builder: (_) => const BookmarkPage()),
+          );
+          // Refresh UI on return (updates bookmark icons/count, etc.)
+          if (mounted) setState(() {});
+        },
+      ),
       body: blogPosts.isEmpty && isLoading
           ? Center(
               child: Column(
