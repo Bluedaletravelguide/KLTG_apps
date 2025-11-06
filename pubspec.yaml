@@ -164,6 +164,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/contentList/historicalPlaces/5.jpg
+    - assets/images/map.jpg
   fonts:
     - family: MyFlutterApp
       fonts:
