@@ -16,7 +16,8 @@ class CameraScannerPage extends StatefulWidget {
   State<CameraScannerPage> createState() => _CameraScannerPageState();
 }
 
-class _CameraScannerPageState extends State<CameraScannerPage> with WidgetsBindingObserver {
+class _CameraScannerPageState extends State<CameraScannerPage>
+    with WidgetsBindingObserver {
   CameraController? _controller;
   List<CameraDescription>? _cameras;
 
@@ -65,7 +66,7 @@ class _CameraScannerPageState extends State<CameraScannerPage> with WidgetsBindi
     try {
       _cameras = await availableCameras();
       final back = _cameras!.firstWhere(
-            (x) => x.lensDirection == CameraLensDirection.back,
+        (x) => x.lensDirection == CameraLensDirection.back,
         orElse: () => _cameras!.first,
       );
 
@@ -73,7 +74,9 @@ class _CameraScannerPageState extends State<CameraScannerPage> with WidgetsBindi
         back,
         ResolutionPreset.medium,
         enableAudio: false,
-        imageFormatGroup: Platform.isAndroid ? ImageFormatGroup.jpeg : ImageFormatGroup.bgra8888,
+        imageFormatGroup: Platform.isAndroid
+            ? ImageFormatGroup.jpeg
+            : ImageFormatGroup.bgra8888,
       );
       await _controller!.initialize();
       if (!mounted) return;
@@ -132,13 +135,13 @@ class _CameraScannerPageState extends State<CameraScannerPage> with WidgetsBindi
       body: c == null || !c.value.isInitialized
           ? const Center(child: CircularProgressIndicator())
           : Stack(
-        fit: StackFit.expand,
-        children: [
-          CameraPreview(c),
-          const _TopShade(),
-          LandmarkOverlay(match: _current),
-        ],
-      ),
+              fit: StackFit.expand,
+              children: [
+                CameraPreview(c),
+                const _TopShade(),
+                LandmarkOverlay(match: _current),
+              ],
+            ),
     );
   }
 }
