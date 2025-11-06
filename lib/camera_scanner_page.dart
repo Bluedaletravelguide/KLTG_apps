@@ -86,20 +86,21 @@ class _CameraScannerPageState extends State<CameraScannerPage>
   }
 
   Future<void> _ensurePerms() async {
-    final camStatus = await Geolocator.checkPermission();
     // location permission
-    if (camStatus == LocationPermission.denied) {
+    final locStatus = await Geolocator.checkPermission();
+    if (locStatus == LocationPermission.denied) {
       await Geolocator.requestPermission();
     }
-    // camera handled by plugin when initializing; on Android 13+, add in manifest if needed
+    // camera handled by plugin when initializing
   }
 
   Future<void> _initLocation() async {
     final en = await Geolocator.isLocationServiceEnabled();
     if (!en) return;
     var perm = await Geolocator.checkPermission();
-    if (perm == LocationPermission.denied)
+    if (perm == LocationPermission.denied) {
       perm = await Geolocator.requestPermission();
+    }
     if (perm == LocationPermission.deniedForever ||
         perm == LocationPermission.denied) return;
 
@@ -108,36 +109,52 @@ class _CameraScannerPageState extends State<CameraScannerPage>
     Geolocator.getPositionStream(
       locationSettings: const LocationSettings(
           accuracy: LocationAccuracy.best, distanceFilter: 2),
-    ).listen((p) => setState(() => _pos = p));
+    ).listen((p) {
+      if (mounted) {
+        setState(() => _pos = p);
+      }
+    });
   }
 
   Future<void> _initHeading() async {
     FlutterCompass.events?.listen((event) {
       final h = event.heading;
       if (h == null) return;
-      setState(() => _heading = (h + 360) % 360);
+      if (mounted) {
+        setState(() => _heading = (h + 360) % 360);
+      }
     });
   }
 
   Future<void> _initCamera() async {
     try {
       final cams = await availableCameras();
+      if (cams.isEmpty) {
+        if (mounted) {
+          setState(() => _camReady = false);
+        }
+        return;
+      }
       final back = cams.firstWhere(
           (c) => c.lensDirection == CameraLensDirection.back,
           orElse: () => cams.first);
       final ctrl =
           CameraController(back, ResolutionPreset.high, enableAudio: false);
       await ctrl.initialize();
-      setState(() {
-        _cam = ctrl;
-        _camReady = true;
-      });
+      if (mounted) {
+        setState(() {
+          _cam = ctrl;
+          _camReady = true;
+        });
+      }
       // Rough FOV estimate (varies by phone; you can calibrate later)
       _fov = 60;
-    } catch (_) {
-      setState(() {
-        _camReady = false;
-      });
+    } catch (e) {
+      if (mounted) {
+        setState(() {
+          _camReady = false;
+        });
+      }
     }
   }
 
@@ -175,7 +192,7 @@ class _CameraScannerPageState extends State<CameraScannerPage>
     await launchUrl(url, mode: LaunchMode.externalApplication);
   }
 
-  // GPS PROXIMITY DETECTION - No ML needed!
+  // GPS PROXIMITY DETECTION - Show ALL landmarks within 2km
   Future<void> _scanNearbyLandmark() async {
     if (!mounted || _pos == null) {
       _toast('Waiting for GPS location...');
@@ -185,8 +202,8 @@ class _CameraScannerPageState extends State<CameraScannerPage>
     setState(() => _isBusy = true);
 
     try {
-      // Detection radius: 300 meters
-      const detectionRadius = 500.0;
+      // Detection radius: 2 kilometers
+      const detectionRadius = 2000.0;
 
       // Find all landmarks within radius
       List<_NearbyLandmark> nearbyLandmarks = [];
@@ -202,13 +219,14 @@ class _CameraScannerPageState extends State<CameraScannerPage>
       }
 
       if (nearbyLandmarks.isEmpty) {
-        _toast('No landmark found nearby (within ${detectionRadius.toInt()}m)');
+        _toast(
+            'No landmarks found within ${(detectionRadius / 1000).toStringAsFixed(1)}km');
       } else {
-        // Sort by distance, show closest
+        // Sort by distance (nearest first)
         nearbyLandmarks.sort((a, b) => a.distance.compareTo(b.distance));
-        final closest = nearbyLandmarks.first;
 
-        _showSheet(closest.landmark, distance: closest.distance);
+        // Show list of all nearby landmarks
+        _showNearbyList(nearbyLandmarks);
       }
     } catch (e) {
       _toast('Error: $e');
@@ -249,7 +267,8 @@ class _CameraScannerPageState extends State<CameraScannerPage>
                           child: _LandmarkChip(
                             name: h.lm.name,
                             distanceM: h.distanceM,
-                            onTap: () => _showSheet(h.lm),
+                            onTap: () =>
+                                _showSheet(h.lm, distance: h.distanceM),
                           ),
                         )),
                     // HUD: heading + status
@@ -264,8 +283,8 @@ class _CameraScannerPageState extends State<CameraScannerPage>
                                     'Heading ${_heading.toStringAsFixed(0)}°'),
                             _HudBadge(
                                 text: _pos != null
-                                    ? 'Lat ${_pos!.latitude.toStringAsFixed(5)}, Lng ${_pos!.longitude.toStringAsFixed(5)}'
-                                    : 'Loc…'),
+                                    ? 'GPS: ${_pos!.latitude.toStringAsFixed(4)}, ${_pos!.longitude.toStringAsFixed(4)}'
+                                    : 'GPS: Loading...'),
                           ],
                         ),
                       ),
@@ -274,7 +293,16 @@ class _CameraScannerPageState extends State<CameraScannerPage>
                 );
               },
             )
-          : const Center(child: CircularProgressIndicator()),
+          : const Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  CircularProgressIndicator(),
+                  SizedBox(height: 16),
+                  Text('Initializing camera and GPS...'),
+                ],
+              ),
+            ),
       floatingActionButton: _camReady && _cam != null
           ? FloatingActionButton.extended(
               onPressed: _isBusy ? null : _scanNearbyLandmark,
@@ -295,11 +323,67 @@ class _CameraScannerPageState extends State<CameraScannerPage>
     );
   }
 
+  // NEW: Show list of all nearby landmarks
+  void _showNearbyList(List<_NearbyLandmark> nearbyLandmarks) {
+    showModalBottomSheet(
+      context: context,
+      showDragHandle: true,
+      isScrollControlled: true,
+      builder: (context) => DraggableScrollableSheet(
+        initialChildSize: 0.6,
+        minChildSize: 0.4,
+        maxChildSize: 0.9,
+        expand: false,
+        builder: (context, scrollController) => Column(
+          children: [
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
+              child: Row(
+                children: [
+                  const Icon(Icons.place, color: Colors.blue),
+                  const SizedBox(width: 8),
+                  Text(
+                    'Nearby Landmarks (${nearbyLandmarks.length})',
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            const Divider(height: 1),
+            Expanded(
+              child: ListView.builder(
+                controller: scrollController,
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                itemCount: nearbyLandmarks.length,
+                itemBuilder: (context, index) {
+                  final item = nearbyLandmarks[index];
+                  return _NearbyLandmarkTile(
+                    landmark: item.landmark,
+                    distance: item.distance,
+                    rank: index + 1,
+                    onTap: () {
+                      Navigator.pop(context);
+                      _showSheet(item.landmark, distance: item.distance);
+                    },
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+
+  // Detail sheet for single landmark
   void _showSheet(Landmark lm, {double? distance}) {
     showModalBottomSheet(
       context: context,
       showDragHandle: true,
-      builder: (_) => Padding(
+      builder: (context) => Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -338,20 +422,24 @@ class _CameraScannerPageState extends State<CameraScannerPage>
               ],
             ),
             const SizedBox(height: 8),
-            Text(lm.blurb),
-            const SizedBox(height: 12),
+            Text(
+              lm.blurb,
+              style: const TextStyle(fontSize: 15),
+            ),
+            const SizedBox(height: 16),
             Row(
               children: [
-                FilledButton.icon(
-                  onPressed: () => _openInMaps(lm),
-                  icon: const Icon(Icons.map),
-                  label: const Text('Open in Maps'),
+                Expanded(
+                  child: FilledButton.icon(
+                    onPressed: () => _openInMaps(lm),
+                    icon: const Icon(Icons.map),
+                    label: const Text('Open in Maps'),
+                  ),
                 ),
                 const SizedBox(width: 8),
-                OutlinedButton.icon(
+                OutlinedButton(
                   onPressed: () => Navigator.pop(context),
-                  icon: const Icon(Icons.close),
-                  label: const Text('Close'),
+                  child: const Icon(Icons.close),
                 ),
               ],
             ),
@@ -362,6 +450,8 @@ class _CameraScannerPageState extends State<CameraScannerPage>
     );
   }
 }
+
+// ===== DATA MODELS =====
 
 class _ARHit {
   final Landmark lm;
@@ -376,15 +466,88 @@ class _NearbyLandmark {
   _NearbyLandmark({required this.landmark, required this.distance});
 }
 
+// ===== UI COMPONENTS =====
+
+class _NearbyLandmarkTile extends StatelessWidget {
+  final Landmark landmark;
+  final double distance;
+  final int rank;
+  final VoidCallback onTap;
+
+  const _NearbyLandmarkTile({
+    required this.landmark,
+    required this.distance,
+    required this.rank,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final distText = distance >= 1000
+        ? '${(distance / 1000).toStringAsFixed(1)} km'
+        : '${distance.toStringAsFixed(0)} m';
+
+    return Card(
+      margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 4),
+      elevation: 1,
+      child: ListTile(
+        leading: CircleAvatar(
+          backgroundColor: rank <= 3 ? Colors.blue : Colors.grey.shade300,
+          child: Text(
+            '$rank',
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              color: rank <= 3 ? Colors.white : Colors.black87,
+            ),
+          ),
+        ),
+        title: Text(
+          landmark.name,
+          style: const TextStyle(fontWeight: FontWeight.w600),
+        ),
+        subtitle: Text(
+          landmark.blurb,
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+          style: const TextStyle(fontSize: 13),
+        ),
+        trailing: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+          decoration: BoxDecoration(
+            color: distance <= 500 ? Colors.green.shade50 : Colors.blue.shade50,
+            borderRadius: BorderRadius.circular(12),
+            border: Border.all(
+              color: distance <= 500
+                  ? Colors.green.shade200
+                  : Colors.blue.shade200,
+            ),
+          ),
+          child: Text(
+            distText,
+            style: TextStyle(
+              fontWeight: FontWeight.w600,
+              fontSize: 13,
+              color: distance <= 500
+                  ? Colors.green.shade900
+                  : Colors.blue.shade900,
+            ),
+          ),
+        ),
+        onTap: onTap,
+      ),
+    );
+  }
+}
+
 class _LandmarkChip extends StatelessWidget {
   final String name;
   final double distanceM;
   final VoidCallback onTap;
-  const _LandmarkChip(
-      {super.key,
-      required this.name,
-      required this.distanceM,
-      required this.onTap});
+  const _LandmarkChip({
+    required this.name,
+    required this.distanceM,
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -401,12 +564,14 @@ class _LandmarkChip extends StatelessWidget {
           padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
           child: Row(
             children: [
-              const Icon(Icons.place_outlined),
+              const Icon(Icons.place_outlined, size: 20),
               const SizedBox(width: 8),
               Expanded(
                   child: Text(name,
-                      style: const TextStyle(fontWeight: FontWeight.w600))),
-              Text(dist, style: const TextStyle(color: Colors.black54)),
+                      style: const TextStyle(
+                          fontWeight: FontWeight.w600, fontSize: 14))),
+              Text(dist,
+                  style: const TextStyle(color: Colors.black54, fontSize: 12)),
             ],
           ),
         ),
@@ -417,16 +582,15 @@ class _LandmarkChip extends StatelessWidget {
 
 class _HudBadge extends StatelessWidget {
   final String text;
-  const _HudBadge({required this.text, super.key});
+  const _HudBadge({required this.text});
   @override
   Widget build(BuildContext context) {
-    return DecoratedBox(
+    return Container(
       decoration: BoxDecoration(
           color: Colors.black54, borderRadius: BorderRadius.circular(10)),
-      child: Padding(
-        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-        child: Text(text, style: const TextStyle(color: Colors.white)),
-      ),
+      padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+      child:
+          Text(text, style: const TextStyle(color: Colors.white, fontSize: 12)),
     );
   }
 }

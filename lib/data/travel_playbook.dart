@@ -1,0 +1,1136 @@
+// lib/data/travel_playbook.dart
+class QA {
+  final List<String> patterns; // keywords to trigger this answer
+  final String answer; // reply text
+  final List<String> quick; // optional quick-reply buttons
+  const QA(
+      {required this.patterns, required this.answer, this.quick = const []});
+}
+
+const List<QA> kTravelQA = [
+  // ========== GENERAL GREETINGS ==========
+  QA(
+    patterns: ['hello', 'hi', 'hey', 'help', 'start'],
+    answer:
+        "Hi there! 👋 Welcome to Malaysia! I'm your friendly travel buddy here to help you explore.\n\n"
+        "Ask me anything about food, attractions, shopping, or planning your adventure!\n"
+        "Try: 'What should I do tonight?' or 'Best food near me'",
+    quick: ['First time tips', 'Best food spots', 'Top attractions'],
+  ),
+
+  // ========== ARRIVAL & FIRST IMPRESSIONS ==========
+  QA(
+    patterns: ['first time', 'first visit', 'new here', 'never been'],
+    answer: "Welcome to Malaysia! 🇲🇾 So excited you're here!\n\n"
+        "Must-do for first-timers:\n"
+        "• Try nasi lemak for breakfast\n"
+        "• Visit Petronas Twin Towers\n"
+        "• Explore Batu Caves\n"
+        "• Eat at Jalan Alor food street\n\n"
+        "The best months to visit are March-October for less rain. You'll love it here!",
+    quick: ['Airport tips', 'Hotel areas', 'Getting around'],
+  ),
+
+  QA(
+    patterns: ['airport', 'klia', 'arrived', 'landing', 'sim card'],
+    answer: "Welcome to KLIA! 🛬 Here's what you need:\n\n"
+        "📱 SIM cards: Available at airport kiosks (Celcom, Digi, Maxis)\n"
+        "🚗 Transport: Grab works great, or take KLIA Express train (28min to KL)\n"
+        "💰 Money: ATMs and currency exchange available\n\n"
+        "The airport is modern and easy to navigate. Staff speak English! 😊",
+    quick: ['Best transport', 'Hotel distance', 'Weather today'],
+  ),
+
+  QA(
+    patterns: ['weather', 'rain', 'hot', 'humid', 'temperature'],
+    answer: "Malaysia is warm year-round! 🌴\n\n"
+        "☀️ Expect: 25-33°C (77-91°F)\n"
+        "💧 Humidity: High (bring light clothes!)\n"
+        "🌧️ Best time: March-October\n\n"
+        "Quick rain is common, but it usually clears fast. Pack an umbrella or light jacket!",
+    quick: ['What to wear', 'Indoor activities', 'Beach weather'],
+  ),
+
+  // ========== ACCOMMODATION ==========
+  QA(
+    patterns: ['hotel', 'stay', 'accommodation', 'where to stay', 'homestay'],
+    answer: "Great hotel areas in KL:\n\n"
+        "🏙️ Bukit Bintang: Shopping & nightlife (10 min to KLCC)\n"
+        "🏢 KLCC: Upscale, near Twin Towers\n"
+        "🎨 Chinatown: Budget-friendly, cultural\n"
+        "🌿 Bangsar: Trendy cafes & residential\n\n"
+        "Most hotels offer airport pickup! Prices are very affordable compared to western countries 😊",
+    quick: ['Bukit Bintang hotels', 'Budget options', 'Near airport'],
+  ),
+
+  QA(
+    patterns: ['bukit bintang', 'bb', 'pavilion', 'tonight'],
+    answer: "Bukit Bintang is THE spot! 🌟 Here's your evening plan:\n\n"
+        "🍜 Jalan Alor (6-11pm): Legendary street food paradise\n"
+        "🛍️ Pavilion KL: Shopping + fountain show at 8pm\n"
+        "🍹 Changkat: Rooftop bars & nightlife\n"
+        "✨ TRX Exchange Park: Beautiful light displays\n\n"
+        "Everything is within walking distance! Safe to explore at night 🚶",
+    quick: ['Street food guide', 'Nightlife spots', 'Shopping tips'],
+  ),
+
+  // ========== FOOD & DINING ==========
+  QA(
+    patterns: ['food', 'eat', 'hungry', 'restaurant', 'dishes'],
+    answer: "You're in food heaven! 😍🍜 Must-try Malaysian dishes:\n\n"
+        "🍚 Nasi Lemak (coconut rice - breakfast favorite!)\n"
+        "🍜 Laksa (spicy noodle soup)\n"
+        "🥖 Roti Canai (flaky flatbread with curry)\n"
+        "🍢 Satay (grilled meat skewers)\n"
+        "🍝 Char Kuey Teow (wok-fried noodles)\n\n"
+        "Pro tip: Penang has the BEST food scene in Malaysia!",
+    quick: ['Where to eat', 'Halal options', 'Vegetarian food'],
+  ),
+
+  QA(
+    patterns: ['street food', 'jalan alor', 'hawker', 'cheap food'],
+    answer: "Street food is where the magic happens! 🔥\n\n"
+        "🌟 Jalan Alor: KL's most famous food street\n"
+        "  • Grilled wings, satay, char kuey teow\n"
+        "  • Go 6-7pm to beat crowds\n"
+        "  • Budget: RM10-25 per meal\n\n"
+        "Other spots:\n"
+        "• Chow Kit Market (local breakfast)\n"
+        "• Imbi Market (curry laksa)\n"
+        "• Madras Lane (Hokkien mee)\n\n"
+        "Don't worry - food stalls are clean and safe! 👍",
+    quick: ['Penang food', 'Night markets', 'Local breakfast'],
+  ),
+
+  QA(
+    patterns: ['halal', 'muslim', 'pork free', 'islamic food'],
+    answer: "Malaysia is VERY halal-friendly! 🕌✨\n\n"
+        "Most restaurants are halal-certified. Look for the halal logo.\n"
+        "Non-halal places clearly display 'pork' or 'non-halal' signs.\n\n"
+        "Must-try halal spots:\n"
+        "• Nasi Kandar (Penang/KL)\n"
+        "• Banana Leaf Rice\n"
+        "• Roti Canai everywhere!\n\n"
+        "You'll have no problems finding amazing halal food anywhere 😊",
+    quick: ['Halal restaurants', 'Malay cuisine', 'Indian Muslim food'],
+  ),
+
+  QA(
+    patterns: ['vegetarian', 'vegan', 'no meat', 'veggie'],
+    answer: "Vegetarian food is easy to find! 🥗🌱\n\n"
+        "Look for:\n"
+        "• Chinese vegetarian restaurants (素食)\n"
+        "• Indian banana leaf rice (ask for veg)\n"
+        "• Roti canai with dhal\n"
+        "• Nasi lemak (skip the anchovies)\n\n"
+        "Tell servers: 'Tak mahu daging' (no meat) or 'vegetarian'\n\n"
+        "Areas: Brickfields (Little India) has tons of veggie options!",
+    quick: ['Vegan cafes', 'Indian veg', 'Buddhist restaurants'],
+  ),
+
+  QA(
+    patterns: ['nasi lemak', 'breakfast', 'morning food'],
+    answer: "Nasi Lemak is Malaysia's PRIDE! 🇲🇾🍚\n\n"
+        "What is it? Fragrant coconut rice with:\n"
+        "• Sambal (spicy sauce)\n"
+        "• Fried anchovies & peanuts\n"
+        "• Boiled egg\n"
+        "• Cucumber slices\n"
+        "+ Optional: fried chicken, rendang, squid\n\n"
+        "Where to try:\n"
+        "• Village Park Restaurant (famous!)\n"
+        "• Any mamak stall\n"
+        "• Hotel breakfast buffets\n\n"
+        "Price: RM5-15. Eaten for breakfast but good anytime!",
+    quick: ['Other breakfast', 'Best nasi lemak', 'Roti canai'],
+  ),
+
+  QA(
+    patterns: ['drink', 'teh tarik', 'beverage', 'coffee', 'tea'],
+    answer: "Malaysian drinks are amazing! 🍹☕\n\n"
+        "Must-try:\n"
+        "☕ Teh Tarik: 'Pulled' milk tea (sweet & frothy)\n"
+        "🥥 Coconut shake: Fresh & cold\n"
+        "🍋 Limau ais: Fresh lime juice\n"
+        "🧊 Cendol: Sweet icy dessert drink\n"
+        "☕ White coffee: Ipoh specialty\n\n"
+        "Find them at: Mamak stalls, kopitiam (coffee shops), food courts.\n"
+        "Try teh tarik - it's our national drink! 😊",
+    quick: ['Cendol spots', 'Coffee culture', 'Fresh juice'],
+  ),
+
+  QA(
+    patterns: ['penang food', 'penang', 'best food city'],
+    answer: "Penang is FOOD PARADISE! 🏝️😍\n\n"
+        "Why Penang wins:\n"
+        "• Char Kuey Teow (best in Malaysia!)\n"
+        "• Assam Laksa (sour spicy noodles)\n"
+        "• Hokkien Mee (prawn noodles)\n"
+        "• Nasi Kandar (24/7 rice buffet)\n\n"
+        "Where to eat:\n"
+        "• Gurney Drive hawker center\n"
+        "• Chulia Street night market\n"
+        "• New Lane (Lorong Baru)\n\n"
+        "Foodies say: KL is great, but Penang is LEGENDARY! 🔥",
+    quick: ['Penang trip', 'How to get there', 'Street art'],
+  ),
+
+  // ========== SHOPPING ==========
+  QA(
+    patterns: ['shopping', 'mall', 'buy', 'shop', 'souvenirs'],
+    answer: "Shopping in Malaysia is AMAZING! 🛍️✨\n\n"
+        "Top malls in KL:\n"
+        "🏢 Pavilion KL: Luxury brands\n"
+        "🌟 Suria KLCC: Below the Twin Towers!\n"
+        "🎪 Sunway Pyramid: Huge with ice rink\n"
+        "💎 TRX Exchange: Newest & fanciest\n"
+        "📦 Mid Valley: Massive selection\n\n"
+        "Budget tip: Visit during mega sales (March, Aug, Dec)!\n"
+        "Most malls open 10am-10pm 😊",
+    quick: ['Local souvenirs', 'Electronics', 'Outlet malls'],
+  ),
+
+  QA(
+    patterns: ['souvenir', 'gift', 'bring home', 'batik'],
+    answer: "Best Malaysian souvenirs! 🎁🇲🇾\n\n"
+        "🎨 Batik: Hand-painted fabric (shirts, scarves)\n"
+        "🍫 Chocolates: Beryl's, Vochelle\n"
+        "🍪 Pineapple tarts & cookies\n"
+        "🧴 Local products: tongkat ali, bird's nest\n"
+        "🎭 Pewter: Royal Selangor crafts\n"
+        "☕ Coffee: White coffee from Ipoh\n\n"
+        "Where to shop:\n"
+        "• Central Market (craft & batik)\n"
+        "• KLIA airport (last minute!)\n"
+        "• Petaling Street (bargain!)\n\n"
+        "Tax refund available at airport for purchases >RM300!",
+    quick: ['Central Market', 'Tax refund', 'Bargaining tips'],
+  ),
+
+  QA(
+    patterns: ['electronics', 'gadget', 'phone', 'camera', 'tech'],
+    answer: "For electronics, head to:\n\n"
+        "💻 Plaza Low Yat: KL's tech hub!\n"
+        "  • 5 floors of gadgets\n"
+        "  • Competitive prices\n"
+        "  • Can bargain a bit\n\n"
+        "📱 Other spots:\n"
+        "• Digital Mall (near Low Yat)\n"
+        "• All-Asia (cameras)\n"
+        "• Airport duty-free\n\n"
+        "Tip: Compare prices! Warranty may differ from your country 📱",
+    quick: ['Low Yat location', 'Camera shops', 'Best deals'],
+  ),
+
+  QA(
+    patterns: ['night market', 'pasar malam', 'jonker walk', 'street market'],
+    answer: "Night markets are SO fun! 🌙✨\n\n"
+        "🎪 Popular ones:\n"
+        "• Jonker Walk (Melaka) - Fri-Sun\n"
+        "• Chow Kit - Daily\n"
+        "• Bangsar Sunday Market\n"
+        "• Taman Connaught (Thu) - longest!\n\n"
+        "What to expect:\n"
+        "🍜 Street food galore\n"
+        "👕 Cheap clothes & accessories\n"
+        "🎮 Games & toys\n"
+        "🌻 Fresh fruits\n\n"
+        "Bargaining is expected! Start at 50% of asking price 😄",
+    quick: ['Tonight markets', 'Bargaining tips', 'Best buys'],
+  ),
+
+  // ========== ATTRACTIONS & SIGHTSEEING ==========
+  QA(
+    patterns: ['attraction', 'see', 'visit', 'sights', 'landmarks', 'tourist'],
+    answer: "Top must-see attractions! 🌟\n\n"
+        "🏙️ KL Icons:\n"
+        "• Petronas Twin Towers (book early!)\n"
+        "• Batu Caves (free, stunning!)\n"
+        "• KL Tower (city views)\n"
+        "• Merdeka Square (heritage)\n\n"
+        "🏝️ Beyond KL:\n"
+        "• Langkawi (beaches & cable car)\n"
+        "• Penang (street art & food)\n"
+        "• Melaka (UNESCO heritage)\n"
+        "• Cameron Highlands (tea farms)\n\n"
+        "Which vibe interests you? 😊",
+    quick: ['City tour', 'Nature spots', 'Heritage sites'],
+  ),
+
+  QA(
+    patterns: ['petronas', 'twin towers', 'klcc', 'towers'],
+    answer: "Petronas Twin Towers - Malaysia's ICON! 🏙️✨\n\n"
+        "📸 Best views:\n"
+        "• Skybridge (floor 41) + Observation Deck (86)\n"
+        "• Book online in advance!\n"
+        "• RM80-100 per person\n\n"
+        "⏰ Timings: 9am-9pm (closed Mon)\n\n"
+        "FREE alternatives:\n"
+        "• KLCC Park fountain show (8pm & 9pm)\n"
+        "• View from Traders Hotel Sky Bar\n"
+        "• Photos from Suria KLCC mall\n\n"
+        "Evening is magical with lights! 🌆",
+    quick: ['Book tickets', 'Free views', 'Night photos'],
+  ),
+
+  QA(
+    patterns: ['batu caves', 'temple', 'stairs', 'monkey', 'hindu'],
+    answer: "Batu Caves - INCREDIBLE! 🕉️🐒\n\n"
+        "What to expect:\n"
+        "• 272 rainbow stairs\n"
+        "• Giant golden statue\n"
+        "• Hindu temple inside cave\n"
+        "• Cheeky monkeys (hold your belongings!)\n\n"
+        "📍 30min from KL (take KTM Komuter)\n"
+        "💰 FREE entry\n"
+        "⏰ 6am-9pm\n\n"
+        "Dress code: Cover shoulders & knees\n"
+        "Go early morning to beat heat & crowds! 🌅",
+    quick: ['How to get there', 'What to wear', 'Monkey tips'],
+  ),
+
+  QA(
+    patterns: ['heritage', 'history', 'museum', 'culture', 'merdeka'],
+    answer: "Explore Malaysia's rich history! 🏛️📚\n\n"
+        "🏛️ KL Heritage Walk:\n"
+        "• Merdeka Square (Independence)\n"
+        "• Sultan Abdul Samad Building\n"
+        "• Masjid Jamek (mosque)\n"
+        "• Central Market (handicrafts)\n"
+        "• River of Life\n\n"
+        "🏙️ UNESCO Sites:\n"
+        "• George Town (Penang) - street art!\n"
+        "• Melaka - colonial history\n\n"
+        "Museums:\n"
+        "• Islamic Arts Museum (stunning!)\n"
+        "• National Museum\n\n"
+        "Most are walkable! Easy half-day tour 🚶",
+    quick: ['Walking tour', 'Melaka trip', 'Museum hours'],
+  ),
+
+  QA(
+    patterns: ['melaka', 'malacca', 'historic city', 'a famosa'],
+    answer: "Melaka (Malacca) - UNESCO Heritage City! 🏰\n\n"
+        "Must-see:\n"
+        "🏛️ A Famosa Fort (1511!)\n"
+        "⛪ St. Paul's Church (ruins on hill)\n"
+        "🎨 Jonker Walk (night market Fri-Sun)\n"
+        "🚤 Melaka River cruise (RM25)\n"
+        "🕌 Red Dutch Square\n\n"
+        "📍 2 hours from KL by bus\n"
+        "💰 RM10-15 one-way\n"
+        "⏰ Perfect as day trip or overnight\n\n"
+        "Don't miss: Chicken rice balls & Nyonya food! 🍚✨",
+    quick: ['How to get there', 'Where to eat', 'What to buy'],
+  ),
+
+  QA(
+    patterns: ['penang', 'george town', 'street art', 'island'],
+    answer: "Penang - The Pearl of Orient! 🏝️🎨\n\n"
+        "Why visit:\n"
+        "🎨 Famous street art murals\n"
+        "🍜 BEST food in Malaysia!\n"
+        "🏛️ UNESCO heritage George Town\n"
+        "🏖️ Beaches (Batu Ferringhi)\n"
+        "🚡 Penang Hill cable car\n"
+        "🕉️ Kek Lok Si Temple (largest Buddhist temple)\n\n"
+        "📍 1-hour flight or 4-hour bus from KL\n"
+        "⏰ Need 2-3 days minimum\n\n"
+        "Rent a scooter to explore! 🛵",
+    quick: ['Flights', 'Where to stay', 'Food guide'],
+  ),
+
+  // ========== NATURE & ADVENTURE ==========
+  QA(
+    patterns: ['nature', 'outdoor', 'hiking', 'trek', 'jungle', 'mountain'],
+    answer: "Malaysia's nature is STUNNING! 🌿🏔️\n\n"
+        "🏔️ Mountains & Hills:\n"
+        "• Mount Kinabalu (highest in SEA!)\n"
+        "• Broga Hill (sunrise hike, 2hr)\n"
+        "• Penang Hill (cable car up!)\n\n"
+        "🌲 Rainforests:\n"
+        "• Taman Negara (oldest jungle!)\n"
+        "• Cameron Highlands (tea plantations)\n"
+        "• Endau Rompin\n\n"
+        "🏝️ Islands:\n"
+        "• Langkawi, Perhentian, Tioman\n"
+        "• Sipadan (world-class diving!)\n\n"
+        "Adventure level? I can suggest! 😊",
+    quick: ['Easy hikes', 'Beach trips', 'Jungle tours'],
+  ),
+
+  QA(
+    patterns: ['langkawi', 'island', 'beach', 'cable car', 'sky bridge'],
+    answer: "Langkawi - Island Paradise! 🏝️☀️\n\n"
+        "Must-do:\n"
+        "🚡 Cable Car + Sky Bridge (amazing views!)\n"
+        "🏖️ Pantai Cenang (main beach)\n"
+        "🦅 Eagle Square & boat tour\n"
+        "🌅 Sunset cruise\n"
+        "💦 Seven Wells Waterfall\n\n"
+        "📍 1-hour flight from KL\n"
+        "💰 Duty-free shopping (cheap chocolate!)\n"
+        "⏰ Need 3-4 days to enjoy\n\n"
+        "Rent a car - island is big! 🚗\n"
+        "Weather: Best Nov-March",
+    quick: ['Best hotels', 'Island hopping', 'What to eat'],
+  ),
+
+  QA(
+    patterns: ['cameron highlands', 'tea', 'strawberry', 'highland', 'cool'],
+    answer: "Cameron Highlands - Cool Mountain Retreat! 🍓☕\n\n"
+        "Perfect for:\n"
+        "🍵 Tea plantation tours (BOH Tea)\n"
+        "🍓 Strawberry farms (pick your own!)\n"
+        "🌺 Flower gardens\n"
+        "🥦 Fresh veggie markets\n"
+        "🥾 Jungle trails (Mossy Forest)\n\n"
+        "📍 3-4 hours from KL by bus\n"
+        "🌡️ 15-25°C (bring jacket!)\n"
+        "⏰ Perfect 2-day trip\n\n"
+        "Stay in Tanah Rata (main town).\n"
+        "Try steamboat & scones with cream! 😊",
+    quick: ['Best time', 'Tours', 'Where to stay'],
+  ),
+
+  // ========== TRANSPORTATION ==========
+  QA(
+    patterns: [
+      'transport',
+      'travel',
+      'getting around',
+      'how to get',
+      'move around'
+    ],
+    answer: "Getting around Malaysia! 🚇🚗\n\n"
+        "In KL:\n"
+        "🚇 LRT/MRT: Fast, cheap (RM1-5)\n"
+        "📱 Grab: Like Uber (safe & easy)\n"
+        "🚌 Go KL bus: FREE purple buses!\n"
+        "🚶 Walk: City center is walkable\n\n"
+        "Between cities:\n"
+        "✈️ Flights: AirAsia, MAS\n"
+        "🚌 Buses: Comfortable & cheap\n"
+        "🚂 Trains: KTM, ETS (to Penang/Ipoh)\n\n"
+        "Download: Grab, Google Maps, Moovit 📱",
+    quick: ['MRT guide', 'Grab tips', 'Bus routes'],
+  ),
+
+  QA(
+    patterns: ['grab', 'taxi', 'uber', 'ride'],
+    answer: "Grab is your BEST FRIEND! 📱🚗\n\n"
+        "Why Grab:\n"
+        "✅ Safer than street taxis\n"
+        "✅ Fixed price (no haggling)\n"
+        "✅ Track your ride\n"
+        "✅ Cashless payment\n\n"
+        "Download Grab app before arriving!\n\n"
+        "💰 Price examples:\n"
+        "• Airport to city: RM60-90\n"
+        "• KLCC to Batu Caves: RM25-35\n"
+        "• Within city: RM8-20\n\n"
+        "Alternative: InDriver (sometimes cheaper!)",
+    quick: ['Download Grab', 'Payment methods', 'Airport pickup'],
+  ),
+
+  QA(
+    patterns: ['train', 'lrt', 'mrt', 'monorail', 'rail', 'klia express'],
+    answer: "KL's trains are GREAT! 🚇💨\n\n"
+        "Types:\n"
+        "🚄 KLIA Express: Airport ↔️ City (28min, RM55)\n"
+        "🚇 LRT: Main city lines (Kelana Jaya, Ampang)\n"
+        "🚇 MRT: Newer, faster (SBK, Putrajaya)\n"
+        "🚝 Monorail: Through city center\n"
+        "🚂 KTM: Suburban (to Batu Caves!)\n\n"
+        "💳 Get MyRapid card (RM10 deposit)\n"
+        "💰 RM1-5 per trip\n"
+        "⏰ 6am-midnight\n\n"
+        "Very clean & safe! 😊",
+    quick: ['Route map', 'Buy card', 'Airport train'],
+  ),
+
+  // ========== PLANNING & PRACTICAL ==========
+  QA(
+    patterns: ['plan', 'itinerary', 'schedule', 'how many days', 'trip plan'],
+    answer: "Let me help you plan! 📅✨\n\n"
+        "Perfect KL itinerary:\n\n"
+        "Day 1: KLCC → Batu Caves → Bukit Bintang\n"
+        "Day 2: Heritage walk → Central Market → KL Tower\n"
+        "Day 3: Day trip (Melaka or Genting)\n\n"
+        "With more time:\n"
+        "• 5-7 days: Add Penang or Langkawi\n"
+        "• 10-14 days: Cover East Malaysia (Sabah/Sarawak)\n\n"
+        "How long are you staying? I'll customize! 😊",
+    quick: ['3-day plan', '7-day plan', 'Day trips'],
+  ),
+
+  QA(
+    patterns: ['budget', 'cost', 'expensive', 'cheap', 'money', 'price'],
+    answer: "Malaysia is VERY affordable! 💰✨\n\n"
+        "Daily budget:\n"
+        "🎒 Budget: RM100-150 (USD25-35)\n"
+        "  • Hostel, street food, local transport\n\n"
+        "🏨 Mid-range: RM250-400 (USD60-95)\n"
+        "  • Hotel, mix dining, Grab rides\n\n"
+        "💎 Comfort: RM500+ (USD120+)\n"
+        "  • Nice hotel, restaurants, tours\n\n"
+        "Free stuff:\n"
+        "• Parks, temples, heritage walks\n"
+        "• Go KL buses\n"
+        "• KLCC park fountain show\n\n"
+        "Your money goes FAR here! 😊",
+    quick: ['Save money tips', 'Free activities', 'Where to eat cheap'],
+  ),
+
+  QA(
+    patterns: ['safe', 'safety', 'dangerous', 'secure', 'theft', 'crime'],
+    answer: "Malaysia is SAFE for tourists! ✅😊\n\n"
+        "Safety tips:\n"
+        "👍 Generally very safe\n"
+        "👍 Locals are friendly & helpful\n"
+        "👍 Low violent crime\n\n"
+        "⚠️ Watch out for:\n"
+        "• Pickpockets in crowded areas\n"
+        "• Bag snatchers (rare, but hold bags tight)\n"
+        "• Scam taxis (use Grab!)\n\n"
+        "✅ Safe to:\n"
+        "• Walk at night in busy areas\n"
+        "• Use public transport\n"
+        "• Eat street food\n\n"
+        "You'll feel very comfortable here! 🇲🇾",
+    quick: ['Emergency numbers', 'Lost passport', 'Scams to avoid'],
+  ),
+
+  QA(
+    patterns: ['wifi', 'internet', 'data', 'mobile', 'online'],
+    answer: "Staying connected is EASY! 📱💨\n\n"
+        "Best SIM cards (at airport):\n"
+        "📶 Celcom, Digi, Maxis, U Mobile\n"
+        "💰 RM35-50 for tourist packs\n"
+        "📊 Unlimited data + calls (7-30 days)\n\n"
+        "WiFi:\n"
+        "• Most hotels: Fast & free\n"
+        "• Malls & cafes: Free WiFi\n"
+        "• Grab/food apps: Work everywhere\n\n"
+        "Coverage is excellent in cities!\n"
+        "Get SIM at airport - easiest! 😊",
+    quick: ['Which SIM', 'eSIM options', 'WiFi spots'],
+  ),
+
+  QA(
+    patterns: ['language', 'english', 'speak', 'communicate', 'malay'],
+    answer: "Language in Malaysia 🗣️\n\n"
+        "Good news:\n"
+        "✅ English widely spoken in cities\n"
+        "✅ Hotels/restaurants all speak English\n"
+        "✅ Signs are bilingual\n\n"
+        "Useful Malay phrases:\n"
+        "• Hello: Selamat datang\n"
+        "• Thank you: Terima kasih\n"
+        "• Excuse me: Maaf\n"
+        "• How much: Berapa harga\n"
+        "• Delicious: Sedap!\n\n"
+        "Locals LOVE when you try Malay! 😊\n"
+        "You'll have zero problems communicating!",
+    quick: ['More phrases', 'Translation app', 'Local customs'],
+  ),
+
+  // ========== MEDICAL TOURISM ==========
+  QA(
+    patterns: [
+      'medical',
+      'hospital',
+      'health',
+      'doctor',
+      'treatment',
+      'check up'
+    ],
+    answer: "Malaysia = World-Class Healthcare! 🏥✨\n\n"
+        "Top hospitals:\n"
+        "🏥 Prince Court Medical Centre\n"
+        "🏥 Gleneagles KL\n"
+        "🏥 Sunway Medical Centre\n"
+        "🏥 Pantai Hospital\n\n"
+        "Why Malaysia:\n"
+        "💰 60-80% cheaper than US/UK\n"
+        "👨‍⚕️ Doctors trained internationally\n"
+        "🗣️ English-speaking staff\n"
+        "✈️ Easy appointment booking\n\n"
+        "Popular: Health screenings, dental, cosmetic surgery.\n"
+        "Insurance paperwork? Hospitals help! 😊",
+    quick: ['Book appointment', 'Costs', 'Recovery hotels'],
+  ),
+
+  // ========== FAMILY & KIDS ==========
+  QA(
+    patterns: ['family', 'kids', 'children', 'playground', 'family friendly'],
+    answer: "Malaysia LOVES families! 👨‍👩‍👧‍👦💕\n\n"
+        "Kid-friendly attractions:\n"
+        "🐠 Aquaria KLCC (underwater tunnel!)\n"
+        "🔬 Petrosains (science discovery)\n"
+        "🦜 KL Bird Park (free-flight!)\n"
+        "🎢 Sunway Lagoon (water park)\n"
+        "🎪 Kidzania (role-play city)\n"
+        "🌳 Perdana Botanical Garden\n\n"
+        "Tips:\n"
+        "• Malls have play areas\n"
+        "• Restaurants welcome kids\n"
+        "• Strollers okay everywhere\n"
+        "• Grab has car seats (request!)\n\n"
+        "Very family-friendly culture! 😊",
+    quick: ['Indoor activities', 'Theme parks', 'Kid meals'],
+  ),
+
+  // ========== RELIGIOUS & CULTURE ==========
+  QA(
+    patterns: ['mosque', 'prayer', 'islam', 'muslim prayer', 'putra mosque'],
+    answer: "Beautiful mosques to visit! 🕌✨\n\n"
+        "Must-see:\n"
+        "🕌 Putra Mosque (Putrajaya) - Pink & stunning!\n"
+        "🕌 Masjid Negara (National Mosque)\n"
+        "🕌 Federal Territory Mosque\n"
+        "🕌 Crystal Mosque (Terengganu)\n\n"
+        "Visiting rules:\n"
+        "👗 Dress modestly (robes provided)\n"
+        "👟 Remove shoes\n"
+        "📸 Photos okay (be respectful)\n"
+        "🚫 Not during prayer times\n\n"
+        "⏰ Best time: 9am-5pm\n"
+        "💰 FREE entry\n\n"
+        "Non-Muslims welcome! Very peaceful 😊",
+    quick: ['Putra Mosque trip', 'Dress code', 'Best times'],
+  ),
+
+  QA(
+    patterns: ['temple', 'chinese temple', 'buddhist', 'hindu temple'],
+    answer: "Amazing temples to explore! 🏯🕉️\n\n"
+        "Hindu Temples:\n"
+        "🕉️ Batu Caves (iconic!)\n"
+        "🕉️ Sri Mahamariamman (oldest in KL)\n\n"
+        "Buddhist/Chinese Temples:\n"
+        "🏯 Thean Hou Temple (6-tier, beautiful!)\n"
+        "🏯 Kek Lok Si (Penang - largest!)\n"
+        "🏯 Sin Sze Si Ya (oldest in KL)\n\n"
+        "Visiting tips:\n"
+        "👗 Dress modestly\n"
+        "👟 Shoes off inside\n"
+        "📸 Photos usually okay\n"
+        "🙏 Be respectful of worshippers\n\n"
+        "💰 FREE (donations welcome)\n"
+        "Experience Malaysia's diversity! 🌈",
+    quick: ['Temple tour', 'Festivals', 'What to wear'],
+  ),
+
+  // ========== NIGHTLIFE & ENTERTAINMENT ==========
+  QA(
+    patterns: ['nightlife', 'bar', 'club', 'party', 'drink', 'night out'],
+    answer: "KL nightlife is VIBRANT! 🍹🌃\n\n"
+        "Top areas:\n"
+        "🍸 Changkat Bukit Bintang: Rooftop bars, pubs\n"
+        "🎉 TREC KL: Clubs & live music\n"
+        "🏙️ Skybar @ Traders Hotel: KLCC views!\n"
+        "🍺 Bangsar: Chill bars & cafes\n"
+        "🎶 Jalan P. Ramlee: Upscale clubs\n\n"
+        "Must-try:\n"
+        "• Heli Lounge Bar (rooftop helipad!)\n"
+        "• Marini's on 57 (fancy cocktails)\n"
+        "• Reggae Bar (live bands)\n\n"
+        "⏰ Opens 5pm, peaks 10pm-2am\n"
+        "💰 Drinks RM25-50\n\n"
+        "Very safe & fun! 🎉",
+    quick: ['Best rooftop bars', 'Live music', 'Ladies night'],
+  ),
+
+  // ========== PRACTICAL INFO ==========
+  QA(
+    patterns: ['currency', 'money', 'exchange', 'ringgit', 'atm', 'cash'],
+    answer: "Money matters! 💰🏦\n\n"
+        "Currency: Malaysian Ringgit (MYR/RM)\n"
+        "💵 USD 1 = RM 4-5 (approx)\n\n"
+        "Best ways to pay:\n"
+        "💳 Credit card widely accepted\n"
+        "🏧 ATMs everywhere (RM1-5 fee)\n"
+        "💵 Cash for street food/markets\n\n"
+        "Where to exchange:\n"
+        "✅ KL Sentral, Mid Valley (good rates)\n"
+        "❌ Avoid airport (poor rates)\n"
+        "❌ Hotels (worst rates)\n\n"
+        "Tip: Withdraw from ATM = best rate!\n"
+        "Most places accept card 😊",
+    quick: ['ATM locations', 'Credit cards', 'Tipping guide'],
+  ),
+
+  QA(
+    patterns: ['tip', 'tipping', 'service charge', 'gratuity'],
+    answer: "Tipping in Malaysia 💵\n\n"
+        "Short answer: NOT required! 😊\n\n"
+        "Details:\n"
+        "🍽️ Restaurants: 10% service charge already added\n"
+        "🚗 Grab/taxi: Not expected (round up if you want)\n"
+        "🏨 Hotels: RM5-10 for porter/housekeeping (optional)\n"
+        "💇 Spa/salon: 10% if excellent service\n\n"
+        "Locals don't usually tip.\n"
+        "If you do, it's a nice surprise! 😊\n\n"
+        "Service staff are paid properly here!",
+    quick: ['Service charge', 'When to tip', 'How much'],
+  ),
+
+  QA(
+    patterns: ['visa', 'entry', 'passport', 'immigration', 'requirement'],
+    answer: "Visa requirements 🛂✈️\n\n"
+        "Good news: Most nationalities get\n"
+        "visa-FREE entry! 🎉\n\n"
+        "Common durations:\n"
+        "🇺🇸🇬🇧🇦🇺🇪🇺: 90 days\n"
+        "🇨🇳🇮🇳: 30 days (some need eVisa)\n"
+        "🇸🇬: 30 days\n\n"
+        "Requirements:\n"
+        "✅ Passport valid 6+ months\n"
+        "✅ Return/onward ticket\n"
+        "✅ Sufficient funds proof\n\n"
+        "Check: Malaysian Immigration website\n"
+        "for your country's specific rules 📱",
+    quick: ['Extend visa', 'eVisa apply', 'Requirements'],
+  ),
+
+  QA(
+    patterns: ['emergency', 'police', 'ambulance', 'help', 'urgent'],
+    answer: "Emergency numbers in Malaysia! 🚨\n\n"
+        "📞 SAVE THESE:\n"
+        "• Police: 999\n"
+        "• Ambulance/Fire: 994\n"
+        "• Tourist Police: 03-2149 6590\n\n"
+        "Embassies:\n"
+        "Check your country's embassy number\n"
+        "when you arrive!\n\n"
+        "Lost/Stolen:\n"
+        "• Cards: Call bank immediately\n"
+        "• Passport: Contact embassy first\n"
+        "• Phone: Track via Find My Phone\n\n"
+        "Hospitals with 24/7 ER:\n"
+        "• Gleneagles, Pantai, Prince Court\n\n"
+        "Stay safe! Help is quick here 💙",
+    quick: ['Tourist police', 'Hospitals', 'Embassy list'],
+  ),
+
+  // ========== WEATHER & SEASONS ==========
+  QA(
+    patterns: ['when to visit', 'best time', 'season', 'month', 'avoid'],
+    answer: "Best time to visit Malaysia 🌞🌧️\n\n"
+        "BEST months: March - October\n"
+        "✅ Less rain, sunny days\n"
+        "✅ Perfect beach weather\n"
+        "✅ Outdoor activities great\n\n"
+        "Monsoon season: Nov - Feb\n"
+        "🌧️ East Coast (Perhentian, Tioman): Heavy rain\n"
+        "☀️ West Coast (Langkawi, Penang): Still okay!\n"
+        "🌧️ KL: Rain possible but manageable\n\n"
+        "Peak tourist: June-Aug, Dec-Jan\n"
+        "💰 Prices higher, more crowded\n\n"
+        "Sweet spot: March-May, Sep-Oct\n"
+        "Great weather + fewer tourists! 😊",
+    quick: ['Weather now', 'Beach season', 'Festivals calendar'],
+  ),
+
+  // ========== DAY TRIPS ==========
+  QA(
+    patterns: ['day trip', 'nearby', 'excursion', 'one day', 'genting'],
+    answer: "Awesome day trips from KL! 🚗💨\n\n"
+        "🎢 Genting Highlands (1hr)\n"
+        "  • Theme parks, casino, cool weather\n\n"
+        "🏛️ Melaka (2hrs)\n"
+        "  • UNESCO heritage, great food\n\n"
+        "🦅 Batu Caves (30min)\n"
+        "  • Hindu temple, monkeys, stairs!\n\n"
+        "🦀 Kuala Selangor (1.5hrs)\n"
+        "  • Fireflies boat tour at night\n\n"
+        "🍓 Cameron Highlands (3hrs)\n"
+        "  • Tea plantations (overnight better)\n\n"
+        "🏖️ Port Dickson (1.5hrs)\n"
+        "  • Beach escape\n\n"
+        "Easy to do yourself or book tours! 😊",
+    quick: ['Genting guide', 'Fireflies tour', 'Melaka trip'],
+  ),
+
+  // ========== SPECIFIC EXPERIENCES ==========
+  QA(
+    patterns: ['spa', 'massage', 'relax', 'wellness', 'traditional massage'],
+    answer: "Relax & rejuvenate! 💆‍♀️✨\n\n"
+        "Traditional treatments:\n"
+        "🌿 Malay massage (full body)\n"
+        "🌺 Javanese lulur (body scrub)\n"
+        "🥥 Urut batin (traditional healing)\n\n"
+        "Where to go:\n"
+        "💎 Luxury: Mandara Spa, Spa Village\n"
+        "💰 Mid-range: Thai Odyssey, Bali Hai\n"
+        "💵 Budget: Local reflexology (RM50-80)\n\n"
+        "📍 Find them in malls & hotels\n"
+        "💰 RM100-400 for 1-2hrs\n"
+        "⏰ Book ahead for weekends\n\n"
+        "So affordable compared to home! 😊",
+    quick: ['Book spa', 'Best value', 'Couple packages'],
+  ),
+
+  QA(
+    patterns: ['rain', 'raining', 'wet', 'indoor', 'rainy day'],
+    answer: "Rainy day? No problem! ☔😊\n\n"
+        "Indoor fun:\n"
+        "🛍️ Mall hopping (all connected!)\n"
+        "🐠 Aquaria KLCC (underwater tunnel)\n"
+        "🔬 Petrosains Science Centre\n"
+        "🖼️ Museum of Illusions\n"
+        "🎭 Islamic Arts Museum\n"
+        "🍜 Food court marathon!\n"
+        "☕ Cozy cafe hopping\n"
+        "💆 Spa day\n\n"
+        "Pro tip:\n"
+        "Malls in KL are HUGE - you can spend\n"
+        "all day exploring, eating, & shopping\n"
+        "in air-con comfort! 🌈",
+    quick: ['Indoor activities', 'Museums', 'Shopping malls'],
+  ),
+
+  QA(
+    patterns: ['photo', 'instagram', 'pictures', 'photogenic', 'spots'],
+    answer: "Instagram-worthy spots! 📸✨\n\n"
+        "📍 Must-photograph:\n"
+        "🌃 KLCC at night (from park)\n"
+        "🌈 Batu Caves rainbow stairs\n"
+        "💗 Putra Mosque (pink beauty!)\n"
+        "🎨 Penang street art murals\n"
+        "🌉 Saloma Link bridge at night\n"
+        "🏯 Thean Hou Temple sunset\n"
+        "🌊 Langkawi Sky Bridge\n"
+        "🏙️ KL Tower observation deck\n\n"
+        "Best times:\n"
+        "🌅 Sunrise: 7-8am\n"
+        "🌆 Blue hour: 7-7:30pm\n"
+        "🌃 Night lights: 8-10pm\n\n"
+        "Download: Google Photos (unlimited backup!) 📱",
+    quick: ['Photo tour', 'Sunrise spots', 'Night photography'],
+  ),
+
+  // ========== FESTIVALS & EVENTS ==========
+  QA(
+    patterns: [
+      'festival',
+      'event',
+      'celebration',
+      'holiday',
+      'chinese new year'
+    ],
+    answer: "Malaysia's festivals are COLORFUL! 🎉🌈\n\n"
+        "Major celebrations:\n"
+        "🧧 Chinese New Year (Jan/Feb)\n"
+        "  • Red lanterns everywhere!\n"
+        "🕌 Hari Raya (Islamic)\n"
+        "  • After Ramadan fasting\n"
+        "🪔 Deepavali (Oct/Nov)\n"
+        "  • Festival of lights\n"
+        "🎄 Christmas (Dec)\n"
+        "  • Big decorations in malls\n\n"
+        "Special events:\n"
+        "• Malaysia Day (Sept 16)\n"
+        "• Merdeka Day (Aug 31)\n"
+        "• Thaipusam (Jan/Feb) - Batu Caves!\n\n"
+        "During festivals: expect crowds,\n"
+        "but AMAZING atmosphere! 🎊",
+    quick: ['Festival dates', 'Thaipusam', 'What to expect'],
+  ),
+
+  // ========== FOOD DELIVERY & APPS ==========
+  QA(
+    patterns: ['delivery', 'food delivery', 'order food', 'grabfood', 'app'],
+    answer: "Food delivery is EVERYWHERE! 📱🍜\n\n"
+        "Top apps:\n"
+        "🚗 GrabFood (most popular!)\n"
+        "🛵 Foodpanda\n"
+        "🍔 ShopeeFood (cheap deals!)\n\n"
+        "Why so good:\n"
+        "✅ Super fast (20-40min)\n"
+        "✅ Cheap delivery (RM2-5)\n"
+        "✅ Promos daily!\n"
+        "✅ Track your order\n\n"
+        "💰 Payment: Card or cash\n"
+        "🕐 Available: 7am-2am (some 24hr!)\n\n"
+        "Perfect for lazy hotel nights! 😊\n"
+        "Download: Grab, Foodpanda, Shopee",
+    quick: ['Download Grab', 'Best deals', 'Hotel delivery'],
+  ),
+
+  // ========== FINAL CATCH-ALL & GOODBYES ==========
+  QA(
+    patterns: ['thanks', 'thank you', 'appreciate', 'helpful'],
+    answer: "You're so welcome! 🌟😊\n\n"
+        "Have an AMAZING time in Malaysia!\n"
+        "The food, the people, the sights -\n"
+        "you're going to love it here! 🇲🇾💕\n\n"
+        "Need anything else? Just ask!\n"
+        "I'm here to help make your trip\n"
+        "unforgettable! ✨\n\n"
+        "Selamat datang ke Malaysia! 🎉\n"
+        "(Welcome to Malaysia!)",
+    quick: ['More tips', 'Hidden gems', 'Local secrets'],
+  ),
+
+  QA(
+    patterns: ['bye', 'goodbye', 'see you', 'done', 'finish'],
+    answer: "Safe travels, friend! 🌏✨\n\n"
+        "Enjoy every moment in Malaysia!\n"
+        "Eat lots, explore tons, and make\n"
+        "amazing memories! 📸🍜\n\n"
+        "Come back anytime you need help!\n\n"
+        "Selamat jalan! (Safe journey!) 🇲🇾💙",
+  ),
+
+  QA(
+    patterns: ['recommend', 'suggestion', 'what should', 'advice'],
+    answer: "I'd love to help! 😊\n\n"
+        "Tell me more about what you like:\n"
+        "🍜 Foodie? → Best restaurants & street food\n"
+        "🏛️ History buff? → Heritage sites & museums\n"
+        "🏖️ Beach lover? → Island hopping\n"
+        "🛍️ Shopaholic? → Malls & markets\n"
+        "🌿 Nature person? → Hiking & parks\n"
+        "👨‍👩‍👧‍👦 Family trip? → Kid-friendly spots\n\n"
+        "Or ask specific things like:\n"
+        "'Best dinner spot near KLCC?'\n"
+        "'Easy hike with great views?'",
+    quick: ['Food recommendations', 'Nature spots', 'Shopping guide'],
+  ),
+
+  // ========== EXTENDED FALLBACK ==========
+  QA(
+    patterns: ['where', 'how', 'what', 'when', 'can you', 'tell me'],
+    answer: "I'd be happy to help! 🌟\n\n"
+        "I know about:\n"
+        "• Food & restaurants\n"
+        "• Attractions & sights\n"
+        "• Shopping & markets\n"
+        "• Transportation tips\n"
+        "• Hotels & areas\n"
+        "• Day trips & tours\n"
+        "• Practical travel info\n\n"
+        "Try asking something specific like:\n"
+        "'Best nasi lemak place?'\n"
+        "'How to get to Batu Caves?'\n"
+        "'What to do in Bukit Bintang tonight?'",
+    quick: ['Top attractions', 'Food guide', 'Getting around'],
+  ),
+
+  // ========== LANDMARKS & MUST-VISIT SPOTS ==========
+  QA(
+    patterns: ['must visit', 'landmarks', 'must see', 'top places', 'iconic'],
+    answer: "Must-visit landmarks in KL! 🏙️✨\n\n"
+        "🌟 Top Icons:\n"
+        "• Petronas Twin Towers (book early!)\n"
+        "• KL Tower (amazing 360° views)\n"
+        "• Batu Caves (272 rainbow stairs!)\n"
+        "• Merdeka 118 (tallest in SEA!)\n"
+        "• Bukit Bintang (shopping & nightlife)\n\n"
+        "Pro tip: Visit KLCC and Batu Caves early morning\n"
+        "to beat the crowds and heat! 🌅",
+    quick: ['Book Twin Towers', 'Batu Caves guide', 'City tour'],
+  ),
+
+  QA(
+    patterns: ['city view', 'best view', 'skyline', 'panorama', 'observation'],
+    answer: "Best city views in KL! 🌆🔝\n\n"
+        "🏙️ Top Viewing Spots:\n"
+        "• KL Tower Sky Deck (421m high!)\n"
+        "  💰 RM52 | ⏰ 9am-10pm\n\n"
+        "• Banyan Tree Rooftop Bar\n"
+        "  🍹 Drinks with a view!\n\n"
+        "• Petronas Sky Bridge (floor 86)\n"
+        "  💰 RM80-100 | Book ahead!\n\n"
+        "• KLCC Park (free ground view!)\n"
+        "• Traders Hotel Sky Bar\n\n"
+        "Evening/night is MAGICAL with lights! ✨",
+    quick: ['Sky Bar', 'KL Tower tickets', 'Best time to visit'],
+  ),
+
+  QA(
+    patterns: ['family', 'kids', 'children', 'family friendly', 'with kids'],
+    answer: "Family-friendly fun in Malaysia! 👨‍👩‍👧‍👦💕\n\n"
+        "🎢 Top Attractions:\n"
+        "• Sunway Lagoon (water park + theme park!)\n"
+        "  💰 RM180-220 | Full day fun!\n\n"
+        "• Aquaria KLCC (underwater tunnel 🐠)\n"
+        "• Legoland Malaysia (Johor - worth it!)\n"
+        "• Zoo Negara (Giant Panda!)\n"
+        "• KL Bird Park (world's largest!)\n\n"
+        "🎪 More ideas:\n"
+        "• Petrosains Science Center\n"
+        "• Kidzania (role-play city)\n"
+        "• Farm In The City\n\n"
+        "Kids will LOVE Malaysia! 🌟",
+    quick: ['Sunway Lagoon', 'Indoor activities', 'Kid meals'],
+  ),
+
+  QA(
+    patterns: ['cultural', 'culture', 'heritage', 'traditional', 'history'],
+    answer: "Explore Malaysia's rich culture! 🏛️🎨\n\n"
+        "🕌 Must-Visit Cultural Sites:\n"
+        "• Islamic Arts Museum (stunning!)\n"
+        "  💰 RM14 | Beautiful architecture\n\n"
+        "• Thean Hou Temple (6-tier Chinese)\n"
+        "• Melaka Old Town (UNESCO!)\n"
+        "  🏛️ A Famosa, Jonker Walk\n\n"
+        "• George Town, Penang (Street art!)\n"
+        "  🎨 UNESCO heritage murals\n\n"
+        "Other gems:\n"
+        "• Baba Nyonya Heritage Museum\n"
+        "• Sultan Abdul Samad Building\n"
+        "• Sri Mahamariamman Temple\n\n"
+        "History + Instagram = Perfect! 📸",
+    quick: ['Melaka trip', 'George Town', 'Museum hours'],
+  ),
+
+  QA(
+    patterns: [
+      'photo',
+      'instagram',
+      'pictures',
+      'photogenic',
+      'beautiful photos'
+    ],
+    answer: "Instagram-worthy spots in KL! 📸✨\n\n"
+        "🌟 Best Photo Locations:\n"
+        "🌉 Saloma Bridge (evening lights!)\n"
+        "  Best time: 7-9pm for colors\n\n"
+        "⛲ KLCC Park (fountain + towers)\n"
+        "  📍 Grab the iconic reflection shot!\n\n"
+        "🌺 Perdana Botanical Gardens\n"
+        "  🌳 Lush greenery & flowers\n\n"
+        "🏮 Petaling Street (Chinatown)\n"
+        "  Red lanterns everywhere!\n\n"
+        "Other spots:\n"
+        "• Batu Caves rainbow stairs\n"
+        "• Putra Mosque (pink beauty!)\n"
+        "• Thean Hou Temple sunset\n\n"
+        "Golden hour = Magic! 🌅",
+    quick: ['Sunset spots', 'Night photography', 'Hidden gems'],
+  ),
+
+  QA(
+    patterns: ['island', 'beach', 'islands', 'beach destination', 'seaside'],
+    answer: "Top island destinations! 🏝️☀️\n\n"
+        "🌊 Must-Visit Islands:\n"
+        "🦅 Langkawi (duty-free paradise!)\n"
+        "  • Cable car, beaches, sunsets\n"
+        "  • ✈️ 1hr flight from KL\n\n"
+        "🐠 Perhentian Islands (crystal clear!)\n"
+        "  • Snorkeling, diving heaven\n"
+        "  • Budget-friendly\n\n"
+        "🌴 Tioman Island (jungle + beach)\n"
+        "  • Pristine nature\n\n"
+        "🤿 Sipadan (world's best diving!)\n"
+        "  • Sabah - bucket list!\n\n"
+        "🦀 Pangkor Island (laid-back vibes)\n"
+        "  • Easy from KL (3hrs)\n\n"
+        "Best season: March-October! 🌞",
+    quick: ['Langkawi guide', 'Perhentian trip', 'Beach season'],
+  ),
+
+  QA(
+    patterns: [
+      'highland',
+      'highlands',
+      'mountains',
+      'cool weather',
+      'hill station'
+    ],
+    answer: "Highland escapes - cool & beautiful! ⛰️🌿\n\n"
+        "🏔️ Top Highlands:\n"
+        "🍓 Cameron Highlands\n"
+        "  • Tea plantations, strawberries\n"
+        "  • 15-25°C (bring jacket!)\n"
+        "  • 📍 3-4hrs from KL\n\n"
+        "🎢 Genting Highlands\n"
+        "  • Theme parks, casino, cool air\n"
+        "  • 📍 1hr from KL (cable car up!)\n\n"
+        "🏰 Bukit Tinggi\n"
+        "  • French/Japanese villages\n"
+        "  • Perfect day trip\n\n"
+        "🌲 Fraser's Hill\n"
+        "  • Colonial charm, birdwatching\n"
+        "  • Less crowded!\n\n"
+        "Perfect weekend getaway! 🌤️",
+    quick: ['Cameron trip', 'Genting guide', 'Best season'],
+  ),
+
+  QA(
+    patterns: ['rainforest', 'jungle', 'trekking', 'nature park', 'wildlife'],
+    answer: "Experience Malaysia's ancient rainforest! 🌳🦜\n\n"
+        "🌿 Top Rainforest Destinations:\n"
+        "🏞️ Taman Negara\n"
+        "  • 130 million years old!\n"
+        "  • Canopy walk, river cruise\n"
+        "  • Wildlife spotting\n"
+        "  • 📍 3-4hrs from KL\n\n"
+        "🏔️ Kinabalu Park (Sabah)\n"
+        "  • UNESCO World Heritage\n"
+        "  • Mount Kinabalu (4,095m!)\n"
+        "  • Unique flora & fauna\n"
+        "  • ✈️ Fly to Kota Kinabalu\n\n"
+        "What to expect:\n"
+        "• Guided jungle treks\n"
+        "• Night safaris\n"
+        "• River activities\n"
+        "• Authentic nature experience!\n\n"
+        "Hire local guides recommended! 🥾",
+    quick: ['Taman Negara tour', 'Mount Kinabalu', 'What to bring'],
+  ),
+
+  QA(
+    patterns: ['sunset', 'sunset view', 'golden hour', 'evening view'],
+    answer: "Best sunset spots in Malaysia! 🌅✨\n\n"
+        "🌇 Top Sunset Views:\n"
+        "🌉 Langkawi SkyBridge\n"
+        "  • 360° island & sea views\n"
+        "  • Absolutely stunning!\n\n"
+        "🏯 Kek Lok Si Temple Hill (Penang)\n"
+        "  • Temple + sunset combo\n"
+        "  • Magical atmosphere\n\n"
+        "🏖️ Tanjung Aru Beach (Sabah)\n"
+        "  • Famous sunset beach\n"
+        "  • Food stalls nearby\n\n"
+        "Other great spots:\n"
+        "• KLCC Park (city sunset)\n"
+        "• Putra Mosque lakeside\n"
+        "• Port Dickson beaches\n\n"
+        "⏰ Best time: 6:30-7:30pm\n"
+        "Bring your camera! 📸",
+    quick: ['Langkawi sunset', 'Beach spots', 'Photography tips'],
+  ),
+
+  QA(
+    patterns: [
+      'hidden gem',
+      'underrated',
+      'secret spot',
+      'off beaten',
+      'lesser known'
+    ],
+    answer: "Hidden gems - locals' favorites! 💎🤫\n\n"
+        "🌟 5 Underrated Spots:\n"
+        "🌾 Sekinchan Rice Fields\n"
+        "  • Golden paddy views!\n"
+        "  • 📍 2hrs from KL\n"
+        "  • Fresh seafood too!\n\n"
+        "✨ Kuala Selangor Fireflies\n"
+        "  • Magical boat tour at night\n"
+        "  • Nature's light show! 🌙\n\n"
+        "🪞 Sasaran Sky Mirror\n"
+        "  • Bolivia-style reflection!\n"
+        "  • Seasonal (check timing)\n\n"
+        "🏔️ Kundasang (Sabah)\n"
+        "  • \"New Zealand of Malaysia\"\n"
+        "  • Dairy farms, cool air\n\n"
+        "🏝️ Kapas Island\n"
+        "  • Quiet, pristine beaches\n"
+        "  • Less touristy!\n\n"
+        "Escape the crowds! 🌿",
+    quick: ['Fireflies tour', 'Sky Mirror', 'More hidden spots'],
+  ),
+];

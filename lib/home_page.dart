@@ -4,7 +4,8 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:kltheguide/main.dart';
 import 'generated/l10n.dart';
-import 'camera_scanner_page.dart'; // make sure the path is correct
+import 'camera_scanner_page.dart';
+import 'travel_buddy_page.dart';
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});
@@ -52,152 +53,174 @@ class _HomeScreenState extends State<HomeScreen> {
     ];
 
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [
-              Colors.grey[50]!,
-              Colors.white,
-            ],
+      body: Stack(
+        children: [
+          Container(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topCenter,
+                end: Alignment.bottomCenter,
+                colors: [
+                  Colors.grey[50]!,
+                  Colors.white,
+                ],
+              ),
+            ),
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: <Widget>[
+                  // Social Media Icons Section
+                  Container(
+                    margin:
+                    const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                    padding: const EdgeInsets.symmetric(vertical: 16),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(20),
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black.withOpacity(0.05),
+                          blurRadius: 10,
+                          offset: const Offset(0, 4),
+                        ),
+                      ],
+                    ),
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: [
+                        _buildSocialButton(
+                          icon: Icons.facebook_sharp,
+                          color: const Color(0xFF1877F2),
+                          onTap: () =>
+                              _launchURL('https://www.facebook.com/kltheguide/'),
+                        ),
+                        _buildSocialButton(
+                          icon: MyFlutterApp.instagram_1,
+                          gradient: const LinearGradient(
+                            colors: [
+                              Color(0xFFF58529),
+                              Color(0xFFDD2A7B),
+                              Color(0xFF8134AF)
+                            ],
+                          ),
+                          onTap: () =>
+                              _launchURL('https://www.instagram.com/kltheguide/'),
+                        ),
+
+                        // 📸 CAMERA BUTTON IN THE MIDDLE
+                        _buildSocialButton(
+                          icon: Icons.camera_alt_rounded,
+                          color: const Color(0xFF004785),
+                          onTap: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (_) => const CameraScannerPage()),
+                            );
+                          },
+                        ),
+
+                        _buildSocialButton(
+                          icon: MyFlutterApp.whatsapp,
+                          color: const Color(0xFF25D366),
+                          onTap: () => _launchURL(
+                              'https://api.whatsapp.com/send?phone=60122200622'),
+                        ),
+                        _buildSocialButton(
+                          icon: Icons.tiktok,
+                          color: Colors.black,
+                          onTap: () =>
+                              _launchURL('https://www.tiktok.com/@kltheguide'),
+                        ),
+                        _buildSocialButton(
+                          icon: Icons.public,
+                          color: const Color.fromARGB(255, 0, 71, 133),
+                          onTap: () => _launchURL('https://www.kltheguide.com.my/'),
+                        ),
+                      ],
+                    ),
+                  ),
+
+                  // KL Highlights Section
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(24, 16, 24, 12),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 4,
+                          height: 24,
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 0, 71, 133),
+                            borderRadius: BorderRadius.circular(2),
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Text(
+                          S.of(context).klHighlights,
+                          style: const TextStyle(
+                            color: Colors.black87,
+                            fontSize: 24.0,
+                            fontWeight: FontWeight.bold,
+                            letterSpacing: 0.5,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  ImageCarousel(images: imagesHighlights, titles: titlesHighlights),
+
+                  // Recommendations Section
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(24, 24, 24, 12),
+                    child: Row(
+                      children: [
+                        Container(
+                          width: 4,
+                          height: 24,
+                          decoration: BoxDecoration(
+                            color: const Color.fromARGB(255, 0, 71, 133),
+                            borderRadius: BorderRadius.circular(2),
+                          ),
+                        ),
+                        const SizedBox(width: 12),
+                        Text(
+                          S.of(context).recommendations,
+                          style: const TextStyle(
+                            color: Colors.black87,
+                            fontSize: 24.0,
+                            fontWeight: FontWeight.bold,
+                            letterSpacing: 0.5,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  ImageCarousel2(images: imagesRmd, titles: titlesRmd),
+                  const SizedBox(height: 20),
+                ],
+              ),
+            ),
           ),
-        ),
-        child: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: <Widget>[
-              // Social Media Icons Section
-              Container(
-                margin:
-                const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
-                padding: const EdgeInsets.symmetric(vertical: 16),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(20),
-                  boxShadow: [
-                    BoxShadow(
-                      color: Colors.black.withOpacity(0.05),
-                      blurRadius: 10,
-                      offset: const Offset(0, 4),
-                    ),
-                  ],
-                ),
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: [
-                    _buildSocialButton(
-                      icon: Icons.facebook_sharp,
-                      color: const Color(0xFF1877F2),
-                      onTap: () =>
-                          _launchURL('https://www.facebook.com/kltheguide/'),
-                    ),
-                    _buildSocialButton(
-                      icon: MyFlutterApp.instagram_1,
-                      gradient: const LinearGradient(
-                        colors: [
-                          Color(0xFFF58529),
-                          Color(0xFFDD2A7B),
-                          Color(0xFF8134AF)
-                        ],
-                      ),
-                      onTap: () =>
-                          _launchURL('https://www.instagram.com/kltheguide/'),
-                    ),
 
-                    // 📸 CAMERA BUTTON IN THE MIDDLE
-                    _buildSocialButton(
-                      icon: Icons.camera_alt_rounded,
-                      color: const Color(0xFF004785),
-                      onTap: () {
-                        Navigator.push(
-                          context,
-                          MaterialPageRoute(
-                              builder: (_) => const CameraScannerPage()),
-                        );
-                      },
-                    ),
-
-                    _buildSocialButton(
-                      icon: MyFlutterApp.whatsapp,
-                      color: const Color(0xFF25D366),
-                      onTap: () => _launchURL(
-                          'https://api.whatsapp.com/send?phone=60122200622'),
-                    ),
-                    _buildSocialButton(
-                      icon: Icons.tiktok,
-                      color: Colors.black,
-                      onTap: () =>
-                          _launchURL('https://www.tiktok.com/@kltheguide'),
-                    ),
-                    _buildSocialButton(
-                      icon: Icons.public,
-                      color: const Color.fromARGB(255, 0, 71, 133),
-                      onTap: () => _launchURL('https://www.kltheguide.com.my/'),
-                    ),
-                  ],
-                ),
-              ),
-
-              // KL Highlights Section
-              Padding(
-                padding: const EdgeInsets.fromLTRB(24, 16, 24, 12),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 4,
-                      height: 24,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 0, 71, 133),
-                        borderRadius: BorderRadius.circular(2),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Text(
-                      S.of(context).klHighlights,
-                      style: const TextStyle(
-                        color: Colors.black87,
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              ImageCarousel(images: imagesHighlights, titles: titlesHighlights),
-
-              // Recommendations Section
-              Padding(
-                padding: const EdgeInsets.fromLTRB(24, 24, 24, 12),
-                child: Row(
-                  children: [
-                    Container(
-                      width: 4,
-                      height: 24,
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 0, 71, 133),
-                        borderRadius: BorderRadius.circular(2),
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Text(
-                      S.of(context).recommendations,
-                      style: const TextStyle(
-                        color: Colors.black87,
-                        fontSize: 24.0,
-                        fontWeight: FontWeight.bold,
-                        letterSpacing: 0.5,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              ImageCarousel2(images: imagesRmd, titles: titlesRmd),
-              const SizedBox(height: 20),
-            ],
+          // Floating Chat Button
+          Positioned(
+            right: 18,
+            bottom: kBottomNavigationBarHeight + 10,
+            child: FloatingActionButton.small(
+              heroTag: 'chat-fab',
+              elevation: 6,
+              backgroundColor: const Color(0xFF004785),
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (_) => const TravelBuddyPage()),
+                );
+              },
+              child: const Icon(Icons.forum_outlined, color: Colors.white),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
