@@ -37,8 +37,10 @@ const List<QA> kTravelQA = [
         "📱 SIM cards: Available at airport kiosks (Celcom, Digi, Maxis)\n"
         "🚗 Transport: Grab works great, or take KLIA Express train (28min to KL)\n"
         "💰 Money: ATMs and currency exchange available\n\n"
-        "The airport is modern and easy to navigate. Staff speak English! 😊",
-    quick: ['Best transport', 'Hotel distance', 'Weather today'],
+        "The airport is modern and easy to navigate. Staff speak English! 😊\n\n"
+        "💡 Want to plan your trip in detail?\n"
+        "Check out KL The Guide! 👇",
+    quick: ['Best transport', 'Hotel distance', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -47,10 +49,11 @@ const List<QA> kTravelQA = [
         "☀️ Expect: 25-33°C (77-91°F)\n"
         "💧 Humidity: High (bring light clothes!)\n"
         "🌧️ Best time: March-October\n\n"
-        "Quick rain is common, but it usually clears fast. Pack an umbrella or light jacket!",
-    quick: ['What to wear', 'Indoor activities', 'Beach weather'],
+        "Quick rain is common, but it usually clears fast. Pack an umbrella or light jacket!\n\n"
+        "💡 Need more travel tips?\n"
+        "Visit KL The Guide for detailed guides! 👇",
+    quick: ['What to wear', 'Indoor activities', 'KL The Guide 🔗'],
   ),
-
   // ========== ACCOMMODATION ==========
   QA(
     patterns: ['hotel', 'stay', 'accommodation', 'where to stay', 'homestay'],
@@ -59,8 +62,10 @@ const List<QA> kTravelQA = [
         "🏢 KLCC: Upscale, near Twin Towers\n"
         "🎨 Chinatown: Budget-friendly, cultural\n"
         "🌿 Bangsar: Trendy cafes & residential\n\n"
-        "Most hotels offer airport pickup! Prices are very affordable compared to western countries 😊",
-    quick: ['Bukit Bintang hotels', 'Budget options', 'Near airport'],
+        "Most hotels offer airport pickup! Prices are very affordable compared to western countries 😊\n\n"
+        "💡 Need detailed area guides?\n"
+        "Check KL The Guide for neighborhood reviews! 👇",
+    quick: ['Bukit Bintang hotels', 'Budget options', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -70,11 +75,13 @@ const List<QA> kTravelQA = [
         "🛍️ Pavilion KL: Shopping + fountain show at 8pm\n"
         "🍹 Changkat: Rooftop bars & nightlife\n"
         "✨ TRX Exchange Park: Beautiful light displays\n\n"
-        "Everything is within walking distance! Safe to explore at night 🚶",
-    quick: ['Street food guide', 'Nightlife spots', 'Shopping tips'],
+        "Everything is within walking distance! Safe to explore at night 🚶\n\n"
+        "💡 Want a complete Bukit Bintang guide?\n"
+        "Visit KL The Guide for more tips! 👇",
+    quick: ['Street food guide', 'Nightlife spots', 'KL The Guide 🔗'],
   ),
 
-  // ========== FOOD & DINING ==========
+// ========== FOOD & DINING ==========
   QA(
     patterns: ['food', 'eat', 'hungry', 'restaurant', 'dishes'],
     answer: "You're in food heaven! 😍🍜 Must-try Malaysian dishes:\n\n"
@@ -83,8 +90,10 @@ const List<QA> kTravelQA = [
         "🥖 Roti Canai (flaky flatbread with curry)\n"
         "🍢 Satay (grilled meat skewers)\n"
         "🍝 Char Kuey Teow (wok-fried noodles)\n\n"
-        "Pro tip: Penang has the BEST food scene in Malaysia!",
-    quick: ['Where to eat', 'Halal options', 'Vegetarian food'],
+        "Pro tip: Penang has the BEST food scene in Malaysia!\n\n"
+        "💡 Want comprehensive food guides?\n"
+        "Explore KL The Guide for restaurant reviews! 👇",
+    quick: ['Where to eat', 'Halal options', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -98,8 +107,10 @@ const List<QA> kTravelQA = [
         "• Chow Kit Market (local breakfast)\n"
         "• Imbi Market (curry laksa)\n"
         "• Madras Lane (Hokkien mee)\n\n"
-        "Don't worry - food stalls are clean and safe! 👍",
-    quick: ['Penang food', 'Night markets', 'Local breakfast'],
+        "Don't worry - food stalls are clean and safe! 👍\n\n"
+        "💡 Looking for more hidden food spots?\n"
+        "Check KL The Guide's local favorites! 👇",
+    quick: ['Penang food', 'Night markets', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -111,8 +122,10 @@ const List<QA> kTravelQA = [
         "• Nasi Kandar (Penang/KL)\n"
         "• Banana Leaf Rice\n"
         "• Roti Canai everywhere!\n\n"
-        "You'll have no problems finding amazing halal food anywhere 😊",
-    quick: ['Halal restaurants', 'Malay cuisine', 'Indian Muslim food'],
+        "You'll have no problems finding amazing halal food anywhere 😊\n\n"
+        "💡 Need a complete halal dining guide?\n"
+        "Visit KL The Guide for certified restaurants! 👇",
+    quick: ['Halal restaurants', 'Malay cuisine', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -124,8 +137,10 @@ const List<QA> kTravelQA = [
         "• Roti canai with dhal\n"
         "• Nasi lemak (skip the anchovies)\n\n"
         "Tell servers: 'Tak mahu daging' (no meat) or 'vegetarian'\n\n"
-        "Areas: Brickfields (Little India) has tons of veggie options!",
-    quick: ['Vegan cafes', 'Indian veg', 'Buddhist restaurants'],
+        "Areas: Brickfields (Little India) has tons of veggie options!\n\n"
+        "💡 Want a vegan/vegetarian restaurant list?\n"
+        "Browse KL The Guide for plant-based spots! 👇",
+    quick: ['Vegan cafes', 'Indian veg', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -141,8 +156,10 @@ const List<QA> kTravelQA = [
         "• Village Park Restaurant (famous!)\n"
         "• Any mamak stall\n"
         "• Hotel breakfast buffets\n\n"
-        "Price: RM5-15. Eaten for breakfast but good anytime!",
-    quick: ['Other breakfast', 'Best nasi lemak', 'Roti canai'],
+        "Price: RM5-15. Eaten for breakfast but good anytime!\n\n"
+        "💡 Discover the best nasi lemak spots!\n"
+        "Check KL The Guide's foodie recommendations! 👇",
+    quick: ['Other breakfast', 'Best nasi lemak', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -155,8 +172,10 @@ const List<QA> kTravelQA = [
         "🧊 Cendol: Sweet icy dessert drink\n"
         "☕ White coffee: Ipoh specialty\n\n"
         "Find them at: Mamak stalls, kopitiam (coffee shops), food courts.\n"
-        "Try teh tarik - it's our national drink! 😊",
-    quick: ['Cendol spots', 'Coffee culture', 'Fresh juice'],
+        "Try teh tarik - it's our national drink! 😊\n\n"
+        "💡 Want more drink recommendations?\n"
+        "Check KL The Guide for cafe reviews! 👇",
+    quick: ['Where to find', 'Dessert drinks', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -171,8 +190,10 @@ const List<QA> kTravelQA = [
         "• Gurney Drive hawker center\n"
         "• Chulia Street night market\n"
         "• New Lane (Lorong Baru)\n\n"
-        "Foodies say: KL is great, but Penang is LEGENDARY! 🔥",
-    quick: ['Penang trip', 'How to get there', 'Street art'],
+        "Foodies say: KL is great, but Penang is LEGENDARY! 🔥\n\n"
+        "💡 Planning a Penang food trip?\n"
+        "Visit KL The Guide for detailed reviews! 👇",
+    quick: ['Best hawker centers', 'Must-try dishes', 'KL The Guide 🔗'],
   ),
 
   // ========== SHOPPING ==========
@@ -186,8 +207,10 @@ const List<QA> kTravelQA = [
         "💎 TRX Exchange: Newest & fanciest\n"
         "📦 Mid Valley: Massive selection\n\n"
         "Budget tip: Visit during mega sales (March, Aug, Dec)!\n"
-        "Most malls open 10am-10pm 😊",
-    quick: ['Local souvenirs', 'Electronics', 'Outlet malls'],
+        "Most malls open 10am-10pm 😊\n\n"
+        "💡 Need a complete shopping guide?\n"
+        "Check KL The Guide for mall reviews! 👇",
+    quick: ['Sale seasons', 'Mall locations', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -203,8 +226,10 @@ const List<QA> kTravelQA = [
         "• Central Market (craft & batik)\n"
         "• KLIA airport (last minute!)\n"
         "• Petaling Street (bargain!)\n\n"
-        "Tax refund available at airport for purchases >RM300!",
-    quick: ['Central Market', 'Tax refund', 'Bargaining tips'],
+        "Tax refund available at airport for purchases >RM300!\n\n"
+        "💡 Want more souvenir shopping tips?\n"
+        "Browse KL The Guide for recommendations! 👇",
+    quick: ['Where to buy', 'Price guide', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -218,8 +243,10 @@ const List<QA> kTravelQA = [
         "• Digital Mall (near Low Yat)\n"
         "• All-Asia (cameras)\n"
         "• Airport duty-free\n\n"
-        "Tip: Compare prices! Warranty may differ from your country 📱",
-    quick: ['Low Yat location', 'Camera shops', 'Best deals'],
+        "Tip: Compare prices! Warranty may differ from your country 📱\n\n"
+        "💡 Looking for tech shopping details?\n"
+        "Visit KL The Guide for store info! 👇",
+    quick: ['Shopping tips', 'Warranty info', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -235,8 +262,10 @@ const List<QA> kTravelQA = [
         "👕 Cheap clothes & accessories\n"
         "🎮 Games & toys\n"
         "🌻 Fresh fruits\n\n"
-        "Bargaining is expected! Start at 50% of asking price 😄",
-    quick: ['Tonight markets', 'Bargaining tips', 'Best buys'],
+        "Bargaining is expected! Start at 50% of asking price 😄\n\n"
+        "💡 Need a complete market guide?\n"
+        "Check KL The Guide for schedules! 👇",
+    quick: ['Market schedules', 'What to buy', 'KL The Guide 🔗'],
   ),
 
   // ========== ATTRACTIONS & SIGHTSEEING ==========
@@ -253,8 +282,10 @@ const List<QA> kTravelQA = [
         "• Penang (street art & food)\n"
         "• Melaka (UNESCO heritage)\n"
         "• Cameron Highlands (tea farms)\n\n"
-        "Which vibe interests you? 😊",
-    quick: ['City tour', 'Nature spots', 'Heritage sites'],
+        "Which vibe interests you? 😊\n\n"
+        "💡 Want detailed attraction guides?\n"
+        "Explore KL The Guide for complete info! 👇",
+    quick: ['Top 10 must-see', 'Hidden gems', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -269,8 +300,10 @@ const List<QA> kTravelQA = [
         "• KLCC Park fountain show (8pm & 9pm)\n"
         "• View from Traders Hotel Sky Bar\n"
         "• Photos from Suria KLCC mall\n\n"
-        "Evening is magical with lights! 🌆",
-    quick: ['Book tickets', 'Free views', 'Night photos'],
+        "Evening is magical with lights! 🌆\n\n"
+        "💡 Need more KLCC area tips?\n"
+        "Check KL The Guide for full details! 👇",
+    quick: ['Booking guide', 'Photo spots', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -285,8 +318,10 @@ const List<QA> kTravelQA = [
         "💰 FREE entry\n"
         "⏰ 6am-9pm\n\n"
         "Dress code: Cover shoulders & knees\n"
-        "Go early morning to beat heat & crowds! 🌅",
-    quick: ['How to get there', 'What to wear', 'Monkey tips'],
+        "Go early morning to beat heat & crowds! 🌅\n\n"
+        "💡 Planning your Batu Caves visit?\n"
+        "Visit KL The Guide for transport tips! 👇",
+    quick: ['Getting there', 'Best time', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -304,8 +339,10 @@ const List<QA> kTravelQA = [
         "Museums:\n"
         "• Islamic Arts Museum (stunning!)\n"
         "• National Museum\n\n"
-        "Most are walkable! Easy half-day tour 🚶",
-    quick: ['Walking tour', 'Melaka trip', 'Museum hours'],
+        "Most are walkable! Easy half-day tour 🚶\n\n"
+        "💡 Want a heritage walking route?\n"
+        "Browse KL The Guide for itineraries! 👇",
+    quick: ['Walking routes', 'Museum list', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -320,8 +357,10 @@ const List<QA> kTravelQA = [
         "📍 2 hours from KL by bus\n"
         "💰 RM10-15 one-way\n"
         "⏰ Perfect as day trip or overnight\n\n"
-        "Don't miss: Chicken rice balls & Nyonya food! 🍚✨",
-    quick: ['How to get there', 'Where to eat', 'What to buy'],
+        "Don't miss: Chicken rice balls & Nyonya food! 🍚✨\n\n"
+        "💡 Planning a Melaka day trip?\n"
+        "Check KL The Guide for complete itinerary! 👇",
+    quick: ['Day trip plan', 'Food spots', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -336,8 +375,10 @@ const List<QA> kTravelQA = [
         "🕉️ Kek Lok Si Temple (largest Buddhist temple)\n\n"
         "📍 1-hour flight or 4-hour bus from KL\n"
         "⏰ Need 2-3 days minimum\n\n"
-        "Rent a scooter to explore! 🛵",
-    quick: ['Flights', 'Where to stay', 'Food guide'],
+        "Rent a scooter to explore! 🛵\n\n"
+        "💡 Need a complete Penang guide?\n"
+        "Visit KL The Guide for everything! 👇",
+    quick: ['3-day itinerary', 'Best areas', 'KL The Guide 🔗'],
   ),
 
   // ========== NATURE & ADVENTURE ==========
@@ -355,8 +396,10 @@ const List<QA> kTravelQA = [
         "🏝️ Islands:\n"
         "• Langkawi, Perhentian, Tioman\n"
         "• Sipadan (world-class diving!)\n\n"
-        "Adventure level? I can suggest! 😊",
-    quick: ['Easy hikes', 'Beach trips', 'Jungle tours'],
+        "Adventure level? I can suggest! 😊\n\n"
+        "💡 Need outdoor adventure guides?\n"
+        "Visit KL The Guide for hiking tips! 👇",
+    quick: ['Beginner trails', 'Adventure tours', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -372,8 +415,10 @@ const List<QA> kTravelQA = [
         "💰 Duty-free shopping (cheap chocolate!)\n"
         "⏰ Need 3-4 days to enjoy\n\n"
         "Rent a car - island is big! 🚗\n"
-        "Weather: Best Nov-March",
-    quick: ['Best hotels', 'Island hopping', 'What to eat'],
+        "Weather: Best Nov-March\n\n"
+        "💡 Planning a Langkawi trip?\n"
+        "Check KL The Guide for complete info! 👇",
+    quick: ['Island itinerary', 'Beach guide', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -389,8 +434,10 @@ const List<QA> kTravelQA = [
         "🌡️ 15-25°C (bring jacket!)\n"
         "⏰ Perfect 2-day trip\n\n"
         "Stay in Tanah Rata (main town).\n"
-        "Try steamboat & scones with cream! 😊",
-    quick: ['Best time', 'Tours', 'Where to stay'],
+        "Try steamboat & scones with cream! 😊\n\n"
+        "💡 Need a Cameron Highlands guide?\n"
+        "Browse KL The Guide for tour details! 👇",
+    quick: ['2-day itinerary', 'What to pack', 'KL The Guide 🔗'],
   ),
 
   // ========== TRANSPORTATION ==========
@@ -412,8 +459,10 @@ const List<QA> kTravelQA = [
         "✈️ Flights: AirAsia, MAS\n"
         "🚌 Buses: Comfortable & cheap\n"
         "🚂 Trains: KTM, ETS (to Penang/Ipoh)\n\n"
-        "Download: Grab, Google Maps, Moovit 📱",
-    quick: ['MRT guide', 'Grab tips', 'Bus routes'],
+        "Download: Grab, Google Maps, Moovit 📱\n\n"
+        "💡 Want detailed transport routes?\n"
+        "Check KL The Guide for travel tips! 👇",
+    quick: ['Train routes', 'Best apps', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -429,8 +478,10 @@ const List<QA> kTravelQA = [
         "• Airport to city: RM60-90\n"
         "• KLCC to Batu Caves: RM25-35\n"
         "• Within city: RM8-20\n\n"
-        "Alternative: InDriver (sometimes cheaper!)",
-    quick: ['Download Grab', 'Payment methods', 'Airport pickup'],
+        "Alternative: InDriver (sometimes cheaper!)\n\n"
+        "💡 Need more transport tips?\n"
+        "Visit KL The Guide for Grab hacks! 👇",
+    quick: ['Setup guide', 'Price estimates', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -445,8 +496,10 @@ const List<QA> kTravelQA = [
         "💳 Get MyRapid card (RM10 deposit)\n"
         "💰 RM1-5 per trip\n"
         "⏰ 6am-midnight\n\n"
-        "Very clean & safe! 😊",
-    quick: ['Route map', 'Buy card', 'Airport train'],
+        "Very clean & safe! 😊\n\n"
+        "💡 Want a complete train guide?\n"
+        "Browse KL The Guide for route maps! 👇",
+    quick: ['Station map', 'Card guide', 'KL The Guide 🔗'],
   ),
 
   // ========== PLANNING & PRACTICAL ==========
@@ -460,8 +513,10 @@ const List<QA> kTravelQA = [
         "With more time:\n"
         "• 5-7 days: Add Penang or Langkawi\n"
         "• 10-14 days: Cover East Malaysia (Sabah/Sarawak)\n\n"
-        "How long are you staying? I'll customize! 😊",
-    quick: ['3-day plan', '7-day plan', 'Day trips'],
+        "How long are you staying? I'll customize! 😊\n\n"
+        "💡 Need detailed day-by-day plans?\n"
+        "Check KL The Guide for full itineraries! 👇",
+    quick: ['3-day detailed', '7-day plan', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -478,8 +533,10 @@ const List<QA> kTravelQA = [
         "• Parks, temples, heritage walks\n"
         "• Go KL buses\n"
         "• KLCC park fountain show\n\n"
-        "Your money goes FAR here! 😊",
-    quick: ['Save money tips', 'Free activities', 'Where to eat cheap'],
+        "Your money goes FAR here! 😊\n\n"
+        "💡 Want budget travel hacks?\n"
+        "Visit KL The Guide for money tips! 👇",
+    quick: ['Budget breakdown', 'Free things', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -497,8 +554,10 @@ const List<QA> kTravelQA = [
         "• Walk at night in busy areas\n"
         "• Use public transport\n"
         "• Eat street food\n\n"
-        "You'll feel very comfortable here! 🇲🇾",
-    quick: ['Emergency numbers', 'Lost passport', 'Scams to avoid'],
+        "You'll feel very comfortable here! 🇲🇾\n\n"
+        "💡 Need complete safety guide?\n"
+        "Check KL The Guide for travel tips! 👇",
+    quick: ['Safety tips', 'Emergency info', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -513,8 +572,10 @@ const List<QA> kTravelQA = [
         "• Malls & cafes: Free WiFi\n"
         "• Grab/food apps: Work everywhere\n\n"
         "Coverage is excellent in cities!\n"
-        "Get SIM at airport - easiest! 😊",
-    quick: ['Which SIM', 'eSIM options', 'WiFi spots'],
+        "Get SIM at airport - easiest! 😊\n\n"
+        "💡 Need SIM card comparison?\n"
+        "Browse KL The Guide for details! 👇",
+    quick: ['Best SIM card', 'WiFi spots', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -531,8 +592,10 @@ const List<QA> kTravelQA = [
         "• How much: Berapa harga\n"
         "• Delicious: Sedap!\n\n"
         "Locals LOVE when you try Malay! 😊\n"
-        "You'll have zero problems communicating!",
-    quick: ['More phrases', 'Translation app', 'Local customs'],
+        "You'll have zero problems communicating!\n\n"
+        "💡 Want more useful phrases?\n"
+        "Check KL The Guide for language tips! 👇",
+    quick: ['Common phrases', 'Translation help', 'KL The Guide 🔗'],
   ),
 
   // ========== MEDICAL TOURISM ==========
@@ -557,28 +620,10 @@ const List<QA> kTravelQA = [
         "🗣️ English-speaking staff\n"
         "✈️ Easy appointment booking\n\n"
         "Popular: Health screenings, dental, cosmetic surgery.\n"
-        "Insurance paperwork? Hospitals help! 😊",
-    quick: ['Book appointment', 'Costs', 'Recovery hotels'],
-  ),
-
-  // ========== FAMILY & KIDS ==========
-  QA(
-    patterns: ['family', 'kids', 'children', 'playground', 'family friendly'],
-    answer: "Malaysia LOVES families! 👨‍👩‍👧‍👦💕\n\n"
-        "Kid-friendly attractions:\n"
-        "🐠 Aquaria KLCC (underwater tunnel!)\n"
-        "🔬 Petrosains (science discovery)\n"
-        "🦜 KL Bird Park (free-flight!)\n"
-        "🎢 Sunway Lagoon (water park)\n"
-        "🎪 Kidzania (role-play city)\n"
-        "🌳 Perdana Botanical Garden\n\n"
-        "Tips:\n"
-        "• Malls have play areas\n"
-        "• Restaurants welcome kids\n"
-        "• Strollers okay everywhere\n"
-        "• Grab has car seats (request!)\n\n"
-        "Very family-friendly culture! 😊",
-    quick: ['Indoor activities', 'Theme parks', 'Kid meals'],
+        "Insurance paperwork? Hospitals help! 😊\n\n"
+        "💡 Need hospital recommendations?\n"
+        "Check KL The Guide for medical info! 👇",
+    quick: ['Hospital list', 'Cost guide', 'KL The Guide 🔗'],
   ),
 
   // ========== RELIGIOUS & CULTURE ==========
@@ -597,8 +642,10 @@ const List<QA> kTravelQA = [
         "🚫 Not during prayer times\n\n"
         "⏰ Best time: 9am-5pm\n"
         "💰 FREE entry\n\n"
-        "Non-Muslims welcome! Very peaceful 😊",
-    quick: ['Putra Mosque trip', 'Dress code', 'Best times'],
+        "Non-Muslims welcome! Very peaceful 😊\n\n"
+        "💡 Planning a mosque tour?\n"
+        "Visit KL The Guide for visiting tips! 👇",
+    quick: ['How to visit', 'Prayer times', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -617,8 +664,10 @@ const List<QA> kTravelQA = [
         "📸 Photos usually okay\n"
         "🙏 Be respectful of worshippers\n\n"
         "💰 FREE (donations welcome)\n"
-        "Experience Malaysia's diversity! 🌈",
-    quick: ['Temple tour', 'Festivals', 'What to wear'],
+        "Experience Malaysia's diversity! 🌈\n\n"
+        "💡 Want a complete temple guide?\n"
+        "Browse KL The Guide for details! 👇",
+    quick: ['Temple locations', 'Etiquette guide', 'KL The Guide 🔗'],
   ),
 
   // ========== NIGHTLIFE & ENTERTAINMENT ==========
@@ -637,8 +686,10 @@ const List<QA> kTravelQA = [
         "• Reggae Bar (live bands)\n\n"
         "⏰ Opens 5pm, peaks 10pm-2am\n"
         "💰 Drinks RM25-50\n\n"
-        "Very safe & fun! 🎉",
-    quick: ['Best rooftop bars', 'Live music', 'Ladies night'],
+        "Very safe & fun! 🎉\n\n"
+        "💡 Looking for nightlife spots?\n"
+        "Check KL The Guide for bar reviews! 👇",
+    quick: ['Bar locations', 'Club events', 'KL The Guide 🔗'],
   ),
 
   // ========== PRACTICAL INFO ==========
@@ -656,8 +707,10 @@ const List<QA> kTravelQA = [
         "❌ Avoid airport (poor rates)\n"
         "❌ Hotels (worst rates)\n\n"
         "Tip: Withdraw from ATM = best rate!\n"
-        "Most places accept card 😊",
-    quick: ['ATM locations', 'Credit cards', 'Tipping guide'],
+        "Most places accept card 😊\n\n"
+        "💡 Need money exchange tips?\n"
+        "Visit KL The Guide for details! 👇",
+    quick: ['Exchange spots', 'ATM guide', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -671,8 +724,10 @@ const List<QA> kTravelQA = [
         "💇 Spa/salon: 10% if excellent service\n\n"
         "Locals don't usually tip.\n"
         "If you do, it's a nice surprise! 😊\n\n"
-        "Service staff are paid properly here!",
-    quick: ['Service charge', 'When to tip', 'How much'],
+        "Service staff are paid properly here!\n\n"
+        "💡 Want complete etiquette guide?\n"
+        "Check KL The Guide for tips! 👇",
+    quick: ['Tipping guide', 'Local customs', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -689,8 +744,10 @@ const List<QA> kTravelQA = [
         "✅ Return/onward ticket\n"
         "✅ Sufficient funds proof\n\n"
         "Check: Malaysian Immigration website\n"
-        "for your country's specific rules 📱",
-    quick: ['Extend visa', 'eVisa apply', 'Requirements'],
+        "for your country's specific rules 📱\n\n"
+        "💡 Need visa extension info?\n"
+        "Browse KL The Guide for guidance! 👇",
+    quick: ['Visa info', 'Requirements', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -709,8 +766,10 @@ const List<QA> kTravelQA = [
         "• Phone: Track via Find My Phone\n\n"
         "Hospitals with 24/7 ER:\n"
         "• Gleneagles, Pantai, Prince Court\n\n"
-        "Stay safe! Help is quick here 💙",
-    quick: ['Tourist police', 'Hospitals', 'Embassy list'],
+        "Stay safe! Help is quick here 💙\n\n"
+        "💡 Need complete emergency guide?\n"
+        "Visit KL The Guide for all info! 👇",
+    quick: ['Emergency list', 'Hospital ER', 'KL The Guide 🔗'],
   ),
 
   // ========== WEATHER & SEASONS ==========
@@ -728,8 +787,10 @@ const List<QA> kTravelQA = [
         "Peak tourist: June-Aug, Dec-Jan\n"
         "💰 Prices higher, more crowded\n\n"
         "Sweet spot: March-May, Sep-Oct\n"
-        "Great weather + fewer tourists! 😊",
-    quick: ['Weather now', 'Beach season', 'Festivals calendar'],
+        "Great weather + fewer tourists! 😊\n\n"
+        "💡 Planning your travel dates?\n"
+        "Check KL The Guide for weather tips! 👇",
+    quick: ['Monthly weather', 'Best months', 'KL The Guide 🔗'],
   ),
 
   // ========== DAY TRIPS ==========
@@ -748,8 +809,10 @@ const List<QA> kTravelQA = [
         "  • Tea plantations (overnight better)\n\n"
         "🏖️ Port Dickson (1.5hrs)\n"
         "  • Beach escape\n\n"
-        "Easy to do yourself or book tours! 😊",
-    quick: ['Genting guide', 'Fireflies tour', 'Melaka trip'],
+        "Easy to do yourself or book tours! 😊\n\n"
+        "💡 Want detailed day trip guides?\n"
+        "Visit KL The Guide for itineraries! 👇",
+    quick: ['Day trip plans', 'Tour booking', 'KL The Guide 🔗'],
   ),
 
   // ========== SPECIFIC EXPERIENCES ==========
@@ -767,8 +830,10 @@ const List<QA> kTravelQA = [
         "📍 Find them in malls & hotels\n"
         "💰 RM100-400 for 1-2hrs\n"
         "⏰ Book ahead for weekends\n\n"
-        "So affordable compared to home! 😊",
-    quick: ['Book spa', 'Best value', 'Couple packages'],
+        "So affordable compared to home! 😊\n\n"
+        "💡 Looking for spa recommendations?\n"
+        "Check KL The Guide for reviews! 👇",
+    quick: ['Spa locations', 'Price ranges', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -786,8 +851,10 @@ const List<QA> kTravelQA = [
         "Pro tip:\n"
         "Malls in KL are HUGE - you can spend\n"
         "all day exploring, eating, & shopping\n"
-        "in air-con comfort! 🌈",
-    quick: ['Indoor activities', 'Museums', 'Shopping malls'],
+        "in air-con comfort! 🌈\n\n"
+        "💡 Need rainy day itinerary?\n"
+        "Browse KL The Guide for ideas! 👇",
+    quick: ['Indoor spots', 'Mall guide', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -806,8 +873,10 @@ const List<QA> kTravelQA = [
         "🌅 Sunrise: 7-8am\n"
         "🌆 Blue hour: 7-7:30pm\n"
         "🌃 Night lights: 8-10pm\n\n"
-        "Download: Google Photos (unlimited backup!) 📱",
-    quick: ['Photo tour', 'Sunrise spots', 'Night photography'],
+        "Download: Google Photos (unlimited backup!) 📱\n\n"
+        "💡 Want more photo location ideas?\n"
+        "Visit KL The Guide for hidden spots! 👇",
+    quick: ['Photo locations', 'Best timing', 'KL The Guide 🔗'],
   ),
 
   // ========== FESTIVALS & EVENTS ==========
@@ -834,8 +903,10 @@ const List<QA> kTravelQA = [
         "• Merdeka Day (Aug 31)\n"
         "• Thaipusam (Jan/Feb) - Batu Caves!\n\n"
         "During festivals: expect crowds,\n"
-        "but AMAZING atmosphere! 🎊",
-    quick: ['Festival dates', 'Thaipusam', 'What to expect'],
+        "but AMAZING atmosphere! 🎊\n\n"
+        "💡 Planning around festivals?\n"
+        "Check KL The Guide for event calendar! 👇",
+    quick: ['Festival calendar', 'Event dates', 'KL The Guide 🔗'],
   ),
 
   // ========== FOOD DELIVERY & APPS ==========
@@ -854,8 +925,10 @@ const List<QA> kTravelQA = [
         "💰 Payment: Card or cash\n"
         "🕐 Available: 7am-2am (some 24hr!)\n\n"
         "Perfect for lazy hotel nights! 😊\n"
-        "Download: Grab, Foodpanda, Shopee",
-    quick: ['Download Grab', 'Best deals', 'Hotel delivery'],
+        "Download: Grab, Foodpanda, Shopee\n\n"
+        "💡 Want restaurant recommendations?\n"
+        "Browse KL The Guide for delivery spots! 👇",
+    quick: ['App setup', 'Best promos', 'KL The Guide 🔗'],
   ),
 
   // ========== FINAL CATCH-ALL & GOODBYES ==========
@@ -869,8 +942,10 @@ const List<QA> kTravelQA = [
         "I'm here to help make your trip\n"
         "unforgettable! ✨\n\n"
         "Selamat datang ke Malaysia! 🎉\n"
-        "(Welcome to Malaysia!)",
-    quick: ['More tips', 'Hidden gems', 'Local secrets'],
+        "(Welcome to Malaysia!)\n\n"
+        "💡 Want even more travel tips?\n"
+        "Visit KL The Guide for everything! 👇",
+    quick: ['More questions', 'Plan my trip', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -880,7 +955,10 @@ const List<QA> kTravelQA = [
         "Eat lots, explore tons, and make\n"
         "amazing memories! 📸🍜\n\n"
         "Come back anytime you need help!\n\n"
-        "Selamat jalan! (Safe journey!) 🇲🇾💙",
+        "Selamat jalan! (Safe journey!) 🇲🇾💙\n\n"
+        "💡 Before you go, check out:\n"
+        "KL The Guide for complete travel info! 👇",
+    quick: ['One more question', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -895,8 +973,10 @@ const List<QA> kTravelQA = [
         "👨‍👩‍👧‍👦 Family trip? → Kid-friendly spots\n\n"
         "Or ask specific things like:\n"
         "'Best dinner spot near KLCC?'\n"
-        "'Easy hike with great views?'",
-    quick: ['Food recommendations', 'Nature spots', 'Shopping guide'],
+        "'Easy hike with great views?'\n\n"
+        "💡 Need personalized recommendations?\n"
+        "Browse KL The Guide for curated lists! 👇",
+    quick: ['Food spots', 'Attractions', 'KL The Guide 🔗'],
   ),
 
   // ========== EXTENDED FALLBACK ==========
@@ -914,8 +994,10 @@ const List<QA> kTravelQA = [
         "Try asking something specific like:\n"
         "'Best nasi lemak place?'\n"
         "'How to get to Batu Caves?'\n"
-        "'What to do in Bukit Bintang tonight?'",
-    quick: ['Top attractions', 'Food guide', 'Getting around'],
+        "'What to do in Bukit Bintang tonight?'\n\n"
+        "💡 Want comprehensive guides?\n"
+        "Check KL The Guide for everything! 👇",
+    quick: ['Popular questions', 'Travel tips', 'KL The Guide 🔗'],
   ),
 
   // ========== LANDMARKS & MUST-VISIT SPOTS ==========
@@ -929,8 +1011,10 @@ const List<QA> kTravelQA = [
         "• Merdeka 118 (tallest in SEA!)\n"
         "• Bukit Bintang (shopping & nightlife)\n\n"
         "Pro tip: Visit KLCC and Batu Caves early morning\n"
-        "to beat the crowds and heat! 🌅",
-    quick: ['Book Twin Towers', 'Batu Caves guide', 'City tour'],
+        "to beat the crowds and heat! 🌅\n\n"
+        "💡 Need a landmarks guide?\n"
+        "Visit KL The Guide for details! 👇",
+    quick: ['Ticket booking', 'Photo tips', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -945,26 +1029,31 @@ const List<QA> kTravelQA = [
         "  💰 RM80-100 | Book ahead!\n\n"
         "• KLCC Park (free ground view!)\n"
         "• Traders Hotel Sky Bar\n\n"
-        "Evening/night is MAGICAL with lights! ✨",
-    quick: ['Sky Bar', 'KL Tower tickets', 'Best time to visit'],
+        "Evening/night is MAGICAL with lights! ✨\n\n"
+        "💡 Looking for more viewing spots?\n"
+        "Check KL The Guide for recommendations! 👇",
+    quick: ['Rooftop bars', 'Best timing', 'KL The Guide 🔗'],
   ),
 
   QA(
     patterns: ['family', 'kids', 'children', 'family friendly', 'with kids'],
     answer: "Family-friendly fun in Malaysia! 👨‍👩‍👧‍👦💕\n\n"
         "🎢 Top Attractions:\n"
+        "• Monkey Canopy (adventure park!)\n"
+        "• Gamuda Cove (eco-themed park)\n"
         "• Sunway Lagoon (water park + theme park!)\n"
         "  💰 RM180-220 | Full day fun!\n\n"
         "• Aquaria KLCC (underwater tunnel 🐠)\n"
-        "• Legoland Malaysia (Johor - worth it!)\n"
         "• Zoo Negara (Giant Panda!)\n"
         "• KL Bird Park (world's largest!)\n\n"
         "🎪 More ideas:\n"
         "• Petrosains Science Center\n"
         "• Kidzania (role-play city)\n"
         "• Farm In The City\n\n"
-        "Kids will LOVE Malaysia! 🌟",
-    quick: ['Sunway Lagoon', 'Indoor activities', 'Kid meals'],
+        "Kids will LOVE Malaysia! 🌟\n\n"
+        "💡 Want a family itinerary?\n"
+        "Visit KL The Guide for kid-friendly plans! 👇",
+    quick: ['Age groups', 'Indoor options', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -982,8 +1071,10 @@ const List<QA> kTravelQA = [
         "• Baba Nyonya Heritage Museum\n"
         "• Sultan Abdul Samad Building\n"
         "• Sri Mahamariamman Temple\n\n"
-        "History + Instagram = Perfect! 📸",
-    quick: ['Melaka trip', 'George Town', 'Museum hours'],
+        "History + Instagram = Perfect! 📸\n\n"
+        "💡 Want a cultural tour guide?\n"
+        "Browse KL The Guide for heritage routes! 👇",
+    quick: ['Heritage walk', 'Museum guide', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1008,8 +1099,10 @@ const List<QA> kTravelQA = [
         "• Batu Caves rainbow stairs\n"
         "• Putra Mosque (pink beauty!)\n"
         "• Thean Hou Temple sunset\n\n"
-        "Golden hour = Magic! 🌅",
-    quick: ['Sunset spots', 'Night photography', 'Hidden gems'],
+        "Golden hour = Magic! 🌅\n\n"
+        "💡 Want more Instagrammable spots?\n"
+        "Check KL The Guide for photo locations! 👇",
+    quick: ['Hidden photo spots', 'Photography tips', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1028,8 +1121,10 @@ const List<QA> kTravelQA = [
         "  • Sabah - bucket list!\n\n"
         "🦀 Pangkor Island (laid-back vibes)\n"
         "  • Easy from KL (3hrs)\n\n"
-        "Best season: March-October! 🌞",
-    quick: ['Langkawi guide', 'Perhentian trip', 'Beach season'],
+        "Best season: March-October! 🌞\n\n"
+        "💡 Planning an island trip?\n"
+        "Visit KL The Guide for island guides! 👇",
+    quick: ['Island comparison', 'Best beaches', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1055,8 +1150,10 @@ const List<QA> kTravelQA = [
         "🌲 Fraser's Hill\n"
         "  • Colonial charm, birdwatching\n"
         "  • Less crowded!\n\n"
-        "Perfect weekend getaway! 🌤️",
-    quick: ['Cameron trip', 'Genting guide', 'Best season'],
+        "Perfect weekend getaway! 🌤️\n\n"
+        "💡 Need highland travel tips?\n"
+        "Check KL The Guide for details! 👇",
+    quick: ['Accommodation', 'What to pack', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1078,8 +1175,10 @@ const List<QA> kTravelQA = [
         "• Night safaris\n"
         "• River activities\n"
         "• Authentic nature experience!\n\n"
-        "Hire local guides recommended! 🥾",
-    quick: ['Taman Negara tour', 'Mount Kinabalu', 'What to bring'],
+        "Hire local guides recommended! 🥾\n\n"
+        "💡 Want jungle adventure tips?\n"
+        "Browse KL The Guide for trekking info! 👇",
+    quick: ['Packing list', 'Tour operators', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1100,8 +1199,10 @@ const List<QA> kTravelQA = [
         "• Putra Mosque lakeside\n"
         "• Port Dickson beaches\n\n"
         "⏰ Best time: 6:30-7:30pm\n"
-        "Bring your camera! 📸",
-    quick: ['Langkawi sunset', 'Beach spots', 'Photography tips'],
+        "Bring your camera! 📸\n\n"
+        "💡 Looking for more sunset spots?\n"
+        "Visit KL The Guide for recommendations! 👇",
+    quick: ['Sunset timing', 'Nearby cafes', 'KL The Guide 🔗'],
   ),
 
   QA(
@@ -1130,7 +1231,9 @@ const List<QA> kTravelQA = [
         "🏝️ Kapas Island\n"
         "  • Quiet, pristine beaches\n"
         "  • Less touristy!\n\n"
-        "Escape the crowds! 🌿",
-    quick: ['Fireflies tour', 'Sky Mirror', 'More hidden spots'],
+        "Escape the crowds! 🌿\n\n"
+        "💡 Want more secret spots?\n"
+        "Check KL The Guide for local favorites! 👇",
+    quick: ['More hidden gems', 'Local tips', 'KL The Guide 🔗'],
   ),
 ];

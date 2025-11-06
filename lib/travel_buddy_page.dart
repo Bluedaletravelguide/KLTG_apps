@@ -1,5 +1,6 @@
 // lib/pages/travel_buddy_page.dart
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../services/travel_buddy.dart';
 
 class TravelBuddyPage extends StatefulWidget {
@@ -16,6 +17,7 @@ class _TravelBuddyPageState extends State<TravelBuddyPage> {
       text:
           "Hi there! 👋 I'm KL Buddy, your friendly travel guide! Ask me about KL's amazing food, exciting sights, or help you plan your perfect day!",
       fromBot: true,
+      quickReplies: ['Top attractions', 'Best food', 'Getting around'],
     ),
   ];
 
@@ -32,13 +34,46 @@ class _TravelBuddyPageState extends State<TravelBuddyPage> {
     // Simulate typing delay for more natural feel
     Future.delayed(const Duration(milliseconds: 500), () {
       final reply = respondTo(text, isNight: _isNightNow());
-      setState(() => _msgs.add(_Msg(text: reply, fromBot: true)));
+      final quickReplies = getQuickReplies(text);
+
+      setState(() => _msgs.add(_Msg(
+            text: reply,
+            fromBot: true,
+            quickReplies: quickReplies,
+          )));
 
       // Scroll to bottom after bot reply
       Future.delayed(const Duration(milliseconds: 100), () {
         _scrollToBottom();
       });
     });
+  }
+
+  void _handleQuickReply(String text) {
+    // Check if it's a link button
+    if (text.contains('🔗')) {
+      // Extract the link text and open URL
+      if (text.contains('KL The Guide')) {
+        _launchURL('https://www.kltheguide.com.my/');
+      }
+    } else {
+      // Send as normal message
+      _send(text);
+    }
+  }
+
+  Future<void> _launchURL(String url) async {
+    final Uri uri = Uri.parse(url);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    } else {
+      // Show error if can't launch
+      if (mounted) {
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text('Could not open link')),
+        );
+      }
+    }
   }
 
   void _scrollToBottom() {
@@ -164,7 +199,16 @@ class _TravelBuddyPageState extends State<TravelBuddyPage> {
                 itemCount: _msgs.length,
                 itemBuilder: (_, i) {
                   final m = _msgs[i];
-                  return _buildMessageBubble(m);
+                  return Column(
+                    children: [
+                      _buildMessageBubble(m),
+                      // Show quick reply buttons only for last bot message
+                      if (m.fromBot &&
+                          m.quickReplies.isNotEmpty &&
+                          i == _msgs.length - 1)
+                        _buildQuickReplies(m.quickReplies),
+                    ],
+                  );
                 },
               ),
             ),
@@ -302,6 +346,63 @@ class _TravelBuddyPageState extends State<TravelBuddyPage> {
     );
   }
 
+  Widget _buildQuickReplies(List<String> replies) {
+    return Padding(
+      padding: const EdgeInsets.only(left: 48, top: 8, bottom: 8),
+      child: Wrap(
+        spacing: 8,
+        runSpacing: 8,
+        children: replies.map((text) {
+          final isLink = text.contains('🔗');
+
+          return InkWell(
+            onTap: () => _handleQuickReply(text),
+            borderRadius: BorderRadius.circular(20),
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+              decoration: BoxDecoration(
+                color: isLink ? Colors.blue[50] : Colors.white,
+                borderRadius: BorderRadius.circular(20),
+                border: Border.all(
+                  color: isLink ? Colors.blue[300]! : const Color(0xFF004785),
+                  width: 1.5,
+                ),
+                boxShadow: [
+                  BoxShadow(
+                    color: Colors.black.withOpacity(0.05),
+                    blurRadius: 4,
+                    offset: const Offset(0, 2),
+                  ),
+                ],
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  if (isLink)
+                    const Icon(
+                      Icons.link,
+                      size: 16,
+                      color: Colors.blue,
+                    ),
+                  if (isLink) const SizedBox(width: 4),
+                  Text(
+                    text,
+                    style: TextStyle(
+                      color:
+                          isLink ? Colors.blue[700] : const Color(0xFF004785),
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          );
+        }).toList(),
+      ),
+    );
+  }
+
   Widget _buildInputArea() {
     return Container(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
@@ -381,5 +482,11 @@ class _TravelBuddyPageState extends State<TravelBuddyPage> {
 class _Msg {
   final String text;
   final bool fromBot;
-  _Msg({required this.text, required this.fromBot});
+  final List<String> quickReplies;
+
+  _Msg({
+    required this.text,
+    required this.fromBot,
+    this.quickReplies = const [],
+  });
 }
