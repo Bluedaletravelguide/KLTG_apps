@@ -161,7 +161,6 @@ class _BlogListScreenState extends State<BlogListScreen> {
     await prefs.setStringList('bookmarks', bookmarkStrings);
   }
 
-
   void removeBookmark(dynamic post) async {
     List<String>? bookmarkStrings = prefs.getStringList('bookmarks') ?? [];
     String bookmarkJson = json.encode(post);
@@ -173,12 +172,12 @@ class _BlogListScreenState extends State<BlogListScreen> {
   }
 
   void _navigateToArticlePage(dynamic article) {
-    // Navigator.push(
-    //   context,
-    //   MaterialPageRoute(
-    //     builder: (context) => ArticlePage(article: article),
-    //   ),
-    // );
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => ArticlePage(article: article),
+      ),
+    );
   }
 
   @override

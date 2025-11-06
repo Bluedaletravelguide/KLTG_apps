@@ -82,7 +82,7 @@ String respondTo(String user, {String? districtHint, bool isNight = false}) {
 
   // If we found a match, return it
   if (best != null && bestScore > 0) {
-    return best.answer;
+    return best.getAnswer(user);
   }
 
   // Ultimate fallback
