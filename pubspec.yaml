@@ -148,6 +148,9 @@ dependencies:
   geolocator: ^10.1.0
   flutter_compass: ^0.8.0
   sensors_plus: ^6.0.1
+  tflite_flutter: ^0.12.1
+  image: ^4.5.4
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -166,6 +169,7 @@ flutter:
     - assets/images/
     - assets/images/contentList/historicalPlaces/5.jpg
     - assets/images/map.jpg
+    - assets/models/
   fonts:
     - family: MyFlutterApp
       fonts:
