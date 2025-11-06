@@ -169,7 +169,7 @@ flutter:
     - assets/images/
     - assets/images/contentList/historicalPlaces/5.jpg
     - assets/images/map.jpg
-    - assets/models/
+    - assets/models/landmarks_labels.txt
   fonts:
     - family: MyFlutterApp
       fonts:

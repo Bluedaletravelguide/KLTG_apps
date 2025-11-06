@@ -91,7 +91,7 @@ class LocalLandmarkClassifier {
 
     // Output [1, N]
     final outputLen = _outputShape[1];
-    final output = List.filled(outputLen, 0.0).reshape([1, outputLen]);
+    final output = List.generate(1, (_) => List.filled(outputLen, 0.0));
 
     _interpreter!.run(inputTensor, output);
 

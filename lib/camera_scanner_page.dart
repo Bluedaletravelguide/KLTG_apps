@@ -37,19 +37,22 @@ double initialBearing(double lat1, double lon1, double lat2, double lon2) {
   return brng;
 }
 
-class ARGuidePage extends StatefulWidget {
-  const ARGuidePage({super.key});
+class CameraScannerPage extends StatefulWidget {
+  const CameraScannerPage({super.key});
   @override
-  State<ARGuidePage> createState() => _ARGuidePageState();
+  State<CameraScannerPage> createState() => _CameraScannerPageState();
 }
 
-class _ARGuidePageState extends State<ARGuidePage> with WidgetsBindingObserver {
+class _CameraScannerPageState extends State<CameraScannerPage>
+    with WidgetsBindingObserver {
   CameraController? _cam;
   bool _camReady = false;
 
   Position? _pos;
   double _heading = 0; // degrees 0..360 (0 = North)
   double _fov = 60; // horizontal FOV assumption (deg), adjust to device
+
+  bool _isBusy = false;
 
   @override
   void initState() {
@@ -172,6 +175,58 @@ class _ARGuidePageState extends State<ARGuidePage> with WidgetsBindingObserver {
     await launchUrl(url, mode: LaunchMode.externalApplication);
   }
 
+  // GPS PROXIMITY DETECTION - No ML needed!
+  Future<void> _scanNearbyLandmark() async {
+    if (!mounted || _pos == null) {
+      _toast('Waiting for GPS location...');
+      return;
+    }
+
+    setState(() => _isBusy = true);
+
+    try {
+      // Detection radius: 300 meters
+      const detectionRadius = 500.0;
+
+      // Find all landmarks within radius
+      List<_NearbyLandmark> nearbyLandmarks = [];
+
+      for (final lm in landmarks) {
+        final distance =
+            haversineMeters(_pos!.latitude, _pos!.longitude, lm.lat, lm.lng);
+
+        if (distance <= detectionRadius) {
+          nearbyLandmarks
+              .add(_NearbyLandmark(landmark: lm, distance: distance));
+        }
+      }
+
+      if (nearbyLandmarks.isEmpty) {
+        _toast('No landmark found nearby (within ${detectionRadius.toInt()}m)');
+      } else {
+        // Sort by distance, show closest
+        nearbyLandmarks.sort((a, b) => a.distance.compareTo(b.distance));
+        final closest = nearbyLandmarks.first;
+
+        _showSheet(closest.landmark, distance: closest.distance);
+      }
+    } catch (e) {
+      _toast('Error: $e');
+    } finally {
+      if (mounted) setState(() => _isBusy = false);
+    }
+  }
+
+  void _toast(String msg) {
+    if (!mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(msg),
+        duration: const Duration(seconds: 2),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -220,10 +275,27 @@ class _ARGuidePageState extends State<ARGuidePage> with WidgetsBindingObserver {
               },
             )
           : const Center(child: CircularProgressIndicator()),
+      floatingActionButton: _camReady && _cam != null
+          ? FloatingActionButton.extended(
+              onPressed: _isBusy ? null : _scanNearbyLandmark,
+              icon: _isBusy
+                  ? const SizedBox(
+                      width: 20,
+                      height: 20,
+                      child: CircularProgressIndicator(
+                        strokeWidth: 2,
+                        color: Colors.white,
+                      ),
+                    )
+                  : const Icon(Icons.radar),
+              label: Text(_isBusy ? 'Scanning...' : 'Scan Nearby'),
+            )
+          : null,
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 
-  void _showSheet(Landmark lm) {
+  void _showSheet(Landmark lm, {double? distance}) {
     showModalBottomSheet(
       context: context,
       showDragHandle: true,
@@ -233,9 +305,38 @@ class _ARGuidePageState extends State<ARGuidePage> with WidgetsBindingObserver {
           mainAxisSize: MainAxisSize.min,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(lm.name,
-                style:
-                    const TextStyle(fontSize: 20, fontWeight: FontWeight.w700)),
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    lm.name,
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w700,
+                    ),
+                  ),
+                ),
+                if (distance != null)
+                  Container(
+                    padding:
+                        const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                    decoration: BoxDecoration(
+                      color: Colors.green.shade100,
+                      borderRadius: BorderRadius.circular(20),
+                    ),
+                    child: Text(
+                      distance >= 1000
+                          ? '${(distance / 1000).toStringAsFixed(1)} km'
+                          : '${distance.toStringAsFixed(0)} m away',
+                      style: TextStyle(
+                        color: Colors.green.shade900,
+                        fontWeight: FontWeight.w600,
+                        fontSize: 12,
+                      ),
+                    ),
+                  ),
+              ],
+            ),
             const SizedBox(height: 8),
             Text(lm.blurb),
             const SizedBox(height: 12),
@@ -267,6 +368,12 @@ class _ARHit {
   final double distanceM;
   final double screenX;
   _ARHit({required this.lm, required this.distanceM, required this.screenX});
+}
+
+class _NearbyLandmark {
+  final Landmark landmark;
+  final double distance;
+  _NearbyLandmark({required this.landmark, required this.distance});
 }
 
 class _LandmarkChip extends StatelessWidget {

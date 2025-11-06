@@ -30,7 +30,7 @@ if (flutterVersionName == null) {
 
 android {
     namespace "my.com.kltheguide"
-    compileSdkVersion 34
+    compileSdkVersion 36
     ndkVersion = "27.2.12479018"
 
     compileOptions {
@@ -52,8 +52,8 @@ android {
 
     defaultConfig {
         applicationId "my.com.kltheguide"
-        minSdkVersion 23
-        targetSdkVersion 34
+        minSdkVersion flutter.minSdkVersion
+        targetSdkVersion 36
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
         multiDexEnabled true

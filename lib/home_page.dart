@@ -4,6 +4,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:kltheguide/main.dart';
 import 'generated/l10n.dart';
+import 'camera_scanner_page.dart'; // make sure the path is correct
 
 class HomeScreen extends StatefulWidget {
   HomeScreen({super.key});
@@ -69,7 +70,7 @@ class _HomeScreenState extends State<HomeScreen> {
               // Social Media Icons Section
               Container(
                 margin:
-                    const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
+                const EdgeInsets.symmetric(vertical: 16, horizontal: 20),
                 padding: const EdgeInsets.symmetric(vertical: 16),
                 decoration: BoxDecoration(
                   color: Colors.white,
@@ -103,6 +104,20 @@ class _HomeScreenState extends State<HomeScreen> {
                       onTap: () =>
                           _launchURL('https://www.instagram.com/kltheguide/'),
                     ),
+
+                    // 📸 CAMERA BUTTON IN THE MIDDLE
+                    _buildSocialButton(
+                      icon: Icons.camera_alt_rounded,
+                      color: const Color(0xFF004785),
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (_) => const CameraScannerPage()),
+                        );
+                      },
+                    ),
+
                     _buildSocialButton(
                       icon: MyFlutterApp.whatsapp,
                       color: const Color(0xFF25D366),
@@ -207,9 +222,9 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           child: gradient != null
               ? ShaderMask(
-                  shaderCallback: (bounds) => gradient.createShader(bounds),
-                  child: Icon(icon, size: 32, color: Colors.white),
-                )
+            shaderCallback: (bounds) => gradient.createShader(bounds),
+            child: Icon(icon, size: 32, color: Colors.white),
+          )
               : Icon(icon, size: 32, color: color),
         ),
       ),
