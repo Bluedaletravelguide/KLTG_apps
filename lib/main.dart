@@ -25,7 +25,7 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'generated/l10n.dart';
 import 'package:in_app_update/in_app_update.dart';
 import 'package:kltheguide/maps_page.dart';
-import 'camera_scanner_page.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -855,8 +855,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                 label: S.of(context).blog,
               ),
               NavigationDestination(
-                selectedIcon:
-                    Icon(Icons.map, color: Color.fromARGB(255, 0, 71, 133)),
+                selectedIcon: Icon(Icons.map, color: Color.fromARGB(255, 0, 71, 133)),
                 icon: Icon(Icons.map_outlined),
                 // If you want i18n later, add a `maps` key to your ARB files; for now, literal is fine:
                 label: 'Maps',
